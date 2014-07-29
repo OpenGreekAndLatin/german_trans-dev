@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lykurgos: Rede gegen Leokrates</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">lycurgus_1869.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="de">Hermann Bender</name>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0034">Lycurgus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0034.tlg001">Rede gegen Leokrates</title>
+              <imprint>
+                <publisher>Hoffmann</publisher>
+                <pubPlace>Stuttgart</pubPlace>
+                <date>1869</date>
+              </imprint>
+            </monogr>
+            <ref
+              target="http://hdl.handle.net/2027/hvd.32044085138386"
+              >HathiTrust</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition">
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Einleitung.</title>
+          </head>
+          <p>Fykurg war der Sohn des Lykophron und stammte aus <lb/>
+            dem alten Geschlecht der Eteobutaden vom Demos Butadä; sein <lb/>
+            Geburtsjahr läßt sich nicht mit voller Sicherheit angeben, ohne <lb/>
+            Zweifel fällt es in die 96. Olympiade, 396 — 393 v. Chr., so <lb/>
+            daß Lykurg etwa zehn Jahre älter war, als der 384 geborene <lb/>
+            Demosthenes. Er genoß nach alter Ueberlieferung den Unterricht <lb/>
+            des Plato und Jsokrates und beschäftigte sich wohl in früheren <lb/>
+            Jahren mit wissenschaftlichen und besonders rhetorischen Studien. <lb/>
+            Jn's öffentliche Leben trat er erst ein, als die wachsende Macht <lb/>
+            des macedonischen Königs Philipp die Selbständigkeit Griechen­ <lb/>
+            lands und insbesondere Athens mehr und mehr bedrohte. Er <lb/>
+            stellte sich mit Entschiedenheit auf die Seite der Patrioten, welche <lb/>
+            die unabhängige Existenz des Staates zu retten suchten. Während <lb/>
+            aber andere, wie Demosthenes und Hyperides, mehr die auswär­ <lb/>
+            tige Politik in die Hand nahmen, widmete sich Lykurg vorzugs­ <lb/>
+            weise den inneren Angelegenheiten, und ganz besonders ist es <lb/>
+            seine Thätigkeit auf dem Gebiet der Finanzverwaltung, was groß­ <lb/>
+            artig und bewundernswürdig erscheint und auch schon im Alter­ <lb/>
+            thum die gebührende Anerkennung fand. Er stand zwölf Jahre <lb/>
+            lang an der Spitze der athenischen Finanzen und machte sich in <lb/>
+            dieser Stellung um den Staat auf's höchste verdient. Da ein <lb/>
+            Gesetz verbot, daß derselbe Mann länger als vier Jahre das Amt <lb/>
+            des Schatzmeisters verwalte, so wußte er es, nach Ablauf der <lb/>
+            vierjährigen Finanzperiode, für welche er selbst gewählt war, da­ <lb/>
+            hin zu bringen, daß Männer seiner Partei (vielleicht auch sein <note type="footnote"> 1* </note> <lb/>
+             <pb n="4"/>
+            Sohn Habron) erwählt wurden, wodurch es ihm möglich ward, <lb/>
+            faktisch die Geschäfte fortzuführen. Der Erfolg zeigt, daß die <lb/>
+            Athener wohl daran thaten, wenn sie diese Umgehung des Gesetzes <lb/>
+            sich willig gefallen ließen. Lykurgs Leistungen waren außerordent­ <lb/>
+            lich. Er brachte die Einkünfte, welche bis dahin 600 Talente <lb/>
+            betrugen, auf das Doppelte; es wurde berechnet, daß im Ganzen. <lb/>
+            18,900 Talente (über 45 Millionen Gulden) von ihm einge­ <lb/>
+            nommen und verausgabt wurden; dazu genoß er solches Ver­ <lb/>
+            trauen, daß Privatleute ihm Gelder im Betrag von L50 Talen­ <lb/>
+            ten in Verwahrung gaben, welche er dem Staat in Zeiten der <lb/>
+            Noth ohne Zinsen vorschoß. Aber auch noch vieles andere führte <lb/>
+            er aus, ohne Zweifel zum größten Theil während jenes zwölf­ <lb/>
+            jährigen Zeitraums. Gewählt rov Irr- a- <lb/>
+            <foreign xml:lang="grc">συευής</foreign>, zur Herstellung von Kriegsmaterial, schaffte er viele <lb/>
+            Waffen und 50,000 Geschosse an; er rüstete 400 Trieren aus, <lb/>
+            theils durch Ausbesserung von schon vorhandenen, theils durch <lb/>
+            Erbauung von neuen; er ließ für die feierlichen Aufzüge goldene <lb/>
+            und silberne Geräthschaften, goldene Siegesgöttinnen und golde­ <lb/>
+            nen Schmuck für hundert Korbträgerinnen machen; er baute und <lb/>
+            bepflanzte das Gymnasium im Lykeion, errichtete ebendaselbst eine <lb/>
+            Ringschule; vollendete viele angefangene Gebäude, Schiffshäuser, <lb/>
+            das Zeughaus, das dionysische Theater, die panathenäifche Renn­ <lb/>
+            bahn und schmückte sonst noch die Stadt mannigfach aus. Unter <lb/>
+            welchem Titel er dieß alles ausführte, ist freilich nicht zu bestim­ <lb/>
+            men ; er konnte manches als Finanzminister ausrichten, es konnten <lb/>
+            ihm manche Geschäfte commissarisch übertragen werden, er konnte <lb/>
+            auch während der acht Jahre, in welchen er die Verwaltung un­ <lb/>
+            ter fremdem Namen führte, wirkliche Aemter bekleiden. — Sonst <lb/>
+            wird noch erwähnt, daß auf seinen Antrag dem Aeschylus, So­ <lb/>
+            phokles und Euripides eherne Standbilder errichtet wurden, auch <lb/>
+            ward auf seine Veranlassung die Einrichtung getroffen, daß die <lb/>
+            Schauspieler beim Vortrag der Dichtungen jener drei großen <lb/>
+            Tragiker vom Staatsschreiber mit Hilfe einer beglaubigten Ab­ <lb/>
+            schrift des Textes controlirt wurden, ferner rührte von ihm eine <lb/>
+            Verordnung her, welche den Frauen bei Strafe von K000 Drach­ <lb/>
+            men verbot, an den Eleusinien nach Eleusis zu fahren; es sollte <lb/>
+             <pb n="5"/>
+            dadurch der Luxus beschränkt werden, und Lykurg mochte durch <lb/>
+            eigene häusliche Erfahrungen zu einem solchen Antrag veranlaßt <lb/>
+            worden sein; wenigstens wird erzählt, seine Frau habe zuerst gegen <lb/>
+            dieses Verbot sich vergangen und der Gemahl sei dadurch genö­ <lb/>
+            thigt worden, durch Spendung eines Talents an den drohenden <lb/>
+            Kläger die Anklage abzuwenden. — Auch sonst werden ihm noch <lb/>
+            mehrere Beschlüsse von geringerer Bedeutung zugeschrieben.</p>
+          <p>Wann die Verwaltung Lykurgs anfing und aufhörte, läßt <lb/>
+            sich nicht mit Bestimmtheit sagen; Boeckh (Staatsh. d. Ath. <lb/>
+            S. 570) ist überzeugt, daß Lykurg nicht vor 341 in diese Thä­ <lb/>
+            tigkeit eintrat, sonach wäre seine Verwaltung mit dem Jahre 329 <lb/>
+            zu Ende gegangen. In mehrfachen Rechenschatfsberichten bestand <lb/>
+            er ehrenvoll; leider sind die betreffenden Urkunden, welche über <lb/>
+            die athenische Finanzverwaltung Helles Licht verbreiten müßten, <lb/>
+            nicht erhalten. Nichts destoweniger wurde von seinem Nachfolger <lb/>
+            Menesächmos, einem politischen Gegner und persönlichen Feind <lb/>
+            Lykurgs, seine Treue in der Verwaltung in Zweifel gezogen; da <lb/>
+            ließ sich, wie Plutarch erzählt, der hochbejahrte Mann, der be­ <lb/>
+            reits die Nähe seines Todes fühlte, auf das Rathhaus tragen <lb/>
+            und stellte dort der Anklage des Gegners eine eingehende, Punkt <lb/>
+            für Punkt widerlegende Vertheidigung entgegen. Kurz darauf <lb/>
+            starb er. Sein Todesjahr ist nicht genau bekannt; jedenfalls <lb/>
+            fällt sein Tod in die nächste Zeit nach der Niederlegung seiner <lb/>
+            Verwaltung, also etwa 328 oder 327. Er wurde auf Staats- <lb/>
+            kosten am Weg zur Akademie bestattet. Seinen Hingang benutzte <lb/>
+            Menesächmos, um seine drei Söhne wegen eines angeblich vom <lb/>
+            Vater verschuldeten Deficits in Anklagestand zu versetzen, allein <lb/>
+            auf die Verwendung des Demotshenes und Hyperides erfolgte, <lb/>
+            gemäß dem Antrag des Demokles, ihre Freilassung; ja noch im <lb/>
+            Jahr 307 wurde auf Antrag des Stratokles dem hochverdienten <lb/>
+            Mann ein Ehrendenkmal aus dem Keramikus errichtet und für <lb/>
+            alle Zeiten dem jedesmaligen Aeltesten feines Geschlechts Speisung <lb/>
+            im Prytaneum verliehen.</p>
+          <p>Von dm Alten werden 15 geschriebene Reden Lykurgs nam­ <lb/>
+            haft gemacht; erhalten ist nur die eine gegen Leokrates. Nehmen <lb/>
+            wir nun diese Rede zusammen mit dem, was uns sonst von <lb/>
+             <pb n="6"/>
+            Lykurg bekannt ist, so läßt sich daraus ein deutliches Bild seiner <lb/>
+            Persönlichkeit entwerfen.</p>
+          <p>Hervorgegangen aus einem altadeligen, hoch angesehenen <lb/>
+            Geschlecht, hatte Lykurg doch zugleich von seinen Ahnen ein be­ <lb/>
+            sonderes Wohlwollen gegen den Demos geerbt. Indem er nun <lb/>
+            einerseits nach allen seinen Kräften das Wohl des Staats auf <lb/>
+            Grund der bestehenden freien Verfassung zu fördern suchte, an­ <lb/>
+            dererseits aber auch von manchen Traditionen seines Hauses ge­ <lb/>
+            leitet wurde, so ergab sich daraus in sittlich-religiöser wie in <lb/>
+            politischer Beziehung eine konservative Gesinnung im besten Sinne <lb/>
+            des Worts, ein pietätsvolles Streben, das Alte, soweit es in <lb/>
+            damaligen Zeitläuften möglich war, festzuhalten. Lykurg war ein <lb/>
+            Mann von altem Schlag; das sophistische Geschwätz der Alltags­ <lb/>
+            redner, welche über alles und jedes, nur nicht über das gerade <lb/>
+            Vorliegende sich zu verbreiten wußten, die elenden Intriguen der <lb/>
+            Sykophanten, welche nur ihren eigenen Vortheil suchten, vollends <lb/>
+            die unehrlichen Umtriebe der im Sold Philipps stehenden Redner <lb/>
+            waren ihm gründlich verhaßt; wie er nach alter Weise sich ab­ <lb/>
+            härtete und barfuß gieng, wie er in seinem Privatleben umsichtig <lb/>
+            und sparsam war, — doch ohne Knauserei, namentlich wo Opfer <lb/>
+            für das Gemeinwesen gefordert wurden — so handelte er auch <lb/>
+            in seiner öffentlichen Thätigkeit stets nach den strengsten Grund­ <lb/>
+            sätzen und bewies insbesondere eine Treue und Redlichkeit in <lb/>
+            Geldsachen, wie sie in damaliger Zeit sehr selten geworden war. <lb/>
+            Wie er es angriff, um die Finanzen in so blühenden Stand zu <lb/>
+            versetzen, wissen wir im einzelnen nicht; wir müssen eben anneh­ <lb/>
+            men, daß Lykurg ein eminentes finanzielles Genie war, „ein <lb/>
+            echter Finanzkünstler, wie Boeckh sagt, fast der einzige, welchen­ <lb/>
+            das Alterthum kennt." Jedenfalls gibt uns der Eindruck, wel­ <lb/>
+            chen sein ganzes Wesen macht, die Ueberzeugung, daß er keine <lb/>
+            unlauteren Mittel anwendete. Auch seine sonstige Thätigkeit läßt <lb/>
+            uns erkennen, wie er bemüht war, das Athen der guten alten <lb/>
+            Zeit wieder herzustellen. Wenn er für würdige Ausstattung der <lb/>
+            Procesfionen sorgte, wenn er Gymnasien herstellte, Ringschule und <lb/>
+            Rennbahn in Stand setzte, den Luxus zu beschränken suchte, so <lb/>
+            sehen wir stets den Mann, dem das Bild der alten Athener aus <lb/>
+             <pb n="7"/>
+            der Zeit der Marathonskämpfer vor Augen stand, und sosern er <lb/>
+            unmöglichen Idealen nachgieng, könnte man ihn — bei aller <lb/>
+            sonstigen praktischen Richtung seines Wesens — den Romantiker <lb/>
+            unter den Finanzministern nennen. Wie er aber als Beamter <lb/>
+            die strengste Rechtlichkeit beobachtete, so diente er auch als Redner <lb/>
+            stets nur dem, was er als recht und wahr erkannt hatte. Seine <lb/>
+            Gewissenhaftigkeit und Wahrheitsliebe war auch so allgemein an­ <lb/>
+            erkannt, daß sein bloßes Auftreten für oder gegen eine Sache <lb/>
+            wirkte; er war gefürchtet als Ankläger, gesucht als Vertheidiger. <lb/>
+            „Er kämpfte stets mit den Waffen des Rechts und der Wahr­ <lb/>
+            heit," dieß aber mit solcher Strenge, daß er zur Bestrafung der <lb/>
+            Verbrecher am liebsten die alten mit Blut geshcriebenen Gesetze <lb/>
+            Drako's wieder in's Leben gerufen hätte. In der That ist es <lb/>
+            auch nicht die rhetorische Formgewandtheit, sondern die ehren­ <lb/>
+            werthe Gesinnung, wodurch die uns erhaltene Rede gegen Leo­ <lb/>
+            krates ihren Werth erhält. Denn die eigentliche Fktvörys der <lb/>
+            raffinirten Redekünftler war dem Lykurg fremd; die Ausdrucks­ <lb/>
+            weise im einzelnen wie die Composition im Ganzen verräth weder <lb/>
+            die durchsichtige Einfachheit eines Lysias, noch die geschmackvolle <lb/>
+            Leichtigkeit eines Hyperides, noch weniger die packende Energie <lb/>
+            eines Demosthenes; Lykurg ist breit, weitschweifig, er wiederholt <lb/>
+            sich häufig, gebraucht meist die nämlichen Wendungen, Ueber­ <lb/>
+            gänge, Schlußformeln; er schweift — trotz seinem ausgesprochenen <lb/>
+            Bestreben, bei der Sache zu bleiben — auf Gegenstände ab, <lb/>
+            die nicht nothwendig hergehören, wohl aber geeignet sind, seine <lb/>
+            sittlichen und politischen Grundsätze zu veranshcaulichen. Schon <lb/>
+            die Alten vermißten an ihm Anmuth und Lieblichkeit; sie fanden <lb/>
+            bei ihm etwas Herbes und Rauhes; in der That mußte er mit <lb/>
+            seinen so ernsthaften Citaten und Reminiscenzen aus der alten, <lb/>
+            zum Theil der mythischen Zeit als ein altfränkischer Redner er­ <lb/>
+            scheinen, der nicht ganz auf der Höhe des modernen Kunstbewußt­ <lb/>
+            seins zu stehen schien. Aber für diese formellen Mängel ent­ <lb/>
+            schädigt uns der Gehalt seiner Rede, und wenn wir uns da und <lb/>
+            dort an einem Ausdruck stoßen, so macht dafür der sittliche Ernst, <lb/>
+            der aufrichtige Patriotismus, der Ingrimm über die Verdorben­ <lb/>
+            heit solcher Menschen, wie Leokrates, einen wohlthuenden Eindruck, <lb/>
+             <pb n="8"/>
+            zumal in einer Zeit, wo Männer von diesem Schrot und Korn <lb/>
+            selbst in den Reihen der Patrioten so selten geworden waren.</p>
+          <p>Nach der Niederlage bei Chäronea beschloß die Volksgemeinde <lb/>
+            von Athen, es solle niemand die Stadt verlassen, noch Weib <lb/>
+            und Kind wegbringen; der Areopag wurde mit der Vollziehung <lb/>
+            dieses Beschlusses beauftragt, und wirklich wurde gegen mehrere <lb/>
+            Bürger eingeschritten. Welche dem Beschluß zuwider handelten. <lb/>
+            Damals nun verließ auch Leokrates, ein wohlhabender Bürger, <lb/>
+            welcher bis dahin eine Eisenwerkstätte betrieben hatte, die Stadt <lb/>
+            und fuhr nach Rhodus, wo er allerlei üble Nachrichten über die <lb/>
+            Lage Athens verbreitete. Nach einiger Zeit begab er sich nach <lb/>
+            Megara und ließ dorthin auch seine bewegliche Habe kommen. <lb/>
+            Nach fünf- bis sechsjährigem Aufenthalt in Megara kehrte er nach <lb/>
+            Athen zurück und wurde nun von Lykurg als Landesverräther <lb/>
+            vor Gericht gestellt.</p>
+          <p>Der Gang der Rede ist kurz folgender:</p>
+          <p>Nach einer Anrufung der Götter zeigt Lykurg, daß die An­ <lb/>
+            klage, mit welcher er auftritt, politisch nothwendig ist und daß <lb/>
+            dieser Proceß eine ganz besondere Bedeutung hat wegen der <lb/>
+            Größe des Verbrechens und weil bei dem Mangel zutreffender <lb/>
+            gesetzlicher Bestimmungen die Entscheidung maßgebend für die <lb/>
+            Zukunft sein wird. (o. 1—3.) Daher will auch Lykurg die <lb/>
+            Thatsachen streng in's Aug fassen (e. 4); aber auch die Richter <lb/>
+            müssen ihre ganze Aufmerksamkeit widmen, indem ganz Griechen­ <lb/>
+            land auf sie schaut, (o. 5.) Nun legt Lykurg den Thatbestand <lb/>
+            dar (o. 6—3); er hebt hervor, daß Leokrates sich weigert, seine <lb/>
+            Sklaven zum Verhör herzugeben, offenbar weil er ihre Aussagen <lb/>
+            fürchtet (o. 9. 10), und vergleicht dann den Heldenmuth der bei <lb/>
+            Chäronea Gefallenen mit dem feigen Benehmen des Angeklagten <lb/>
+            (c. 11 f.). Dieses Benehmen ist übrigens bereits vom Areopag <lb/>
+            als strafbar erkannt (e. 13). Hierauf widerlegt er eine Reihe <lb/>
+            von Einwürfen, welche zu Gunsten des Leokrates vorgebracht <lb/>
+            werden könnten: daß er in Geschäften abgereist sei (o. 14), daß <lb/>
+            er keinerlei speciellen Auftrag von der Regierung gehabt habe <lb/>
+            (c. 15); daß an einem einzelnen nichts gelegen sei (o. 16); daß <lb/>
+             <pb n="9"/>
+            Leokrates die Stadt so wenig verrathen als die Athener, die einst <lb/>
+            nach Salamis flüchteten (o. 17). Vielmehr hat Leokrates seinen <lb/>
+            Bürgereid in allen Stücken gebrochen, den Eid, welcher die Grund­ <lb/>
+            lage des Staates ist (c. 18 f.). Dabei kommt Lykurg weitläu­ <lb/>
+            figer auf die alten Zeiten zu sprechen; er erzählt den Opfertod <lb/>
+            des Kodrus (c. 20) und führt noch andere Beispiele an, woraus <lb/>
+            hervorgeht, daß die Götter solche Frevel verabshceuen (c. 21 f.), <lb/>
+            welche gegen die einfachsten Naturgesetze sind (c. 23); wie auch <lb/>
+            die alten Dichter, ein Euripides, Homer, Tyrtäus ganz andere <lb/>
+            Gesinnungen verherrlichten (o. 24—28). Auch gegen die Sitte <lb/>
+            der Vorfahren wäre eine Freisprechung, indem diese — was an <lb/>
+            mehreren Beispielen nachgewiesen wird — gegen Landesverräther <lb/>
+            keine Schonung kannten (c. 29—31), so wenig als die Spar­ <lb/>
+            taner gegen Pausanias (c. 32); treibt ja selbst die Thiere der <lb/>
+            Instinkt zur Hütung ihres Nests (c. 33). Leokrates aber ist <lb/>
+            schlimmer als ein Mörder (c. 34). Seine Vertheidiger machen <lb/>
+            sich zu seinen Mitschuldigen; müßte ihn ja doch sein eigener <lb/>
+            Vater verdammen! (c. 35.) Soll daher der Staat fortbestehen, <lb/>
+            so ist die Verurtheilung des Leokrates durchaus nothwendig; seine <lb/>
+            Lossprechung wäre ein Tödesnrtheil gegen den Staat selbst (c. 36). <lb/>
+            Wo so viele Verbrechen zusammen kommen, wie in diesem Fall, <lb/>
+            da laden die Richter durch ein Nichtschuldig selber die Schuld <lb/>
+            auf sich; hier heißt es: entweder Schuldig und damit Rettung <lb/>
+            des Staats, oder Nichtschuldig und damit Privilegien^ aller <lb/>
+            Landesverräther (c. 37).</p>
+          <p>Diese Rede wurde 330 v. Chr. gehalten. Wäre es mög­ <lb/>
+            lich gewesen, den Leokrates unmittelbar nach seiner Abreise zur <lb/>
+            Haft zu bringen, so wäre er ohne Zweifel verurtheilt worden; <lb/>
+            so aber hatte man sich längst wieder beruhigt, und Leokrates <lb/>
+            mochte das Terrain wohl kennen, ehe er nach Athen zurückkehrte. <lb/>
+            Dennoch war die Zahl der Richter, welche für Schuldig stimmten, <lb/>
+            gleich der Zahl derer, welche ein Nichtschuldig aussprachen. Nach <lb/>
+            dem attischen Rechte hatte diese Stimmengleichheit die Loslassung <lb/>
+            des Angeklagten zur Folge.</p><pb n="10"/>
+            
+          <p>1. Mit einem Wort des Rechts und der Gottesfurcht, <lb/>
+            welches Euch gilt, Athener, und den Göttern, will ich meine <lb/>
+            Anklage gegen Leokrates, der hier vor Gericht steht, beginnen. <lb/>
+            Ich flehe zu Athene und den übrigen Göttern und zu den He­ <lb/>
+            roen, deren Bilder in Stadt und Land aufgestellt sind: wenn <lb/>
+            meine Klage gegen Leokrates eine gerechte ist, wenn ich einen <lb/>
+            Menschen verfolge, der ihre Tempel, ihre Bildnisse, ihre Heilig­ <lb/>
+            thümer, die gesetzlichen Opfer, welche von Euren Vorfahren Euch <lb/>
+            überliefert worden sind, verrathen hat, dann mögen sie mir an <lb/>
+            dem heutigen Tag, da ich als Kläger auftrete, Worte in den <lb/>
+            Mund geben, wie sie den Freveln des Leokrates entsprechend sind! <lb/>
+            was auch im Interesse des Volks und des Staates liegt; — <lb/>
+            Ihr aber möget in dem Bewußtsein, daß Eure Väter, Eure <lb/>
+            Weiber und Kinder, daß Vaterland und Religion den Gegen­ <lb/>
+            stand Eurer Berathung bilden, und daß Ihr den Menschen bei <lb/>
+            Eurer Abstimmung in Eurer Hand habt, welcher an all diesem <lb/>
+            den Verräther gemacht — Ihr möget jetzt und in Zukunft un­ <lb/>
+            erbittliche Richter sein für Leute, welche in solcher Weise und in <lb/>
+            solchem Grad gegen die Gesetze sich verfehlen; — wenn aber der, <lb/>
+            welchen ich hier vor Gericht ziehe, das Vaterland nicht verrathen, <lb/>
+            wenn er Staat und Religion nicht im Stich gelassen hat, dann <lb/>
+            möge er aus dieser Gefahr gerettet werden sowohl durch die Hand <lb/>
+            der Götter, als auch durch Euren richterlichen Spruch.</p>
+          <p>2. Wohl wünschte ich, Athener, in dem gleichen Maß *), <lb/>
+            als es heilsam ist für den Staat, daß es Leute gibt, welche die <note type="footnote"> *) Lykurg will damit nicht daS Angeberwesen in Schutz nehmen, sondern meint <lb/>
+            besonders die vom Staat aufgestellten Ankläger, welche bei Verbrechen, die die Sicher­ <lb/>
+            heit deS Staats berührten, im Namen des Volks Anklage zu erheben hatten. </note> <lb/>
+             <pb n="11"/>
+            Uebertreter des Gesetzes vor Gericht ziehen, möchte ein solches <lb/>
+            Versahren bei dem Publikum auch für wohlmeinend angesehen <lb/>
+            sein; nun aber ist es so weit gekommen, daß man, wenn man <lb/>
+            sich für seine eigene Person *) in Gefahr begibt und im Interesse <lb/>
+            des Gemeinwesens dem Hasse sich aussetzt, nicht für einen Pa­ <lb/>
+            trioten gilt, sondern für einen händelsüchtigen Menschen; und <lb/>
+            das ist nicht recht und ist nicht gut für den Staat. Drei Punkte <lb/>
+            sind es ja ganz besonders, welche in Frage kommen bei der Er­ <lb/>
+            haltung und Wahrung der Volksherrschaft und des Gemeinwohls; <lb/>
+            erstlich die im Gesetz begründete Ordnung, zweitens die Abstim­ <lb/>
+            mung vor Gericht, drittens der Proceßgang, welcher den Rich­ <lb/>
+            tern die Frevler in die Hände liefert. Sache des Gesetzes ist es, <lb/>
+            zum voraus zu sagen, was nicht erlaubt ist, Sache des Anklägers, <lb/>
+            diejenigen namhaft zu machen, welche den gesetzlichen Strafbestim­ <lb/>
+            mungen verfallen sind, Sache des Richters, diejenigen in Strafe <lb/>
+            zu nehmen, welche von den beiden ersteren ihm bezeichnet worden <lb/>
+            sind; daher denn weder das Gesetz, noch die Stimme der Richter <lb/>
+            etwas ausrichten kann, wofern ihnen nicht jemand die Frevler in <lb/>
+            die Hände gibt. Nun habe ich, Athener, in der klaren Erkennt­ <lb/>
+            niß, daß Leokrates den dem Vaterland drohenden Gefahren sich <lb/>
+            entzogen, daß er seine Mitbürger sich selber überlassen, daß er <lb/>
+            Euer ganzes Vermögen preisgegeben und sich so in allen von <lb/>
+            der Anklage bezeichneten Punkten schuldig gemacht hat — in der <lb/>
+            Erkenntniß hievon habe ich diese Anklage unternommen, und nicht <lb/>
+            aus persönlicher Feindschaft, nicht aus Streitsucht — nicht im <lb/>
+            geringsten! — habe ich mich zu diesem Proceß entschlossen, son­ <lb/>
+            dern weil ich es für eine Schande hielt, daß dieser Mensch sich <lb/>
+            unter die Versammlung auf öffentlichem Platz eindränge und an <lb/>
+            den öffentlichen Heiligthümern Antheil habe, welcher ein Schand­ <lb/>
+            fleck für sein Vaterland und für Euch alle geworden ist. Denn <lb/>
+            einem rechten Bürger kommt es zu, nicht aus Gründen persön­ <lb/>
+            licher Feindschaft Leute, welche gegen den Staat nichts unrechtes <lb/>
+            begangen haben, vor das öffentliche Gericht zu ziehen, wohl aber <note type="footnote"> *) Wenn der Ankläger nicht wenigstens Vs der Stimmen für sich hatte, ver­<lb/>
+             fiel er in eine Strafe von 1000 Drachmen (über 400 fl.). </note> <lb/>
+             <pb n="12"/>
+            diejenigen, welche am Vaterland irgendwie freveln, als seine per­ <lb/>
+            sönlichen Feinde anzusehen und die das Gemeinwesen betreffenden <lb/>
+            Vergehungen so zu behandeln, daß darin ein alle in gleicher <lb/>
+            Weise angehender Bestimmungsgrund liegt zum Auftreten gegen <lb/>
+            solche Menschen.</p>
+          <p>3. So sehr man nun allen Processen, welche das Gemein­ <lb/>
+            wohl betreffen, eine große Wichtigkeit beilegen muß, so ist dies <lb/>
+            doch ganz besonders nöthig bei dem Fall, über welchen Ihr jetzt <lb/>
+            Euer Urtheil abgeben sollt. Denn wenn Ihr *) über Anklagen <lb/>
+            wegen ungesetzlicher Anträge zu urtheilen habt, so ist es nur eben <lb/>
+            der einzige betreffende Punkt, der Eure rettende That in Anspruch <lb/>
+            nimmt, nur ein einzelnes Beginnen habt Ihr auszuhalten, soweit <lb/>
+            nemlich der Beschluß dem Gemeinwesen Schaden zu bringen droht; <lb/>
+            dagegen bei dem jetzt vorliegenden Rechtshandel sind nicht zu <lb/>
+            einem geringen Theil die Interessen des Staats betheiligt, und <lb/>
+            nicht auf kurze Zeit, sondern es handelt sich um das Vaterland <lb/>
+            im Ganzen, und für ewige Zeiten wird allen künftigen Geschlech­ <lb/>
+            tern ein unauslöschliches Andenken an die Entscheidung in dieser <lb/>
+            Sache zurückbleiben. Denn so furchtbar ist das, was geschehen <lb/>
+            ist, und von so ungeheurer Tragweite, daß es nicht möglich ist, <lb/>
+            eine Klagformel oder eine Strafe ausfindig zu machen, die ganz <lb/>
+            entsprechend wäre, und daß in den Gesetzen keine Bestimmung <lb/>
+            sich findet, welche eine dem Frevel angemessene Ahndung enthielte. <lb/>
+            Denn was verdient ein Mensch, welcher das Vaterland sich selbst <lb/>
+            überlassen, den Heiligthümern der Heimath seine Unterstützung <lb/>
+            versagt, welcher die Gräber der Vorfahren im Stich gelassen und <lb/>
+            den ganzen Staat den Feinden in die Hände geliefert hat? Der <lb/>
+            höchste und am weitesten gehende Strafantrag lautet auf den Tod <lb/>
+            — und es ist diese Strafe nach dem Wortlaut des Gesetzes un­ <note type="footnote"> ») Einsprache gegen die Abstimmung der Volksversammlung zu erheben, stand <lb/>
+            jedem stimmberechtigten Bürger zu, wenn er erklärte, daß er den betreffenden An­ <lb/>
+            trag als widergesetzlich durch die sog. vor Gericht versolgen <lb/>
+            wolle; die gleiche Erklärung konnte aber auch dann noch abgegeben werden, wenn <lb/>
+            über den Antrag schon abgestimmt war; ste hatte dann die Wirkung, daß die Gil­ <lb/>
+            tigkeit des Beschlusses bis zur richterlichen Entscheidung suspendirt blieb. S. Schö­ <lb/>
+            mann, griech. «lterth. I. 886. </note> <lb/>
+             <pb n="13"/>
+            erläßlich — aber immer noch zu wenig für einen Frevler, wie <lb/>
+            Leokrates. Daß aber eine auf diesen Frevler zutreffende Strafe <lb/>
+            nicht namhaft gemacht ist, daran, Athener, ist nicht die Unacht­ <lb/>
+            samkeit der damaligen Gesetzgeber schuld, sondern der Umstand, <lb/>
+            daß in früheren Zeiten niemals etwas dergleichen vorgekommen <lb/>
+            ist und daß man es auch in Zukunft nicht als möglich gedacht <lb/>
+            hat. Und darum ganz besonders, Athener, ist es jetzt Eure Sache, <lb/>
+            nicht nur als Richter über das vorliegende Verbrechen zu erkennen, <lb/>
+            sondern auch als Gesetzgeber. Denn wenn ein Gesetz Bestim­ <lb/>
+            mungen enthält über ein Vergehen, so ist es leicht, eben nach <lb/>
+            der Norm des Gesetzes die Strafe für den Gesetzesübertreter zu <lb/>
+            finden; wenn aber das Gesetz ohne ausdrückliche Bestimmung <lb/>
+            unter einer summarischen Bezeichnung alles zusammengefaßt hat <lb/>
+            und wenn nun einer einen Frevel begeht, für den der Wortlaut <lb/>
+            des Gesetzes nicht ausreicht, wenn also einer von allen Bestim­ <lb/>
+            mungen ohne Unterschied betroffen wird — dann ist es nicht <lb/>
+            anders möglich, als daß Eure Entscheidung als ein maßgebender <lb/>
+            Vorgang für die späteren Geschlechter dastehe. Und von der <lb/>
+            Ueberzeugung ferner müßt Ihr ausgehen, daß Ihr durch ein <lb/>
+            Schuldig nicht bloß den jetzt eben Angeklagten bestrafen, sondern <lb/>
+            daß Ihr alle Jüngeren zu tüchtiger Gesinnung anspornen werdet. <lb/>
+            Zweierlei ist es ja, was die Jugend zieht: die Bestrafung der <lb/>
+            Frevler und die Belohnung der Rechtschaffenen; beides haben sie <lb/>
+            daher im Aug, wenn sie die erstere fliehen aus Furcht und nach <lb/>
+            der letzteren streben aus Ehrgeiz. Darum müßt Ihr Eure Au­ <lb/>
+            gen offen halten bei diesem Proceß und von keinem Motiv Euch <lb/>
+            bestimmen lassen, als von dem der Gerechtigkeit.</p>
+          <p>4. Aber auch ich werde in meiner Anklage an das Recht <lb/>
+            mich halten, ich werde nichts Unwahres vorbringen und nichts <lb/>
+            sagen, was nicht zur Sache gehört. Die, welche vor Euch auf­ <lb/>
+            treten, schlagen meist einen ganz verkehrten Weg ein: entweder <lb/>
+            kommen sie daher mit allgemeinen politischen Rathschlägen, oder <lb/>
+            bringen sie alle möglichen Klagen und Verleumdungen vor, nur <lb/>
+            nicht solche, welche auf den jeweiligen Rechtsfall zutreffen. Bei­ <lb/>
+            des ist gar nicht schwer: über Dinge, die Euch nicht zur Be­ <lb/>
+            rathung vorliegen, seine Meinung preiszugeben und gegen Leute, <lb/>
+             <pb n="14"/>
+            für welche niemand einsteht, mit Anklagen aufzutreten. Allein <lb/>
+            es ist ungerecht, von Euch einen gerechten Spruch zu verlangen, <lb/>
+            während man selber mit seinen Anklagen das Recht verletzt. Wer <lb/>
+            aber daran schuld ist, Athener, das seid Ihr: Ihr habt den <lb/>
+            Leuten, die hier auftreten, so freie Hand gelassen, und dies, <lb/>
+            während Ihr das herrlichste Vorbild von ganz Griechenland habt <lb/>
+            an dem Gerichtshof auf dem Areopag, der ja alle andern Ge­ <lb/>
+            richtshöfe so entschieden überragt, daß die Verurtheilten selbst <lb/>
+            nicht umhin können, die Gerechtigkeit seiner Urtheilssprüche an­ <lb/>
+            zuerkennen. Darauf müßt auch Ihr Euer Augenmerk richten <lb/>
+            und Denen das Maul stopfen, welche Dinge vorbringen, die der <lb/>
+            Sache fern liegen. Dann wird der Angeklagte nicht unter zu <lb/>
+            weit gehenden Beschuldigungen zu leiden haben, dem Ankläger <lb/>
+            wird die Möglichkeit zu unbegründeten Angriffen entzogen — <lb/>
+            Ihr selbst aber werdet in den Stand gesetzt sein, streng nach <lb/>
+            Eurem Eid Euren Spruch zu fällen. ^Denn ohne Darlegung <lb/>
+            der Sache, ohne die gesetzliche Belehrung ist es ja nicht möglich, <lb/>
+            einen gerechten Spruch zu finden.^</p>
+          <p>5. Auch noch einen weiteren Punkt dürft Ihr nicht außer <lb/>
+            Acht lassen: nämlich mit dem vorliegenden Proceß hat es eine <lb/>
+            andere Bewandtniß, als mit Processen sonstiger Privatleute. <lb/>
+            Handelte es sich um einen Menshcen, welchen niemand im übrigen <lb/>
+            Griechenland kennt, so würde das Urtheil darüber, ob Euer Spruch <lb/>
+            recht oder falsch ist, ganz unter uns bleiben; dagegen hier steht <lb/>
+            die Sache anders: der Spruch, den Ihr über Leokrates fället, <lb/>
+            wird in ganz Griechenland wiederhallen. Ist der Angeklagte ja <lb/>
+            doch allgemein bekannt in Folge seiner Fahrt nach Rhodus und <lb/>
+            der Anzeigen, welche er über Euch bei der dortigen Regierung <lb/>
+            angebracht hat, sowie bei den dort ansäßigen Kaufleuten, die in <lb/>
+            der Ausübung ihrer Geschäfte in der ganzen Welt herumkommen <lb/>
+            und dabei weiter bekannt machten, was sie über Athen von Leo­ <lb/>
+            krates gehört hatten; und die wissen auch, daß die Thaten Eurer <lb/>
+            Vorfahren im geraden Gegensatz stehen zu dem, was der Ange­ <lb/>
+            klagte gethan hat. Darum hängt sehr viel an einem richtigen <lb/>
+            Spruch in dieser Sache. Ja, glaubet mir, Athener, in den <lb/>
+            Stücken, worauf Ihr allen anderen Menschen gegenüber Euch <lb/>
+             <pb n="15"/>
+            etwas zu gut thun dürft, in der Gottesfurcht, in der Pietät gegen <lb/>
+            die Eltern, in patriotischer Haltung — in dem allem würde <lb/>
+            die öffentliche Meinung Euch sträflicher Gleichgiltigkeit zeihen, <lb/>
+            wenn der Angeklagte der Strafe vor Eurem Richterstuhl ent­ <lb/>
+            ginge.</p>
+          <p>Ich bitte Euch aber, meine Anklage bis zu Ende anzuhören <lb/>
+            und nicht ungeduldig zu werden, wenn ich mit den Ereignissen <lb/>
+            beginne, welche damals die Stadt betroffen haben, vielmehr Euren <lb/>
+            Zorn auf die zu lenken, welche daran schuld sind und um deren <lb/>
+            willen ich jetzt genöthigt bin, daraus zurückzugeben.</p>
+          <p>s. Als*) nach der Schlacht bei Chäroneia Ihr alle zu­ <lb/>
+            sammenranntet in die Volksversammlung, da beschloß die Volks­ <lb/>
+            gemeinde, Weiber und Kinder hinter die Mauern zu flüchten, <lb/>
+            und die Feldherren sollen zum Schutz der Stadt alle verwenden, <lb/>
+            Athener und wer sonst in Athen wohne, ganz nach ihrem eige­ <lb/>
+            nen Gutdünken. Was that nun Leokrates? Ihm war dies alles <lb/>
+            gleichgiltig, er packte zusammen, was er besaß, und ließ alles <lb/>
+            durch seine Sklaven auf den Nachen bringen — das Schiff lag <lb/>
+            bereits in der Nähe der Küste vor Anker — und spät am Abend <lb/>
+            schlüpfte er selber mit seiner Hetäre Eirenis mitten an der Küste <lb/>
+            durch das kleine Thörchen hinaus, fuhr zum Schiff hin und <lb/>
+            segelte aus und davon — ohne sich rühren zu lassen von den <lb/>
+            Häfen der Stadt, aus welchen er wegfuhr, ohne sich zu schämen <lb/>
+            vor den Mauern seiner Vaterstadt, die er — wenigstens so weit <lb/>
+            es auf ihn ankam — ohne Schutz und Schirm zurückließ; ohne <lb/>
+            von Bangigkeit ergriffen zu werden, als er die Burg und das <lb/>
+            Heiligthum des Retters Zeus und der Retterin Athene hinter sich <lb/>
+            sah und verrieth — die er doch jetzt gleich anrufen wird, ihn <lb/>
+            zu retten aus der Gefahr. So lief er denn glücklich in den <lb/>
+            Hafen von Rhodus ein, und als hätte er großes Heil zu ver­ <lb/>
+            künden, das seinem Vaterlande widerfahren sei, so machte er be­ <lb/>
+            kannt: die Altstadt habe er in den Händen der Feinde verlassen, <lb/>
+            den Peiräeus im Stand der Belagerung und er allein sei glück­ <lb/>
+            lich entronnen, und so schämte er sich nicht, das Unglück seiner <note type="footnote"> *) 2. Aug. 338. </note> <lb/>
+             <pb n="16"/>
+            Vaterstadt sein Glück und Heil zu nennen. Und damit fand er <lb/>
+            in Rhodus so unbedingten Glauben, daß sie dort Kriegsschiffe <lb/>
+            segelfertig machten und die Kauffahrteischiffe zwangen bei ihnen <lb/>
+            einzulaufen, und daß die Handelsleute und Rheder, welche im <lb/>
+            Begriff waren, hieher zu fahren, auf der Stelle ihre Ladung an <lb/>
+            Getreide nebst der sonstigen Fracht ans Land bringen ließen: <lb/>
+            und daran war der Angeklagte schuld. Und daß meine Angaben <lb/>
+            wahrheitsgemäß sind, werden die sämmtlichen Zeugnisse zeigen, <lb/>
+            die man Euch vorlesen wird, erstens die Zeugnisse seiner Nach­ <lb/>
+            barn und der in der betreffenden Gegend Ansäßigen, welche von <lb/>
+            ihm wissen, daß er während des Kriegs flüchtig geworden ist <lb/>
+            und Athen zu Schiff verlassen hat; sodann die Zeugnisse derer, <lb/>
+            welche nach Rhodus kamen zu der Zeit, wo Leokrates diese Nach­ <lb/>
+            richten verbreitete; ferner das Zeugniß des Phyrkinos, der, wie <lb/>
+            die meisten von Euch wissen, gegen den Angeklagten vor dem <lb/>
+            Volk aufgetreten ist, weil derselbe, obwohl selber Theilhaber am <lb/>
+            Zollpacht*), der Compagnie großen Schaden gebracht habe.</p>
+          <p>7. Ehe jedoch die Zeugen vortreten, möchte ich noch einige <lb/>
+            Worte zu Euch reden. Ihr kennet wohl die Veranstaltungen <lb/>
+            der Angeklagten und das Drängen derer, welche sie loszubitten <lb/>
+            suchen, und Ihr seid auch ganz genau damit bekannt, daß durch <lb/>
+            Rücksichten auf klingenden Lohn oder auf Gunstbezeugung man­ <lb/>
+            cher von den Zeugen sich verleiten läßt, kein Gedächtniß zu haben <lb/>
+            oder gar nicht zu erscheinen oder sonst eine Ausrede ausfindig zu <lb/>
+            machen. Darum dringet daraus, daß die Zeugen ohne Wider­ <lb/>
+            rede vortreten und solche persönliche Begünstigungen nicht höher <lb/>
+            anschlagen, als Eure Interessen und das Interesse des Staats, <lb/>
+            daß sie vielmehr dem Vaterland leisten, was sie schuldig sind, <lb/>
+            nämlich Wahrheit und Gerechtigkeit, und daß sie nicht ihren Po­ <lb/>
+            sten hier verlassen nach dem Vorgang des Leokrates, widrigenfalls <note type="footnote"> ») Alle Einfuhr und Ausfuhr unterlag dem niedrigen Zoll von zwei vom<lb/>
+             Hundert oder dem Fünfzigste!; dieser Zoll war wie alle Zölle verpachtet; Phyr­<lb/>
+             kinos und Leokrates waren Theilnehmer an diesem Pacht. Je weniger Schiffe in<lb/>
+             Athen einliefen, desto weniger Einnahme hatte die Compagnie, welche für alle Fälle<lb/>
+             eine bestimmte Summe an den Staat zu entrichten hatte. S. Boeckh, StaatSH. <lb/>
+            d. Ath. 2. VIII. s. 425. </note> <lb/>
+             <pb n="17"/>
+            sie mit der Hand am Heiligthum nach der Vorschrift des Gesetzes <lb/>
+            sich losschwören *) müßten. Thun sie aber beides nicht, dann <lb/>
+            werden wir sie zu Eurem Besten und zum Heil der Gesetze und <lb/>
+            der freien Verfassung zum Erscheinen nöthigen. Und nun lies <lb/>
+            die Zeugnisse.</p>
+          <ab>
+            <title type="sub">Aussagen der Zeugen.</title>
+          </ab>
+          <p>8. Nun also weiter. Als nach Verlauf einiger Zeit wie­ <lb/>
+            derholt Handelsschiffen von Athen nach Rhodus kamen und es sich <lb/>
+            herausstellte, daß dem Staat kein Unglück widerfahren war, bekam <lb/>
+            er Angst, verließ Rhodus wieder und begab sich nach Megara, <lb/>
+            und in Megara wohnte er nun über fünf Jahre, unter der Kau­ <lb/>
+            tion eines Megareers, — er fühlte keine Scham vor den Grenzen <lb/>
+            seines Vaterlandes, sondern blieb als Beisaße bei den Nachbarn <lb/>
+            seiner Heimath, die ihn auferzogen hatte. Und so entschieden <lb/>
+            hatte er sich selbst ewiger Verbannung für schuldig erkannt, daß <lb/>
+            er von dort aus den Amyntas, den Gatten seiner älteren Schwe­ <lb/>
+            ster, und seinen Freund Antigenes von Xypete**) kommen ließ <lb/>
+            und seinen Schwager bat, ihm seine Sklaven und sein Haus ab­ <lb/>
+            zukaufen, was er denn auch für ein Talent hergab, worauf er <lb/>
+            Auftrag ertheilte, von dem Erlös den Bankiers die Schulden ab­ <lb/>
+            zuzahlen und seine Vereinsbeiträge zu entrichten, das übrige aber <lb/>
+            ihm zu übergeben. Amyntas besorgte dieß alles, verkaufte aber <lb/>
+            selber wieder die Sklaven um 35 Minen an Timochares von <lb/>
+            Acharnä, den Gatten der jüngeren Schwester des Angeklagten; <lb/>
+            da aber Timochares kein baares Geld besaß, so ließ er eine <lb/>
+            Schuldverschreibung aufsetzen, die er dann bei Lysikles ***) nie­ <lb/>
+            derlegte, und bezahlte dem Amyntas Eine Mine als Zins. Und <lb/>
+            damit Ihr nicht meinet, dieß sei bloßes Gerede, vielmehr die <lb/>
+            Wahrheit erkennet, so wird man Euch auch hiefür die Zeugnisse <lb/>
+            vorlesen. Wäre Amyntas noch am Leben, so würde ich ihn <lb/>
+            selber vorführen; so aber muß ich Euch Leute stellen, welchen <lb/>
+            der Hergang bekannt ist. Lies mir nun das Zeugniß dafür, <note type="footnote"> *) Eidlich erklären, daß sie nichts wissen. </note><note type="footnote"> Ein attischer Demos. </note><note type="footnote"> *") Wohl ein Wechsler, der die Stelle eines Notars versah. </note> <note type="footnote"> Lykurgos. </note><note type="footnote"> 2 </note> <lb/>
+             <pb n="18"/>
+            daß Amyntas von Leokrates in Megara die Sklaven und das <lb/>
+            Haus gekauft hat.</p>
+          <ab>
+            <title type="sub">Zeugenaussage.</title>
+          </ab>
+          <p>Höret ferner, wie Philomelos von Cholargos *) und Mene­ <lb/>
+            laos, der beim König als Gesandter war, aus der Hand des <lb/>
+            Amyntas 40 Minen empfangen haben.</p>
+          <ab>
+            <title type="sub">Zeugmaussage.</title>
+          </ab>
+          <p>Ferner das Zeugniß des Timochares, welcher die Sklaven <lb/>
+            von Amyntas um 35 Minen kaufte, und die Schuldvershcreibung.</p>
+          <ab>
+            <title type="sub">Zeugenaussage, Schuldverschreibung</title>
+          </ab>
+          <p>So habt Ihr also die Zeugen gehört, nun aber werde ich <lb/>
+            etwas sagen, was billigerweise Euren Unwillen und Eure Ent­ <lb/>
+            rüstung gegen den Angeklagten erregen wird. Es genügte ihm <lb/>
+            nicht, seine Person und sein Vermögen in Sicherheit gebracht zu <lb/>
+            haben, sondern auch die Heiligthümer seines väterlichen Hauses, <lb/>
+            welche gemäß den bei Euch geltenden Gebräuchen und altherge­ <lb/>
+            brachten Sitten die Voreltern aufgestellt und ihm hinterlassen <lb/>
+            hatten, diese ließ er sich nach Megara holen und so außer Lan­ <lb/>
+            des bringen, und dabei wachte nicht einmal über der Benennung <lb/>
+            „Heiligthümer des väterlichen Hauses" sein Gewissen auf, dar­ <lb/>
+            über nämlich, daß er sie vom Boden der Heimath wegrückte und <lb/>
+            mit ihm ins Elend gehen hieß, weg aus den Tempeln und dem <lb/>
+            Land, in welchem sie saßen, und daß er sie zwang, auf fremdem <lb/>
+            Boden, fern der Heimath, ein Obdach zu suchen und Fremdlinge <lb/>
+            zu sein dem Land und den Gebräuchen, die in der Stadt Me­ <lb/>
+            gara herkömmlich sind. Und während Eure Väter, von dem Ge­ <lb/>
+            sichtspunkt ausgehend, daß der Athene dieses Land zugefallen sei, <lb/>
+            dem Vaterland den gleichen Namen beilegten, wie ihn die Göttin <lb/>
+            trug, Athenä, damit die Verehrer der Göttin die Stadt nicht <lb/>
+            verlassen sollten, welche nach der Göttin heißt, hat Leokrates weder <lb/>
+            um Gesetz noch Herkommen sich bekümmert, sondern -- soweit <note type="footnote"> ») Ein attischer Dsmos. </note> <lb/>
+             <pb n="19"/>
+            es auf ihn ankam, — sogar den Schutz, den Ihr von der Göt­ <lb/>
+            tin erwartet, aus dem Lande entführt. Und er war nicht damit <lb/>
+            zufrieden, in solchem Umfang und in solchem Grad an der Stadt <lb/>
+            zu freveln, sondern als er in Megara wohnte, hat er vermöge <lb/>
+            der Mittel, welche ihm sein von hier weggeschafftes Vermögen <lb/>
+            an die Hand gab, von Epirus aus von der Königin Kleopatra *) <lb/>
+            Getreidelieferungen nach Leukas und von da nach Korinth ge­ <lb/>
+            führt. Und doch enthalten Eure Gesetze ff) gerade hierüber die <lb/>
+            allerhärtesten Strasbestimmungen für den Fall, daß ein Athener <lb/>
+            anderswohin Getreide verführt als zu Euch. Nun also — einen <lb/>
+            Menshcen, welcher während des Kriegs den Verräther gemacht, <lb/>
+            welcher in ungesetzlicher Weise Getreide verführt, welcher weder <lb/>
+            Religion noch Vaterland noch Gesetz im geringsten geachtet hat — <lb/>
+            den solltet Ihr jetzt, da Ihr ihn in Eurer Hand habt, nicht zum <lb/>
+            Tod verurtheilen, der ganzen Welt zum abschreckenden Beispiel?</p>
+          <p>Thut Jhrs nicht, so seid Ihr eben die gleichgiltigsten Men­ <lb/>
+            schen von der Welt, und nicht im Stand, über arge Dinge Euch <lb/>
+            zu entrüsten.</p>
+          <p>9. Doch auch nach der Seite richtet Eure Aufmerksamkeit, <lb/>
+            wie sehr die Untersuchung, die ich in dieser Sache anstelle, den <lb/>
+            Normen des Rechts gemäß ist. Ich gehe von der Meinung aus, <lb/>
+            daß Ihr bei Eurem Urtheilsspruch nicht bloß an Vermuthungen <lb/>
+            über so große Frevel Euch halten, sondern im vollen Besitz der <lb/>
+            Wahrheit sein sollt, und daß die Zeugen, welche hier Zeugnis; <lb/>
+            ablegen, den Beweis der Wahrheit nicht erst liesern sollen, son­ <lb/>
+            dern schon geliefert haben. Ich habe sie nämlich alle vorgeladen <lb/>
+            kraft einer schriftlich aufgesetzten Ladung für alle in Frage stehen­ <lb/>
+            den Punkte, und habe das Verlangen gestellt, daß man seine <note type="footnote"> *) Kleopatra, Schwester Alexanders d. Gr., nach dem Tod ihres Gemahls <lb/>
+            Alexander Königin von EpiruS.e </note><note type="footnote"> Da Attika seinen Getreidebedarf nicht selber erzeugte, so waren gesetzliche <lb/>
+            Bestimmungen getroffen, welche eine Theurung verhindern sollten. Kein in Attika <lb/>
+            Wohnhafter durfte anderswohin als in das attifche Gmporium Getreide führen; die <lb/>
+            Ausfuhr war unbedingt verboten; von dem im Hafen angelangten Getreide muß­ <lb/>
+            ten b/z in Athen verkauft werden. S. Boeckh S. IS. </note> <note type="footnote"> 2* </note> <lb/>
+             <pb n="20"/>
+            Sklaven einem peinlichen Verhör *) unterwerfe. Lies mir die <lb/>
+            Vorladung.</p>
+          <ab>
+            <title type="sub">Vorladung.</title>
+          </ab>
+          <p>Ihr höret diese Vorladung. Indem nun Leokrates diese <lb/>
+            Vorladung nicht angenommen hat, hat er zugleich gegen sich selbst <lb/>
+            Zeugniß abgelegt, daß er ein Landesverräther ist; denn wer der <lb/>
+            beweisenden Aussage solcher, die alles von ihm wissen, sich ent­ <lb/>
+            zieht, hat damit offenbar zugegeben, daß die vorgebrachte Klagei <lb/>
+            der Wahrheit entspreche. Jedermann weiß, daß man in zweifel­ <lb/>
+            haften Fällen es für das weitaus gerechteste und für volksthüm­ <lb/>
+            lich hält, Sklaven oder Sklavinnen, die etwa mit den zu er­ <lb/>
+            hebenden Punkten bekannt sind, auszufragen, und zwar durch <lb/>
+            die Folter, und auf Thatsachen, nicht blos auf Reden sich zu <lb/>
+            verlassen, zumal wo es sich um wichtige Angelegenheiten handelt, <lb/>
+            welche das Gemeinwohl betreffen und mit dem Interesse des <lb/>
+            Staats unmittelbar zusammenhängen. Nun also — ich bin so <lb/>
+            weit entfernt, in der Anklage gegen Leokrates irgendwie das Recht <lb/>
+            zu verletzen, daß ich auf meine eigene Gefahr **) hin durch pein­ <lb/>
+            liche Befragung der Sklaven und Sklavinnen des Leokrates die <lb/>
+            Wahrheit zu finden suchte, während der Angeklagte nicht stand <lb/>
+            gehalten, sondern der Untersuchung durch die Flucht sich entzogen <lb/>
+            hat, weil eben jene um seine Sache wußten. Und doch hätten <lb/>
+            gewiß die Sklaven und Sklavinnen weit eher etwas thatsächlich <lb/>
+            vorgefallenes geleugnet, als unwahres gegen ihren eigenen Herrn <lb/>
+            ausgesagt.</p>
+          <p>10. Aber abgesehen hievon wird Leokrates sofort lauten Ruf <lb/>
+            erheben: er sei ein ruhiger Bürger, er werde von der überlegenen <lb/>
+            Gewandtheit des Redekünstlers und Sykophanten ins Verderben <lb/>
+            gestürzt. In dieser Beziehung werdet Ihr, wie ich glaube, alle <lb/>
+            wissen, daß die Redehelden und die, welche mit Sykophanten um- <lb/>
+            gehen, insgemein, sobald sie eine solche Absicht hegen, auch die <lb/>
+            Punkte aufsuchen, wo sie ihre Trugschlüsse gegen den Angeklagten <note type="footnote"> Sklaven wurden stets auf der Folter verhört. </note><note type="footnote"> Lykurg haftete habei für die Nichtbeshcädigung der Sklaven. </note> <lb/>
+             <pb n="21"/>
+            zur Geltung bringen können, während diejenigen, welche von Rechts­ <lb/>
+            wegen einen Proceß anstrengen und die dem Fluch verfallenen <lb/>
+            genau nachweisen wollen, hievon bekanntlich das Gegentheil thun <lb/>
+            — so wie jetzt ich. Hierüber stellet doch bei Euch selber folgende <lb/>
+            Erwägung an.</p>
+          <p>Wer sind denn die Leute, die man unmöglich durch die Fer­ <lb/>
+            tigkeit und künstliche Zubereitung der Rede verführen kann? Doch <lb/>
+            wohl die Sklaven! Wenigstens ließe sich bei der Natur derselben <lb/>
+            voraussetzen, daß sie auf der Folter die ganze Wahrheit über <lb/>
+            ein Vergehen aussagen würden. Aber diese hat Leokrates sich <lb/>
+            wohl gehütet auszuliefern , und zwar Sklaven, die nicht fremdes <lb/>
+            Eigenthum waren, sondern ihm selbst angehörten. Wer sind aber <lb/>
+            die, welche man, wie es scheint, möglicherweise durch die Kraft <lb/>
+            der Rede gewinnen, deren natürliche Weichheit man durch Thrä­ <lb/>
+            nen zur Rührung steigern könnte? Das sind die Richter! Deß­ <lb/>
+            wegen hat diesen Weg Leokrates, der Landesverräther, eingeschla­ <lb/>
+            gen, aus keinem andern Grund, als weil er fürchtet, es möchten <lb/>
+            aus demselben Haus die der That Ueberführenden und der Ueber- <lb/>
+            führte hervorgehen. Wozu hätte er Ausflüchte, Reden, Vorwände <lb/>
+            nöthig gehabt? Das Recht ist einfach, die Wahrheit ohne Schwie­ <lb/>
+            rigkeit, der Erweis bald geliefert. Gibt er zu, daß der Inhalt <lb/>
+            der Klage wahrheitsgemäß und unantastbar ist, warum verfällt <lb/>
+            er nicht der gesetzlichen Strafe? Gibt er aber die Wahrheit der <lb/>
+            Klage nicht zu, warum hat er dann seine Sklaven und Sklavin­ <lb/>
+            nen nicht ausgeliefert? Ist es doch zu erwarten, daß einer, der <lb/>
+            wegen Verraths angeklagt ist, nicht nur zur peinlichen Befragung <lb/>
+            die Leute stelle, sondern auch, überhaupt keiner, selbst der genaue­ <lb/>
+            sten Untersuchung ausweiche. Aber von all dem hat er nichts <lb/>
+            gethan, sondern trotzdem daß er sich selber für schuldig erkannt <lb/>
+            hat des Verraths am Vaterland, an der Religion, am Gesetz, <lb/>
+            wird er Euch zumuthen, einen Spruch zu fällen, welcher mit <lb/>
+            seinen eigenen Zugeständnissen und Zeugnissen im geraden Wider­ <lb/>
+            spruch steht. Und wie wäre es gerecht, einen Mann, welcher <lb/>
+            sich selbst die Möglichkeit seiner Vertheidigung neben vielem an­ <lb/>
+            dern besonders dadurch geraubt hat, daß er die rechtlich ihm ge­ <lb/>
+            währten Bestimmungen nicht für sich geltend machen wollte — <lb/>
+             <pb n="22"/>
+            diesem zu gestatten, daß er bei eingestandener Schuld Euch hin­ <lb/>
+            tergehe ?</p>
+          <p>Damit werdet Ihr nun, glaube ich, hinlänglich unterrichtet <lb/>
+            sein über die Vorladung und das thatsächliche Zugeständniß sei­ <lb/>
+            ner Schuld; nun will ich Euch ins Gedächtniß zurückrufen, in <lb/>
+            welcher Lage und in welch großer Gefahr die Stadt sich befand, <lb/>
+            als sie von Leokrates verrathen wurde. Nimm den Beschluß des <lb/>
+            Hyperides*), Schreiber, und lies.</p>
+          <ab>
+            <title type="sub">BolkSbeschluß.</title>
+          </ab>
+          <p>11. Ihr habt den Beschluß gehört des Inhalts: der große <lb/>
+            Rath solle in den Piräeus sich hinabbegeben in den Waffen, um <lb/>
+            für die Wahrung des Hafens besorgt zu sein, und er solle, selber <lb/>
+            gerüstet, die Maßregeln ergreifen, die nach seinem Gutachten für <lb/>
+            die Republik nutzbringend seien. Nun aber, wenn diejenigen, <lb/>
+            welche vom Kriegsdienst entbunden waren, um des Raths zu <lb/>
+            pflegen im Dienst des Staats, als Krieger aus dem Posten stan­ <lb/>
+            den, sind es dann etwa nur geringfügige, nur ganz alltägliche <lb/>
+            Gefahren gewesen, welche damals den Staat bedrohten? Und <lb/>
+            da ist Leokrates, der Angeklagte, nicht nur selbst aus der Stadt <lb/>
+            weggelaufen, sondern hat auch seine ganze bewegliche Habe mit­ <lb/>
+            genommen und die Heiligthümer seines väterlichen Hauses zu sich <lb/>
+            kommen lassen, ja er gieng so weit in seinem verrätherischen Trei­ <lb/>
+            ben, daß — wenn es auf seinen Willen angekommen wäre — <lb/>
+            die Tempel verlassen standen, die Mauern ohne Bewachung blie­ <lb/>
+            ben, Staat und Land sich selber überlassen war. Und doch waren <lb/>
+            damals die Verhältnisse so, daß wohl jedermann Mitleid mit der <lb/>
+            Stadt gefühlt hätte, ich will nicht sagen jeder Bürger, sondern <lb/>
+            selbst jeder Fremde, der in früheren Zeiten seinen Aufenthalt <lb/>
+            hier genommen! Ja wo wäre ein so erbitterter Feind der Re­ <lb/>
+            publik oder Athens gewesen, daß er es übers Herz gebracht hätte, <lb/>
+            sich selber fern von seinem Posten zu sehen, in dem Augenblick, <note type="footnote"> *) HyperideS, einer der bedeutendsten athenischen Redner und treuer Bundes­<lb/>
+             genosse des Demosthenes im Kampfe gegen Philipp; ja Demosthenes schien ihm nicht<lb/>
+             immer genug zu thun, weßhalb er sogar in der harpalischen Angelegenheit als An­<lb/>
+             klüger gegen ihn auftrat. Er wurde 3S2 auf Befehl AntipaterS hingerichtet. </note> <lb/>
+             <pb n="23"/>
+            da die Kunde von der Niederlage und dem Unglück ankam, das <lb/>
+            den Staat betroffen, da die Bürgerschaft in Aufregung war über <lb/>
+            die Ereignisse, da das Volt mit seinen Hoffnungen auf Rettung <lb/>
+            einzig noch auf die mehr als Sechzigjährigen angewiesen war, <lb/>
+            da man an den Thüren freigeborue Frauen in Furcht und Zagen <lb/>
+            sehen konnte, fragend ob ihre Männer, ihre Brüder, ihre Väter <lb/>
+            noch am Leben seien — ein Schauspiel unwürdig ihrer selbst <lb/>
+            und des Staats — da man sah, wie die Altersschwachen, die <lb/>
+            an Jahren Vorgerückten, welche das Gesetz vom Kriegsdienst ent­ <lb/>
+            band, in der ganzen Stadt — sie an der Schwelle des Alters! — <lb/>
+            sich zu Tode hetzten, den Mantel *) doppelt umgeschlagen und <lb/>
+            mit Spangen angeheftet! So vieles Unheilvolle aber auch da­ <lb/>
+            mals in der Stadt geschah und so groß das Unglück war, von ' <lb/>
+            dem die gesammte Bürgerschaft betroffen wurde, so hätte man <lb/>
+            doch von der größten Trauer und Rührung ergriffen werden <lb/>
+            müssen über den Jammer der Stadt, als man sah, wie das Volk <lb/>
+            beschloß, dis-Sklaven sollen frei, die Fremden sollen athenische <lb/>
+            Bürger, die Ehrlosen ihrer bürgerlichen Ehren wieder theilhaftig <lb/>
+            sein — das Volk, das sonst so stolz war auf seine uralte An­ <lb/>
+            fäßigkeit ff) im Land und auf seine Freiheit. Und so gewaltig <lb/>
+            war der Umschlag in den politischen Verhältnissen, daß Athen, <lb/>
+            das früher die Freiheit der übrigen Griechen vertheidigt, in den <lb/>
+            damaligen Zeiten zufrieden sein mußte, für feine eigene Existenz <lb/>
+            ohne Gefahr kämpfen zu können, und daß es, während es vor­ <lb/>
+            dem über viel Land von Barbaren geboten, jetzt gegen Mace­ <lb/>
+            donier um sein eigenes Gebiet sich wehren mußte, und das Volk, <lb/>
+            welches früher von Lacedämoniern, Peloponnesiern und von den <lb/>
+            asiatischen Griechen zu Hilfe gerufen worden, mußte jetzt aus <lb/>
+            Andros, Keos, aus Trözene und Epidaurus sich Hilfleistung ver­ <lb/>
+            schreiben. Darum wenn ein Mensch in so gefährlichen Zeit­ <lb/>
+            läuften, in solchen Drangsalen, in solcher Schmach die Stadt im <lb/>
+            Stich gelassen hat, ohne sich mit den Waffen in der Hand dem <note type="footnote"> *) Um sich leichter bewegen zu können; da sie nicht das kürzere Obergeniand<lb/>
+             des Kriegers trugen. </note><note type="footnote"> **) Autochthonie, deren praktisch wichtige Eonsequenzen reine Abkunft, Fest- <lb/>
+            Haltung der eigenen Rationalität und altlegitimer Besitz des Landes waren. </note> <lb/>
+             <pb n="24"/>
+            Vaterland zur Verfügung zu stellen, ohne seiner Person von <lb/>
+            den Feldherren einen Posten anweisen zu lassen, wenn er viel­ <lb/>
+            mehr geflohen ist und die Rettung des Volks preisgegeben hat — <lb/>
+            wie sollte ein patriotischer, gottesfürchtiger Richter zu dessen Gun­ <lb/>
+            sten ein Nichtschuldig aussprechen, oder wie sollte ein Redner trotz <lb/>
+            allen Aufforderungen dem Verräther des Staats beistehen? ihm, <lb/>
+            der nicht einmal ein Gefühl gehabt hat für den Jammer seines <lb/>
+            Vaterlandes, und der nicht einmal das geringste beigetragen hat <lb/>
+            zur Rettung der Stadt und des Volks? Und doch hat in jenen <lb/>
+            Zeiten keine Altersstufe dem Dienst des Vaterlandes sich entzogen: <lb/>
+            das Land hat damals seine Bäume, die Todten haben ihre Ruhe­ <lb/>
+            stätten, die Heiligthümer die Waffen zur Verfügung gestellt. Die <lb/>
+            einen sorgten für Instandsetzung der Mauern, andere für die <lb/>
+            Gräben, andere für die Wälle, kurz keine Hand in der ganzen <lb/>
+            Stadt blieb müßig. Aber nirgends, auf keinem Punkt hat Leo­ <lb/>
+            krates sich finden lassen. Daran müßt Ihr billigerweise gedenken <lb/>
+            und darum einen Menschen, welcher es nicht der Mühe werth <lb/>
+            geachtet, an dem Todtenopser Theil zu nehmen und zur Bestat­ <lb/>
+            tung der für die Freiheit und für die Rettung der Republik bei <lb/>
+            Chäroneia Gefallenen zu erscheinen, mit dem Tod bestrafen, von <lb/>
+            dem Gesichtspunkt aus, daß — soweit es auf ihn ankam — jene <lb/>
+            Helden unbeerdigt blieben; ja er ist, ohne zu erröthen, an ihren <lb/>
+            Gräbern vorübergegangen, als er nach acht Jahren ihr Vaterland <lb/>
+            wieder begrüßte.</p>
+          <p>12. Hierüber nun möchte ich noch etwas eingehender mich <lb/>
+            verbreiten und bitte Euch, mir geneigtes Gehör zu schenken und <lb/>
+            nicht glauben zu wollen, solche Ausführungen gehören nicht zur <lb/>
+            Sache bei öffentlichen Gerichtsverhandlungen; nein, der Ruhm, <lb/>
+            welcher tüchtigen Männern zu Theil wird, stellt ja gerade die <lb/>
+            Handlungsweise derer, welche das Gegentheil davon treiben, ins <lb/>
+            hellste Licht. Es ist aber auch nicht anders als billig, daß man <lb/>
+            das Lob, welches ja allein der Kampfpreis ist für tapfere Män­ <lb/>
+            ner, auch bei öffentlichen und allgemeinen Verhandlungen nicht <lb/>
+            versäume, da doch auch jene Männer für die Rettung des Ge­ <lb/>
+            sammtvaterlandes ihr Leben geopfert haben. Jene Helden sind <lb/>
+            den Feinden entgegengetreten an der Grenze Böotiens, um für <lb/>
+             <pb n="25"/>
+            die Freiheit Griechenlands zu streiten, und dabei hofften sie ihre <lb/>
+            Rettung nicht von festen Mauern noch gaben sie ihr Land den <lb/>
+            Feinden preis zur Mißhandlung, sondern in ihrer Mannhaftig­ <lb/>
+            keit sahen sie einen kräftigeren Schutz als in steinernen Ring­ <lb/>
+            mauern, und sie schämten sich, das Land, welches sie großgezogen, <lb/>
+            der Verheerung zu überlassen — mit vollem Recht; denn wie <lb/>
+            alle Menschen gegen die Väter, die sie erst später bekommen haben, <lb/>
+            nicht die gleiche Liebe fühlen, wie gegen die leiblichen Väter, so <lb/>
+            hat man auch für das Land, dem man nicht von Natur ange­ <lb/>
+            hört, sondern das man erst später gewonnen hat, nicht so starke <lb/>
+            Gefühle. So also war ihre Gesinnung, und damit sind sie Ge­ <lb/>
+            fahren entgegengegangen gleich den ersten Helden — aber das <lb/>
+            Glück ist ihnen nicht in gleicher Weise hold gewesen: sie leben <lb/>
+            nicht mehr, um die Früchte ihres Heldenmuths zu genießen, son­ <lb/>
+            dern sie sind gefallen und haben ihren Ruhm zurückgelassen — <lb/>
+            nicht besiegt, sondern auf der Stätte dem Tod geweiht, wo sie <lb/>
+            aufgestellt waren zum Kampf für die Freiheit. Und mag die <lb/>
+            Behauptung auch noch so seltsam klingen, so ist sie doch nicht <lb/>
+            weniger wahr: als Sieger sind sie gestorben. Denn die Kampf­ <lb/>
+            preise, welche den Helden winken, sind Freiheit und der Ruhm <lb/>
+            der Tapferkeit — und diese beiden nehmen sie auch ins Grab <lb/>
+            mit sich. Und überdieß wäre es auch gar nicht möglich, sie für <lb/>
+            besiegt zu erklären, welche in ihrem Geist sich nicht gebeugt haben <lb/>
+            vor dem drohenden Feind: sind ja doch die, welche im Krieg auf <lb/>
+            dem Feld der Ehre fallen, die einzigen, von welchen man nim­ <lb/>
+            mermehr sagen darf, daß sie besiegt seien; sie entgehen ja der <lb/>
+            Knechtschaft eben damit, daß sie einen ruhmvollen Tod suchen. <lb/>
+            Das zeigt der Heldenmuth dieser Männer: sie sind von allen <lb/>
+            die einzigen, an deren Person die Freiheit Griechenlands hieng. <lb/>
+            Mit ihrem Fall ist auch Griechenland der Knechtschaft verfallen; <lb/>
+            mit ihren Leichen wurde die griechische Freiheit begraben. Und <lb/>
+            damit haben sie auch für jedermann bewiesen, daß sie nicht für <lb/>
+            ihre eigenen Interessen kämpften, sondern daß ihr Kampf der <lb/>
+            gemeinsamen Freiheit galt. Und darum werde ich mich nicht <lb/>
+            scheuen zu erklären, daß ihre Seelen ein stolzer Ruhm für das <lb/>
+            Vaterland sind. Und wohl haben sie gewußt, warum sie also <lb/>
+             <pb n="26"/>
+            handelten: seid Ihr ja doch die einzigen, Athener, welche tapfere <lb/>
+            Männer zu ehren wissen, und während man anderswo auf den <lb/>
+            öffentlichen Plätzen Athleten aufgestellt findet,.sieht man bei Euch <lb/>
+            die Bilder braver Feldherrn und von Tyrannenmördern. Und <lb/>
+            während man Leute, die in den Kampfspielen einen.Kranz davon­ <lb/>
+            getragen, ohne Mühe an allen Orten finden kann, ist es nicht <lb/>
+            leicht, selbst in ganz Griechenland auch nur einige wenige wie <lb/>
+            unsere Helden ausfindig zu machen. Und darum, wie Ihr ver­ <lb/>
+            dienten Männern die größten Auszeichnungen zu Theil werden <lb/>
+            lasset, so ist es auch gerecht, diejenigen aus das allerstrengste zu <lb/>
+            bestrafen, welche dem Vaterland Schande machen und es verrathen.</p>
+          <p>13. Merket aber ferner, daß es nicht einmal mehr in Eure <lb/>
+            Hand gegeben ist, den Leokrates loszusprechen, sofern Ihr nur <lb/>
+            an das Recht Euch haltet. Sein Verbrechen ist bereits gerichtet <lb/>
+            und verdammt. Denn der Gerichtshof auf dem Areopag *) — <lb/>
+            und falle mir niemand ins Wort, denn der war nach meiner <lb/>
+            Ueberzeugung damals der Hort des Staates — dieser Gerichts­ <lb/>
+            hof hat diejenigen, welche damals außer Landes flohen und das <lb/>
+            Vaterland dem Feinde preisgaben, sobald er ihrer habhaft wurde, <lb/>
+            zum Tod verurtheilt. Nun aber werdet Ihr doch nicht glauben, <lb/>
+            daß die nämlichen Richter, welche über die Blutthaten anderer <lb/>
+            mit solcher Gewissenhaftigkeit richten, selber gegen einen Bürger <lb/>
+            eine ähnliche Gesetzwidrigkeit sich zu schulden kommen lassen! <lb/>
+            Habt Ihr ja doch selber den Autolykus**) verurtheilt, und doch <lb/>
+            ist dieser in der Stadt geblieben und war nur angeschuldigt, <lb/>
+            Weib und Kind geflüchtet zu haben — und habt ihn zur Strafe <lb/>
+            gezogen. Nun aber — wenn Ihr einen Menschen bestraft habt, <lb/>
+            welcher nur darin sich verfehlt hatte, daß er die zum Kampf <lb/>
+            Unbrauchbaren geflüchtet, was verdient denn einer, der dem Vater­ <lb/>
+            land, das ihn großgezogen, sich nicht dankbar bewiesen hat? Und <lb/>
+            dazu hat auch die Volksgemeinde, entrüstet über das geschehene, <lb/>
+            beschlossen, daß des Verraths schuldig seien alle die, welche dem <lb/>
+            Kampf für das Vaterland sich entzögen, und hat sie damit der <note type="footnote"> Der Areopag war als eine conservative Behörde beim Volt wenig beliebt. </note><note type="footnote"> **) Lykurg hatte ihn angeklagt, die betreffende Rehe ist aber ganz verloren. </note> <lb/>
+             <pb n="27"/>
+            strengsten Strafe unterworfen. Was also vor dem gerechtesten <lb/>
+            Gerichtshof für verdammlich erklärt, was vor Euch, den durchs <lb/>
+            Loos erwählten Richtern, verurtheilt ist, was vor dem Volk als <lb/>
+            ein aufs strengste zu ahndendes Verbrechen erkannt worden — <lb/>
+            darüber soll Euer Beschluß ganz entgegengesetzt lauten? Dann <lb/>
+            werdet Ihr eben die undankbarsten Menschen von der Welt sein, <lb/>
+            und es wird dann selten noch jemand gelüsten, für Euch in den <lb/>
+            Kampf zu gehen.</p>
+          <p>14. Somit kann kein Zweifel darüber bestehen, daß der <lb/>
+            Angeklagte in den von der Anklage bezeichneten Punkten wirklich <lb/>
+            schuldig ist, allein wie ich höre, will er Euch zu hintergehen <lb/>
+            suchen durch die Behauptung, er sei in Geschäften als Handels­ <lb/>
+            mann abgereist und er sei eben seinem Beruf nachgegangen, als <lb/>
+            er sich nach Rhodus begab. Falls er sich nun darauf beruft, <lb/>
+            so will ich Euch sagen, wie Ihr sein Lügengewebe ganz leicht <lb/>
+            zerreißen könnt. Erstlich: wer in Handelsgeschäften sich auf die <lb/>
+            Reise begibt, geht nicht von der Küste aus durch das kleine Thor <lb/>
+            zu Schiff, sondern vom Hafen aus, unter den Augen und im <lb/>
+            Geleit aller seiner Freunde; zweitens thut man dies nicht in <lb/>
+            Begleitung von Hetären und weiblicher Dienerschaft, sondern nur <lb/>
+            von einem einzigen Bursch läßt man sich begleiten, den man zur <lb/>
+            Bedienung mitnimmt. Und zudem — wozu brauchte denn er <lb/>
+            als Athener in Megara fünf Jahre lang als Kaufmann sich auf­ <lb/>
+            zuhalten, wozu die Heiligthümer seines Hauses nachkommen zu <lb/>
+            lassen, wozu sein Haus in der Stadt zu verkaufen, wenn er nicht <lb/>
+            sich selber das Urtheil gesprochen, daß er ein Verräther des Lan­ <lb/>
+            des sei und gegen alle schwer gefrevelt habe? Das wäre denn <lb/>
+            doch noch das allermerkwürdigste, wenn Ihr — da er in Eure <lb/>
+            Hand gegeben ist — ihn freisprechen wolltet in einer Sache, in <lb/>
+            der er selber gestraft zu werden erwartete. Aber auch abgesehen <lb/>
+            davon ist diese Entschuldigung meines Erachtens durchaus unzu­ <lb/>
+            läßig. Ist es ja doch empör«»d, wenn in einem Augenblick, wo <lb/>
+            die eben auf Handelsreisen Abwesenden zur Rettung des Vater­ <lb/>
+            landes herbeieilten, der Angeklagte allein in den damaligen Zeit­ <lb/>
+            läuften gar noch abreiste, in Handelsgeschäften, unter Umständen, <lb/>
+            wo kein einziger gesucht Hütte sich noch etwas zu erwerben, sondern <lb/>
+             <pb n="28"/>
+            wo jeder damit zufrieden war, sein Hab und Gut zu retten! <lb/>
+            Und ich wäre doch begierig von ihm zu hören, welches der Ar­ <lb/>
+            tikel ist, durch dessen Einführung er der Stadt wichtigere Dienste <lb/>
+            geleistet hätte, als wenn er seine Person den Feldherrn zur Ver­ <lb/>
+            fügung stellte, um ihm einen Posten anzuweisen, und um die <lb/>
+            Feinde in gemeinsamem Kampf mit Euch abzuwehren. Ich wenig­ <lb/>
+            stens kann mir keine Dienstleistung von dieser Bedeutung sonst <lb/>
+            noch denken. Billig aber muß man entrüstet sein über ihn nicht <lb/>
+            blos wegen seiner Handlungsweise, sondern auch wegen solcher <lb/>
+            Behauptungen; denn es liegt am Tag, daß er frech genug war <lb/>
+            Lügen vorzubringen. Er hat ja früher nie ein solches Geschäft <lb/>
+            getrieben, er besaß eine Eisenwerkstätte, und ebensowenig hat er <lb/>
+            bei seiner damaligen Reise etwas aus Megara eingeführt, obwohl <lb/>
+            er sechs Jahre ohne Unterbrechung in der Fremde war. Und <lb/>
+            zudem war er beim Zollpacht betheiligt und den hätte*) er doch <lb/>
+            nicht dahintengelassen, um in Handelsgeschäften auf die Reise zu <lb/>
+            gehen. Somit — wenn er sich etwa darauf berufen sollte, so <lb/>
+            werdet Ihr ihm hoffentlich selber das Maul stopfen.</p>
+          <p>15. Vielleicht wird er nun begierig nach einer weiteren <lb/>
+            Ausflucht greifen, zu der ihm einige seiner Vertheidiger gerathen <lb/>
+            haben, um zu beweisen, daß er des Verraths nicht schuldig sei: <lb/>
+            sei ihm ja doch nichts anvertraut gewesen, weder die Werfte, noch <lb/>
+            die Thore, noch das Lager, noch überhaupt sonst etwas in der <lb/>
+            Stadt. Dagegen möchte ich sagen: wenn einer hiefür zu sorgen <lb/>
+            hatte, so hätte er nur einen Theil Eurer Macht verrathen können, <lb/>
+            während dagegen der Angeklagte den ganzen Staat preisgegeben <lb/>
+            hat. Und während jene durch ihren Verrath nur an den Leben­ <lb/>
+            den ein Unrecht begehen, versündigt er sich auch an den Todten, <lb/>
+            indem er selbst die Heiligthümer des Landes der von altersher <lb/>
+            ihnen zukommenden Verehrung beraubt. Und der Verrath jener <lb/>
+            andern hätte nur zur Folge gehabt, daß die Stadt in Knecht­ <lb/>
+            schaft gerieth, im übrigen aber stchen blieb; die Art und Weise <lb/>
+            aber, wie er sie verrathen, hätte sie ganz und gar öde und wüst <note type="footnote"> *) Nämlich wenn er nicht noch ein dringenderes Motiv, eben das der Selbst­<lb/>
+             erhaltung, gehabt hätte. </note> <lb/>
+             <pb n="29"/>
+            gemacht; und von Unfällen wird natürlicherweise eine Stadt sich <lb/>
+            wieder erholen, eine gänzliche Zerstörung aber muß ihr auch die <lb/>
+            Hoffnung rauben, die doch jeder Mensch noch haben kann. Denn <lb/>
+            wie ein einzelner, solang er noch lebt, hoffen kann, nach Unfällen <lb/>
+            wieder in eine bessere Lage zu kommen, während mit seinem Tod <lb/>
+            alles wegfällt, wa? ihm wieder zum Glück verhelfen könnte, so <lb/>
+            ist es auch bei ganzen Staaten: wenn sie ihrer Bewohner beraubt <lb/>
+            sind, dann ist das Unglück an seinem Endziel angelangt. Denn <lb/>
+            soll ich mich richtig ausdrücken, so muß ich sagen: für eine Stadt <lb/>
+            besteht der Tod eben im Verlust ihrer Bevölkerung. Und dafür <lb/>
+            kann ich einen vollgiltigen Beweis anführen: unsere eigene Stadt <lb/>
+            wurde in alter Zeit von den Tyrannen der Freiheit beraubt, <lb/>
+            später von, den Dreißig, und von den Lacedämoniern wurden <lb/>
+            ihre Mauern niedergerissen: und doch haben wir beidemal uns <lb/>
+            wieder die Freiheit verschafft, und sind zu solchem Ansehn *) ge­ <lb/>
+            langt, daß wir über das Wohl und Wehe Griechenlands zu ver­ <lb/>
+            fügen hatten. Ganz anders bei den Städten, welche einmal ihre <lb/>
+            Bewohner verloren haben. Fürs erste was Troja betrifft — <lb/>
+            mag das Beispiel auch weit hergeholt sein — so weiß jedermann, <lb/>
+            daß diese Stadt die größte der damaligen Welt war und über <lb/>
+            ganz Vorderasien herrschte, und doch, sobald sie einmal von den <lb/>
+            Griechen zerstört worden war, für immer öde und wüst geworden <lb/>
+            ist; und ebenso Messene, welches erst fünfhundert Jahre später ff) <lb/>
+            durch einen Haufen zusammengelesener Menschen zu einer Ge­ <lb/>
+            meinde gemacht worden ist.</p>
+          <p>1K. Vielleicht wird nun der eine oder andere der Verthei­ <lb/>
+            diger frech genug sein — um die Bedeutung der Sache abzu­ <lb/>
+            schwächen — zu behaupten, auf einen einzelnen sei es bei all <lb/>
+            diesen Vorgängen gar nicht angekommen; und sie schämen sich <note type="footnote"> *) Nach der Schlacht bei Mantinea, als die Schwächung von Sparta und <lb/>
+            Theben den Athenern wieder zu Ansehen verhalf; freilich ein schwacher Schatten <lb/>
+            der alten Größe. </note><note type="footnote"> ") Von der Zerstörung MefseneS, bez. JthomeS MS, bis zu seiner Wieder« <lb/>
+            Herstellung durch GpaminondaS 36 S waren es rund 300 Jahre. Soll die Zahl <lb/>
+            S00 richtig sein, so muß sie sich darauf beziehen, daß Jthome en. övv Jahr« nach <lb/>
+            der Zerstörung Trojas zerstört wurde. </note> <lb/>
+             <pb n="30"/>
+            wohl nicht, mit einer solchen Entschuldigung vor Euch zu treten, <lb/>
+            die allein schon den Tod verdiente. Denn wenn sie zugeben, <lb/>
+            daß er das Vaterland im Stich gelassen, so sollen sie consequen­ <lb/>
+            terweise Euch freie Hand dazu lassen, über die Tragweite dieser <lb/>
+            Handlungsweise zu urtheilen; hat er aber überhaupt nichts von <lb/>
+            all dem gethan, so ist es doch wohl Wahnsinn zu sagen, es sei <lb/>
+            auf einen einzelnen nicht angekommen. Ich glaube gerade das <lb/>
+            Gegentheil davon: gerade an seiner Person hieng die Rettung <lb/>
+            des Staats. Denn das Bestehen der Stadt hängt davon ab, <lb/>
+            daß jeder in seinem Theil zu ihrem Schutz beiträgt; sobald nun <lb/>
+            irgend einer an einem einzigen Punkt dies versäumt, so hat er <lb/>
+            es, auch ohne daß er es sich bewußt ist, auf allen Punkten ver­ <lb/>
+            säumt. Nun ist es aber nicht schwer, in dieser Beziehung eine <lb/>
+            richtige Anschauung zu gewinnen; man darf nur den Gesichts­ <lb/>
+            punkt ins Aug fassen, von welchem die alten Gesetzgeber *) aus­ <lb/>
+            gegangen sind. Diese haben nicht etwa nur auf einen Diebstahl <lb/>
+            im Betrag von hundert Talenten Todesstrafe gesetzt, während sie <lb/>
+            einen Diebstahl von nur zehn Drachmen geringer taxirt hätten; <lb/>
+            auch haben sie nicht schwerere Verletzungen der Religion mit dem <lb/>
+            Tod bestraft, während sie eine geringere mit milderer Strafe an­ <lb/>
+            gesehen hätten; ebensowenig haben sie den Mörder eines Sklaven <lb/>
+            um Geld gestraft, während sie den Mörder eines Freien für <lb/>
+            außerhalb des Gesetzes stehend erklärten; nein, auf alle Ueber­ <lb/>
+            tretungen des Gesetzes, selbst auf die kleinste, haben sie ohne <lb/>
+            allen Unterschied den Tod gesetzt. Denn nicht auf die besondern <lb/>
+            Umstände in jedem einzelnen Fall sahen sie, noch bemaßen sie <lb/>
+            darnah cdie Größe des Vergehens, sondern nur eben darauf, ob <lb/>
+            das Vergehen dazu angethan sei, bei weiterer Verbreitung der <lb/>
+            Menschheit wesentlichen Schaden zu bringen. Ist es ja doch <lb/>
+            auch ganz widersinnig, eine solche Untersuchung anders zu behan­ <lb/>
+            deln. Denn seht doch einmal: wenn einer ins Archiv ginge **) <lb/>
+            und auch nur ein einziges Gesetz auslöschte und dann zu seiner <note type="footnote"> *) D. h. Braten. </note><note type="footnote"> ") Metroon, der Tempel der großen Mutter SHea Anbete, neben dem RaH- <lb/>
+            Haus, der als Archiv diente. </note> <lb/>
+             <pb n="31"/>
+            Entschuldigung sagte: an dem einen sei ja für den Staat nichts <lb/>
+            gelegen — würdet Ihr ihn nicht sicherlich zum Tod verurtheilen? <lb/>
+            ich meine ja, und zwar mit vollem Recht! — wenn Ihr anders <lb/>
+            auch die übrigen Gesetze zu erhalten gesonnen seid. Gerade ebenso <lb/>
+            müßt Ihr nun auch den Angeklagten strafen, wenn es Euch <lb/>
+            darum zu thun ist, die übrigen Bürger besser zu machen; da <lb/>
+            werdet Ihr nicht erwägen, ob es nur ein einzelner Mensch ist, <lb/>
+            üm den es sich handelt, sondern aus die Sache werdet Ihr sehen. <lb/>
+            Ich bin dev» Meinung: daß es nicht viele Leute dieser Art gibt, <lb/>
+            das haben wir unsrem Glück zu danken; der Angeklagte jedoch <lb/>
+            ist deßhalb um so größerer Strafe verfallen, weil er der einzige <lb/>
+            von der Bürgerschaft war, welcher nicht die Rettung des Gemein­ <lb/>
+            wesens, sondern nur seine eigene gesucht hat.</p>
+          <p>17. Am meisten aber empört es Mich, wenn ich den einen <lb/>
+            oder andern von seinen Genossen sagen höre: es sei das gar kein <lb/>
+            Verrath, wenn einer die Stadt verlassen habe; auch unsere Vor­ <lb/>
+            fahren haken ja einstmals die Stadt verlassen, in dem Krieg <lb/>
+            gegen Xerxes, und seien nach Salamis hinübergegangen. So <lb/>
+            unbesonnen ist er und so gar nichts macht er sich aus Euch, <lb/>
+            daß er es für ganz geziemend hält, die schönste aller Thaten mit <lb/>
+            der schändlichsten in eine Reihe zu stellen. Denn wohin ist der <lb/>
+            laute Ruf von dem Heldenmuth jener Männer nicht gedrungen? <lb/>
+            wer ist so eifersüchtig oder andrerseits so gleichgiltig gegen die <lb/>
+            Ehre, daß er nicht sehnlich wünschte, Antheil gehabt zu haben <lb/>
+            an ihren Thaten? Denn nicht ein Verlassen der Stadt war das, <lb/>
+            sondern nur ein Wechsel des Orts, und das war im Hinblick <lb/>
+            auf die drohende Gefahr sehr klüglich gehandelt. Eteonikos *) <lb/>
+            von Lacedämon und Adeimantos von Korinth nebst dem Con­ <lb/>
+            tingent der Aegineten waren im Begriff, mit Einbruch der Nacht <lb/>
+            sich davon zu machen; da haben unsere Voreltern, als sie von <lb/>
+            allen Griechen im Stich gelassen werden sollten, die andern dazu <lb/>
+            genöthigt, sich befreien zu lassen, indem sie sie zwangen, bei Sa­ <lb/>
+            lamis an ihrer Seite gegen die Barbaren eine Seeschlacht zu <note type="footnote"> Ein EteonikoS befehligte die spartanische Flotte nach der Schlacht bei den <lb/>
+            Arginnsen; bei Salami? war es Vurybiade». </note> <lb/>
+             <pb n="32"/>
+            liefern. So haben sie — was ohne Beispiel ist — beide über­ <lb/>
+            wunden, die Feinde wie die Bundesgenossen, und zwar in einer <lb/>
+            Weise, wie es beiden gegenüber angemessen war: die letzteren <lb/>
+            durch nützliche Dienste, die ersteren durch siegreichen Kampf. <lb/>
+            Sieht das so aus, wie wenn einer aus dem Vaterland flieht und <lb/>
+            auf eine viertägige Fahrt nach Rhodus sich begibt? Ja freilich, <lb/>
+            geschwind würde einer von jenen Helden sich haben bereit finden <lb/>
+            lassen zu einem solchen Benehmen, anstatt den zu steinigen, der <lb/>
+            ihrem Heldenmuth Schande gemacht hätte! Waren sie doch von <lb/>
+            solchem Patriotismus erfüllt, daß sie den Gesandten des Xerxes, <lb/>
+            Alexander *), der mit ihnen schon vorher befreundet war, um ein <lb/>
+            kleines gesteinigt hätten, weil er Erde und Wasser holen wollte! <lb/>
+            Wenn sie aber selbst ein Wort bestrafen zu müssen glaubten, da' <lb/>
+            hätten sie wohl einen, welcher thatsächlich die Stadt den Feinden <lb/>
+            in die Hände lieferte, nur mit unbedeutender Buße belegt! — <lb/>
+            Nun also, von solchen Gesinnungen waren sie beseelt, als sie <lb/>
+            neunzig Jahre lang **) an der Spitze Griechenlands standen, <lb/>
+            Phönizien und Cilicien verheerten, am Eurymedon zu Land und <lb/>
+            zur See den Sieg davontrugen, hundert Kriegsschiffe den Bar­ <lb/>
+            baren abnahmen und an der Küste von ganz Asien unter ver­ <lb/>
+            heerenden Einfällen herumfuhren, als sie, was die Krone des <lb/>
+            Sieges ist, nicht damit zufrieden, ein falaminifches Siegeszeichen <lb/>
+            aufgerichtet zu haben, den Barbaren Grenzen setzten, wie sie die <lb/>
+            Freiheit Griechenlands nöthig machte, und ihnen verboten, diese <lb/>
+            Grenzen zu überschreiten, und damit einen Vertrag ***) verbanden <lb/>
+            des Inhalts, daß kein Barbar mit einem Kriegsschiff über die <lb/>
+            Kyaneischen Inseln und Phaselis hinausfahren dürfe, daß da­ <lb/>
+            gegen die Griechen selbständig sein sollen, nicht bloß die in Eu­ <lb/>
+            ropa, sondern auch die in Asien. Nun — meint Ihr denn, <note type="footnote"> «) König von Maeedonien. Herab. VII. I3K fgg. erzählt nur, daß At. <lb/>
+            ein ehrenvolles Bündnis; vorschlug; von der Steinigung weiß er nichts. Aber solche<lb/>
+             rhetorische Hyperbeln waren den Rednern geläufig. </note><note type="footnote"> **) Wieder hyperbolisch, längstens von 47 7 — 404. </note><note type="footnote"> EIN) Faktisch bildeten die Namen, Inseln am Bosporus, und PhaseliS, Stadt<lb/>
+             und Berg in schrien, längere Zeit eine Grenze; eine andere Frage ist, ob wirklich<lb/>
+             ein solcher Friedenstraktat, der sog. cimonisch« Friede, abgeschlossen worden ist. </note> <lb/>
+             <pb n="33"/>
+            wenn alle gedacht hätten wie Leokrates, und geflohen wären, daß <lb/>
+            irgend eine geschehen wäre von diesen herrlichen Thaten, oder <lb/>
+            daß Ihr noch in diesem Eurem Lande säßet? Also — wie Ihr <lb/>
+            die rechtschaffenen Männer lobt und ehret, so müßt Ihr auch die <lb/>
+            schlechten hassen und strafen, und am allermeisten den Leokrates, <lb/>
+            welcher vor Euch weder Scham noch Furcht gezeigt hat.</p>
+          <p>18. Nun aber fasset auch die Grundsätze ins Auge, welche <lb/>
+            bei Euch selbst in solchen Fällen giftig sind, und die Gesichts­ <lb/>
+            punkte, von welchen aus man bei Euch solche Dinge betrachtet. <lb/>
+            Es ist wohl der Mühe werth, darüber ein Wort mehr zu sagen, <lb/>
+            wenn es Euch auch schon bekannt ist; denn bei der Athene! der <lb/>
+            Stolz des Staates sind die alten Gesetze und die Grundsätze <lb/>
+            derer, welche dieselben ursprünglich aufgestellt haben, und wenn <lb/>
+            Ihr diese wohl ins Auge fasset, so werdet Ihr auf dem rechten <lb/>
+            Weg sein und in aller Welt für würdige Männer gelten, auf <lb/>
+            welche der Staat stolz sein kann. Es besteht bei Euch ein Eid, <lb/>
+            welchen alle Bürger zu schwören haben *), wenn sie in die Bür­ <lb/>
+            gerliste eingetragen werden und ins Alter der Mündigkeit eintreten, <lb/>
+            des Inhalts: daß sie den heiligen Waffen keine Schande machen, <lb/>
+            daß sie ihren Posten nicht verlassen, daß sie das Vaterland verthei­ <lb/>
+            digen und in besseren» Stand den Nachkommen übergeben wollen. <lb/>
+            Hat Leokrates diesen Eid geshcworen, so ist er offenbar eidbrüchig <lb/>
+            und hat nicht nur gegen Euch sich vergangen, sondern auch gegen <lb/>
+            die Gottheit gefrevelt; hat er aber nicht geshcworen, so ist ja klar, <lb/>
+            daß er von Anfang au nicht im Sinne hatte, seine Pflicht zu <lb/>
+            thun, und dafür ist es nur gerecht, wenn Ihr sowohl in Eurem <lb/>
+            Namen als im Namen der Gottheit ihn strafet. Ihr sollt aber <lb/>
+            diesen Eid noch hören. Lies ihn vor, Schreiber.</p>
+          <ab>
+            <title type="sub">Eidesformel.</title>
+          </ab>
+          <p>Das ist ein schöner, ein heiliger Eid. Dem hat nun Leo­ <lb/>
+            krates in allen Stücken zuwidergehandelt. Nun — wie könnte <lb/>
+            man gottloser, wie könnte einer in höherem Grad Verräther des <note type="footnote"> *) Im 18. Jahr. S. Schömann Er. Alterth. I. 361. wo der Eid ange­ <lb/>
+            geben ist. </note> <note type="footnote"> Lykurgos. </note><note type="footnote"> 3 </note> <lb/>
+             <pb n="34"/>
+            Vaterlandes sein? Wie könnte einer den Waffen mehr Schande <lb/>
+            machen, als wenn er sich gar nicht bereit finden läßt, sie zu er­ <lb/>
+            greifen und gegen den Feind sich zur Wehre zu setzen? Wer nicht <lb/>
+            einmal seine Person zur Verfügung stellt, hat denn der nicht <lb/>
+            seinen Nebenmann und seinen Posten im Stich gelassen? Wer <lb/>
+            jeder Gefahr ausgewichen ist, wo hätte der Religion und Staat <lb/>
+            vertheidigt? Wem hätte er das Vaterland vergrößert zurückge­ <lb/>
+            lassen — durch Verrath? Denn kam es auf ihn an, so war <lb/>
+            der Staat den Feinden wehrlos in die Hände gegeben. Und <lb/>
+            diesen Menschen wollt Ihr nicht zum Tod verurtheilen, der doch <lb/>
+            aller möglichen Frevel sich schuldig gemacht hat? Wen wollt <lb/>
+            Ihr denn überhaupt noch bestrafen? Die, welche in Einem von <lb/>
+            diesen Punkten sich vergangen haben? Dann wird es ja bei <lb/>
+            Euch eine wahre Freude sein im großen Maßstab zu freveln, <lb/>
+            wenn man sieht, daß Ihr die kleinen Diebe hänget und die <lb/>
+            großen laufen lasset.</p>
+          <p>19. Indeß auch das müßt Ihr erwägen, daß dieser Eid <lb/>
+            es ist, welcher die demokratische Verfassung zusammenhält. Drei <lb/>
+            Elemente sind es ja, aus welchen das Staatswesen zusammen- <lb/>
+            gesetzt ist Regierung. Richter und Unterthanen. Jeder von die­ <lb/>
+            sen dreien: muß so eine Bürgschaft für sich geben, wie es ganz <lb/>
+            in der Ordnung ist: denn die Menschen sind freilich schon oft <lb/>
+            getäuscht und hinters Licht geführt worden, in einer Weise, daß <lb/>
+            viele nicht bloß einer augenblicklichen Gefahr entgiengen, sondern <lb/>
+            auch für die Zukunft straflos blieben für vergangene Verbrechen; <lb/>
+            dagegen den Göttern kann kein Meineid verborgen bleiben, ihrer <lb/>
+            Strafe kann keiner entrinnen, sondern wenn auch nicht er selbst, <lb/>
+            so müssen doch seine Kinder und muß das ganze Geschlecht des <lb/>
+            Meineidigen großem Unglück verfallen. Und darum eben haben <lb/>
+            bei Platää sämmtliche Griechen in folgender Weise einander <lb/>
+            Sicherheit geleistet — damals, als sie im Begriffe waren, in <lb/>
+            offener Schlacht mit der Kriegsmacht des Xerxes sich zu messen — <lb/>
+            was sie nicht erst erfanden, sondern dem bei Euch üblichen Schwur <lb/>
+            nachbildeten. Es ist interessant, dies zu hören; denn so alt auch jene <lb/>
+            Thaten sind, so läßt sich doch immer wieder aus den Berichten <lb/>
+            ihr heldenmüthiges Wesen erkennen. Lies mir den Schwur vor.</p><pb n="35"/>
+            
+          <ab>
+            <title type="sub">Eidesformel.</title>
+          </ab>
+          <p>Nicht werde ich das Leben höher achten als die Freiheit, <lb/>
+            nicht werde ich die Führer im Stich lassen weder im Leben noch <lb/>
+            im Tod, sondern die in der Schlacht gefallenen Kameraden werde <lb/>
+            ich rille begraben. Und wenn ich Sieger bleibe über die Bar­ <lb/>
+            baren, so werde ich von den Städten, welche für Griechenland <lb/>
+            gestritten haben, keine ihrer Bewohner berauben, die aber, welche <lb/>
+            die Partei des Landesfeindes ergriffen, werde ich alle zehnten*); <lb/>
+            und von den Tempeln, die von den Barbaren eingeäschert und <lb/>
+            zerstört worden sind, werde ich durchaus keinen mehr aufbauen, <lb/>
+            sondern in ihnen ein Denkmal der Gottlosigkeit der Barbaren <lb/>
+            auch auf spätere Geschlechter kommen lassen.</p>
+          <p>Diesen Schwur haben sie so streng gehalten, alle ohne Aus­ <lb/>
+            nahme, daß nicht nur die Gnade der Götter ihnen stets helfend <lb/>
+            zur Seite stand, sondern daß auch, trotz dem tapfern Muth, <lb/>
+            welchen alle Griechen in der Gefahr bewiesen, doch Eure Stadt <lb/>
+            den Kranz davontrug. Und da wäre es doch ganz unverant­ <lb/>
+            wörtlich, wenn Ihr — während die Vorfahren den Tod nicht <lb/>
+            scheuten, um keine Schande auf das Vaterland kommen zu lassen <lb/>
+            — wenn Ihr dagegen die nicht strafen wolltet, die dem Lande <lb/>
+            Schande machen, wenn Ihr vielmehr ruhig zusehen würdet, wie <lb/>
+            der gemeinsame, unter vielen Mühsalen errungene Ruhm durch <lb/>
+            die Erbärmlichkeit solcher Menschen verloren ginge.</p>
+          <p>20. Und doch seid Ihr die einzigen Hellenen, welchen eine <lb/>
+            solche Gleichgiltigkeit in keiner Hinsicht gestattet ist. Ich will <lb/>
+            uur einige wenige Züge aus der alten Zeit anführen, die Ihr <lb/>
+            als Beispiele Euch vorhalten könnet, um in diesem Fall, wie <lb/>
+            auch sonst den richtigen Gesichtspunkt zu gewinnen. Das ist ja <lb/>
+            der glänzendste Vorzug unserer Stadt, daß sie für Griechenland <lb/>
+            ein Vorbild rühmlicher Thaten geworden ist; denn in demselben <lb/>
+            Verhältniß, in welchem sie die älteste aller Städte ist, haben auch <lb/>
+            unsere Vorsahren vor allen Menschen in tüchtigem Wesen sich <note type="footnote"> D. h. ihre Grundstücke dem delphischen Gotte zehntpslichtig machen. Siehe <lb/>
+            Boeckh I. 144. </note> <note type="footnote"> Zu: </note> <lb/>
+             <pb n="36"/>
+            ausgezeichnet. Als zur Zeit des Königs Kodrus MißwachS im <lb/>
+            Land der Peloponnesier entstand, beschlossen sie, gegen unsre Stadt <lb/>
+            zu Feld zu ziehen, unsere Vorfahren aus dem Land zu vertreiben <lb/>
+            und dieses unter sich zu vertheilen. Zuerst sandten sie nach <lb/>
+            Delphi und ließen das Orakel fragen, ob ihnen die Eroberung <lb/>
+            Athens gelingen würde, und als der Gott ihnen den Bescheid <lb/>
+            gab: es werde ihnen gelingen, wenn sie den König von Athen, <lb/>
+            Kodrus, nicht tödten, setzten sie sich gegen Athen in Bewegung. <lb/>
+            Aber ein Delphier, Kleomantis, hatte das Orakel erfahren und <lb/>
+            that es auf geheimem Weg den Athenern kund; offenbar ein <lb/>
+            Beweis, wie sehr unsere Vorfahren auch die Fremden stets zu <lb/>
+            Freunden hatten. Nun als die Peloponnesier in Attika einge­ <lb/>
+            fallen waren, was thaten da unsere Väter? Sie ließen das Land <lb/>
+            nicht im Stich, um sich davon zu machen, wie Leokrates, auch <lb/>
+            gaben sie den Boden, der sie genährt, und die Heiligthümer nicht <lb/>
+            dem Feinde preis, sondern trotz ihrer geringen Zahl schlossen sie <lb/>
+            sich ein und ließen sich belagern und zeigten sich standhaft für <lb/>
+            das Vaterland. Und so edelgesinnt waren die damaligen Könige, <lb/>
+            daß sie lieber für die Freiheit ihrer Unterthanen sterben wollten, <lb/>
+            als durch Schonung ihres Lebens die Versetzung in ein anderes <lb/>
+            Land herbeiziehen. Kodrus wenigstens — so lautet die Erzäh­ <lb/>
+            lung — wies die Athener an acht zu geben, wenn er nicht mehr <lb/>
+            sei — nahm das Gewand eines Bettlers, um die Feinde zu <lb/>
+            täuschen, schlüpfte durch das Thor hinaus und sieng draußen an <lb/>
+            Reisig zu sammeln, und als zwei Männer aus dem Lager sich <lb/>
+            zu ihm gesellten und fragten, wie es in der Stadt stehe, fiel er <lb/>
+            über den einen derselben her und tödtete ihn mit einer Sichel, <lb/>
+            woraus denn der andere, ergrimmt über Kodrus und in der Mei­ <lb/>
+            nung, er sei ein Bettler, sein Schwert zog und den König er­ <lb/>
+            schlug. Auf dieß hin schickten die Athener einen Herold hinaus <lb/>
+            und ließen die Auslieferung ihres Königs zum Zweck der Bestat­ <lb/>
+            tung verlangen, indem sie den Feinden den ganzen Sachverhalt <lb/>
+            der Wahrheit gemäß mittheilten; die Peloponnesier aber gaben <lb/>
+            den Leichnam hin, zugleich aber, in der Ueberzeugung, daß es <lb/>
+            ihnen jetzt nicht mehr möglich sei, sich des Landes zu bemäch­ <lb/>
+            tigen, zogen sie ab. Dem Kleomantis aber und seinen Nach­ <lb/>
+             <pb n="37"/>
+            kommen hat die Bürgerschaft Speisung *) im Prytaneion für <lb/>
+            ewige Zeiten verliehen. Nun sehet: haben die damaligen Könige <lb/>
+            einen Patriotismus, wie Leokrates, bewiesen — sie, die es vor­ <lb/>
+            gezogen, die Feinde zu täuschen, um für das Vaterland zu ster­ <lb/>
+            ben, und die ihr eigenes Leben dem Wohl des Ganzen zum <lb/>
+            Opfer brachten? Darum haben auch sie IV) einzig und allein <lb/>
+            dem Land ihren Namen gegeben und haben Ehren gleich den <lb/>
+            Göttern erlangt; und mit Recht, denn das Land, für das sie sich <lb/>
+            so ernstlich bemühten, ist ihnen im Tod billigerweise als Erbe <lb/>
+            zugefallen. Dagegen Leokrates soll von Rechtswegen weder im <lb/>
+            Leben noch im Tod Theil daran haben, und er ist der einzige <lb/>
+            von allen, welcher billigerweise aus demselben verwiesen werden <lb/>
+            sollte, da er es ja den Feinden preisgegeben hat, um sich davon <lb/>
+            zu machen ; wäre es ja doch gar nicht einmal anständig, wenn <lb/>
+            derselbe Boden die tapfersten Helden und die feigste Memme <lb/>
+            bedeckte.</p>
+          <p>21. Aber freilich hat er es mit einer Einrede versucht, <lb/>
+            die er vielleicht auch jetzt wiederholen wird: wäre er sich einer <lb/>
+            solchen Handlung bewußt, so würde er sich zu dieser Verhand­ <lb/>
+            lung nimmermehr gestellt haben; als ob nicht alle Angeklagten, <lb/>
+            selbst Diebe und Tempelräuber, diesen Beweis geltend zu machen <lb/>
+            suchten! Ist doch dies nicht ein Beweis für ihre Unschuld, son­ <lb/>
+            dern lediglich für ihre Frechheit. Nicht dies mußte er für sich <lb/>
+            anführen, sondern daß er nicht fortgefahren sei, daß er die Stadt <lb/>
+            nicht verlassen, daß er nicht in Megara seinen Aufenthalt ge­ <lb/>
+            nommen habe, das wären thatsächliche Beweise — denn was sein <lb/>
+            Hieherkommen betrifft, so mag ihn wohl ein Gott selbst an den <lb/>
+            Strafplatz befördert haben, damit er, der einer ruhmvollen Ge­ <lb/>
+            fahr sich entzogen, einen ruhmlosen, schmählichen Tod fände, und <lb/>
+            damit er denen, welche er verrathen, sich selbst in die Hände <lb/>
+            lieferte. Denn würde ihn anderswo ein Unglück treffen, so wäre <lb/>
+            damit noch nicht bewiesen, daß dies eben eine Strafe für feine <note type="footnote"> Eine Auszeichnung, die nur den fremden Gesandten, den Siegern in den <lb/>
+            Festspielen und besonders verdienten Männern zu Theil wurde. </note><note type="footnote"> **) Dies gilt von den Heroen des Landes, von denen die Phylen ihre Namen<lb/>
+             hatten, unter welche jedoch HodruS nicht aufgenommen war, </note> <lb/>
+             <pb n="38"/>
+            Handlungen sein sollte; dagegen hier, Angesichts derer, die er <lb/>
+            verrieth, da liegts am Tag, daß es die Strafe ist für seine Ver­ <lb/>
+            letzung des Gesetzes. Denn das erste, was die Götter thun, ist, <lb/>
+            daß sie den Verbrechern die Besinnung verrücken, und es scheint <lb/>
+            mir eine Art von Orakelspruch *), wenn einige der alten Dichter <lb/>
+            der Nachwelt Jamben folgenden Inhalts hinterlassen haben: <lb/>
+            „Denn wenn der Zorn der Götter einem schaden will, <lb/>
+            So ist das erste, daß er seinem Geiste raubt <lb/>
+            Den rechten Sinn und zu verkehrter Sinnesart <lb/>
+            Ihn treibt, damit er seinen Frevel nicht erkennt."</p>
+          <p>22. Wer von den älteren Männern erinnert sich nicht, und <lb/>
+            wer von den jüngeren hat es sich nicht erzählen lassen, wie Kalli­ <lb/>
+            stratos**), den die Bürgerschaft zum Tod verurtheilt hatte, zu­ <lb/>
+            nächst dem Urtheil sich entzog, dann aber auf den Bescheid des <lb/>
+            delphischen Orakels hin: „Wenn er nach Athen komme, werde <lb/>
+            ihm werden, was recht sei", dahin sich begab, an den Altar der <lb/>
+            zwölf Götter sich flüchtete, aber nichts destoweniger auf Befehl <lb/>
+            der Bürgerschaft hingerichtet wurde? Mit allem Recht; denn <lb/>
+            das „rechte", was einem Verbrecher werden kann, ist eben die <lb/>
+            Strafe. Die Gottheit aber hat recht daran gethan, daß sie die <lb/>
+            Bestrafung des Schuldigen den Verletzten in die Hand gab; <lb/>
+            denn es wäre doch empörend, wenn den Frommen und den Uebel­ <lb/>
+            thätern dieselben Zeichen zu Theil würden.</p>
+          <p>So sehr nun nach meiner Ueberzeugung die Aufsicht der <lb/>
+            Götter auf alle Handlungen der Menschen sich erstreckt, so doch <lb/>
+            am allermeisten auf die Erfüllung der Pflichten gegen die Eltern, <lb/>
+            gegen die Verstorbenen und gegen die Götter selbst; und mit <lb/>
+            Recht, denn es ist doch die größte Gottlosigkeit, gegen diejenigen, <lb/>
+            von welchen wir das Leben empfangen und so viele Wohlthaten <lb/>
+            genossen haben, ich will nicht sagen, sich zu verfehlen, sondern <lb/>
+            auch nur Bedenken zu tragen, ihrem Dienst auch sein Leben zu <note type="footnote"> *) Welchen Dichter Lyk. speciell im Auge hat, ist nicht zu bestimmen. </note><note type="footnote"> **) Der Fall des Kall. wird von Lyk. sür seinen Zweck ausgebeutet und da­ <lb/>
+            mit der Charakter dieses Staatsmanns in ein schiefes Licht gestellt. Demosthenes <lb/>
+            pxtheilt ihm das beste Heuyniß. Vgl. Schäfer Demosth. I. H. IM- </note> <lb/>
+             <pb n="39"/>
+            opfern. Man erzählt da folgende Geschichte, die zwar etwas <lb/>
+            sagenhaft klingen mag, aber doch von Euch Jüngeren allen mit <lb/>
+            Nutzen angehört werden wird. 23. In Sicilien geschah es, daß <lb/>
+            aus dem Aetna ein Feuerstrom hervorbrach, dieser verbreitete sich <lb/>
+            über das ganze Land und näherte sich auch einer dort gelegenen <lb/>
+            Stadt. Während nun die andern eilig flohen, um ihr Leben <lb/>
+            zu retten, sah einer von den jüngeren Leuten, wie sein schon an <lb/>
+            Jahren vorgerückter Vater außer Stands zu fliehen, im Begriff <lb/>
+            war, von dem Strom erfaßt zu werden: er nahm ihn daher auf <lb/>
+            die Schultern und trug ihn weg. Da er aber, wie es scheint, <lb/>
+            eine zu große Last auf sich genommen, so wurde er selbst ereilt. <lb/>
+            Hier aber muß man merken auf das Walten der Gottheit, wie <lb/>
+            sie nämlich den Frommen sich gnädig erweist. Wie nämlich die <lb/>
+            Erzählung weiter lautet, so umfloß das Feuer den Ort, wo die <lb/>
+            beiden sich befanden, rings im Kreis und sie allein kamen mit <lb/>
+            dem Leben davon, woher denn auch der Ort noch jetzt „Ort der <lb/>
+            Frommen" heißt. Dagegen die, welche eilig zu entrinnen such­ <lb/>
+            ten und ihre Eltern im Stich ließen, kamen sammt und sonders <lb/>
+            ums Leben. Darum ist es auch für Euch Pflicht, da Euch das <lb/>
+            Zeichen der Götter gegeben ist, demselben zu folgen und den <lb/>
+            Angeklagten zu strafen, welcher — soweit es auf ihn ankam — <lb/>
+            alles, auch das schwerste, verschuldet hat: den Göttern hat er die <lb/>
+            althergebrachte Verehrung geraubt, die Eltern hat er den Feinden <lb/>
+            preisgegeben, den Gestorbenen hat er die gesetzlichen Ehren nicht <lb/>
+            zn Theil werden lassen.</p>
+          <p>24. Doch sehet weiter — ich kann die alten Zeiten noch <lb/>
+            nicht verlassen —: denn woranf die Alten in ihren Thaten be­ <lb/>
+            sonders stolz waren, das mögt Ihr billig anhören und Euch zu <lb/>
+            eigen machen. Nach der Sage kam Eumolpus, der Sohn des <lb/>
+            Poseidon und der Ehione, mit den Thrakern, um auf unser Land <lb/>
+            Anspruch zu erheben, über welches damals als König Erechtheus <lb/>
+            gebot, welcher die Tochter des Kephissos, Praxithea, zur Gemahlin <lb/>
+            hatte. Da nun ein großes Heer ins Land einzufallen drohte, <lb/>
+            gieng Erechtheus nach Delphi und fragte den Gott, was er thun <lb/>
+            müsse, um über seine Feinde den Sieg davonzutragen. Der Gott <lb/>
+            gab ihm den Bescheid; wenn er por dem Zusammentreffen der <lb/>
+             <pb n="40"/>
+            Heere seine Tochter opfere, so werde er die Feinde überwinden. <lb/>
+            Er gehorchte dem Orakel, opferte seine Tochter und warf die<lb/>
+             Feinde aus dem Land hinaus. Es ist in der That sehr aner-­ <lb/>
+            kennenswerth von Euripides, daß er — auch sonst ein trefflicher<lb/>
+             Dichter — diese Sage zum Vorwurf gewählt hat, in der Ueber­<lb/>
+             zeugung, die Thaten jener Alten könnten für das jetzige Geschlecht<lb/>
+             zu einem herrlichen Vorbild werden, und im Hinblick und in<lb/>
+             steter Aufmerksamkeit auf jene sollten sie patriotische Gesinnung<lb/>
+             in ihr eigenes Innere aufnehmen. Und es lohnt sich wohl, auch<lb/>
+             die Verse*) anzuhören, welche er die Mutter jenes Mädchens<lb/>
+             sprechen läßt. Ihr werdet darin eine edle, hochherzige Gesin­<lb/>
+             nung finden, wie sie Athens und einer Tochter des Kephissos<lb/>
+             würdig ist: <lb/>
+            „Der Dienst der Liebe, gern erzeigt mit edlem Sinn, <lb/>
+            Ist Sterblichen erfreulich; wer ihn zwar erz igt, <lb/>
+            Doch spät erzeigt, der reicht an Adel nicht hinan .... <lb/>
+            Ich aber will die Tochter nicht dem Tod entziehn; <lb/>
+            Viel ists, was mich dazu bestimmt; fürs erste dieß : <lb/>
+            Daß keine Stadt an Trefflichkeit der unsern gleicht; <lb/>
+            Denn nicht ist ihr das Volk von außen zugeführt, <lb/>
+            Nein, dieses Land hat uns gezeugt, die andern all', <lb/>
+            Gerüttelt wie im Brettspiel von der Gründung an, <lb/>
+            Die haben von einander stets ihr Volt entlehnt. <lb/>
+            Doch wer heut diese Stadt und morgen die bewohnt. <lb/>
+            Der ist, gleichwie in gutem Holz ein schlechter Keil, <lb/>
+            Dem Namen nach ein Bürger, doch in Wahrheit nicht. <lb/>
+            Sodann die Kinder zeugen wir zu diesem Zweck, <lb/>
+            Daß fest der Götter Altar steh^ und Vaterland. <lb/>
+            Man sagt: „Ein Baterland" — doch viele wohnen drin, — <lb/>
+            Wie darf ich diese alle dem Verderben weihn, <lb/>
+            Da ich an aller statt die Eine opfern kann? <lb/>
+            Denn kann ich rechnen und versteh' ich klein und groß, <lb/>
+            So hat des Einen Hauses Fall nicht mehr Gewicht, <lb/>
+            Als der der ganzen Stadt, nein, ist ihm selbst nicht gleich. <lb/>
+            Wär' meinem HauS, statt Töchter nur, ein ManneSfproß <lb/>
+            Erblüht und wär' die Stadt von Kriegesflamm' erfüllt, <lb/>
+            Längst hätt' ich ihn hinausgesandt zum SpeereSkampf, <lb/>
+            Nicht zagend vor dem Tod, nein Kinder wünsch' ich mir, <note type="footnote"> Hin Bruchstück aus der verlorenen Tragödie „CrechtheuS", </note> <lb/>
+             <pb n="41"/>
+            Die sich auf Kampf und ManneStugend wohl versteh«, <lb/>
+            Nicht bloß Gestalten ohne Nutzen für das Land. <lb/>
+            Der Mutter Thräne, ihren Kindern nachgeweint, <lb/>
+            Hat manchen weich gestimmt schon auf dem Weg zur Schlacht. <lb/>
+            Mir sind die Frau'n ein Greuel, die statt Ehre sich <lb/>
+            Der Söhne Leben wählten und heillose»» Rath. <lb/>
+            Ja selbst wenn in der Schlacht der Tod sie fand, so deckt <lb/>
+            Ein Hügel viele und an Ruhm sind alle gleich; <lb/>
+            Doch meiner Tochter wird beim Tod fürs Vaterland <lb/>
+            Ein Kranz gegeben, den sie nicht mit andern theilt. <lb/>
+            Die Mutter wird sie retten, dich, das Schwesternpaar: <lb/>
+            Was ist davon nicht herrlich, nicht begehrenswerths <lb/>
+            Sie, die nicht mein ist, als nur darum, weil ich sie <lb/>
+            Gebar, gab ich zum Opfer für das Land; denn fällt <lb/>
+            Die Stadt, waS hab' ich dann von meinen Kindern noch? <lb/>
+            So wird daS Ganze, stehtS bei mir, gerettet sein; <lb/>
+            Der Thron sei andern, doch der Ruhm der Rettung mein. <lb/>
+            Und waS vom größten Werth ist für das Vaterland — <lb/>
+            So lang ich lebe, geb' ich nun und nimmer zu. <lb/>
+            Daß man der Ahnen alte Satzung niederstürzt. <lb/>
+            Nicht soll statt Oelbaum und des Heilgen GorgoschildS <lb/>
+            Den Dreizack, auf der Heimath Stätte aufgestellt, <lb/>
+            . GumolpuS und das Thrakervolk mit Kranzesschmuck <lb/>
+            Umgeben, noch der PallaS Ehre untergehn. <lb/>
+            Drum nehmt, o Bürger, nehmt, was Euch mein Schooß gebar, <lb/>
+            Zur Rettung, zum Triumph! wo'S nur Ein Leben gilt, <lb/>
+            Versag' ich Rettung nimmermehr dem Vaterland. <lb/>
+            O Vaterland, daß alle deine Kinder doch <lb/>
+            Dich liebten so wie ich! Dann wär's uns leicht gemacht, <lb/>
+            In dir zu wohnen und kein Leid berührte dich."</p>
+          <p>25. Dies war die Schule, in der unsere Väter aufwuchsen. <lb/>
+            Denn wenn der Dichter trotz der Liebe zu den Kindern, welche<lb/>
+             allen Frauen angeboren ist, diese doch das Vaterland über die<lb/>
+             Kinder stellen läßt, so wollte er damit nahe legen: daß, wenn<lb/>
+             doch die Frauen zu einer solchen Handlungsweise sich ein Herz<lb/>
+             fassen können, gar die Männer einen Patriotismus ohne Grenzen<lb/>
+             besitzen müssen, anstatt zu fliehen und das Vaterland sich selbst<lb/>
+             zu überlassen und ihm bei allen Griechen Schande zu machen, <lb/>
+            wie Leokrates gethan hat.</p>
+          <p>26. Doch möchte ich auch den Homer als einen anerken­ <lb/>
+            penswerthen Zeugen vorführen. Er Halt Euren Vätern als ein <lb/>
+             <pb n="42"/>
+            so edler Dichter, daß sie ein Gesetz gaben, wonach alle vier Jahre <lb/>
+            an dem Fest der Panathenäen seine — und nur seine — Ge­ <lb/>
+            dichte vorgetragen werden sollten, womit sie den Griechen zeigten, <lb/>
+            daß sie die herrlichsten aller Thaten zu den ihrigen machen wollen; <lb/>
+            und mit Recht: denn während das Gesetz wegen seiner kurzen <lb/>
+            Fassung nicht belehrt, sondern nur gebietet, was zu thun ist, so <lb/>
+            können die Dichter, indem sie ein Abbild des menschlichen Lebens <lb/>
+            geben, das schönste auswählen und in ausführlicher Darstellung <lb/>
+            die Hörer dafür gewinnen. Wie Hektor die Troer anfeuert zum <lb/>
+            Kampf für das Vaterland, lauten seine Worte so*): <lb/>
+            „Auf denn, kämpft an den Schiffen vereint! wen dann, von dem Wurfspeer<lb/>
+             Oder dem Schwert getroffen, der Tod und das Schicksal erreichte, <lb/>
+            Sterb' er denn! Im Kampf um des Vaterlands Boden zu sterben<lb/>
+             Ist unrühmlich ihm nicht. Gerettet sind Gattin und Kinder, <lb/>
+            Unversehrt ist Habe und Haus, wann einst die Achaier<lb/>
+             Wieder zu Schiff abziehn zu den lieben Gestaden der Heimath."</p>
+          <p>27. Solche Verse klangen unsern Vorfahren in die Ohren <lb/>
+            und solchen Thaten eiferten sie nach, und deswegen standen sie mit <lb/>
+            der Tapferkeit auf einem solchen Fuß, daß sie nicht bloß für ihr <lb/>
+            engeres Vaterland, sondern für ganz Griechenland als die gemein­ <lb/>
+            same Heimath zu sterben bereit waren. Die, welche bei Mara­ <lb/>
+            thon den Barbaren entgegentraten, haben einen Heereszug, der <lb/>
+            aus ganz Asien aufgeboten war, überwältigt und mit eigener <lb/>
+            Gefahr dem ganzen Griechenland Ruhe und Sicherheit gegeben, <lb/>
+            und wenn sie auf etwas stolz waren, so waren sie es nicht auf <lb/>
+            ihren Namen, sondern darauf, daß sie sich desselben würdig zeig­ <lb/>
+            ten, sofern sie sich selbst zu den Führern Griechenlands und zu <lb/>
+            den Gebietern des Auslands machten. Denn nicht bloß mit <lb/>
+            Worten bemühten sie sich um Tüchtigkeit, sondern sie bewiesen <lb/>
+            dieselbe durch die That vor jedermanns Augen. 28. Und darum <lb/>
+            waren die Athener von damals so tüchtige Männer in ihrem <lb/>
+            Privat- wie in ihrem Staatsleben, daß die kriegerischen Lace­ <lb/>
+            dämonier bei einem Krieg, den dieselben in alter Zeit gegen die <lb/>
+            Messenier führten, von dem Orakel den Bescheid erhielten, sie <note type="footnote"> Jl. IV, «S4 ff. </note> <lb/>
+             <pb n="43"/>
+            sollen von unS einen Führer sich geben lassen, dann werden sie <lb/>
+            Sieger über ihre Gegner sein. Nun aber, wenn die Nachkommen <lb/>
+            des Herakles, die von jeher den Thron in Sparta inne haben, <lb/>
+            von der Gottheit als geringer bezeichnet wurden, denn die von <lb/>
+            uns gegebenen Führer, so ist denn doch Grund genug, die Tüch­ <lb/>
+            tigkeit der letzteren als einzig in ihrer Art anzusehen. Jeder­ <lb/>
+            mann in Griechenland weiß auch, daß sie von Athen den Tyrtäus <lb/>
+            als Führer bekamen, mit dem sie denn auch den Feind besiegten <lb/>
+            und die bestehenden Einrichtungen hinsichtlich der Jugend fest­ <lb/>
+            stellten, womit sie nicht bloß für die augenblickliche Gefahr, son­ <lb/>
+            dern auch für alle Zukunft einen wohlthätigen Beschluß faßten. <lb/>
+            Er hat ihnen nämlich selbstgedichtete Elegieen hinterlassen, deren <lb/>
+            Vortrag ihre Schule in der Mannhaftigkeit ist; und während sie <lb/>
+            den übrigen Dichtern keine Aufmerksamkeit schenken, haben sie <lb/>
+            diesen einen so hohen Werth beigemessen, daß sie gesetzlich ver­ <lb/>
+            ordneten: bei einem Kriegszug in Waffen sollen alle Mannen <lb/>
+            vor das königliche Zelt gerufen werden, um die Gedichte des <lb/>
+            Tyrtäus anzuhören, weil diese ihnen, wie sie glauben, die größte <lb/>
+            Opferfreudigkeit für das Vaterland einflößen. Es ist lehrreich, <lb/>
+            auch diese Elegieen zu hören, damit Ihr wisset, wie man damals <lb/>
+            dichten mußte, um Beifall zu finden. <lb/>
+            „Ruhmvoll ists ja zu sterben als Streiter in vorderster Reihe, <lb/>
+            Hinzusinken als Held, kämpfend für Heimath und Herd. <lb/>
+            Ader sie flüchtig verlassen, die Stadt und die fetten Gefilde, <lb/>
+            Schweifend als Bettler umher, ach daS ist bitterstes Leid, <lb/>
+            Ueberall uinzuirren mit Mutter und alterndem Vater, <lb/>
+            Und mit den Kleinen zumal und mit dem Ehegemahl. <lb/>
+            Niemand siehet ihn gern, wohin er auch immer gelange. <lb/>
+            Wankend unter der Last gräßlicher Armuth und Noth, <lb/>
+            Schande feinem Geschlecht und verleugnend das adlige Ansehn, <lb/>
+            Ueberall folget ihm Schmach, folgt ihm Erniedrigung nach. <lb/>
+            Wenn denn so der irrende Mann ist nirgends geachtet<lb/>
+             Und sein künftig Geschlecht nirgendwo Achtung erweckt, <lb/>
+            Nun so lasset unS kämpfen umS Land, für unsere Kinder<lb/>
+             Sterben mit tapferem Muth, achtend daS Leben für nichts. <lb/>
+            Ja ihr Jünglinge kämpft, Stand haltend neben einander. <lb/>
+            Denke doch keiner an Flucht, keiner an schimpfliche Furcht, <lb/>
+            Sondern groß und stark sei Euch der Muth in der Seele, <lb/>
+            Haltet das Sehen nicht werth, stehet Ihr Mann gegen Mann, <lb/>
+             <pb n="44"/>
+            Aber die Aelteren, die die Beine nicht hurtig mehr regen, <lb/>
+            Lastet nicht fliehend zurück, sie, die bejahrtere Schnur. <lb/>
+            Schimpflich ist es ja doch, wenn hingesunken im Borkampf <lb/>
+            Lieget der ältere Mann, allen den Jungen voran, <lb/>
+            Er, dem weiß schon das Haar und grau das Kinn sich gefärbt hat, <lb/>
+            Wie er den tapferen Geist, liegend im Staube, verhaucht, <lb/>
+            Und die blutige Scham mit beiden Händen verhüllen — <lb/>
+            Schmählich zu sehn fürs Aug, ja und empörend zugleich! — <lb/>
+            Und entblößet am Leib. Doch den Jüngling kleidet ja alles. <lb/>
+            Wann der herrliche Schmuck lieblicher Jugend ihn ziert; <lb/>
+            Ihn ershcauen bewundernd die Männer und liebend die Frauen, <lb/>
+            Weil er noch lebt — und schön bleibt der gefallene Held. <lb/>
+            Drum so stelle sich jeglicher hin, zur Erde mit beiden <lb/>
+            Füßen gestemmt und die Lipp' zwischen die Zähne gepreßt. <lb/>
+            — Gewiß ein erhebendes Lied, lehrreich für jeden, der es<lb/>
+             hören will. Nun die, welche es hörten, faßten einen so kühnen<lb/>
+             Muth, daß sie mit unsrer Stadt um die Hegemonie Streit an­<lb/>
+             siengen — was auch ganz natürlich ist; denn beide Völker hatten<lb/>
+             die herrlichsten Thaten verrichtet. Unsre Ahnen haben die Bar­<lb/>
+             baren überwunden, die ersten, welche den Boden Attika's betraten, <lb/>
+            und haben damit deutlich gezeigt, daß Mannesmuth mehr ist als<lb/>
+             Reichthum, sittliche Kraft mehr als numerische Uebermacht, die<lb/>
+             Lacedämonier aber haben bei den Thermopylen ihre Stellung<lb/>
+             genommen und, wenn sie auch nicht in gleicher Weise vom Glück<lb/>
+             begünstigt waren, doch sich weitaus als die wackersten Helden be­<lb/>
+             wiesen. Darum kann man denn auch aus den Grenzsteinen ihres<lb/>
+             Lebenspfades Zeugnisse ihres Heldenmuths verzeichnet sehen, wahr­<lb/>
+             heitsgemäße, so daß Griechenland sie vor Augen hat; bei den<lb/>
+             Lacedämoniern heißt es ): <lb/>
+            „Fremdling, bringe von uns nach Sparta die Kunde, du habest <lb/>
+            UnS hier liegen gesehen, ihren Gesetzen getreu." <lb/>
+            und bei Euren Vorfahren: <lb/>
+            „Hellas' Schirmer im Kampf bei Marathon haben Athener <lb/>
+            Niedergeworfen in Staub PersienS goldene Macht."</p>
+          <p>29. Schön, Athener, ist die Erinnerung an solche Thaten, <note type="footnote"> 5) Beide Epigramme sind von SimonideS, </note> <lb/>
+             <pb n="45"/>
+            etn Ruhm für die, welche sie vollbracht, ein unvergänglicher Kranz <lb/>
+            für das Vaterland. Anders daS, waS Leokrates gethan hat: der <lb/>
+            hat mit Wissen und Willen den Ruhm geschändet, den der Staat <lb/>
+            seit langen Zeiten sich angesammelt hatte. Verurtheilt Ihr ihn <lb/>
+            nun zum Tod, so werden alle Griechen die Ueberzeugung gewin­ <lb/>
+            nen, daß Ihr solchen Thaten feind seid; wo nicht, so werdet <lb/>
+            Ihr nicht nur die Ahnen um ihren alten Ruhm bringen, sondern <lb/>
+            auch den übrigen Bürgern großen Schaden zufügen. Denn wer <lb/>
+            jenen nicht seine Anerkennung zollt, wird diesen sich zum Vor­ <lb/>
+            bild nehmen, in der Ueberzeugung, daß jene Tugenden nur beim <lb/>
+            Feind Wohlgefallen erregen, während bei Euch Unverschämtheit, <lb/>
+            Verrath und Feigheit für den höchsten Ruhm gelten.</p>
+          <p>30. Ist es aber ganz unmöglich, daß ich Euch über die <lb/>
+            Art und Weise belehre, wie man gegen solche Leute auftreten <lb/>
+            muß, so sehet doch, in welcher Weise die Alten an denselben die <lb/>
+            Strafe vollzogen haben. Denn wie sie wohl umzugehen wußten <lb/>
+            mit der Ausübung schöner Thaten, so ließen sie sich auch die <lb/>
+            Bestrafung der schlechten angelegen sein. Gebet einmal acht, wie <lb/>
+            erbittert sie gegen Verräther auftraten und wie sie dieselben für <lb/>
+            die gemeinsamen Feinde des Vaterlandes erklärten. Als Phry­ <lb/>
+            nichus *) nächtlicher Weile bei dem Brunnen unter den Weiden <lb/>
+            von Apollodor und Thrafybul erschlagen worden war, wurden <lb/>
+            diese ergriffen und von den Freunden des Phrynichus ins Ge­ <lb/>
+            fängniß gelegt; aber kaum hatte das Volk von dem Vorfall <lb/>
+            Kunde erhalten, als es die Eingesperrten herausführte, mit Hilfe <lb/>
+            der Folter eine Untersuchung anstellte und bei dieser Untersuchung <lb/>
+            fand, daß Phrynichus ein Landesverräther war, während seine <lb/>
+            Mörder ungerechter Weise ins Gefängniß gekommen waren. So <lb/>
+            beschloß das Volk, auf den Vorschlag des Kritias, man solle den <lb/>
+            Todten wegen Hochverraths in Untersuchung ziehen, und wenn <lb/>
+            es sich herausstelle, daß er als Verräther im Land begraben wor­ <lb/>
+            den sei, so solle man seine Gebeine wieder ausgraben und über <lb/>
+            die Grenze von Attika schaffen, damit im Lande auch nicht die <note type="footnote"> *) Phryn. gehörte zur aristokratischen Partei, er war ein erklärter Feind des<lb/>
+             AlcibiadeS und Mitglied des oligarchischen Raths der Vierhundert, welcher 411 für<lb/>
+             kurze Zeit an die Stelle der Fünfhundert trat. </note> <lb/>
+             <pb n="46"/>
+            Gebeine eines Menschen ruhen, welcher den Verräther an Stadt <lb/>
+            und Land gemacht habe. Ferner beschlossen sie, wenn der eine <lb/>
+            oder andere als Vertheidiger des Todten auftrete, so soll er, falls <lb/>
+            ein „Schuldig" sich herausstelle, derselben Strafe verfallen; wor­ <lb/>
+            aus man ersieht, daß sie nicht einmal das für recht hielten, wenn <lb/>
+            einer denen beispringe, die die andern im Stich gelassen, viel­ <lb/>
+            mehr meinten sie, wer einen Verräther schütze, der mache sich des <lb/>
+            gleichen Verraths schuldig. Und darum weil sie solchen Grimm <lb/>
+            gegen die Verräther zeigten nnd solche Beschlüsse gegen sie faßten, <lb/>
+            waren sie sicher vor Gefahren. — Nimm den betreffenden Be­ <lb/>
+            schluß, Schreiber, und lies ihn vor.</p>
+          <ab>
+            <title type="sub">Beschluß.</title>
+          </ab>
+          <p>Ihr habt diesen Beschluß gehört. Und nach all dem, wäh­ <lb/>
+            rend Eure Ahnen die Gebeine des Verräthers ausgegraben haben <lb/>
+            und über die Grenze schaffen ließen und seine Vertheidiger Ari­ <lb/>
+            starch und Alexikles zum Tod verurtheilten und im Lande nicht <lb/>
+            einmal begraben lassen wollten, — wollet Ihr, die Ihr die Per­ <lb/>
+            son des Verräthers leibhaftig in Eurer Hand habt und frei über <lb/>
+            ihn beschließen könnet, ihn ungestraft lassen? Wollet Ihr so weit <lb/>
+            zurückbleiben hinter Euren Vätern, daß Ihr einen Menschen, <lb/>
+            welcher nicht mit Worten, sondern mit der That die Gemeinde <lb/>
+            verrieth, loslassen wollet, als hätte er gar nichts Böses gethan, <lb/>
+            während jene diejenigen aufs strengste bestraften, welche auch nur <lb/>
+            mit Worten den Verräthern helfen wollten? Nein, fasset keinen <lb/>
+            solchen Beschluß, der Eurer unwürdig wäre und der auch gar <lb/>
+            nicht im Geist Eurer Väter ist. Ja wenn nur ein einziger der­ <lb/>
+            artiger Beschluß vorläge, dann könnte man etwa sagen, sie haben <lb/>
+            ihn in der Leidenschaft gefaßt, nicht um der Sache willen; wenn <lb/>
+            sie aber an allen ohne Unterschied die gleiche Strafe vollzogen <lb/>
+            haben, so liegt es doch am Tag, daß sie gar nicht anders konn­ <lb/>
+            ten, als gegen solche Thaten Krieg führen. Den Hipparch, den <lb/>
+            Sohn des Timarchos, welcher die Untersuchung wegen Hochver­ <lb/>
+            raths nicht abwartete, sondern sich der Gerichtsverhandlung entzog, <lb/>
+            haben sie zum Tod verurtheilt, und da sie seine Person als Pfand <lb/>
+            für die Frevel nicht in ihre Gewalt bekamen, so ließen sie sein <lb/>
+             <pb n="47"/>
+            Bild vön der Burg Herabnehmen, einschnielzen und eine Säule <lb/>
+            daraus machen, auf welcher die Verbrecher und Verräther auf­ <lb/>
+            gezeichnet werden sollten; und wirklich steht auf der Säule der <lb/>
+            Name des Hipparchos, sowie der der sonstigen Verräther. Nimm <lb/>
+            zuerst den Beschluß, wornach das Bild Hipparchs, des Verräthers, <lb/>
+            von der Burg herabgenommen wurde, sodann die Inschrift unten <lb/>
+            an der Säule und die später aus dieser Säule verzeichneten Ver­ <lb/>
+            räther und lies es vor, Schreiber.</p>
+          <ab>
+            <title type="sub">Beschluß und Inschrift der Säule.</title>
+          </ab>
+          <p>Was haltet Ihr davon? Haben die Alten auch solche An­ <lb/>
+            sichten über Frevler gehabt, wie Ihr? Haben sie nicht vielmehr, <lb/>
+            da sie einmal der Person des Verräthers konnten habhaft werden, <lb/>
+            das Andenken an den Verräther ausgetilgt, und ihn wenigstens <lb/>
+            bestraft, soweit es möglich war? Nicht etwa um die Einschmel­ <lb/>
+            zung der Bildsäule war es ihnen zu thun, sondern darum, den <lb/>
+            künftigen Geschlechtern für alle Zukunft ein deutliches Beispiel <lb/>
+            zu hinterlassen, wie sie es mit Verräthern gehalten haben.</p>
+          <p>Doch lies auch noch den andern Beschluß über die, welche <lb/>
+            nach Dekelea auswanderten, als die Stadt von den Lacedämo­ <lb/>
+            niern blokirt wurde, damit jedermann erkenne, daß die Vorfahren, <lb/>
+            wo es sich um Verräther handelt, in ihren Strafen einander gleich <lb/>
+            und confequent gewesen sind. Lies vor, Schreiber!</p>
+          <ab>
+            <title type="sub">Beschluß.</title>
+          </ab>
+          <p>Ihr habt auch diesen Beschluß gehört des Inhalts, daß die, <lb/>
+            welche während des Kriegs sich nach Dekelea begeben haben, ver­ <lb/>
+            urtheilt wurden, indem man beschloß: wenn einer von ihnen auf <lb/>
+            der Rückkehr betroffen werde, so solle ihn jeder, der wolle, vor <lb/>
+            die Thesmotheten führen und diese sollen ihn verhaften und dem <lb/>
+            Mann *) an der Grube überantworten. Nun denn — wenn <lb/>
+            man damals solche, die innerhalb des Landes ihren Wohnort <lb/>
+            wehcselten, dermaßen strafte, da wollet Ihr einen Menshcen, <note type="footnote"> *) D. h. dem Henker. Die Grube oder das Barathrom ein Schlund hinter<lb/>
+             der Burg, in welchen Verbrecher hinabgestürzt wurden. </note> <lb/>
+             <pb n="48"/>
+            Welcher aus der Stadt und aus dem Land während deS Kriegs <lb/>
+            geflohen ist, und der das Volt preisgegeben hat, nicht zum Tod <lb/>
+            verurtheilen? Wie könnet Ihr noch sagen, Ihr seid die Enkel <lb/>
+            jener Männer?</p>
+          <p>Es lohnt sich wohl, nun auch den Beschluß zu hören, der <lb/>
+            den Mann *) betrifft, welcher auf Salamis das Leben verlor, <lb/>
+            den der Rath nach Ablegung der Kränze mit eigenen Händen <lb/>
+            getödtet hat, weil er auch nur mit einem Wort die Stadt ver­ <lb/>
+            rathen wollte.</p>
+          <ab>
+            <title type="sub">Beschluß.</title>
+          </ab>
+          <p>Das ist ein erhebender Beschluß, wie er Eurer Ahnen wür­ <lb/>
+            dig war, und mit Recht thaten sie so: denn großartig war nicht <lb/>
+            nur ihre ganze Anschauungsweise, sondern auch die Strafe, die <lb/>
+            sie an den Uebelthätern vollzogen.</p>
+          <p>Wie nun? Wenn Ihr in die Fußtapfen Eurer Väter treten <lb/>
+            wollt, scheint es Euch der alten Sitte entsprechend zu sein, dem <lb/>
+            Leokrates das Leben zu schenken? Wenn jene einen Menschen, <lb/>
+            welcher nur mit Worten die bereits von der Bevölkerung ver­ <lb/>
+            lassene Stadt verrathen wollte, also hingerichtet haben, was müßt <lb/>
+            Ihr von Rechts wegen einem Menschen thun, der mit der That, <lb/>
+            nicht bloß mit Worten, die noch bewohnte Stadt verlassen hat? <lb/>
+            Müßt Ihr nicht jene überbieten in der Strafbestimmung? Und <lb/>
+            wenn sie diejenigen, welche die von dem Volk ausgehende Ret­ <lb/>
+            tung abzulehnen versuchten, so bestraft haben, was müßt Ihr <lb/>
+            von Rechts wegen dem thun, welcher die Rettung des Volks <lb/>
+            selbst verrathen hat? Und wenn jene die Schuldigen also in <lb/>
+            Strafe nahmen, wo es sich nur um die Ehre handelte, was <lb/>
+            müßt Ihr thun, wo die Existenz des Vaterlandes in Frage <lb/>
+            kommt?</p>
+          <p>Schon das Gesagte reicht hin, um ein Bild zu geben von <lb/>
+            der Anschauungsweise unserer Vorfahren, wie sie es hielten mit <lb/>
+            Leuten, die die Gesetze des Staats verletzten; indessen will ich <lb/>
+            Euch noch etwas mittheilen über die Säule im Rathssaal, welche <note type="footnote"> ») Lykidas, Mitglied des Raths, Herab. IX, 4. </note> <lb/>
+             <pb n="49"/>
+            von den Verräthern und von denen spricht, die die Demokratie <lb/>
+            umzustürzen suchen. Denn je mehr belehrende Beispiele ich Euch <lb/>
+            vorführe, desto leichter werdet Ihr das Urtheil finden können. <lb/>
+            Als nämlich nach der Herrschaft der Dreißig, unter der Euren <lb/>
+            Vätern von ihren eigenen Mitbürgern mitgespielt wurde, wie nie <lb/>
+            einem griechischen Volksstamm, diese mit Mühe ihre Heimath <lb/>
+            wieder gewonnen hatten, da versperrten sie sämmtliche Wege zur <lb/>
+            Uebertretung des Gesetzes, weil sie eben nun aus Erfahrung <lb/>
+            wußten, wie die es anfangen und sich den Weg zu bahnen suchen, <lb/>
+            welche auf den Umsturz der freien Verfassung ausgehen. Sie <lb/>
+            beschlossen nämlich und schwuren einen Eid darauf, wenn einer <lb/>
+            Absichten auf Gewaltherrschaft hege und die Stadt verrathe oder <lb/>
+            die Volksherrschaft zu stürzen suche, so solle ihn jeder, der es <lb/>
+            wahrnehme, ungestraft tödten dürfen, und es dünkte sie besser, <lb/>
+            wenn die Schuldigen getödtet würden, als wenn sie in Wirklich­ <lb/>
+            keit die Erfahrung machten und in Knechtschaft geriethen. Denn <lb/>
+            nach ihrer Anschauung mußte ein Bürger von Anfang an so <lb/>
+            leben, daß keiner wegen solcher Gesetzesübertretungen auch nur <lb/>
+            verdächtig würde. Nimm den Beschluß.</p>
+          <ab>
+            <title type="sub">Beschluß.</title>
+          </ab>
+          <p>Dieß ließen sie auf die Säule schreiben und diese Säule <lb/>
+            stellten sie aus dem Rathhaus auf, für die, welche tagtäglich hier <lb/>
+            sich versammeln und über das Vaterland sich berathen, zu einer <lb/>
+            Erinnerung, wie sie solchen Leuten gegenüber aufzutreten haben. <lb/>
+            Und darum haben sie auch insgesammt geschworen: sobald einer <lb/>
+            auch nur merke, daß jemand mit so etwas umgehe, so solle er <lb/>
+            ihn tödten, und mit Recht: denn während bei andern Vergehen <lb/>
+            die festgesetzte Strafe nachfolgen muß, so muß sie bei Verrath <lb/>
+            und Umsturz der Versassung vorangehen. Denn wenn Ihr den <lb/>
+            Augenblick aus den Händen lasset, in welchem jene noch erst <lb/>
+            Willens sind, etwas niederträchtiges gegen das Vaterland zu <lb/>
+            vollführen, so wird es Euch nachher nicht mehr freistehen, eine <lb/>
+            Strafe zu vollziehen an denselben, wenn sie das Verbrechen schon <lb/>
+            begangen haben; denn ihre Machtstellung schützt sie sofort vor <lb/>
+            der Rache der Unterdrückten. <note type="footnote"> Lykurgos. </note><note type="footnote"> 4 </note></p><pb n="50"/>
+            
+          <p>31. Darum müssen Eure Erwägungen mit solcher Vorsicht <lb/>
+            und solchen Handlungen gleichen Schritt halten, und Ihr dürst <lb/>
+            bei Eurer Abstimmung nicht vergessen, welcher Männer Enkel <lb/>
+            Ihr seid, sondern Ihr müßt Euch selbst auffordern, am heutigen <lb/>
+            Tag mit einem Beschluß das Haus zu verlassen, wie er dem <lb/>
+            Verfahren Eurer Ahnen entspricht und sich folgerichtig an dasselbe <lb/>
+            anschließt. Was in den vorliegenden Beschlüssen über die Ver­ <lb/>
+            brecher festgesetzt ist, das sind für Euch Mahnungen und maß­ <lb/>
+            gebende Beispiele ihres Verfahrens, und feierlich geschworen habt <lb/>
+            Ihr selbst nach dem Beschluß des Demophantos, den Vaterlands­ <lb/>
+            verräther vom Leben zum Tode zu bringen mit Wort und That <lb/>
+            und Hand und Stimme. Denn Ihr dürft nicht glauben, Ihr <lb/>
+            seid nur Erben des Vermögens, welches Eure Väter Euch hin­ <lb/>
+            terlassen haben, nicht aber Erben der Eidschwüre und der Ver­ <lb/>
+            pflichtungen, welche Eure Väter den Göttern als Pfand gaben, <lb/>
+            und wofür sie das Gesammtgedeihen des Vaterlandes zum Lohne <lb/>
+            empfiengen.</p>
+          <p>32. Doch nicht bloß Eure Mitbürger beobachteten ein sol­ <lb/>
+            ches Verfahren gegen die Vaterlandsverräther, sondern auch die <lb/>
+            Lacedämonier. Werdet nur nicht ungeduldig, wenn ich diese <lb/>
+            Männer immer wieder erwähne; denn es ist wohlgeziemend, in <lb/>
+            Sachen des Rechts Beispiele zu entlehnen von einem wohlorga­ <lb/>
+            nisirten Staat; es wird so jedem von Euch größere Sicherheit <lb/>
+            gegeben, um dem Recht und dem Eid gemäß abzustimmen. — <lb/>
+            Die Lacedämonier hatten entdeckt, daß ihr König Pausanias <lb/>
+            Griechenland an den Perserkönig verrathen wolle. Da er nun, <lb/>
+            ehe man ihn greifen konnte, in das Heiligthum der Chalkioikos <lb/>
+            sich flüchtete, so ließen sie den Eingang verrammeln, das Dach <lb/>
+            abdecken, lagerten sich im Kreise herum und wichen nicht eher <lb/>
+            vom Platze, als bis sie ihn zum Hungertod getrieben hatten, <lb/>
+            womit sie jedermann deutlich zeigten, daß nicht einmal der Schutz, <lb/>
+            den die Götter zu gewähren pflegen, einem Verräther zu gute <lb/>
+            komme, und mit Recht: denn die erste Schuld, die ein solcher <lb/>
+            auf sich lädt, ist ja eben der Frevel gegen die Götter, die er <lb/>
+            um die althergebrachte Verehrung bringt. Und der stärkste Be­ <lb/>
+            weis für das damalige Verfahren liegt in dem, was ich noch <lb/>
+             <pb n="51"/>
+            anführen will: sie gaben ein Gesetz, das über alle, welche für <lb/>
+            das Vaterland nicht in den Kampf gehen wollen, mit ausdrück­ <lb/>
+            lichen Worten den Tod als Strafe verhängt; sie bestimmten also <lb/>
+            als Strafe eben das, was gerade den Gegenstand der Angst aus­ <lb/>
+            macht und die Rettung aus dem Krieg unterlag hienach einer <lb/>
+            mit Schmach verbundenen Anklage. Und um Euch zu überzeu­ <lb/>
+            gen, daß ich nicht ein unbewiesenes Gerede vorbringe, sondern <lb/>
+            auf Thatsachen beruhende Beispiele, so will ich Euch das Gesetz <lb/>
+            vorlesen lassen.</p>
+          <ab>
+            <title type="sub">Gesetz.</title>
+          </ab>
+          <p>Erwäget, wie schön dieses Gesetz ist und von wie heilsamen <lb/>
+            Folgen nicht bloß für die Lacedämonier, sondern überhaupt für <lb/>
+            alle Menshcen. Die Furcht vor den Mitbürgern wird ja mächtig <lb/>
+            genug sein, um in den Kampf mit dem äußeren Feind zu trei­ <lb/>
+            ben; denn wenn man sieht, daß der Verräther mit dem Tod <lb/>
+            bestraft wird, so wird man sich hüten, in der Gefahr das Vater­ <lb/>
+            land im Stich zu lassen, und kein Mensch wird gegen das In­ <lb/>
+            teresse des Staats sein Leben zu erhalten suchen, wenn er weiß, <lb/>
+            daß eine solche Strafe ihn bedroht. Und nichts anderes darf <lb/>
+            die Strafe der Feigheit sein als eben der Tod; denn wer da <lb/>
+            weiß, daß er von zwei drohenden Gefahren jedenfalls einer sich <lb/>
+            unterziehen muß, wird viel eher den Kampf gegen den äußeren <lb/>
+            Feind wählen, als den gegen das Gesetz und gegen die eigenen <lb/>
+            Mitbürger.</p>
+          <p>33. Ja noch in weit höherem Grad verdient ein solcher <lb/>
+            Mensch den Tod als solche, welche aus dem Lager flüchtig wer­ <lb/>
+            den. Denn während die letzteren doch in die Stadt kommen, <lb/>
+            um für dieselbe zu kämpfen oder mit den übrigen Bürgern das <lb/>
+            Unglück zu theilen, ist der Angeklagte aus der Vaterstadt ge­ <lb/>
+            llo hen, um sich persönlich in Sicherheit zu bringen; er hat nicht <lb/>
+            den Muth gehabt, seinen eigenen Herd zu schützen, nein er ist <lb/>
+            der einzige Mensch auf Erden, der die auf der Natur beruhenden, <lb/>
+            unerläßlichen Gesetze verrathen hat, die selbst den unvernünftigen <lb/>
+            Thieren als das höchste und wichtigste gelten. Sieht man doch, <lb/>
+            wie die Vögel, deren Hauptstärke in der Schnelligkeit liegt, für <note type="footnote"> 4* </note> <lb/>
+             <pb n="52"/>
+            ihr Nest zu sterben bereit sind; weßhalb auch einige Dichter <lb/>
+            sagen: <lb/>
+            „Denn selbst der wilde Vogel, der sein Haus gebaut, <lb/>
+            Legt seine Jungen in kein fremdes Nest hinein." <lb/>
+            Leokrates aber hat in seiner Feigherzigkeit so sehr alles überboten, <lb/>
+            daß er sein Vaterland den Feinden preisgegeben hat.</p>
+          <p>34. Darum hat ihm aber auch keine Stadt erlaubt, als <lb/>
+            Beifaße irgendwo zu wohnen, sondern jede trieb ihn strenger weg <lb/>
+            als einen Mörder, und mit Recht; denn während solche, die <lb/>
+            wegen Mords flüchtig werden und in eine andere Stadt sich be­ <lb/>
+            geben, keine persönlichen Feinde haben an denen, von welchen sie <lb/>
+            aufgenommen werden, wird diesen doch keine Stadt aufnehmen <lb/>
+            wollen! Denn wer für sein eigenes Vaterland nicht ins Feld <lb/>
+            gezogen ist, der wird ja wohl sich bereit finden lassen, für das <lb/>
+            fremde Land sich in Gefahr zu begeben! Ja»schlechte Bürger, <lb/>
+            schlechte Gastfreunde und im Privatverkehr schlechte Freunde sind <lb/>
+            solche Menschen, welche zwar wohl die Vortheile, die das Vater­ <lb/>
+            land bietet, genießen, aber im Unglück dasselbe nicht einmal ihres <lb/>
+            Beistands werth halten. Nun aber, wenn einer von denen ge­ <lb/>
+            haßt und vertrieben wird, welchen er nichts zu leid gethan, wie <lb/>
+            müßt Ihr gegen ihn verfahren, denen er aufs ärgste mitgespielt <lb/>
+            hat? Verdient er nicht die allerhärteste Strafe? Ja wahrlich, <lb/>
+            wenn es noch eine härtere Strafe gäbe, als die Todesstrafe, so <lb/>
+            wäre Leokrates der, der sie am meisten verdiente von allen Ver­ <lb/>
+            räthern, die es jemals gegeben hat. Denn während andere Ver­ <lb/>
+            räther über der bloßen Absicht des Verraths ergriffen und bestraft <lb/>
+            werden, hat er allein seine Absicht vollständig ausgeführt und <lb/>
+            das Verbrechen, wegen dessen er vor Gericht steht, ist vollendeter <lb/>
+            Verrath des Vaterlandes.</p>
+          <p>35. Ich muß aber meine Verwunderung auch darüber aus­ <lb/>
+            sprechen, was denn seine Vertheidiger eigentlich geltend machen <lb/>
+            wollen, um seine Freisprechung zu verlangen. Etwa seine per­ <lb/>
+            sönliche freundshcaftliche Verbindung mit ihnen? Aber da scheint <lb/>
+            es mir doch, sie verdienten keine Nachsicht, sondern vielmehr den <lb/>
+            Tod dafür, daß sie es wagen mit ihm Umzugehen. Denn ehe <lb/>
+             <pb n="53"/>
+            Leokrates dieß sich zu schulden kommen ließ, konnte man nicht <lb/>
+            wissen, was man von ihnen zu halten habe; nun aber sieht ja <lb/>
+            jedermann ganz deutlich, daß nur die Gleichheit des Charakters <lb/>
+            es ist, was die Verbindung mit ihm noch aufrecht erhält, so daß <lb/>
+            sie weit eher für sich selbst ein Fürwort einzulegen haben, als <lb/>
+            die Lossprechung des Angeklagten zu erbitten.</p>
+          <p>Ja meines Erachtens müßte selbst sein verstorbener Vater — <lb/>
+            wenn man je in jener Welt noch eine Empfindung hat von dem, <lb/>
+            was hier vorgeht — der allerstrengste Richter für ihn sein, hat <lb/>
+            er doch dessen ehernes Bild im Tempel des Zeus des Retters <lb/>
+            den Feinden überlassen, um es in gottloser Weise zu schänden <lb/>
+            und zu mißhandeln, und hat er doch dieses Bild zu einem Ge­ <lb/>
+            genstand des Hohns gemacht, während der Vater es aufgestellt <lb/>
+            hatte als ein Denkmal seiner Rechtschaffenheit; solcher Art ist <lb/>
+            dieser Sohn, dessen Vater er sich schelten lassen muß. Darum <lb/>
+            haben sich auch nicht wenige an mich mit der Frage gewendet, <lb/>
+            warum ich in meine Klageschrift nicht eben dieß aufgenommen <lb/>
+            habe, daß er das Bild seines Vaters preisgegeben, welches in <lb/>
+            dem Tempel des Retters Zeus aufgestellt war. Ich wußte auch <lb/>
+            recht wohl, daß dieses Vergehen die schwerste Strafe verdient; <lb/>
+            aber ich hielt es nicht für passend, bei einer Anklage, bei der es <lb/>
+            sich um Verrath handelt, den Namen des Retters Zeus in meine <lb/>
+            Klageschrift aufzunehmen.</p>
+          <p>Ganz besonders aber bin ich erstaunt darüber, daß ihr nicht <lb/>
+            wahrzunehmen scheint, wie die Leute Euren Grimm im höchsten <lb/>
+            Grad verdienen, welche immer nur um Bezahlung für die An­ <lb/>
+            geklagten in die Schranken treten, ohne durch Geburt oder durch <lb/>
+            Freundschaft ihnen nahe zu stehen. Denn damit, daß sie für <lb/>
+            die Schuldigen das Wort ergreifen, beweisen sie ja, daß sie fähig <lb/>
+            wären, auch an den betreffenden Handlungen selbst sich zu be­ <lb/>
+            theiligen. Denn nicht gegen Euch darf das Talent sich erweisen, <lb/>
+            sondern nur für Euch, für das Gesetz und für die freie Ver­ <lb/>
+            sassung.</p>
+          <p>Und doch legen es manche von ihnen nicht mehr bloß dar­ <lb/>
+            auf an, Euch durch Reden hinters Licht zu führen, sondern sie <lb/>
+            wollen schon das Recht für sich in Anspruch nehmen, ihre dem <lb/>
+             <pb n="54"/>
+            Staat geleisteten Dienste für seine Freisprechung geltend zu machen. <lb/>
+            Solche Leute erregen am allermeisten meine Entrüstung. Denn <lb/>
+            während sie diese Dienste zum Besten ihres eigenen Hauses lei­ <lb/>
+            steten, verlangen sie dafür von Euch den Dank des Staats. <lb/>
+            Wenn einer Pferde gehalten oder einen glänzenden Chor aufge­ <lb/>
+            stellt, oder sonst zu einem ähnlichen Zweck Ausgaben gemacht hat, <lb/>
+            so hat er deßhalb noch keinen Anspruch auf eine solche Erkennt­ <lb/>
+            lichkeit von Eurer Seite — denn aus Grund solcher Leistungen <lb/>
+            erhält er eben für sich einen Kranz, sonst hat niemand einen <lb/>
+            Nutzen davon; — sondern nur wenn einer seine Trierarchie in <lb/>
+            glänzender Weise ausgerichtet oder die Vaterstadt mit Mauern <lb/>
+            versehen oder zur allgemeinen Sicherheit aus eigenen Mitteln <lb/>
+            beigetragen hat; solche Leistungen sind patriotisch und gemein­ <lb/>
+            nützig und darin spiegelt sich die ehrenwerthe Gesinnung der be­ <lb/>
+            treffenden, während man in Leistungen jener ersten Gattung nur <lb/>
+            den Reichthum derer, von welchen sie ausgehen, erkennen kann. <lb/>
+            Uebrigens kann nach meiner Ansicht niemand dem Staat so große <lb/>
+            Dienste geleistet haben, daß er berechtigt wäre, dafür die Nicht- <lb/>
+            bestrafung der Verräther zu verlangen, noch auch so unverständig <lb/>
+            sein, daß er — während er um die Ehre der Stadt sich bemüht, <lb/>
+            zugleich dem beispränge, welcher zumeist diese Bemühungen zu <lb/>
+            nichte gemacht hat; es müßten denn nur, beim Zeus! die In­ <lb/>
+            teressen dieser Leute und die des Staats gänzlich auseinander­ <lb/>
+            laufen.</p>
+          <p>36. Wenn es nun auch sonst in keinem Fall üblich ist, <lb/>
+            daß die Richter Weib und Kind in die Gerichtssitzung kommen <lb/>
+            und neben sich Platz nehmen lassen, so sollte doch wenigstens da, <lb/>
+            wo es sich um Landesverrath handelt, diese Sitte als eine fromme <lb/>
+            Pflicht geübt werden: alle, welche in Gefahr schwebten, sollten <lb/>
+            ihnen vor Augen stehen, sollten gesehen werden und eine leben­ <lb/>
+            dige Erinnerung daran sein, daß sie des allen Menschen ange­ <lb/>
+            borenen Mitleides nicht gewürdigt wurden, um so dem Erkenntniß <lb/>
+            gegen den Uebelthäter größere Schärfe zu geben. Da nun aber <lb/>
+            einmal dieß nicht üblich und nicht gebräuchlich ist, sondern Ihr <lb/>
+            im Namen jener das Urtheil zu fällen habt, so müßt ihr wenig­ <lb/>
+            stens durch die Bestrafung des Leokrates, durch seine Hinrichtung <lb/>
+             <pb n="55"/>
+            Euren Frauen und Kindern kund thun, daß Ihr den, welcher <lb/>
+            sie verrathen, bestraft habt, sobald er in Eure Hände siel. Ueber <lb/>
+            alle Maßen empörend ist es ja doch, wenn ein Leokrates Gleich­ <lb/>
+            berechtigung anspricht, er, der geflohen ist in der Stadt derer, <lb/>
+            welche Stand hielten, er, der von keiner Gefahr etwas verspürte <lb/>
+            in der Stadt derer, welche dem Feind gegenübertraten, er, der <lb/>
+            nicht mitgeholfen hat in der Stadt derer, welchen man die Ret­ <lb/>
+            tung verdankt; vielmehr kommt er daher, um an Heiligthümern, <lb/>
+            Opfern, Markt, Gesetz, Verfassung Theil zu haben, für deren <lb/>
+            Aufrechterhaltung tausend von Euren Mitbürgern bei Chäroneia <lb/>
+            gestorben sind, die von dem Staat auf öffentliche Kosten bestattet <lb/>
+            wurden; und nicht einmal ihre Grabschriften haben ihm die <lb/>
+            Schamröthe ins Gesicht getrieben, als er in die Stadt zurück­ <lb/>
+            kehrte, sondern in dieser schamlosen Weise glaubt er vor den Au­ <lb/>
+            gen derer, welche das unglückliche Loos jener beweint haben, sich <lb/>
+            umhertreiben zu dürfen. Und gleich wird er gar von Euch ver­ <lb/>
+            langen, daß Ihr den Gesetzen gemäß seine Vertheidigung an­ <lb/>
+            hören sollet; und wenn Ihr fragt: nach welchen Gesetzen? — <lb/>
+            nun nach denen, welche er verrathen hat! — Ihr sollet ihn <lb/>
+            wohnen lassen innerhalb der Mauern der Stadt — welcher <lb/>
+            Mauern? — derjenigen, welche er allein von der ganzen Bür­ <lb/>
+            gerschaft nicht hat bewachen helfen! — Und die Götter wird er <lb/>
+            anrufen ihn zu retten aus der Gefahr — welche Götter? nicht <lb/>
+            die nämlichen, deren Tempel, deren Bilder, deren Heiligthümer <lb/>
+            er preisgegeben hat? und um Erbarmen wird er bitten und <lb/>
+            flehen — wen? — nicht dieselben Männer, von denen er nichts <lb/>
+            wissen wollte, als es sich darum handelte, Mann für Mann sei­ <lb/>
+            nen Beitrag zur Rettung der Stadt zu geben? Die Rhodier <lb/>
+            soll er anflehen! hat er doch sein Heil in ihrer Stadt gesucht <lb/>
+            anstatt in seinem eigenen Vaterland. Und bei welcher Alters­ <lb/>
+            stufe könnte er mit Recht auf Theilnahme rechnen? etwa bei den <lb/>
+            älteren Männern? aber er hat ja, soweit es von ihm abhing, <lb/>
+            diesen nicht die Möglichkeit gelassen, in ihrem Alter gepflegt zu <lb/>
+            werden oder auf dem freien Boden der Heimath ihre Ruhestätte <lb/>
+            zu finden; oder etwa bei den jüngeren? welcher Jüngling, der <lb/>
+             <pb n="56"/>
+            an seine Alters-genossen denkt, die bei Chäroneia neben ihm standen <lb/>
+            und die Gefahr mit ihm theilten, wird einen Menschen retten <lb/>
+            wollen, der die Grabstätten jener Helden verrathen hat; wer wird <lb/>
+            in Einem Athem die für die Freiheit Gefallenen für unsinnig <lb/>
+            erklären und den Verräther des Vaterlands als einen besonnenen <lb/>
+            Mann straflos ausgehen lassen? So werdet ihr natürlich jedem, <lb/>
+            den die Lust anwandelt, freien Spielraum geben, mit Wort und <lb/>
+            That Euch und den Staat ins Unglück zu bringen. Denn nicht <lb/>
+            bloß die Flüchtlinge kommen dann wieder heim, wenn ein Mensch, <lb/>
+            der die Stadt im Stich gelassen und sich selbst zur Verbannung <lb/>
+            verurtheilt und in Megara unter fremdem Schutz über fünf oder <lb/>
+            sechs Jahre gelebt hat, in Stadt und Land frei umhergehen darf, <lb/>
+            nein auch der *), welcher vor jedermanns Ohren dafür gestimmt <lb/>
+            hat, man solle aus Attika ein Weideland für Schasheerden machen, <lb/>
+            auch der wird in diesem Land Euer Mitbewohner werden.</p>
+          <p>37. Ehe ich abtrete, will ich nur noch einige wenige Worte <lb/>
+            hinzufügen und den Volksbeschluß Euch vorhalten, welchen die <lb/>
+            Gemeinde über die Pflichten gegen die Götter gefaßt hat; das <lb/>
+            kann Euch von Nutzen sein, wenn Ihr nun Euren Spruch fin­ <lb/>
+            den sollet. Lies!</p>
+          <ab>
+            <title type="sub">Volksbeschluß.</title>
+          </ab>
+          <p>Ich also trete als Kläger auf gegen den, welcher dieses <lb/>
+            alles vernichten wollte, vor Euch, die Ihr Vollmacht habt zu <lb/>
+            strafen; Eure Sache ist es nun, in Eurem Namen und im Namen <lb/>
+            der Götter den Leokrates in Strafe zu nehmen. Denn die Ge­ <lb/>
+            setzesübertretung ist, solange keine Untersuchung angestellt ist, bei <lb/>
+            den Schuldigen selbst, sobald aber die Untersuchung eingetreten <lb/>
+            ist, bei denen, welche nicht so, wie es recht ist, die Strafe ver­ <lb/>
+            hängt haben. Und seid überzeugt, daß jetzt jeder einzelne von <lb/>
+            Euch, wenn auch die Stimme, die er abgibt, geheim bleibt, doch <lb/>
+            nach seiner innersten Gesinnung den Göttern offenbar sein wird. <note type="footnote"> *) Gemeint ist der Thebaner ErianthoS, welcher nach der Einnahme Athens<lb/>
+             durch Lysander diesen Borschlag machte, welchen aber die Spartaner zurückwieset. </note> <lb/>
+             <pb n="57"/>
+            Ich bin aber der Meinung, daß Ihr am heutigen Tag in Einem <lb/>
+            Spruch alle die großen und entsetzlichen Frevel aburtheilet, deren <lb/>
+            sich Leokrates, wie am Tage liegt, schuldig gemacht hat: Ver­ <lb/>
+            rath, sofern er die Stadt im Stich ließ und den Feinden in die <lb/>
+            Hände gab; Umsturz der freien Verfassung, sofern er dem Kampf <lb/>
+            für die Freiheit sich nicht unterzogen hat; Gottlosigkeit, sofern <lb/>
+            er in seinem Theil die Verheerung der Heiligthümer und die <lb/>
+            Zerstörung der Tempel verschuldet hat; Mißhandlung der Eltern, <lb/>
+            sofern er ihre Denkmäler vernichtete, und was ihnen zukam, ihnen <lb/>
+            raubte; Desertion und Verweigerung des Kriegsdienstes, sofern <lb/>
+            er seine Person den Feldherren nicht zur Verfügung stellte. Und <lb/>
+            diesen Menschen soll noch jemand freisprechen und Nachsicht haben <lb/>
+            mit seinen Missethaten, die er mit Wissen und Willen begangen <lb/>
+            hat? sollte jemand so thöricht sein, daß er durch die Rettung <lb/>
+            des Angeklagten sein eigenes Leben jedem beliebigen Verräther <lb/>
+            preisgäbe, daß er durch Mitleid mit ihm selbst auf Mitleid von <lb/>
+            seiten der Feinde Verzicht leistete, daß er durch Nachsicht gegen <lb/>
+            den Verräther des Vaterlands selbst die Strafe der Götter aus <lb/>
+            sein Haupt herabziehen wollte?</p>
+          <p>Ich nun habe hiemit zum Wohl des Vaterlandes, zum <lb/>
+            Schutz der Religion, zur Wahrung der Gesetze meine Anklage <lb/>
+            durchgeführt, wie es recht und gesetzlich ist, ohne den sonstigen <lb/>
+            Lebenswandel des Angeklagten gehässig anzugreifen oder eine Be­ <lb/>
+            schuldigung vorzubringen, die nicht zur Sache gehörte; Ihr aber <lb/>
+            müßt von der Ueberzeugung ausgehen, daß Ihr durch die Frei­ <lb/>
+            sprechung des Leokrates zugleich das Vaterland zu Vernichtung <lb/>
+            und Knechtschaft verdammt, daß von den zwei Urnen, die vor <lb/>
+            Euch stehen, die eine dem Verrath dient, die andere der Rettung <lb/>
+            geweiht ist und daß Ihr Eure Stimme abgebet entweder zur <lb/>
+            Zerstörung der Vaterstadt, oder für die Sicherheit und das Ge­ <lb/>
+            deihen Eurer Mitbürger. Sprechet Ihr den Leokrates frei, so <lb/>
+            Privilegiret Ihr damit den Verrath der Stadt, der Religion, <lb/>
+            der Flotte; lasset Ihr ihn hinrichten, so ist das eine Ermuthi­ <lb/>
+            gung zur Wahrung und Beschützung des Vaterlands, der Ein­ <lb/>
+            künfte, der Wohlfahrt. So denket nun, es flehen zu Euch das <lb/>
+            Land und die Bäume, es bitten Euch die Häfen, die Schiffs­ <lb/>
+             <pb n="58"/>
+            werfte, die Mauern der Stadt, es verlangen Schutz von Euch <lb/>
+            die Tempel und Heiligthümer, und so stellet, eingedenk der An­ <lb/>
+            klage, an Leokrates ein warnendes Beispiel auf, daß weder Rüh­ <lb/>
+            rung noch Thränen bei Euch mächtiger sind als die Pflicht, <lb/>
+            dem Gesetz und der freien Verfassung zu Hilfe zu kommen.</p>
+          <p>Druck von T. Hoffmann in Stuttgart.</p>
+        </div><pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
