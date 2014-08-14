@@ -28,7 +28,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">appian_1830.xml</idno>
+        <idno type="filename">appian_1830_5.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -53,6 +53,7 @@
                 <pubPlace>Stuttgart</pubPlace>
                 <date>1830</date>
               </imprint>
+              <biblScope unit="volume">5</biblScope>
             </monogr>
             <ref
               target="http://hdl.handle.net/2027/hvd.hn3ez2"
