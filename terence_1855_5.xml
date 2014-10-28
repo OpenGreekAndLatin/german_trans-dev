@@ -1,0 +1,4772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Des Publius Terentius Lustspiele</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">terence_1855_5.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="de">Johannes Herbst</name>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:phi0134">Terence</author>  
+              <title>Der Selbstpeiniger</title>
+              <imprint>
+                <publisher>Hoffmann'sche Verlags-Buchhandlung</publisher>
+                <pubPlace>Stuttgart</pubPlace>
+                <date>1855</date>
+              </imprint>
+              <biblScope unit="volume">5</biblScope>
+            </monogr>
+            <ref
+              target="http://hdl.handle.net/2027/mdp.39015020213529"
+              >HathiTrust</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition">
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Der Selbstpeiniger.</title>
+          </head>
+          <p><note type="footnote"> Teres. Der Selbstpeiniger. </note> <note type="footnote"> t </note></p>
+        </div><pb n="-"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Personen.</title>
+          </head>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clinia, sein Sohn.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Dromo, sein Sklave.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Antiphila, Clinia's Geliebte.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clitipho, sein Sohn.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Syrus, sein Sklave.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Bacchis, eine Hetäre, Clitipho's Geliebte.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata, Chremes' Frau.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Phrygia, Magd der Bacchis.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Cine Amme.</speaker>
+            <p/></sp>
+        </div><pb n="-"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Prolog.</title>
+          </head>
+          <p>Damit von euch sich Keiner wundere, <lb/>
+            Warum die Rolle, die sonst Jüng're geben, <lb/>
+            Mir alten Mann der Dichter zugetheilt, <lb/>
+            Erklär' ich dieß zuerst; dann werd' ich sagen, <lb/>
+            Weßhalb ich aufgetreten bin. Aus einem<lb/>
+             Roch unbenutzten griechischen wird heut<lb/>
+             Ein ungenutztes Stück gegeben, der<lb/>
+             Selbstpeiniger betitelt: doppelte<lb/>
+             Personen spielen d'rin statt einzelner. <lb/>
+            Daß neu eS ist und wie's beschaffen ist, <lb/>
+            Hab' ich gezeigt; jetzt würd' ich, wer'S geschrieben<lb/>
+             Und wer eS griechisch abgefaßt, noch sagen, <lb/>
+            Wenn ich nicht glaubte, daß der größte Theil<note type="footnote">1* </note> <lb/>
+             <pb n="4"/>
+            Van euch eS wisse. Jetzt mit wenig Worten, <lb/>
+            Weßhalb ich diese Rolle einstudirt! <lb/>
+            Zum Redner wollt' er mich, nicht zum Prolog; <lb/>
+            Ihr sollt die Richter, ich der Anwalt sein. <lb/>
+            Doch dieses Anwalts Redekunst wird nur <lb/>
+            Soviel vermögen, als der treffende <lb/>
+            Gedanken hat ersonnen, der die Rede <lb/>
+            Geschrieben, die ich halten soll. Was nämlich <lb/>
+            Böswillige Gerüchte ausgestreut, <lb/>
+            Viel griech'sche Stücke hab' er in ein paar <lb/>
+            Lateinische vermengt, das gibt er zu, <lb/>
+            Und eS gereut ihn nicht, und er gedenkt <lb/>
+            ES ferner noch zu thun. Er hat für sich <lb/>
+            DaS Beispiel wack'rer Männer, und was sie <lb/>
+            Gethan, dazu glaubt er sich auch berechtigt. <lb/>
+            Dann was der alte neid'sche Dichter sagt, <lb/>
+            Urplötzlich habe der zur Musenkunst <lb/>
+            Sich hingewandt, auf das Genie der Freunde <lb/>
+            Vertrauend, nicht auf sein Talent, darüber <lb/>
+            Wird euer Urtheil, euer Spruch entscheiden. <lb/>
+            D'rum sollt ihr allesammt gebeten sein: <lb/>
+            Gebt nicht unbill'ger Rede mehr Gehör, <lb/>
+            AlS billiger; übt billig euer Amt! <lb/>
+            ^ebt dem Gelegenheit emporzukommen, <lb/>
+             <pb n="5"/>
+            Der euch Gelegenheit verschafft zu neuen <lb/>
+            Fehl losen Stücken. Jener glaube nicht, <lb/>
+            Daß man für ihn gesprochen, der unlängst <lb/>
+            Vor einem Sklaven, welcher eilig war, <lb/>
+            Das Volk ausweichen ließ. Wozu dem Narren . <lb/>
+            Auch dienen? Mehr von seinen Fehlern wird <lb/>
+            Die Rede sein bei neuen andern Stücken, <lb/>
+            Wofern er sich deS SchmähenS nicht enthält. <lb/>
+            Schenkt ein geneigt Gehör! Vergönnt, daß ich <lb/>
+            Ein ruhig Stück aufführ' ohn' alle Störung, <lb/>
+            Damit ich nicht eilfert'ge Sklaven, Greise <lb/>
+            Von Zorn entbrannt, gefräßige Schmarotzer, <lb/>
+            Habsücht'ge Kuppler, Rabulistenvolk <lb/>
+            Stets und in Einem fort darstellen müsse <lb/>
+            Mit lautestem Geschrei und größter Mühe. <lb/>
+            Nehmt an um meinetwillen, dieser Grund <lb/>
+            Sei wohlbegründet, daß ein Theil der Mühe <lb/>
+            Mir abgenommen werde. Denn die jetzt <lb/>
+            Komödien schreiben, schonen nicht den Greis. <lb/>
+            Ist mühevoll das Stück, läuft man zu mir, <lb/>
+            Ist's aber sanfter Art, wird's einer andern <lb/>
+            Gesellschaft überbracht. In diesem herrscht <lb/>
+            Einfacher Umgangston. Macht den Versuch, <lb/>
+            Was mein Talent vermag nach beiden Seiten. <lb/>
+             <pb n="6"/>
+            So wahr ich nie habgierig meiner Kunst<lb/>
+             Den Preis gestellt und das mir stets die höchste<lb/>
+             Belohnung schien, so viel als möglich euerm<lb/>
+             Ergötzen mich zu weih'n, so stellt an mir<lb/>
+             Ein Beispiel auf, daß Jüng're sich bestreben, <lb/>
+            Euch eher zu gefallen, als sich selbst.</p>
+        </div><pb n="7"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Erster Art.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Chremes. Menedemus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ist unsere Bekanntschaft gleich sehr neu, <lb/>
+              Erst seit du in der Nähe hier das Gut <lb/>
+              Gekauft, und haben wir auch mit einander <lb/>
+              Sonst weiter nichts zu thun gehabt, so treibt <lb/>
+              Doch deine Bravheit, oder, was der Freundschaft <lb/>
+              Mir nahe kommt, die Nachbarschaft mich an, <lb/>
+              Dich offen und nach Freundesart zu mahnen: <lb/>
+              Du scheinst mir über deine Jahr', und mehr <lb/>
+              Als deine Lage heischt, dich anzustrengen. <lb/>
+              Ich bitte dich um Alles in der Welt, <lb/>
+              Was soll das? Was bezweckst du? Sechzig Jahr <lb/>
+              Und d'rüber bist du alt, wie ich vermuthe; <lb/>
+              Ein besseres, werthvoll'res Gut besitzt <lb/>
+              Kein Mensch im ganzen Umkreis, Sklaven nicht <lb/>
+              In größ'rer Zahl: als ob du keinen hättest, <lb/>
+              So eifrig übernimmst du ihr Geschäft. <lb/>
+              Ich mag auch noch so früh ausgehen, noch <lb/>
+              So spät heimkommen, immer seh' ich dich <lb/>
+               <pb n="8"/>
+              Auf deinem Grundstück graben oder pflügen, <lb/>
+              Kurz irgendwie beschäftigt. Nicht die kleinste <lb/>
+              Erholung gönnst du dir und schonst dich nicht. <lb/>
+              Daß du's nicht zum Vergnügen thust, ist sicher. <lb/>
+              „Ja, wirst du sagen, was an Arbeit hier <lb/>
+              Gethan wird, reicht nicht hin." — Verwendest du <lb/>
+              Die Mühe, die du mit der Arbeit hast, <lb/>
+              Darauf, die Leute tüchtig anzutreiben, <lb/>
+              So kommst du weiter.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>ChremeS, lassen dir <lb/>
+              Die eigenen Geschäfte so viel Muße, <lb/>
+              Daß du um fremde Dinge dich bekümmerst, <lb/>
+              Und zwar um solche, die dich nicht berühren?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich bin ein Mensch; nichts Menschliches liegt meiner <lb/>
+              Theilnahme fern. Nimm meine Worte auf <lb/>
+              Als Mahnung oder als Erkundigung: <lb/>
+              Ist's recht, damit ich's selber thu'; ist's nicht, <lb/>
+              Damit ich dir's verleide.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>I ch bedarf <lb/>
+              Es so; wie dir's vonnöthen ist, so mach'S.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Bedarf ein Mensch, daß er sich quäle?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wenn dich ein Kummer drückte, wär' mir's leid. <lb/>
+              Doch sag', was für ein Leiden ist es? Bitte, <lb/>
+              Was hast du denn so schwer um dich verschuldet?</p>
+          </sp><pb n="9"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ach, ach!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>O weine nicht, und laß mich wissen, <lb/>
+              WaS es auch immer sei! Verschweig' eS nicht; <lb/>
+              Sei ohne Furcht; vertraue mir, sag' ich! <lb/>
+              Durch Trost, Rath oder That werd' ich dir bald <lb/>
+              Geholfen haben.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Du willst eS wissen?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ja, <lb/>
+              AuS dem genannten Grund.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich werd' eS sagen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Leg' aber doch die Hacke da einstweilen <lb/>
+              Bei Seite! Laß die Arbeit!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Keineswegs!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was hast du vor?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>O laß mich! Frei von Arbeit <lb/>
+              Darf ich mir keinen Augenblick vergönnen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Ich leid's nicht, sag'ich!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Ach! du thust nicht recht.</p>
+          </sp><pb n="10"/>
+          
+          <sp>
+            <speaker>Chremes (die Hacke aufnehmend).</speaker>
+            <p>Hut! Wie die schwer ist!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>S o hab' ich's verdient.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Run, sprich!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich habe einen einzigen <lb/>
+              Erwachsenen Sohn — ich habe, sagt' ich? Nein, <lb/>
+              Ich hatte, Chremes! Ob ich ihn noch habe, <lb/>
+              Ob nicht, ist ungewiß.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie so?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Du hörst es. <lb/>
+              ES wohnt hier, von Korinth hieher gezogen, <lb/>
+              Ein armes altes Weib. In deren Tochter <lb/>
+              Verliebte sich mein Sohn so sterblich, daß <lb/>
+              Er fast wie mit 'ner Gattin mit ihr lebte. <lb/>
+              Ich wußte von dem Allen nichts. Als ich's <lb/>
+              Erfuhr, benahm ich mich nicht eben menschlich, <lb/>
+              Noch so, wie es dem liebekranken Herzen <lb/>
+              Des Jünglings angemessen war, nein, hart <lb/>
+              Und nach der allgewohnten Väterweise. <lb/>
+              Tagtäglich schalt ich: „Wie, du hoffst noch länger <lb/>
+              Das thun zu dürfen, während ich, dein Vater, <lb/>
+              Am Leben bin, daß du mit der Person <lb/>
+              Fast wie mit einer Gattin Umgang hast? <lb/>
+              Da irrst du, Clinia, wenn du das glaubst, <lb/>
+              Und kennst mich schlecht. Für meinen Sohn giltst du <lb/>
+              So lange nur, als du dich deiner würdig <lb/>
+              Beträgst; geschieht das nicht, so werd' ich wissen, <lb/>
+               <pb n="11"/>
+              Was meiner würdig ist, mit dir zu thun. <lb/>
+              Das kommt bloß her vom vielen Müsfiggang. <lb/>
+              In deinem Alter dacht' ich nicht an Liebe; <lb/>
+              Nach Asten gieng ich wegen Dürftigkeit, <lb/>
+              Und dort erwarb ich mir zugleich Vermögen <lb/>
+              Und Waffenruhm." — Am Ende kam es dahin: <lb/>
+              Der junge Mensch, der oft und mit Verdruß <lb/>
+              Dasselbe hörte, gab sich überwunden. <lb/>
+              Ich, meint' er, müsse doch, bei meinem Alter <lb/>
+              Und freundlicher Gesinnung, mehr versteh'n <lb/>
+              Und besser für ihn sorgen, als er selbst. <lb/>
+              Er gieng nach Asten zum Perserkönig <lb/>
+              Und nahm dort Dienste, Chremes.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was du sagst!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Er reiste hinter meinem Rücken ab; <lb/>
+              Drei Monat' ist er weg.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ihr Beide seid <lb/>
+              Nicht ohne Schuld. Doch jener Schritt zeugt immer <lb/>
+              Von Ehrgefühl und Muth.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wie ich's erfahren <lb/>
+              Von denen, die d'rum wußten, geh' ich traurig <lb/>
+              Nach Hause, mit verstörtem Kopf, vor Kummer <lb/>
+              Rathlos. Ich setze mich. Es eilen Sklaven <lb/>
+              Herbei, zieh'n mir die Schuh' aus; andere <lb/>
+              Seh' ich geschäftig hin und wieder geh'n, <lb/>
+              Die Polster legen, für den Abendtisch <lb/>
+              Das Nöthige bereiten: Jeder that <lb/>
+              Sein Möglichstes, mein Elend zu erleichtern. <lb/>
+              Wie ich das sah, da dacht' ich bei mir; „Hm! <lb/>
+               <pb n="12"/>
+              So viele sollen bloß um meinetwillen <lb/>
+              In Thätigkeit gesetzt sein, nur um mir <lb/>
+              Genug zu thun? So viele Mägde sollen <lb/>
+              Für meine Kleidung sorgen? Solchen Aufwand <lb/>
+              Soll ich allein zu Hause machen? Aber <lb/>
+              Den einz'gen Sohn, der dieß genießen müßte, <lb/>
+              So gut wie ich, ja besser, weil sein Alter <lb/>
+              Mr den Genuß noch mehr empfänglich ist, <lb/>
+              Den Armen hab' ich von hier ausgestoßen <lb/>
+              Durch meine Ungerechtigkeit! — Ich würde <lb/>
+              Jedwedes Unglück zu verdienen glauben, <lb/>
+              Wenn ich das thäte. Nein, so lang als er <lb/>
+              Im Elend schmachtet, seines Vaterlands <lb/>
+              Durch meine Schuld beraubt, so lange will ich <lb/>
+              An meinem eig'nen Leib die Strafe leiden; <lb/>
+              Arbeiten will ich, will erwerben, sparen, <lb/>
+              Ihm dienstbar sein." — So that ich ohne Weit'reS, <lb/>
+              Ließ nichts im Haus, nicht Hausrath noch Gewänder, <lb/>
+              Schafft' Alles, Alles fort; Dienstmädchen, Sklaven — <lb/>
+              Die ausgenommen, die durch Feldarbeit <lb/>
+              Die Kosten deckten — bracht' ich auf den Markt <lb/>
+              Und schlug sie los; mein Haus bot ich sogleich <lb/>
+              Zur Miethe aus: ich löste so bei fünfzehn <lb/>
+              Talente, kaufte mir das Landgut an, <lb/>
+              Und — placke mich hier ab. Ich meine immer, <lb/>
+              Daß ich mich weniger an meinem Sohn <lb/>
+              Versündige, so lang ich selber, Chremes, <lb/>
+              Unglücklich bin, und daß es unrecht wäre, <lb/>
+              Hier irgend ein Vergnügen zu genießen, <lb/>
+              Bis er, mein Mitgenoss', gesund und wohl <lb/>
+              Zurückgekommen ist.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich halte dich <lb/>
+              Für gütig gegen Kinder, ihn für folgsam, <lb/>
+              Wenn einer ihn mit rechtem Takt und Glimpf <lb/>
+               <pb n="13"/>
+              Behandelte; allein du kanntest ihn <lb/>
+              Nicht recht, er dich nicht: das geschieht, wenn man <lb/>
+              Nicht wie es sein soll zu einander steht. <lb/>
+              Du hast ihm nie gezeigt, wie du ihn liebst, <lb/>
+              Und er hat nicht gewagt, dir zu vertrau'n <lb/>
+              Was man dem Vater soll. Wär' das gescheh'n, <lb/>
+              Du hättest niemals so etwas erlebt.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Wohl ist es so: aus meiner Seite ist <lb/>
+              Die größte Schuld.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nun, für die Zukunft hoff ich <lb/>
+              Das Beste, Menedemus, und bin sicher, <lb/>
+              Dein Sohn wird eh'ster Tage bei dir sein, <lb/>
+              Gesund und wohlbehalten.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Geb's der Himmel!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Das wird er! Jetzo, wenn's gefällig ist — <lb/>
+              Das Bacchusfest ist heute — sei mein Gast!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Ich kann nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Und warum? Ich bitte, schone <lb/>
+              Dich doch einmal ein wenig! Das ist auch <lb/>
+              Des fernen Sohnes Wunsch.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Es paßt sich nicht, <lb/>
+              Daß ich, der ihn zur Arbeit trieb, jetzt diese <lb/>
+              Selbst meide.</p>
+          </sp><pb n="14"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Bleibt's dabei?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Gewiß!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Leb' wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Du auch!</p>
+            <p>(Ai.&gt;</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Er hat mir Thränen ausgepreßt, <lb/>
+              Und dauert mich! — Doch nach der Tageszeit <lb/>
+              Ist's Zeit, den Nachbar Phania zu erinnern, <lb/>
+              Daß er zu Tische kommt. Ich will doch seh'n, <lb/>
+              Ob er daheim ist. — Der Erinnerung <lb/>
+              Bedurft' es nicht. Er ist schon eine Weile <lb/>
+              In meinem Hause, hör' ich. Mich erwarten <lb/>
+              Die Gäste d'rin. So will ich denn hinein! — <lb/>
+              Doch sieh, was öffnet sich da meine Thür? <lb/>
+              Wer kommt heraus? — Ich will bei Seite treten.</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clitipho. Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clitipho (in's Haus hineinredend).</speaker>
+            <p>Noch hast du nichts zu fürchten , Elinia; <lb/>
+              Sie bleiben nicht zu lange, und ich weiß, <lb/>
+              Sie wird in Kurzem mit dem Boten da sein. <lb/>
+              Weg also mit der nichtigen Besorgniß, <lb/>
+              Die dich so ängstigt!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mit wem spricht mein Sohn?</p>
+          </sp><pb n="15"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Der Vater, sieh! Zu dem wollt' ich ja eben! <lb/>
+              Ich red' ihn an. — Du kommst recht passend, Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Run?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Kennst du Menedemus, unsern Nachbar?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Recht gut!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Und daß er einen Sohn hat, weißt du?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich Hab'S gehört: in Asten.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Nicht doch, Vater, <lb/>
+              Er ist bei uns hier..</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was du sagst!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>So wie <lb/>
+              Er ankam und an'S Land stieg, nahm ich ihn <lb/>
+              Sogleich mit her zum Essen; denn ich bin <lb/>
+              Von Jugend auf gut Freund mit ihm gewesen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mir sehr willkomm'ne Nachricht! Wollt' ich doch, <lb/>
+              Ich hätte Menedemus dringender <lb/>
+              Noch eingeladen, unser Gast zu sein, <lb/>
+              Daß ich der Erste wäre, der mit dieser <lb/>
+              So unverhofften Freud' ihn überraschte! <lb/>
+              Doch dazu ist noch immer Zeit.</p>
+          </sp><pb n="16"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Thu'S nicht! <lb/>
+              ES ist nicht rathsam, Vater.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Und warum?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Weil er noch selbst nicht weiß, was er mit sich <lb/>
+              Anfangen soll; so eben kam er erst. <lb/>
+              Er fürchtet Alles: seines Vaters Zorn, <lb/>
+              Und ob ihm die Geliebte treu geblieben. <lb/>
+              Sie liebt er sterblich; ihretwegen kam <lb/>
+              Der Zwist und die Entweichung.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Weiß es wohl.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Jetzt hat er seinen Burschen in die Stadt <lb/>
+              Nach ihr geschickt, und ich den Syrus mit:</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was sagt er?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was er sagt? Er sei ein armer. <lb/>
+              Elender Mensch.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Elender Mensch? Wen darf <lb/>
+              Man wen'ger dafür halten? Hat er nicht <lb/>
+              WaS bei dem Menschen Glück genannt wird? Aeltern, <lb/>
+              Ein blühend Vaterland, Verwandte, Freunde, <lb/>
+              Familie, Vermögen? Freilich ist <lb/>
+              Das gleicher Art mit des Besitzers Sinn: <lb/>
+              Für den, der's zu gebrauchen weiß, ein Glück, <lb/>
+              Ein Unglück dem, der's nicht verständig braucht.</p>
+          </sp><pb n="17"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ja aber mit dem Alten war doch nie <lb/>
+              Recht auszukommen; und ich fürchte jetzt <lb/>
+              Nichts mehr, als daß er in der Hitze sich <lb/>
+              An ihm vergessen könne, Vater.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Der? <lb/>
+              (für sich) <lb/>
+              Doch ich halt' an mich, denn, daß der sich fürchtet, <lb/>
+              Ist Jenem gut.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was sprichst du da?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich sag' es. <lb/>
+              Mocht's sein wie's wollte, bleiben hätt' er müssen. <lb/>
+              Wohl möglich, Jener trieb's ein wenig barsch, <lb/>
+              Mehr als dem lieb war: hätt' er'S nur gelitten! <lb/>
+              Denn wen sollt' er ertragen, wenn er gar <lb/>
+              Den eig'nen Vater nicht ertrug? War's billig, <lb/>
+              Daß der nach Jenem, oder Jener sich <lb/>
+              Nach dem bequemte? — Und daß man für hart <lb/>
+              Ihn ausgibt, das ist nichts. Denn alles Unrecht, <lb/>
+              DaS Väter thun, läuft darauf meist hinaus: <lb/>
+              Die's auch was leichter nehmen, wollen nicht, <lb/>
+              Daß ihre Söhne oft mit Dirnen, oft <lb/>
+              Mit Zechgelagen sich zu schaffen machen. <lb/>
+              Sie geben wenig zum Verthun. Und dieß <lb/>
+              Bezweckt doch Alles nur ihr Bestes. Aber <lb/>
+              Wenn einmal ein Gemüth von böser Lust <lb/>
+              Gefesselt ist, dann fehlt's nicht, Clitipho, <lb/>
+              ES folgen gleiche Streiche. Treffend ist <lb/>
+              DaS Wort: Durch Andrer Schaden werde klug. <note type="footnote"> terms. Der O,»dppß!n!ger. </note> <note type="footnote"> 2 </note></p>
+          </sp><pb n="18"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ja wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich will hinein, um nachzuseh'n, <lb/>
+              Was es zu essen gibt. Entferne du <lb/>
+              Dich nicht zu weit; es ist schon spät am Tage. <lb/>
+              (Ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wie ungerecht in ihrem Urtheil doch <lb/>
+              Die Väter gegen junge Lente sind! <lb/>
+              Gieng's ihnen nach, so wären wir gleich Greise <lb/>
+              Von Kindheit auf, und hätten keinen Theil <lb/>
+              An Allem, was die Jugend mit sich bringt. <lb/>
+              Ihr Wille gilt als Richtschnur, wie er nämlich <lb/>
+              Jetzt ist, nicht wie er einst gewesen ist. <lb/>
+              Wenn i ch einmal 'nen Sohn bekomme, wahrlich <lb/>
+              Der soll nen güt'gen Vater an mir haben: <lb/>
+              Denn Einsicht nehmen wird man lassen, Nachsicht <lb/>
+              Gewähren bei Versündigung; nicht so <lb/>
+              Wie meiner, der an einem Andern mir <lb/>
+              Die Meinung seines Herzens offenbart. <lb/>
+              O, was für Streich' erzählt er mir von sich, <lb/>
+              Wenn er ein GlaS zu viel getrunken hat! <lb/>
+              Jetzt sagt er: Werde klug durch Andrer Schaden! <lb/>
+              Der Schlaukopf! Wahrlich, er weiß nicht, daß er <lb/>
+              Jetzt tauben Ohren predigt! Schärfer spornt <lb/>
+              Mich jetzt die Rede meiner Liebsten: „gib mir!" <lb/>
+              Und „bring' mir!" — Was ich ihr erwidern soll, <lb/>
+              Ich weiß es nicht. Kein Mensch ist übler d'ran. <lb/>
+              Denn dieser Clinia, obwohl auch er <lb/>
+              Genug mit sich zu schaffen hat, besitzt doch <lb/>
+              Ein gut und sittsam auferzogenes, <lb/>
+               <pb n="19"/>
+              Mit Buhlerkünsten unbekanntes Mädchen. <lb/>
+              Die Meine ist gebieterisch, begehrlich, <lb/>
+              Prunksüchtig, Aufwand machend, vornehmthuend. <lb/>
+              Was ich ihr geben kann, ist bloß: „sehr wohl!" <lb/>
+              Denn zu gesteh'n, ich habe nichts, dazu <lb/>
+              Fehlt mir der Muth. —: In diese Lage bin ich <lb/>
+              Seit Kurzem erst gerathen, und mein Vater <lb/>
+              Weiß bis zur Stunde nicht ein Wort davon.</p>
+          </sp>
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Zweiter Äcl.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clinia. Clitipho.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clinia (für sich).</speaker>
+            <p>Wenn es mit meiner Liebe günstig stünde, <lb/>
+              Gewiß, sie wären längst schon wieder da. <lb/>
+              Doch fürcht' ich, daß das Mädchen während meiner <lb/>
+              Abwesenheit sich hat verführen lassen. <lb/>
+              So Manches trifft zusammen, was das Herz <lb/>
+              Mir schwerer macht: Gelegenheit, Ort, Jugend, <lb/>
+              Die schlechte Mutter, unter deren Zucht <lb/>
+              Sie steht und der nichts lieb ist als verdienen.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>He, Clinia!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ich Armer!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Siehst du dich <lb/>
+              Auch vor, daß Niemand, der von deinem Vater <lb/>
+              Herauskommt, dich erblickt? <note type="footnote"> XI </note></p>
+          </sp><pb n="20"/>
+          
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Das will ich. Aber <lb/>
+              Mr schwant ich weiß nicht was!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Willst du noch immer. <lb/>
+              Urtheilen, ehe du noch weißt, wie's steht?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Stünd' Alles gut, so wären sie schon hier.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Sie werden's bald.,</p>
+          </sp>
+          <sp>
+            <speaker>Clinia</speaker>
+            <p>Ach wann?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Bedenkst du nicht. <lb/>
+              Daß es ein Bischen weit ist? Und du weißt, <lb/>
+              Wie'S Frauenzimmer machen. Bis sie sich <lb/>
+              An's Werk begeben, bis sie Haar und Putz <lb/>
+              In Ordnung bringen, da geh'n Jahre hin.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ich fürchte, Clitipho —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Schöpf wieder Athem! <lb/>
+              Da kommen Beide , Dromo sammt dem Syrus!</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Syrus mit Dromo. Die Vorigen.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du meinst?</p>
+          </sp><pb n="21"/>
+          
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>Nicht anders!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Aber während wir <lb/>
+              So plauderten, sind die zurückgeblieben. —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dein Mädchen kommt! Hörst du es, Clinia?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ja wahrlich., jetzt erst hör' ich, Clitipho, <lb/>
+              und seh' und leb' ich wieder! —</p>
+          </sp>
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>'s ist kein Wunder, <lb/>
+              So schwer sind sie bepackt! Ein Heer von Mägden <lb/>
+              Folgt ihnen. —</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ach! Wie kommt sie zu den Mägden?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Kann i ch das wissen? —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nein, man hätte sie <lb/>
+              Nicht hinten lassen sollen! — Was sie Alles <lb/>
+              Mitschleppen!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ach!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Gold&gt; Kleider! Und eS wird <lb/>
+              Schon Abend, und sie wissen nicht den Weg! — <lb/>
+               <pb n="22"/>
+              's war dumm von uns! — Lauf doch entgegen, Dromo! <lb/>
+              Geschwind! Was stehst du noch?— <lb/>
+              (Dromo ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>O weh mir Armen! <lb/>
+              Ach, welche Hoffnung schwand mir hin!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wieso? <lb/>
+              Was kümmert dich?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Du fragst noch? Siehst du? Mägde, <lb/>
+              Gold, Kleider! Die mit einem Mädchen ich <lb/>
+              Zurückließ! Woher meinst du, daß sie's hat?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ah! Nun versteh' ich erst. —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ihr guten Götter! <lb/>
+              Was für ein Schwarm von Leuten! Unser Haus <lb/>
+              Wird sie kaum fassen, ganz gewiß. Was werden <lb/>
+              Die alles essen, alles trinken! Wer <lb/>
+              Kommt übler dabei weg, als unser Alter! — <lb/>
+              Doch sieh, da sind sie, die ich suchte! —</p>
+          </sp>
+          <sp>
+            <speaker>Clinia (für sich).</speaker>
+            <p>Himmel! <lb/>
+              Wo gibt's noch Treue! Während dem ich Thor <lb/>
+              Des Vaterlands entbehr' um deinetwillen, <lb/>
+              Hast du, Antiphila, dir Schätz' auf Schätze <lb/>
+              Gesammelt und in diesem Elend mich <lb/>
+              Verlassen, du, um die ich meine Ehre <lb/>
+              Aufopferte und gegen meinen Vater <lb/>
+              Mich unfolgsam bewies! Scham und Bedauern <lb/>
+               <pb n="23"/>
+              Empfind' ich jetzt, daß er, der mir der Dirnen <lb/>
+              Charakter schilderte, umsonst gewarnt, <lb/>
+              Und nie vermocht mich von ihr abzubringen. <lb/>
+              Doch nunmehr soll's geschehen! Als ich mir Dank <lb/>
+              Damit verdienen konnte, wollt' ich nicht. <lb/>
+              Ich bin doch recht unglücklich! —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Keine Frage, <lb/>
+              Der ist durch unsre Reden irr geworden. — <lb/>
+              Du hast dein Mädchen, Clinia, in falschem <lb/>
+              Verdacht. Ihr Leben, ihre Zuneigung <lb/>
+              Zu dir sind ganz wie sonst, soweit wir das <lb/>
+              Aus Allem schließen konnten.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Bitte, sprich! <lb/>
+              Denn nichts, auch gar nichts wäre mir jetzt lieber, <lb/>
+              Als daß mein Argwohn unbegründet sei.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Zuerst, damit du Alles von ihr wissest: <lb/>
+              Die Alte, die für ihre Mutter galt, <lb/>
+              War's nicht. Die ist nun todt; zufällig hört' ich's, <lb/>
+              Als fie's der Andern unterwegs erzählte.</p>
+          </sp>
+          <sp>
+            <speaker>Clitiipho.</speaker>
+            <p>Wer ist denn die?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Geduld! Laß mich doch nur <lb/>
+              Erst auserzählen, Elitipho! Hernach <lb/>
+              Kommt auch die Reih' an die noch.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Eile dich!</p>
+          </sp><pb n="24"/>
+          
+          <sp>
+            <speaker>Syrus</speaker>
+            <p>Zuerst denn, als wir an das Haus gekommen, <lb/>
+              Klopft Dromo an die Thür. Ein altes Weib <lb/>
+              Kommt 'raus. Die hatte nicht sobald geöffnet, <lb/>
+              So schoß der flugs hinein, ich Hintennach. <lb/>
+              Die Alte schob den Riegel vor und gieng <lb/>
+              An ihre Spindel. Hierdurch oder nie <lb/>
+              War's möglich auszumitteln, Elinia, <lb/>
+              In welcher Art das Mädchen während deiner <lb/>
+              Abwesenheit ihr Leben zugebracht, <lb/>
+              Daß wir sie unversehens überraschten. <lb/>
+              Denn so ward uns Gelegenheit, in ihr <lb/>
+              Alltäglich Leben einen Blick zu thun. <lb/>
+              Und das gerade offenbart am meisten, <lb/>
+              Weß Geistes Kind ein Jeder ist. Wir trafen <lb/>
+              Sie eifrig bei 'ner Weberei: ganz einfach <lb/>
+              Gekleidet in ein Trauerkleid, ich glaube <lb/>
+              Der Alten wegen, die gestorben war; <lb/>
+              Von Golde keine Spur; geschmückt wie eine, <lb/>
+              Die sich bloß schmückt für sich; nichts von dem Zeug, <lb/>
+              Womit sich Frauen das Gesicht bemalen. <lb/>
+              Ihr Haar hieng losgebunden lang herab, <lb/>
+              Nachlässig um das Haupt zurückgeschlagen. <lb/>
+              So war's!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Mein Syrus, bitte! Täusche mich <lb/>
+              Mit leerer Freude nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die Alte spann. <lb/>
+              Nur Eine Magd war da, die webte mit, <lb/>
+              Gehüllt in Lumpen, schlechtgehalten, schmutzig.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wenn das so wahr ist, Clinia, wie ich <lb/>
+              Nicht zweifle, wer ist glücklicher als du? <lb/>
+               <pb n="25"/>
+              Merkst du auf die im schmutzigen Kleid und Leib? <lb/>
+              Auch das ist ein recht gutes Zeichen, daß <lb/>
+              Die Herrin schuldlos sei, wenn ihr Gesinde <lb/>
+              So schlecht gehalten wird; denn Regel ist's <lb/>
+              Bei denen, erst die Mägde zu beschenken, <lb/>
+              Die Eingang suchen bei den Herrinnen.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia (zu Syrus&gt;.</speaker>
+            <p>Nur weiter, bitte! Aber suche ja <lb/>
+              Nicht Gunst durch Unwahrheit! Was sagte sie, <lb/>
+              Als du mich nanntest?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie wir meldeten, <lb/>
+              Du wärst zurück und ließest sie ersuchen, <lb/>
+              Zu dir zu kommen, sprang sie augenblicklich <lb/>
+              Vom Webstuhl auf, und Thränen überströmten <lb/>
+              Ihr ganz Gesicht: leicht sah man, daß die Sehnsucht <lb/>
+              Nach dir der Grund war. &gt;</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Himmel! ach, vor Freude <lb/>
+              Weiß ich mich nicht zu lassen! So in Angst <lb/>
+              Bin ich gewesen.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Leere Einbildung! <lb/>
+              Das wußt' ich, Clinia! — Nun aber sprich, - <lb/>
+              Wer ist die Andre, Syrus?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Deine Bacchis <lb/>
+              Kommt mit.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Hm! Was? Die Bacchis? — Schändlicher, <lb/>
+              Wohin mit der?</p>
+          </sp><pb n="26"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wohin? Zu uns, versteht sich.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Zu meinem Vater?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Freilich!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Der verweg'ne, <lb/>
+              Der steche Mensch!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus</speaker>
+            <p>So höre! Wer nichts wagt, <lb/>
+              Bringt nie was Großes, was Denkwürdiges <lb/>
+              Zu Stande.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Sieh einmal! Mein Leben setzest <lb/>
+              Du d'ran, um dir Ruhm zu verschaffen, Gräuel! <lb/>
+              Verfehlest du dabei das Mindeste, <lb/>
+              Ist's aus mit mir. — Was macht man mit dem Burschen?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>I un —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was, un?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Erlaubst du, sag' ich es.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Erlaub' es!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ich erlaub's.</p>
+          </sp><pb n="27"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die Sache ist <lb/>
+              Jetzt so beschaffen, wie als wenn —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was Henker <lb/>
+              Schwätzt der für kauderwelsches Zeug mir!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Syrus, <lb/>
+              Er hat ganz recht. Laß das und komm' zur Sache!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (zu Clitipho).</speaker>
+            <p>Nun wahrlich, bergen kann ich's nicht: du thust <lb/>
+              Mir vielfach unrecht und bist unerträglich.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Gewiß, man muß ihn hören. Schweig!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du willst <lb/>
+              Was Liebes, willst Genuß, willst Geld zum Schenken: <lb/>
+              Gefahr um den Genuß — die willst du nicht. <lb/>
+              Traun, ein gescheidter Narr! Wenn anders das <lb/>
+              Gescheidt sein heißt, Unmögliches zu wollen. <lb/>
+              Man muß das Eine mit dem Andern nehmen, <lb/>
+              Wenn so nicht, Beides lassen. Siehe, welchen <lb/>
+              Der beiden Fälle du jetzt lieber willst! <lb/>
+              Wiewohl ich weiß, mein Plan ist gut und sicher; <lb/>
+              Denn die Gelegenheit, bei deinem Vater <lb/>
+              Dein Mädchen ohne Furcht um dich zu haben, <lb/>
+              Ist da; das Geld dann, das du ihr versprochen, <lb/>
+              Um dessenwillen du mir fast die Ohren <lb/>
+              Betäubt hast, werd' ich auf demselben Weg <lb/>
+              Ausbringen. Was verlangst du mehr? <pb n="28"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dasern <lb/>
+              DaS so geschieht!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Dasern! Versuch wird's lehren.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Nun, nun, laß hören, welchen Plan du hast!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wir wollen thun, als wäre deine Liebste <lb/>
+              Dem seine.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Schön! Und was macht der mit seiner? <lb/>
+              Soll die auch mit für seine gelten, wenn <lb/>
+              Die Eine ihm zu wenig Schande bringt?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nicht doch! Die kommt zu deiner Mutter.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dahin? <lb/>
+              Warum?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Das zu erzählen wär' zu lang; <lb/>
+              Doch triftig ist der Grund, weßhalb ich's thue.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Geschwätz! Da seh' ich wenig Sicherheit, <lb/>
+              Was mir es nützen könnte, dieser Angst <lb/>
+              Mich auszusetzen.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wart'! Wenn das dich ängstigt, <lb/>
+              Weiß ich was Anderes; ihr Beiden werdet <lb/>
+              Das für gefahrlos halten.</p>
+          </sp><pb n="29"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>S d etwas</p>
+            <p>Erfinde, bitt' ich!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Herzlich gern. Ich geh' ihr <lb/>
+              Entgegen, sag' ihr — wieder umzukehren.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Hm! WaS hast du gesagt?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich will dich gleich <lb/>
+              Von aller Angst befrei'n, damit du ruhig <lb/>
+              Aufs Ohr dich legen kannst.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was mach' ich nun?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Du? Was dir Gutes —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Syrus, sag'im Ernst!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Laß nur für jetzt! Spät und vergebens wird <lb/>
+              Die Lust dir kommen.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>— dargeboten wird, <lb/>
+              Mach' dir'S zu Nuß, so lang es geht, da du <lb/>
+              Nicht wissen kannst —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>He, Syrus! Sag' —</p>
+          </sp><pb n="30"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nur zu!- <lb/>
+              Ich thu' es doch!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>— ob die Gelegenheit <lb/>
+              Sich jemals wiederfindet.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Du hast Recht, <lb/>
+              Wahrhaftig! — Syrus! Syrus, sag' ich! He! <lb/>
+              So hör' doch, Syrus!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Er ist warm geworden. — <lb/>
+              Was soll's?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Kehr'um! Kehr'um!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Da bin ich schon! <lb/>
+              Sag', was es ist? — Steht dir auch das nicht an?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Im Gegentheil, ich übergebe, Syrus, <lb/>
+              Dir mich und meine Lieb' und meinen Ruf. <lb/>
+              Sei du mein Richter! Aber laß dir nichts <lb/>
+              Dabei zu Schulden kommen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Lächerlich, <lb/>
+              Daß du mich d'ran erinnerst, Clitipho! <lb/>
+              Als ob's mich weniger beträf' als dich. <lb/>
+              Kommt uns dabei was in die Quere, kriegst <lb/>
+              Du Risse, dieser laus sich deutend) <lb/>
+              Schmisse. Darum nehm'ich <lb/>
+               <pb n="31"/>
+              Die Sache schlechterdings nicht leicht. Such' aber <lb/>
+              Den zu erbitten, daß er thu' als wär's <lb/>
+              Sein Mädchen.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Freilich werd' ich's thun. Die Sache <lb/>
+              Steht einmal so; es muß sein.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Clinia, <lb/>
+              Nimm meinen Dank!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Wenn Jene sich nur nicht <lb/>
+              Vergalopirt!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die ist gut eingelernt.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Das aber wundert mich, wie du so leicht <lb/>
+              Die überreden konntest, die verächtlich — <lb/>
+              Und welche Leute! — abzuweisen pflegt.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich kam zur rechten Zeit, was überall <lb/>
+              Die Hauptsach'ist. Ich traf'nen Offizier, <lb/>
+              Der sie um eine Nacht gar kläglich bat. <lb/>
+              Den wußte sie mit solcher Kunst zu fassen, <lb/>
+              Daß sie sein lüstern Herz durch Nichtgewähren <lb/>
+              In Flammen setzte, und zugleich bei dir <lb/>
+              An Gunst gewinnen mußte. — Aber höre, <lb/>
+              Stürm' ja nicht unbesonnen drein! Du kennst <lb/>
+              Den Vater, was für scharfe Augen der <lb/>
+              Für solche Dinge hat; ich kenne dich, <lb/>
+              Wie wenig du dich zu bemeistern pflegst. <lb/>
+              Zweideut'ge Worte, Halsverdrehen, Seufzer, <lb/>
+              Geräusper, Husten, Lachen — laß davon! <pb n="32"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Du wirst zufrieden sein.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Sieh dich nur vor!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Du sollst dich wundern.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Aber wie so schnell <lb/>
+              Sind uns die Frauenzimmer nachgekommen!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wo find sie? — Warum hältst du mich?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus</speaker>
+            <p>Die ist <lb/>
+              Jetzt nicht mehr dein.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Beim Vater, ja: doch letzt <lb/>
+              Einstweilen —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Um nichts mehr.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>O laß!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Rein, sag'ich!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>O bitte, nur ein Bischen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nichts damit!</p>
+          </sp><pb n="33"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Nur grüßen —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Fort, wenn du verständig bist!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Run ja! — Der aber?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bleibt!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Das Glückskind!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Marsch! <lb/>
+              (Tlitipho ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">DritteScene.</title>
+          </ab>
+          <sp>
+            <speaker>Bacchis. Antiphila. Clinia. Syrus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Mein' Seel'! Ich lobe dich, Antiphila, <lb/>
+              Und schätz' dich glücklich, daß du dich bestrebt, <lb/>
+              So brav als schön zu sein; verwund're mich <lb/>
+              Auch keineswegs, wenn Jeder dich begehrt. <lb/>
+              Denn wie gesinnt du bist, hat das Gespräch <lb/>
+              Mit dir mir offenbart. Und wenn ich jetzt <lb/>
+              Dein Leben bei mir in Betrachtung ziehe <lb/>
+              Und Aller deines Gleichen, die den Schwarm <lb/>
+              Fernhalten, ist mir's nicht verwunderlich, <lb/>
+              Daß ihr so seid, wir nicht: denn euch verschafft <lb/>
+              Es Vortheil, brav zu sein, hingegen uns <lb/>
+              Erlaubend die nicht, die mit uns verkehren. <lb/>
+              Denn was an uns Liebhaber fesselt, ist <note type="footnote"> Terenz. Der Soll-sinniger. </note> <note type="footnote"> S </note> <lb/>
+               <pb n="34"/>
+              Bloß unsre Schönheit; ist die abgeblüht, <lb/>
+              So wenden sie ihr Herz wo anders hin, <lb/>
+              Und haben wir dann nicht für uns gesorgt, <lb/>
+              Steh'n wir allein. Euch schließt sich, ist einmal <lb/>
+              Der Vorsatz da, mit Einem Mann zu leben, <lb/>
+              Leicht einer an von ähnlicher Gesinnung. <lb/>
+              Hiedurch wird Eins an's Andre eng gebunden, <lb/>
+              Daß nie ein Unfall eure Liebe trifft.</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>Bei Andern weiß ich's nicht; ich, weiß ich, habe <lb/>
+              Mich stets bemüht, mein Glück in seinem Glück <lb/>
+              Zu finden. —</p>
+          </sp>
+          <sp>
+            <speaker>Clinia (ohne noch von ihr gesehen zu werden)</speaker>
+            <p>Ach, Antiphila! Ja du <lb/>
+              Allein bist's, die mich jetzt in's Vaterland <lb/>
+              Zurück führt! Denn entfernt von dir ertrug ich <lb/>
+              Jedwede Mühe leicht, nur die nicht, dich <lb/>
+              Zu missen.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Glaub' es.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Syrus, kaum ertrag' ich's! — <lb/>
+              Daß ich mit einem solchen Wesen nicht <lb/>
+              Nach meiner Weise leben darf! Ich Armer!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja, wie ich deinen Vater kenne, wird <lb/>
+              Er dir noch lange schwer zu schaffen machen. —</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Wer ist der junge Mann, der nach uns sieht?</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>Ach, bitte, halte mich !</p>
+          </sp><pb n="35"/>
+          
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Was ist dir, Beste?</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>O weh, o weh mir, Ach!</p>
+          </sp>
+          <sp>
+            <speaker>. Bacchis.</speaker>
+            <p>Was starrst du so,</p>
+            <p>Antiphila?</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>Ist er's — mein Clinia?</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Wen flehest du?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Willkommen du, mein Leben!</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>O mein ersehnter Clinia, willkommen!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Wie lebst du?</p>
+          </sp>
+          <sp>
+            <speaker>Antiphila.</speaker>
+            <p>O wie freu' ich mich, daß du <lb/>
+              Gesund zurücke bist!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Hab' ich dich wieder, <lb/>
+              Antiphila, du Wonne meines Herzens!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Geht nur hinein! Der Alte wartet längst. <lb/>
+              (Alle ab.) <note type="footnote"> 3* </note></p>
+          </sp>
+        </div><pb n="36"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Dritter Art.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Chremes Hierauf Menedemus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Es wird schon hell am Himmel! Poch' ich nicht <lb/>
+              Den Nachbar 'raus, daß er zuerst von mir <lb/>
+              Die Nachricht von des Sohnes Ankunft höre? <lb/>
+              Der junge Mensch will's zwar nicht gerne, merk ich, <lb/>
+              Doch da ich sehe, wie der arme Mann <lb/>
+              Sich über dessen Weggang so bekümmert, <lb/>
+              Wie sollt' ich die so unverhoffte Freude <lb/>
+              Ihm vorenthalten, da für Jenen keine <lb/>
+              Gefahr aus meiner Mittheilung entspringt? — <lb/>
+              Ich thu' es nicht: so viel wie möglich will ich <lb/>
+              Dem Alten helfen. Wie ich meinen Sohn <lb/>
+              Dem Freund und Kameraden dienen sehe <lb/>
+              Und treulich Theil an dessen Schicksal nehmen, <lb/>
+              So sollen auch wir Alte gegen Alte <lb/>
+              Gefällig sein.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus (aus dem Hause kommend, für sich).</speaker>
+            <p>Entweder hat Natur <lb/>
+              Mich sonderlich zum Leid geboren, oder <lb/>
+              Was man gewöhnlich sagen hört, ist falsch, <lb/>
+              Daß Gram und Kummer mit der Zeit vergeh'n. <lb/>
+              Bei mir zum Wenigsten nimmt Tag für Tag <lb/>
+              Der Gram um meinen Sohn mehr überHand. <lb/>
+              Je länger er entfernt ist, desto mehr <lb/>
+              Vermiss' ich, desto mehr ersehn' ich ihn,</p>
+          </sp><pb n="37"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Da seh' ich ihn ja selber vor dem Hause! <lb/>
+              Ich geh' ihn anzureden. — Menedemus, <lb/>
+              Sei mir gegrüßt! Ich bring' dir eine Nachricht, <lb/>
+              Die du gewiß am liebsten hörst.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Hast du <lb/>
+              Von meinem Sohn etwas vernommen, Chremes?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Er lebt und ist gesund.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wo ist er, bitte?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Bei mir im Hause.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mein Sohn? Wie?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nicht anders.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ist wieder da?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Gewiß!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mein Clinia <lb/>
+              Ist wieder da?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ja, ja!</p>
+          </sp><pb n="38"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So geh n wir! Führe</p>
+            <p>Mich zu ihm hin!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Er will nicht, daß du seine <lb/>
+              Rückkehr noch wissest, und getraut sich nicht <lb/>
+              Sich vor dir seh'n zu lassen, wegen seines <lb/>
+              Vergehens: er besorgt, du möchtest noch <lb/>
+              Viel härter sein wie sonst.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Hast du ihm nicht <lb/>
+              Gesagt, wie ich gesinnt bin?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Weßwegen?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Weil du dir selbst und ihm den schlechtesten <lb/>
+              Gefallen thust, wenn du so sanft dich zeigest, <lb/>
+              So leicht dich überwunden gibst.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich kann's nicht! <lb/>
+              Ein harter, allzuharter Vater schon <lb/>
+              Bin ich gewesen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ah, du übertreibst <lb/>
+              Auf beide Seiten, MenedemuS, gehst <lb/>
+              Zu weit, sowohl im Geben als Versagen! <lb/>
+              Der Nachtheil aus dem Einen und dem Andern <lb/>
+              Wird ganz derselbe sein. Statt deinem Sohn <lb/>
+               <pb n="39"/>
+              Den Umgang mit 'nem Mädchen zu erlauben, <lb/>
+              Das damals noch mit Wen'gem sich begnügte <lb/>
+              Und gern vorlieb nahm, hast du ihn von hier <lb/>
+              Einst fortgeschreckt; sie fing daiu^wider Willen <lb/>
+              Aus Noth ein förmliches Gewerbe an. <lb/>
+              Jetzt, wo man ohne große Opfer sie <lb/>
+              Nicht haben kann, da willst du Alles geben. <lb/>
+              Denn, daß du'S weißt, wie schön sie zum Ruin <lb/>
+              Jetzt eingelernt ist: erstlich hat sie schon <lb/>
+              Mehr als zehn Mägde mitgebracht, beladen <lb/>
+              Mit Kleidern und Geschmeide. Wär' ihr Liebster <lb/>
+              Auch ein Satrape, könnt' er ihren Aufwand <lb/>
+              Doch nimmermehr bestreiten; vollends du.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ist sie bei dir drin?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ob sie drinnen ist? <lb/>
+              Ich Hab's empfunden! Nur ein einzig Mal <lb/>
+              Hat sie und ihr Gefolg' bei mir gespeist: <lb/>
+              Muß ich's noch einmal thun, bin ich bankrott. <lb/>
+              Denn, Andres zu geschweigen, wieviel Wem <lb/>
+              Hat sie mir nur beim Kosten weggespuckt! <lb/>
+              „Der — hieß es — ist so so! Der, Alterchen, <lb/>
+              Schmeckt herbe; sieh doch nach, ob nicht ein mild'rer <lb/>
+              Sich findet!" Alle Fässer, alle Krüge <lb/>
+              Hab' ich entsiegelt; all' mein Hausgesinde <lb/>
+              Kam nicht zu Athem: — und das Eine Nacht! <lb/>
+              Wie meinst du wohl, wie s dir ergeht, wenn sie <lb/>
+              - An dir in Einem Stücke zehren? Wahrlich, <lb/>
+              Mich jammert deine Lage, Menedemus!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Er mache, was ihm gut dünkt! Nehme, brauche, <lb/>
+              Verprasse! Alles will ich leiden, Alles, <lb/>
+              Wenn er nur bei mir bleibt.</p>
+          </sp><pb n="40"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ist das dein Vorsatz, <lb/>
+              So, mein' ich, liegt sehr viel daran, daß er <lb/>
+              Nicht merke, daß mit deinem Wissen du <lb/>
+              Das Geld ihm gibst.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Was thu' ich?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Lieber Alles, <lb/>
+              Als was du denkst. Gib durch die dritte Hand! <lb/>
+              Laß durch die Kniffe seines Sklaven dich <lb/>
+              Perücken! Doch ich habe was gemerkt: <lb/>
+              Sie sind schon d'ran, sie treiben's unter sich. <lb/>
+              Der Syrus zischelt mit dem Eurigen <lb/>
+              Zusammen; ihre Pläne theilen sie <lb/>
+              Den jungen Herren mit; und dir ist's besser, <lb/>
+              Daß du auf diese Weise ein Talent <lb/>
+              Verlierst, als eine Min' auf jene. Jetzt <lb/>
+              Kommt's nicht aus's Geld an, sondern wie wir es <lb/>
+              Mit mindester Gefahr dem Jüngling geben. <lb/>
+              Denn hat er erst gemerkt, wie du gesinnt bist, <lb/>
+              Daß du dein Lebensglück, dein ganz Vermögen <lb/>
+              Viel lieber opfern willst, als deinen Sohn <lb/>
+              Fort von dir gehen lassen, hui, wie wirst <lb/>
+              Du Thor und Thür der Schlechtigkeit eröffnen! <lb/>
+              Das Leben müßte fortan allen Reiz <lb/>
+              Für dich verlieren. Denn wir allzumal <lb/>
+              Sind schlimmer in der Ungebundenheit. <lb/>
+              Was ihm in Sinn kommt, wird er wollen, ohne <lb/>
+              Sich viel darum zu kümmern, ob es recht, <lb/>
+              Ob unrecht sei. Du wirst nicht dulden können, <lb/>
+              Daß er zu Grunde geh' und dein Vermögen; <lb/>
+              Du weigerst dich zu geben: er sofort <lb/>
+              Ergreift, womit er weiß, daß er bei dir <lb/>
+               <pb n="41"/>
+              Am meisten vor sich bringen kann — er droht <lb/>
+              Mit Fortgeh'n auf der Stelle.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wohl! Du scheinst <lb/>
+              Vollkommen Recht zu haben.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ja, kein Auge <lb/>
+              Hab' ich vergangene Nacht geschlossen, so <lb/>
+              War ich d rauf aus, wie ich den Sohn dir wieder <lb/>
+              Zustellen möchte.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Deine Hand! Das, bitt' ich, <lb/>
+              Thu' auch in Zukunft, Chremes!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Herzlich gern.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Noch eine Bitte hätt' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nun?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Sie haben, <lb/>
+              Wie du gemerkt, mich zu berücken vor: <lb/>
+              Mach', daß sie dieß recht zeitig thun. Ich möchte <lb/>
+              Ihm geben, was er will; ich möcht' ihn selber</p>
+            <p>Gleich augenblicklich seh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich werd's besorgen. <lb/>
+              Ein klein Geschäft nur hält mich eben ab. <lb/>
+              Simus und Crito, unsre Nachbarn, haben <lb/>
+               <pb n="42"/>
+              Hier einen Grenzstreit, den ich schlichten soll. <lb/>
+              Ich will zu ihnen hin und sagen, wie <lb/>
+              Ich schon gesagt, ich stünde gern zu Dienste, <lb/>
+              Nur heute nicht. — Ich bin gleich wieder hier.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Ja, bitte, thu's! <lb/>
+              (ChremeS ab.) <lb/>
+              Ach Himmel! Daß eS doch <lb/>
+              So von Natur mit allen Menschen steht, <lb/>
+              Daß sie in fremden Angelegenheiten <lb/>
+              Weit schärfer seh'n und richtiger urtheilen, <lb/>
+              Als wie in ihren eig'nen! Kommt's wohl daher, <lb/>
+              Weil wir in dem, was uns betrifft, zu sehr <lb/>
+              Befangen sind von Freude oder Kummer? <lb/>
+              Um wieviel besser weiß mir der zu rathen, <lb/>
+              Als ich mir selbst!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes (kommt zurück).</speaker>
+            <p>Ich hab' mich losgemacht, <lb/>
+              Um mich mit aller Ruhe dir zu widmen. <lb/>
+              Den Syrus muß ich fassen und ermuntern. — <lb/>
+              Dort kommt Eins 'raus von mir. Geh' du hinein, <lb/>
+              Daß man nicht merke, wie wir uns versteh'n. <lb/>
+              (MenedemuS ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Syrus. Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Syrus (ohne Chremes zu sehen).</speaker>
+            <p>Lauf hier-, lauf' dorthin, Geld! Ich kriege dich. <lb/>
+              Der Alte muß in's Garn!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Hab' ich mich nun <lb/>
+              Geirrt, daß die aus Gaunerstreiche denken? <lb/>
+               <pb n="43"/>
+              Run freilich, Clinia'S Bursch ist nicht der flinkste, <lb/>
+              D'rum hat man unserm das Geschäft vertraut.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wer spricht da? — Wetter! Hat er's wohl gehört?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei, Syrus!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>He!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>. Was hast d u hier zu schaffen?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>O nichts! Doch dich bewundr' ich, Chremes. — Was! <lb/>
+              So früh schon? Und hast gestern so getrunken!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nicht über's Maß.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nicht, sagst du? Sah man doch, <lb/>
+              Wie es im Sprüchwort heißt, die volle Kraft <lb/>
+              DeS greisen Adlers!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ein nettes Weib, <lb/>
+              Und geistreich, diese Dirne!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Allerdings, <lb/>
+              Das kam mir auch so vor!</p>
+          </sp><pb n="44"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Und sapperment, <lb/>
+              'ne stattliche Figur!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Das geht wohl.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nicht <lb/>
+              Wie sonst; doch wie sie jetzt sind, gut genug. <lb/>
+              Und ich begreife leicht, daß Clinia <lb/>
+              Sie sterblich liebt. Allein sein Alter ist <lb/>
+              Ein Geizhals, Hungerleider, zäher Filz — <lb/>
+              Der Nachbar drüben. Kennst du ihn? Als .wenn <lb/>
+              Der nicht vollauf im Reichthum säße, ist <lb/>
+              Sein Sohn davongelaufen, bloß aus Mangel. — <lb/>
+              Weißt du darum?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie sollt' ich nicht! Der Kerl <lb/>
+              Verdient die Mühle.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wer?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Den Burschen mein' ich <lb/>
+              Des jungen Menschen —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p/></sp>
+          <p>Syrus, Syrus! Mir <lb/>
+            War bang um dich!</p>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>— der das geschehen ließ.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Was sollt' er thun?</p>
+          </sp><pb n="45"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du fragst? Etwas ersinnen, <lb/>
+              'ne List erdenken, um dem jungen Menschen <lb/>
+              Für seine Freundin Geld herbeizuschaffen, <lb/>
+              Und diesen wunderlichen Kauz von Alten, <lb/>
+              Wollt' er auch nicht, vom Untergang zu retten —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du spaßest wohl?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>^ Das hätt' er müssen, SyruS.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Oho! Du lobst die ihre Herrn betrügen?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Am rechten Ort, da lob' ich's allerdings.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ganz wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Weil's oft ein Mittel ist, um großer <lb/>
+              Betrübniß vorzubeugen. Dem zum Beispiel <lb/>
+              Wär' gleich sein einz'ger Sohn daheim geblieben..</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Meint er'S im Ernste oder Scherz? Doch mich <lb/>
+              Ermuthigt er, es um so mehr zu thun.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Und jetzt, was wartet er noch, Syrus? Soll <lb/>
+              Sein Herr etwa zum zweitenmal entweichen, <lb/>
+              Wenn er den Aufwand für das Mädchen nicht <lb/>
+              Erschwingen kann? Sinnt er nicht d'rauf, dem Alten <lb/>
+              Ein Bein zu stellen?</p>
+          </sp><pb n="46"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Was, der Tropf!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>So solltest <lb/>
+              D u helfen um des jungen Menschen willen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Das kann ich leicht, wenn du befiehlst; denn wie <lb/>
+              Dergleichen anzugreifen ist, versteh' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Dann bist du um so mehr der Mann dafür.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Das Lügen ist nicht meine Sache.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Thu's denn!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Doch höre du! Denk' fein an deine Rede, <lb/>
+              Wenn fich'S vielleicht einmal ereignen sollte, <lb/>
+              Daß dein Sohn — wie's beim Menschen wohl geschieht — <lb/>
+              Etwas dem Aehnlich'S thäte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Hoffentlich <lb/>
+              Kommt's dazu nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nun ja, das hoff' ich auch. <lb/>
+              Ich sag'S auch nicht deßwegen, weil ich was <lb/>
+              An ihm gemerkt. Wenn aber allenfalls — <lb/>
+              Daß du mir nicht —! Wie jung er ist, das stehst du. <lb/>
+              Und wahrlich, käm'S dazu, so könnt' ich, ChremeS, - <lb/>
+              Dich meisterhaft bedienen.</p>
+          </sp><pb n="47"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>'s wird sich finden, <lb/>
+              Wenn's dazu kommt. Jetzt denk' an meinen Auftrag! <lb/>
+              &lt;«».)</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich habe nun und nimmer meinen Herrn <lb/>
+              Gelegener sprechen hören, und ich durfte <lb/>
+              Nie glauben, daß ein Streich so ungestraft <lb/>
+              Mir hingeh'n werde. — Wer kommt da heraus?</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Chremes. Clitipho. Syrus-</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was soll das, Clitipho? Welch ein Betragen! <lb/>
+              Gebührt sich dieses?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was hab' ich gethan?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sah ich nicht, wie du eben deine Hand <lb/>
+              Der Dirne in den Busen stecktest?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Ach! <lb/>
+              Ich bin verloren!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ich?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mit meinen Augen. <lb/>
+              Nur nicht geläugnet! Unrecht, schmählich Unrecht <lb/>
+              Thust du an ihm, daß du die Hand nicht meisterst. <lb/>
+               <pb n="48"/>
+              Denn das heißt doch Beleidigung, wenn du <lb/>
+              Den Freund erst aufnimmst, und an seinem Mädchen <lb/>
+              Dich dann vergreisest! Gestern schon nach Tisch — <lb/>
+              Wie unanständig hast du dich benommen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie zudringlich! Bei meiner Seele, <lb/>
+              Wie war mir bange, was d'rauS werden sollte! <lb/>
+              Ich kenne die Verliebten: die bemerken <lb/>
+              Scharf, wo man's nicht vermuthet.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>O, der traut mir, <lb/>
+              Daß ich von der Art nichts versuche, Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mag sein! 'ne Zeitlang wenigstens geh' aber <lb/>
+              Den Leutchen aus dem Weg! Verliebtheit bringt <lb/>
+              So Manches mit, wobei die Gegenwart <lb/>
+              'nes Dritten störend ist. Ich nehme das <lb/>
+              An mir ab, Clitipho: jetzt eben ist <lb/>
+              Kein einziger von allen meinen Freunden, <lb/>
+              Bei dem ich alle meine Heimlichkeiten <lb/>
+              Herauszusagen wagte. Bei dem einen <lb/>
+              Hält mich sein Auseh'n ab, beim andern Scham <lb/>
+              Vor dem Benehmen selbst: ich möchte nicht <lb/>
+              Gern geckenhaft, nicht rücksichtslos erscheinen. <lb/>
+              So, mußt du glauben, ist's bei Jenem auch. <lb/>
+              Wir aber sollen einseh'n, wie und wo <lb/>
+              Es nöthig ist, in Andre uns zu fügen.,</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (gegen Clitipho).</speaker>
+            <p>Was s a gt der Herr dazu?</p>
+          </sp><pb n="49"/>
+          
+          <sp>
+            <speaker>Clitipho (leise).</speaker>
+            <p>Zum Henker auch!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Geb' ich dir solche Lehren, Clitipho? — <lb/>
+              Brav und enthaltsam hast du dich benommen!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho (leise).</speaker>
+            <p>So schweig' doch!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Schöne Aufführung!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich muß <lb/>
+              Mich schämen, Sinne.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Glaub's; und nicht mit Unrecht. <lb/>
+              Selbst mir ist'S ärgerlich.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho (zu Syrus).</speaker>
+            <p>Hörst du nicht auf?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich sag'S, wie mir'S um's Herz ist.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Darf ich nicht <lb/>
+              In ihre Nähe kommen?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Ei, ist das <lb/>
+              Der einz'ge Weg dazu?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Es ist vorbei! <lb/>
+              Der gibt sich bloß, eh' ich daS Geld noch schaffe. <note type="footnote"> Lerenz. Der Selbstpeiniger. </note> <note type="footnote"> 4 </note> <lb/>
+               <pb n="50"/>
+              (laut) <lb/>
+              Willst du von meiner Einfalt wohl 'nen Rath <lb/>
+              Anhören, Chremes?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Welcher wäre das?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Befiehl ihm wegzugeh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho</speaker>
+            <p>Wo soll ich hin?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wohin? Wohin's beliebt. Mach'ihnen Platz! <lb/>
+              Spazier' umher!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Spazier' umher? Wohin?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bah! Gleich als wenn's an Platz gebräche! Nun, <lb/>
+              Geh' dahin, dorthin — wo du willst!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ganz recht! <lb/>
+              Das rath' ich auch.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho (leise).</speaker>
+            <p>Hol' dich der Geier, Syrus, <lb/>
+              Daß du mich aus dem Hause treibst! <lb/>
+              (»d.)</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du aber — <lb/>
+              Bemeist're du in Zukunft deine Hände!</p>
+          </sp><pb n="51"/>
+          
+          <ab>
+            <title type="sub">Vierte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Syrus. Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Soll man's auch meinen! Was wirst du noch Alles <lb/>
+              An ihm erleben, Chremes, wenn du nicht <lb/>
+              Mit aller Macht, die dir der Himmel gibt, <lb/>
+              Ihn hütest, strafst, ermahnest!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Dafür laß <lb/>
+              Mich sorgen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja, von Stund' an, Herr, mußt du <lb/>
+              Den scharf beachten —</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>— wenn du gescheidt bist; <lb/>
+              Denn mir parirt er immer weniger.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sag', hast du, was ich jüngst mit dir besprach, <lb/>
+              Auch ausgerichtet, Syrus? Hast du was <lb/>
+              Erkleckliches ersonnen, oder nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die Schelmerei meinst du? Auf so was bin ich <lb/>
+              Vorhin gekommen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Brav! Sag' an, was ist'S? <note type="footnote"> 4« </note></p>
+          </sp><pb n="52"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Gleich! — Doch wie Eines aus dem Andern kommt —</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>WaS, Syrus?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ein recht abgefeimtes Stück <lb/>
+              Ist diese Dirne!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>'S scheint so.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wenn du wüßtest — <lb/>
+              Sieh nur, was sie im Schilde führt! Da war <lb/>
+              'ne alte Frau hier aus Korinth, der hatte <lb/>
+              Sie tausend Drachmen vorgestreckt.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was dann?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die Alt' ist todt und hat 'ne junge Tochter <lb/>
+              Zurückgelassen. Die ist denn der Dirne <lb/>
+              Als Unterpfand für jenes Geld geblieben.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Verstehe.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Die hat sie mit hergebracht, <lb/>
+              Die nämliche, die jetzt bei deiner Frau ist.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was dann?</p>
+          </sp><pb n="53"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Sie bittet Clinia, ihr jetzt <lb/>
+              Das Geld zu geben; doch dafür verbleibe <lb/>
+              Das Mädchen ihm zum Pfande.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>So? zum Pfande?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ei, ist das zweifelhaft? Ich meinte so.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>WaS denkst du jetzt zu machen?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich? <lb/>
+              Zu Menedemus will ich geh'n, ihm sagen, <lb/>
+              DaS Mädchen sei aus Carien geraubt, <lb/>
+              Sei reich und vornehm; löse er sie ein, <lb/>
+              Könn' er was Tüchtiges dabei gewinnen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Da geh'st du fehl.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie so?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich will <lb/>
+              Für Menedemus dir die Antwort geben: <lb/>
+              „Ich kauf' sie nicht."</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ei was! Sprich günstiger!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>'S ist auch nicht nöthig.</p>
+          </sp><pb n="54"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ist nicht nöthig?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein,</p>
+            <p>Wahrhaftig nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie so? Das wundert mich.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du wirst es gleich erfahren.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Warte! warte! <lb/>
+              Was geht die Thür bei uns so lärmend auf?</p>
+          </sp>
+          <ab>
+            <title type="sub">Fünfte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Sostrata. Die Amme. Chremes. Syrus-</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Täuscht mich nicht Alles, so ist das der Ring, <lb/>
+              Den ich vermuthe, eben der, den ich <lb/>
+              Der Tochter mitgab bei der Aussetzung.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was soll die Rede, Syrus?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Nun? Meinst du's</p>
+            <p>Nicht auch?</p>
+          </sp>
+          <sp>
+            <speaker>Amme.</speaker>
+            <p>Ich sagte ja, wie du ihn zeigtest, <lb/>
+              Gleich aus der Stell', er sei's.</p>
+          </sp><pb n="55"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Daß du ihn aber <lb/>
+              Auch recht betrachtet hast, lieb Weib!</p>
+          </sp>
+          <sp>
+            <speaker>Amme.</speaker>
+            <p>Das hab' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>So geh' hinein, und wenn sie fertig ist <lb/>
+              Mit Baden, sage mir s. Ich wart' indessen <lb/>
+              Auf meinen Mann. («mm--b.,</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (zu Chremes).</speaker>
+            <p>Sie will zu dir. Sieh nach, <lb/>
+              Was ihr Begehren ist! Weiß nicht, sie kommt <lb/>
+              Mir so verlegen vor. Das ist nicht ohne. <lb/>
+              Wenn'S nur nichts Schlimmes ist!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was wird es sein! <lb/>
+              Mit großem Anlauf große Albernheiten <lb/>
+              Wird sie zu sagen haben, meiner Treu!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ah, lieber Mann!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ah, liebe Frau!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Dich such' ich!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sag', was du willst!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Für? Erste bitt' ich dich, <lb/>
+              Glaub' nicht, daß ich mich unterstanden habe, <lb/>
+              Was gegen dein Gebot zu thun!</p>
+          </sp><pb n="56"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>DaS soll ich, <lb/>
+              Wenn'S gleich unglaublich, glauben? Run, ich glaub'S!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Daß sie im Voraus sich entschuldigt, läßt <lb/>
+              Ich weiß nicht was für ein Vergeh'» vermuthen.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Erinnerst du dich, da ich schwanger war, <lb/>
+              Wie du mir ernstlich sagtest, käm' ein Mädchen <lb/>
+              Zur Welt, so wollest du'S nicht auserzieh'n?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich weiß, was du gethan: du h a st'S erzogen.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Ist's so, dann ist der junge Herr um einen — <lb/>
+              Verlust bereichert!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>KeineSwegeS, sondern <lb/>
+              ES war hier aus Korinth ein altes Weib — <lb/>
+              Kein übleS Wesen: dem gab ich das Kind, <lb/>
+              Um'S auszusetzen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Himmel, welche Dummheit!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Oweh! Was hab'ich denn gethan?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du fragst?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Hab' ich gefehlt, mein EhremeS, so geschah'S <lb/>
+              Unwissentlich.</p>
+          </sp><pb n="57"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Bin davon überzeugt, <lb/>
+              Auch ohne dein Geständniß, daß du Alles <lb/>
+              Unwissend, unbesonnen sagst und thust. — <lb/>
+              So viele Blößen gibst du in der Sache. <lb/>
+              Für's Erste: warst du Willens, mein Gebot <lb/>
+              Streng zu befolgen, mußtest du das Kind <lb/>
+              Umbringen lassen, nicht den Tod mir heucheln <lb/>
+              In Worten, in der That dir Mühe geben, <lb/>
+              Sein Leben zu erhalten. Doch davon <lb/>
+              Nichts weiter! Mitleid — Mutterherz — eS sei! <lb/>
+              Wie trefflich aber hast du vorgesorgt! <lb/>
+              Wo wolltest du hinaus? Bedenke nur! <lb/>
+              Ist jener Alten doch geradezu <lb/>
+              Die Tochter von dir überlassen worden, <lb/>
+              Sich Preis zu geben, oder öffentlich <lb/>
+              Als Sklavin seil zu steh'n! Du dachtest wohl: <lb/>
+              „'S gilt Alles gleich, wenn sie nur leben bleibt!" <lb/>
+              Was ist mit Leuten anzufangen, die, <lb/>
+              Was recht, was gut und billig ist, nicht kennen? <lb/>
+              Ob etwas besser oder schlimmer ist, <lb/>
+              Ob nützlich oder schädlich, kümmert sie <lb/>
+              Im Mind'sten nicht, bloß was beliebt.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Mein ChremeS, <lb/>
+              Ich habe mich vergangen, ich bekenn' es. <lb/>
+              Du hast mich überzeugt. Jetzt bitt' ich dich, <lb/>
+              Wie du gesetzter, zum Verzeih'n geneigter <lb/>
+              Durch deine Jahre bist, daß meine Thorheit <lb/>
+              In deiner Milde ein'ge Nachficht finde.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Run, das mag hingeh'n! Aber, Sostrata, <lb/>
+              - Zu manchem dummen Streich verzieht dich meine <lb/>
+              Gelindigkeit. Doch sprich, sei'S was eS will, <lb/>
+              Warum du dieses aufs Tapet gebracht!</p>
+          </sp><pb n="58"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>So wie wir arme Thörinnen denn Alle <lb/>
+              Gar abergläubisch sind, so zog ich mir, <lb/>
+              Als ich das Mädchen, um es auszusetzen, <lb/>
+              Der Alten übergebe, einen Ring <lb/>
+              Vom Finger ab: den sollte sie gleich mit <lb/>
+              Aussetzen, daß es doch, wenn's stürbe, nicht <lb/>
+              Ganz untheilhastig unsrer Habe wäre.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes (spottend).</speaker>
+            <p>Sehr klug! Da hast du dich und sie gewahrt!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Das ist der Ring!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wo hast du ihn bekommen?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Das junge Mädchen, das die Bacchis mit <lb/>
+              Gebracht hat —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Wetter!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was sagt die?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>— gab mir <lb/>
+              Ihn aufzuheben, wie sie baden gieng. <lb/>
+              Ich hatt' erst keine Acht auf ihn; nachher, <lb/>
+              Als ich ihn ansah, da erkannt' ich ihn <lb/>
+              Gleich aus der Stell' und sprang zu dir heraus.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was meinst du nun von ihr? Was findest du?</p>
+          </sp><pb n="59"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich weiß nicht. Frag' sie selber aus, wo sie <lb/>
+              Ihn herhat, wenn das zu ermitteln ist.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>O weh! Mehr Hoffnung seh' ich, als ich wünsche, <lb/>
+              's ist Unsre, wenn dem so ist!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Lebt die noch, <lb/>
+              Der du sie übergeben hast?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich weiß nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was brachte sie denn damals für Bescheid?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Daß sie gethan, wie ich befohlen hatte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Gib an, wie hieß das Weib, damit man sich <lb/>
+              Erkund'gen könne.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Philtere.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Sie ist's! <lb/>
+              Mich sollte wundern, wenn das Mädchen nicht <lb/>
+              Geborgen wäre, aber i ch verloren.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Komm, Sostrata, geh' mit hinein!</p>
+          </sp><pb n="60"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wie über <lb/>
+              Erwarten hat sich das gefügt! — Mein ChremeS, <lb/>
+              Wie war mir bang, du möchtest jetzt so hart <lb/>
+              Wie ehmalS sein bei der Geburt des Kindes!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ost darf der Mensch nicht sein so wie er will, <lb/>
+              Wenn die Verhältnisse dagegen sind. <lb/>
+              In meiner jetz'gen Lag' ist eine Tochter <lb/>
+              Mir wünschenSwerth; vormals nichts weniger. <lb/>
+              (Beide ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Sechste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Täuscht mich nicht Alles, bin ich gar nicht weit <lb/>
+              Bon einer Niederlage: so gewaltig <lb/>
+              Sind jetzo meine Truppen im Gedränge; <lb/>
+              Ich müßte denn was finden, daß der Alte <lb/>
+              Im Irrthum bliebe über die Geliebte <lb/>
+              DeS SohneS. Denn noch Geld zu hoffen, oder <lb/>
+              Gar zu verlangen, ihn noch anzuführen, <lb/>
+              Damit ist'S aus. Triumph genug, wenn ich <lb/>
+              Den Rückzug decken kann. Mich ärgert, <lb/>
+              Daß so ein fetter Bissen ohne Weit'reS <lb/>
+              Mir aus dem Maul herausgerissen wird. — <lb/>
+              Was mach' ich nun? Was sinn' ich aus? — Ich muß <lb/>
+              Den Plan von vorn entwerfen. Es ist nichts <lb/>
+              So schwer, daß man durch Anstrengung eS nicht <lb/>
+              Ergrübeln könnte. — Wie nun, wenn ich'S so <lb/>
+              Anfienge? — Das ist nichts. — Wie aber so? — <lb/>
+              'S geht eben auch nicht. — Aber so doch, denk' ich? — <lb/>
+              Unmöglich! — Nein, ganz gut! Ein trefflicher <lb/>
+              Gedanke! He, was gilt'S, ich zieh'S doch wieder <lb/>
+              An mich heran, das sortgelaufne Geld!</p>
+          </sp>
+        </div><pb n="61"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Vierter riet.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clinia. Syrus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clinia (ohne den Syrus zu sehen).</speaker>
+            <p>Nichts kann mir in der Folge mehr begegnen, <lb/>
+              Was mir noch Kummer machte: solche Freude <lb/>
+              Hab' ich erlebt! Von nun an widm' ich mich <lb/>
+              Ganz meinem Vater, um noch eingezogener <lb/>
+              Zu leben, als er wünscht.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Ich hatte Recht: <lb/>
+              Sie ist erkannt, so weit ich den verstehe! — <lb/>
+              Ich freue mich, daß dir das so nach Wunsch <lb/>
+              Begegnet ist.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>O liebster Syrus, bitte, <lb/>
+              Hast du's gehört?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja freilich; war ich doch <lb/>
+              In Einem fort dabei!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Hast du wohl je <lb/>
+              Gehört, daß irgendwem ein solches Glück <lb/>
+              Zu Theil geworden?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nie.</p>
+          </sp><pb n="62"/>
+          
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Und wahrlich, nicht <lb/>
+              So sehr für mich bin ich erfreut, als wegen <lb/>
+              DeS Mädchens, daS, ich weiß es, alle Achtung <lb/>
+              Verdient.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>DaS glaub' ich. Aber, Clinia, <lb/>
+              Nun zeig' dich gegenseitig mir gefällig; <lb/>
+              Denn auch des Freundes Angelegenheit <lb/>
+              Muß man in Sicherheit zu bringen suchen. <lb/>
+              Der Alte darf nichts von dem Mädchen —</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Himmel!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>So schweigt</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Antiphila wird meine Frau!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Fällst du mir so in's Wort?</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>O bester Syrus!</p>
+            <p>Ich bin so froh! Ertrag' mich!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nun, ich thu's ja!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ein Götterleben wird's!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>ES ist unmöglich, <lb/>
+              Zum Wort zu kommen.</p>
+          </sp><pb n="63"/>
+          
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Sprich! Ich höre.</p>
+          </sp>
+          <sp>
+            <speaker>. Syrus.</speaker>
+            <p>-Du merkst ja aber doch nicht auf!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Doch, doch!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wir müssen, sag' ich, Clinia, d'raufseh'n, <lb/>
+              Auch deines Freundes Angelegenheit <lb/>
+              In Sicherheit zu bringen. Geh'st du nämlich <lb/>
+              Jetzt von uns weg und lässest Bacchis hier, <lb/>
+              So merkt der Alte auf der Stelle, daß <lb/>
+              Sie Clitipho's Geliebte ist ; nimmst du <lb/>
+              Sie mit, so bleibt's verborgen wie bisher.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Doch nichts steht meiner Heirath mehr im Wege <lb/>
+              Als dieses, Syrus. Denn mit welcher Stirn <lb/>
+              Soll ich vor meinen Vater treten? Weißt du, <lb/>
+              Was ich ihm sage?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Was soll ich sagen? <lb/>
+              Was ihm als Grund angeben? —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nein, belügen <lb/>
+              Sollst du ihn nicht! Sag' offen, wie es steht!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Sprichst du im Ernst?</p>
+          </sp><pb n="64"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja, ja! „Du liebtest jene <lb/>
+              Und wünschtest sie zur Gattin; die gehöre <lb/>
+              Dem Clitipho." ^</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>WaS du verlangst von mir, &gt; <lb/>
+              Ist gut und passend und leicht auszuführen. <lb/>
+              Natürlich soll ich meinen Vater bitten, <lb/>
+              Daß euer Alter nichts davon erfährt.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Im Gegentheil, er soll'S ihm gradeSwegS <lb/>
+              Der Reihe nach erzählen.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Ei, bist du <lb/>
+              Bei Sinnen, oder nüchtern? Du verräthst ihn <lb/>
+              Ja offenbar. Wo ist da Sicherheit? <lb/>
+              Das sage mir!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Dem Plan gebührt der Preis! <lb/>
+              Hier fühl' ich mich erhaben, solche Kraft <lb/>
+              Und so gewalt'ge Schlauheit zu besitzen, <lb/>
+              Daß mit der Wahrheit ich sie Beide täusche; <lb/>
+              So daß, wenn euer Alter unserm sagt, <lb/>
+              Sie sei des SohnS Geliebte, er ihm doch <lb/>
+              Nicht glaubt.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Allein auf diese Weise raubst du <lb/>
+              Mir wieder alle Hoffnung auf die Heirath. <lb/>
+              Denn Chremes wird, so lang er die für meine <lb/>
+              Geliebte hält, mir seine Tochter nicht <lb/>
+              Zur Ehe geben. D u bekümmerst dich <lb/>
+              Wohl wenig d'rum, wie unr'S geht, wenn du ihm <lb/>
+              Stur helfen kannst.</p>
+          </sp><pb n="65"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Zum Henker, meinst du denn, <lb/>
+              Ich wolle, daß man ewig sich verstelle? <lb/>
+              Ein Tag, dann hab' ich 's Geld, und damit basta!</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Damit hast du genug? — Wie, wenn sein Vater <lb/>
+              Dahinterkäme?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie, wenn ich den Leuten <lb/>
+              Nachplapperte: „Wie, wenn der Himmel jetzt <lb/>
+              Einfiele?»</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Mir ist bange —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ei was bange! <lb/>
+              Als stund' es nicht bei dir, zu jeder Zeit <lb/>
+              Dich loszumachen, Alles zu entdecken.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia.</speaker>
+            <p>Nun, nun, so führe man die Bacchis 'rüber!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Vortrefflich! — Ah, da kommt sie selbst heraus!</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Bacchis. Clinia Syrus. Phrygia. Dromo.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Bacchis (für sich).</speaker>
+            <p>Recht frech, wahrhaftig, haben mich des Syrus <lb/>
+              Verheißungen hieher gelockt — zehn Minen, <lb/>
+              Die er mir zugesagt hat! Führt er mich <lb/>
+              Für dieß mal an, dann wird er mit der Bitte <note type="footnote"> Terenz. Der Selbstpeiniger. </note> <note type="footnote"> ü </note> <lb/>
+               <pb n="66"/>
+              Zu kommen, oft vergebens kommen; oder: <lb/>
+              Hab' ich's versprochen und die Zeit bestimmt, <lb/>
+              Hat er es für gewiß zurückgemeldet, <lb/>
+              Harrt Clitipho in banger Spannung, dann <lb/>
+              Führ' ich ihn an und komme nicht, und Syrus — <lb/>
+              Büßt's mit dem Rücken ab.</p>
+          </sp>
+          <sp>
+            <speaker>Clinia (zu Syrus).</speaker>
+            <p>Welch' artiges <lb/>
+              Versprechen sie dir macht!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Glaubst du, die spaße? <lb/>
+              Sie thut'S, beug' ich nicht vor.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Sie schlafen. Traun, <lb/>
+              Ich will sie rütteln! — Liebe Phrygia, <lb/>
+              Hast du gehört, wie eben des Chariuus <lb/>
+              Landhaus der Mensch beschrieb?</p>
+          </sp>
+          <sp>
+            <speaker>Phrygia.</speaker>
+            <p>Oja!</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Zunächst <lb/>
+              An diesem Gute lieg' es, rechter Hand.</p>
+          </sp>
+          <sp>
+            <speaker>Phrygia.</speaker>
+            <p>Ich weiß eS.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Geh', laus' hurtig hin! Dort feiert <lb/>
+              Der Offizier das BacchuSfest.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Was hat die?</p>
+          </sp><pb n="67"/>
+          
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Sag', ich sei äußerst ungern hier und könne <lb/>
+              Nicht fort; ich würde aber irgendwie <lb/>
+              Sie hintergeh'n und kommen.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wehe mir! — <lb/>
+              Bleib', Bacchis, bleibe! Wo schickst du sie hin? <lb/>
+              Sag', sie soll bleiben!</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Geh'!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Das Geld liegt da!</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Dann bleib' ich!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Freilich, du bekommst es gleich!</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>ES eilt nicht. Dräng' ich denn?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Doch weißt du was?</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Was denn?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Zu Menedemus mußt du jetzt, <lb/>
+              Und dein Gefolge mit hinüber nehmen.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Was machst du, Schurke! <note type="footnote"> II </note></p>
+          </sp><pb n="68"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich? Ich schlage Geld, <lb/>
+              Um's dir zu geben.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Hältst du mich für Eine, <lb/>
+              Die mit sich spotten läßt?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>'s hat seinen Grund.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Hab' ich hier noch mit dir zu thun?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bewahre! <lb/>
+              Das Deinige bezahl' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Bacchis.</speaker>
+            <p>Nun voran!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Komm' mit! <lb/>
+              (BacchiS mit Phrygia ab.) <lb/>
+              He, Dromo, he!</p>
+          </sp>
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>Wer ruft mich?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Syrus.</p>
+          </sp>
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>Was gibt's?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bring' schnell der Bacchis sämmtliche <lb/>
+              Bedienung hin in euer Haus!</p>
+          </sp><pb n="69"/>
+          
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>Warum?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Frag' nicht erst viel! Sie sollen mit sich nehmen, <lb/>
+              Was sie hieher gebracht. — Der Alte wird <lb/>
+              Durch ihren Umzug hoffen aus den Kosten <lb/>
+              Zu kommen. Traun, er weiß nicht, was für großen <lb/>
+              Verlust das Bischen Vortheil bringt! — Du, Dromo, <lb/>
+              Wenn du vernünftig bist, so weißt du nichts <lb/>
+              Von Allem, was du weißt.</p>
+          </sp>
+          <sp>
+            <speaker>Dromo.</speaker>
+            <p>Stumm, wie ein Fisch!</p>
+            <p>(«b.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Chremes. Syrus-</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Er dauert mich, der arme Menedemus, <lb/>
+              So wahr mich Gott! daß ihn so großes Unheil <lb/>
+              Betroffen. Die Person mit ihrem Troß <lb/>
+              Zu füttern! In den ersten Tagen zwar <lb/>
+              Wird er's wohl nicht empfinden: so gewaltig <lb/>
+              War seine. Sehnsucht nach dem Sohn; doch sieht er, <lb/>
+              Daß ihm zu Hause täglich so viel Kosten <lb/>
+              Erwachsen, und das nie ein Ende nimmt, <lb/>
+              So wird er wünschen, daß sein Sohn sich wieder <lb/>
+              Fortmache. — Sieh da Syrus wie gerufen!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>Was zögr' ich noch, ihn anzureden?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Syrus!</p>
+          </sp><pb n="70"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Heda!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie steht's?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p/></sp>
+          <p>Dich wünscht' ich längst zu treffen.</p>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mir scheint, du habest mit dem Alten schon <lb/>
+              Was vorgehabt.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du meinst, was wir vorhin —? <lb/>
+              Gesagt, gethan!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Im vollen Ernst?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wahrhaftig!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Dann muß ich dir die Backen streicheln, Syrus. <lb/>
+              Tritt näher! Werde dir dafür was LiebeS <lb/>
+              Erweisen, und das gern.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>O wenn du wüßtest, <lb/>
+              Was für 'nen klugen Einfall ich gehabt!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei, prahlst du, daß dir's so gelungen?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nein, <lb/>
+              Gewiß nicht! 's ist die Wahrheit!</p>
+          </sp><pb n="71"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sprich, was ist's?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Dein Clitipho — so sagte Clinia <lb/>
+              Dem Menedemus — sei verliebt in Bacchis, <lb/>
+              Und habe darum bloß sie mitgebracht, <lb/>
+              Daß du's nicht merken solltest.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Schön!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nicht wahr?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ganz herrlich, sag' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nun, es geht so an. <lb/>
+              Doch höre, welche List noch kommt! Er habe <lb/>
+              Dann deine Tochter auch geseh n, und sei <lb/>
+              Von ihrem Reiz beim ersten Anblick gleich <lb/>
+              Gefesselt worden: sie wünsch' er zur Frau.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Die eben erst gefundene?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ja wohl! <lb/>
+              Er denkt um sie zu freien.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wozu das, Syrus? <lb/>
+              Denn ich begreifs rein nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Du fassest schwer.</p>
+          </sp><pb n="72"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Kann sein.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Man wird ihm Geld zur Hochzeit geben, <lb/>
+              Um davon Kleider und Geschmeide — merkst du?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ihr anzuschaffen?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Freilich!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Aber ich <lb/>
+              Geb' und verlobe sie ihm nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Warum nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Warum, fragst du? So einem —</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie's beliebt! <lb/>
+              Ich sagte nicht, du sollest sie auf immer <lb/>
+              Ihm geben, sondern dich nur bloß so stellen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Verstellung ist nicht meine Sache. Mische <lb/>
+              Dein Spiel für dich! Mich mische nicht hinein! <lb/>
+              Wie? Einem Menschen, dem ich sie zu geben <lb/>
+              Nicht Willens bin, dem sollt' ich sie verloben?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich dachte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Ganz gewiß nicht!</p>
+          </sp><pb n="73"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>'s hätte fich <lb/>
+              Recht gut gemacht; und ich fieng's darum an, <lb/>
+              Weil du so dringend es vorhin verlangtest.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich glaub's.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>'s ist mir indeß auch so recht, Chremes.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Und gleichwohl wünscht' ich sehr, du gäbst dir Mühe, <lb/>
+              Es auszuführen, nur auf anderm Wege.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Gut, etwas Andres denn! — Doch was ich dir <lb/>
+              Vom Gelde sagte, das Antiphila <lb/>
+              Der Bacchis schuldig ist, das muß man der <lb/>
+              Jetzt wiedergeben, und du wirst natürlich <lb/>
+              Jetzt nicht die Ausflucht brauchen: „Was schiert'S mich? <lb/>
+              Hab' i ch's bekommen? Hab' ich s anbefohlen? <lb/>
+              Hat Jene ohne mein Geheiß mein Kind <lb/>
+              Verpfänden können?" — Richtig ist der Satz: <lb/>
+              Das größte Recht ist oft das größte Unrecht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sei unbesorgt!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nein, wenn's Andre dürfen, <lb/>
+              Darfst d u's nicht. Jeder glaubt, du steh'st dich gut <lb/>
+              Und habest dein Vermögen hübsch vergrößert.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nun denn, ich bring'S ihr aus der Stelle.</p>
+          </sp><pb n="74"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nein, <lb/>
+              Laß deinen Sohn es lieber thun!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Warum?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Weil er ja im Verdacht der Liebe steht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was dann? <lb/>
+              »</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Weiss an Wahrscheinlichkeit gewinnt, <lb/>
+              Wenn e r's ihr gibt; auch komm' ich leichter <lb/>
+              Au meinem Zweck. — Da ist er g'rade selbst! <lb/>
+              Geh', hol' das Geld heraus!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Das soll gescheh'n! <lb/>
+              (Ab)</p>
+          </sp>
+          <ab>
+            <title type="sub">Vierte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clitipho. Syrus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Es ist kein Ding so leicht, 's wird einem schwer, <lb/>
+              Wenn man es ungern thut. Schon der Spaziergang, <lb/>
+              Der doch nichts sagen will, hat mich ermüdet. <lb/>
+              Und jetzt fürcht' ich nichts mehr, als daß ich Armer <lb/>
+              Nochmals vertrieben werde, um der Bacchis <lb/>
+              Nur fern zu bleiben. — Daß doch alle Götter <lb/>
+              Und Göttinnen, all' insgesammt, dich, Syrus, <lb/>
+              Mit deinem Rath und Plan vernichteten! <lb/>
+              Nur immer solche Dinge sinnst du aus, <lb/>
+              Um mich zu martern.</p>
+          </sp><pb n="75"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Geh', wo du hingehörst! <lb/>
+              Wie nah' war'S d'ran, so hätte deine Frechheit <lb/>
+              Jn'S Unglück mich gestürzt!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wär'S nur gescheh'n! <lb/>
+              Du Hast'S verdient.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Verdient? Wie so? <lb/>
+              Bei Gott! Mich freut, aus deinem Munde dieß <lb/>
+              Gehört zu haben, eh' du noch das Geld <lb/>
+              Bekommen, das ich gleich dir geben wollte.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was soll ich aber zu dir sagen? Fort <lb/>
+              Bist du gegangen, hast mir die Geliebte <lb/>
+              Herbeigeholt, um sie — nicht anzurühren.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Nun, nun, bin nicht mehr böse. Weißt du aber, <lb/>
+              Wo deine Bacchis jetzt ist?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dort bei uns.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Rein.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wo denn sonst?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bei Clinia.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>O weh!</p>
+          </sp><pb n="76"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Getrost! Im Augenblick sollst du das Geld, <lb/>
+              Das du versprochen hast, ihr überbringen.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Bist nicht gescheidt! Woher?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Von deinem Vater.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Du hast mich wohl zum Besten?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Der Erfolg</p>
+            <p>Wird's lehren.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Traun! Ich bin ein Glückskind. Syrus, <lb/>
+              Nimm meinen Dank! — Doch sieh , mein Vater kommt!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Zeig' nicht Verwunderung, warum's geschieht; <lb/>
+              Willfahr' am rechten Ort; was er befiehlt, <lb/>
+              Dem komme nach; sprich nur das Nöthigste.</p>
+          </sp>
+          <ab>
+            <title type="sub">Fünfte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Chremes. Clitipho. Syrus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wo steckt nun Clitipho?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Sprich: Hier!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Hier bin ich!</p>
+          </sp><pb n="77"/>
+          
+          <sp>
+            <speaker>Chremes (zu Syrus).</speaker>
+            <p>Was vor ist, hast du's ihm gesagt?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Meist Alles.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes (zu Clitipho).</speaker>
+            <p>Da nimm das Geld und überbring' es!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (leise zu Clitipho).</speaker>
+            <p>Nu,</p>
+            <p>Was stehst du, Klotz! So nimm doch!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Gib's nur her!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Jetzt schnell mir nach! <lb/>
+              (zu ChremeS) <lb/>
+              Du, wart' einstweilen hier, <lb/>
+              Bis wir erst wieder da sind ; denn ein Grund <lb/>
+              Ist nicht vorhanden, länger dort zu bleiben.</p>
+            <p>(At mit Clitipho.)</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Zehn Minen hätte meine Tochter nun <lb/>
+              Schon weg: die rechn' ich für den Unterhalt; <lb/>
+              Dann kommen andre zehn für Putz und Kleidung, <lb/>
+              Und zwei Talente wird man außerdem <lb/>
+              Als Heirathsgut ansprechen. Wie so Vieles, <lb/>
+              Ob recht, ob unrecht, führt Gewohnheit ein! <lb/>
+              Jetzt muß ich Alles steh'n und liegen lassen, <lb/>
+              Um Jemand aufzufinden, dem ich mein <lb/>
+              Mit saurem Schweiß Erworb'nes überlasse.</p>
+          </sp><pb n="78"/>
+          
+          <ab>
+            <title type="sub">Sechste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Menedemus. Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Menedemus (zu Clinia in's Haus hinein sprechend).</speaker>
+            <p>Jetzt mein' ich, lieber Sohn, der Glücklichste <lb/>
+              Von allen Sterblichen zu sein, da ich <lb/>
+              Dich wieder zur Vernunft gekommen sehe.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie irrt er sich! ,</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Dich eben sucht' ich, ChremeS. <lb/>
+              Erhalte, denn du kannst es, meinen Sohn, <lb/>
+              Mich und mein Haus!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>So sprich, was soll ich thun?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Du fandest heute eine Tochter wieder.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was dann?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Die wünscht sich Clinia zur Frau.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was für ein Mensch bist du! Ich bitte dich!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wie so?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Hast du vergessen, was wir Beide <lb/>
+              Von wegen des Betrugs besprochen haben, <lb/>
+              Um aus dem Wege Geld dir abzunehmen?</p>
+          </sp><pb n="79"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich weiß es.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Eben das ist jetzt im Werke.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Was sagst du, ChremeS! Nein, die jetzt bei mir ist, <lb/>
+              Ist Clitipho'S Geliebte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie sie sagen. <lb/>
+              Glaubst du denn Alles gleich? <lb/>
+              Sie sagen auch, <lb/>
+              Dein Sohn begehre sie zur Frau, damit, <lb/>
+              Wenn ich sie zugesagt, du Geld hergebest, <lb/>
+              Um Kleider und Geschmeid' und Anderes <lb/>
+              Was noth thut, anzuschaffen..</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ja, so ist's: <lb/>
+              Die Dirne soll es kriegen!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei versteht sich!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So hab' ich Armer mich umsonst gefreut! <lb/>
+              Doch lieber Alles in der Welt, als ihn <lb/>
+              Verlieren! — Was für Antwort soll ich ihm <lb/>
+              Jetzt von dir bringen, Chremes, daß er es <lb/>
+              Nicht meck', ich merk es, und es übel nehme?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Es übel nehme? Nein, das heißt die Nachsicht ' <lb/>
+              Doch gar zu weit getrieben, Menedemus!</p>
+          </sp><pb n="80"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Laß! Es ist angefangen: hilf es mir <lb/>
+              Vollenden, Chremes!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sag', du hättest mich <lb/>
+              Getroffen, hättest in Betreff der Heirath <lb/>
+              Mit mir geredet.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Gut! Was dann?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich wäre <lb/>
+              Zu Allem gern bereit; der Schwiegersohn <lb/>
+              Gefalle mir. Ja endlich, wenn du willst, <lb/>
+              Sag' noch, ich hätte sie versprochen/</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ah, <lb/>
+              Das wollt' ich!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Daß er um so schneller Geld <lb/>
+              Von dir verlange und du's, wie du wünschest, <lb/>
+              Aufs Schnellste gebest.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So ist's recht!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wahrhastig, <lb/>
+              Wie ich's ansehe, wirst du seiner bald <lb/>
+              Satt werden. Aber, so wie s steht, wirst du <lb/>
+               <pb n="81"/>
+              Ihm nur behutsam und allmählich geben, <lb/>
+              Wenn du vernünftig bist.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So will ich's machen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Geh' jetzt, und sieh, was er verlangt. Ich werde <lb/>
+              Zu Hause sein, wenn du mich suchst.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ganz wohl! <lb/>
+              Erfahren sollst du Alles, was ich thue.</p>
+          </sp>
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Fünfter sit.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Menedemus. Nachher Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Daß ich nicht eben zu den Witzigsten, <lb/>
+              Noch auch Scharfsinnigsten gehöre, weiß ich; <lb/>
+              Jedoch mein Helfershelfer, mein Ermahner, <lb/>
+              Mein Tonangeber Chremes ist hierin <lb/>
+              Bei weitem mir voraus. Auf mich paßt Alles, <lb/>
+              Womit man Dumme titulirt: als Klotz, <lb/>
+              Block, Esel, Schaf; auf ihn von Allem nichts; <lb/>
+              Denn seine Dummheit übersteigt das Alles.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes (spricht in's Haus hinein zu feiner Frau).</speaker>
+            <p>So hör' doch einmal auf, den Göttern, Frau, <lb/>
+              Mit deinen Dankgebeten um das wieder <note type="footnote"> Tnenz. Der seitens-einiger. </note> <note type="footnote"> v </note> <lb/>
+               <pb n="82"/>
+              Gefund'ne Kind die Ohren taub zu schreien! <lb/>
+              Es sei denn, daß du sie nach dir beurtheilst <lb/>
+              Und glaubst, daß sie etwas nur dann versteh'«, <lb/>
+              Wenn's hundertmal gesagt wird. — Doch was bleibt <lb/>
+              Mein Sohn so lange mit dem Syrus auS?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wer sagst du, Chremes, bleibe aus?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei sieh! <lb/>
+              Bist du da, Menedemus? — Sage mir, <lb/>
+              Weiß Clima, was ich dir sagte?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Alles.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was meint er?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ein Vergnügen hatte der, <lb/>
+              Wie 'n rechter Bräutigam!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Haha!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Was lachst du?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich dacht' an meines SyruS Pfiffe.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So?</p>
+          </sp><pb n="83"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sogar die Mienen Andrer stutzt er zu, <lb/>
+              Der Bösewicht!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Du meinst, weil sich mein Sohn <lb/>
+              So fröhlich stellt?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Daran dacht' ich auch.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Der Schalksknecht!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mehr noch, wenn du mehr erfahren, <lb/>
+              Wirst du's so anseh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wirklich?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Höre nur!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p/></sp>
+          <p>Wart' noch! Erst möcht' ich gerne wissen, was <lb/>
+            Du losgeworden bist. Denn wie du meine <lb/>
+            Zusage deinem Sohn gemeldet, hat <lb/>
+            Natürlich Dromo dir gleich eingeworfen, <lb/>
+            Die Braut bedürfe Kleider, Schmuck und Mägde: <lb/>
+            Daß du den Beutel zögest.</p>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nein. <note type="footnote"> 6» </note></p>
+          </sp><pb n="84"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie? Nein?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nein, sag' ich!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Auch der Sohn nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nicht ein Wort. <lb/>
+              Nur auf das Eine drang er, daß noch heute <lb/>
+              Die Hochzeit vor sich gienge.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Sonderbar! — <lb/>
+              Und Syrus? Hat auch der nichts —?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nichts!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Weßhalb, <lb/>
+              Das weiß ich nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mich wundxrt's allerdings, <lb/>
+              Da du so gut doch Andres weißt. Allein <lb/>
+              Dein Syrus g'rade hat auch deinen Sohn <lb/>
+              Vortrefflich zugestutzt, daß man es selbst <lb/>
+              Nicht ein klein Bischen wittert, Bacchis sei <lb/>
+              Des Clinia Geliebte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was du sagst!</p>
+          </sp><pb n="85"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Vom Küssen, vom Umarmen sag' ich nichts, <lb/>
+              Das rechn' ich nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie? Treibt man die Vorstellung <lb/>
+              Noch weiter?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Bah!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>WaS ist'S?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>So höre nur! <lb/>
+              In meinem Hause ganz zu hinterst ist <lb/>
+              Ein Kämmerchen: dorthin trug man ein Bett — <lb/>
+              Man legte Decken d'rauf —</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nun, und was dann?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ein Augenblick — und Clitipho war d rin!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Allein?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Allein.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich fürchte —</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Bacchis dann <lb/>
+              Gleich hinterher.</p>
+          </sp><pb n="86"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Allein?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Allein.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>O weh!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Als sie hineingegangen, schlossen sie <lb/>
+              Die Thür ab.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Hm! Und das sah Clinia?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Warum nicht? Wir zusammen.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ach! Die Bacchis <lb/>
+              JA meines SohnS Geliebte, Menedemus! <lb/>
+              Das ist mein Tod!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Wie das?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Kaum auf zehn Tage <lb/>
+              Reicht mein Vermögen aus!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wie? Fürchtest du, <lb/>
+              Weil er dem Freund 'nen Liebesdienst erweist?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein, weil der Freundin!</p>
+          </sp><pb n="87"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Wenn er'S thut!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du zweifelst? <lb/>
+              Meinst du, eS hätte Jemand so ein sanftes, <lb/>
+              Nachsichtig Herz, daß er vor seinen Augen <lb/>
+              Sein Mädchen sich —?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Warum nicht? Um mich leichter <lb/>
+              Zu hintergeh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du spottest noch? — Ich bin <lb/>
+              Mit Recht jetzt über m i ch erzürnt. Wie Vieles <lb/>
+              Begab sich nicht, woran ich's merken konnte, <lb/>
+              Wenn ich kein Dummkopf wär'! Was hab' ich Alles <lb/>
+              Geseh'n! — O ich geschlag'ner Mann! — Doch wahrlich, <lb/>
+              'S geht ihnen nicht so hin, so wahr ich lebe! <lb/>
+              Von Stund' an will ich —</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mäßigst du dich nicht? <lb/>
+              Nimmst nicht auf dich Bedacht? Hast du an mir <lb/>
+              Nicht Beispiels g'nug?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Vor lauter Zorn bin ich <lb/>
+              Nicht bei mir, Menedemus!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>DaS sprichst du? <lb/>
+              Ist eS nicht schimpflich — Andern Rath ertheilen, <lb/>
+              Klug auswärts sein — und kannst dir selbst nicht helfen?</p>
+          </sp><pb n="88"/>
+          
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was soll ich thun?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Dasselbe, worin i ch'S <lb/>
+              Verfehlte, wie du sagtest. Er muß fühlen, <lb/>
+              Daß du sein Vater bist; muß wagen. <lb/>
+              Dir Alles zu vertrauen, dich zu bitten, <lb/>
+              Von dir zu fordern, auf daß er nicht andre <lb/>
+              Auswege such' und dich verlasse.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein, <lb/>
+              Viel lieber lauf er fort in alle Welt, <lb/>
+              Als daß der Lotterbub' hier seinen Vater <lb/>
+              Zum Bettler macht! Denn soll ich seinen Aufwand <lb/>
+              Noch fernerhin bestreiten, Menedemus, <lb/>
+              Dann muß ich wirklich zu der Hacke greifen.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Welch' Ungemach wirst du in dieser Sache <lb/>
+              Dir zuzieh'n, bist du nicht auf deiner Hut! <lb/>
+              Erst wirst du streng dich zeigen, und zuletzt <lb/>
+              Verzeih'st du doch, und ohne Dank zu erndten.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Du weißt nicht, wie das schmerzt!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nun, wie du willst! — <lb/>
+              Wie steht'S mit dem Bewußten? Soll sie Meinen <lb/>
+              Bekommen? Wenn du nicht was BessreS hast.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein, Eidam und Verwandtschaft steh'n mir an.</p>
+          </sp><pb n="89"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Sag', welche Mitgift gibst du? Daß ich's meinem <lb/>
+              Sohn sagen kann. — Was schweigst du?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Mitgift?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ach!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>Chremes, sei nicht bang! Wenn's auch nicht viel — <lb/>
+              Es kommt uns nicht auf Mitgift an.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Für unsre <lb/>
+              Umstände, dacht' ich, wären zwei Talente <lb/>
+              Hinreichend; aber willst du mich erretten, <lb/>
+              Mein Gut und meinen Sohn, so mußt du sagen, <lb/>
+              Mein ganz Vermögen sei dazu bestimmt.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Was hast du vor?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Stell' dich verwundert drüber, <lb/>
+              Und frag' ihn auch zugleich, warum ich's thue.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>I ch weiß ja aber nicht, warum du's thust!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Warum? Daß ich den Burschen, der sich jetzt <lb/>
+              Zn Ueppigkeit und Lüsten gehen läßt, <lb/>
+               <pb n="90"/>
+              So in die Enge treibe, daß er nicht <lb/>
+              Mehr wissen soll, wo aus noch ein.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Was machst du?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Still! Laß mich hierin meinem Kopfe folgen!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Meintwegen denn! — Du willst S so!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus</speaker>
+            <p>So sei'S!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wohlan! Er rüste sich, die Braut zu holen! <lb/>
+              Dem will ich'S, wie'S für Kinder paßt, mit Worten <lb/>
+              Eintränken! Aber Syrus —</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nun, was der?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>So wahr ich lebe, soll so ausgeputzt, <lb/>
+              So abgestriegelt werden, daß Zeitlebens<lb/>
+               Er an mich denken soll! —(Menedemus ab.) <lb/>
+              Der meint, er könne <lb/>
+              Zum Rarr'n mich haben, zum Gespött! Rein wahrlich, <lb/>
+              Nicht einer Wittfrau dürst' er so was bieten, <lb/>
+              Wie mir!</p>
+          </sp><pb n="91"/>
+          
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clitipho. Menedemus- Chremes. Syrus</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ach, Menedemus, ist's denn wahr, <lb/>
+              Daß in so kurzer Zeit mein Vater mir <lb/>
+              Sein Vaterherz entzogen hat? Weßhalb nur? <lb/>
+              Was hab' ich Anner Großes denn verbrochen? <lb/>
+              Thun's Alle doch!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich weiß, daß d ir's weit schwerer <lb/>
+              Und härter ist, den's trifft, doch schmerzt es mich <lb/>
+              Nicht weniger. Wie's zugeht, weiß ich nicht. <lb/>
+              Noch ist der Grund mir klar; nur, daß ich dir <lb/>
+              Von Herzen wohl will.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Sagtest du mir nicht, <lb/>
+              Mein Vater wäre hier?</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Da steht er ja! <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Was klagst du mich an, Clitipho? Mit Allem, <lb/>
+              Was ich hierin gethan, hab' ich für dich <lb/>
+              Gesorgt und deine Thorheit. Da ich fand, <lb/>
+              Daß Leichtsinn dich beherrscht, daß den Genuß <lb/>
+              Des Augenblicks du für das Höchste schätzest <lb/>
+              Und keine Rückficht auf die Zukunft nimmst, <lb/>
+              Traf ich die Einrichtung, daß du nicht darbest, <lb/>
+              Noch mein Erworbenes verschleudern könnest. <lb/>
+              Da dir's zu geben, dem's zuerst gebührte, <lb/>
+               <pb n="92"/>
+              Bei deiner Aufführung nicht möglich war, <lb/>
+              So wandt! ich mich zu denen, die zunächst <lb/>
+              Dir stehen: ihren Händen übergab <lb/>
+              Und überließ ich eS. Dort, Clitipho, <lb/>
+              Wird deine Thorheit immer Hülse finden, <lb/>
+              Kost, Kleidung, Obdach.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Weh mir!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Besser so, <lb/>
+              Als wenn du'« erbst und Bacchis eS besitzt</p>
+          </sp>
+          <sp>
+            <speaker>Syrus (für sich).</speaker>
+            <p>O ich Verruchter! Was für ein Gewirr <lb/>
+              Hab' ich da unbesonnen angerichtet!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ach wär' ich todt!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Lern' erst, was leben heißt! <lb/>
+              Weißt du'S, und mißfällt dir das Leben, dann <lb/>
+              Sprich so!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Herr, darf ich?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Rede!</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Aber sicher?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Run, rede!</p>
+          </sp><pb n="93"/>
+          
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wie verkehrt, wie sinnlos ist'S, <lb/>
+              Daß er entgelten soll, was ich gefehlt!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Geh', mische dich nicht ein! Dich, Syrus, klagt <lb/>
+              Kein Mensch an. Keinen Altar brauchst du, noch <lb/>
+              Fürsprecher.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Was soll das?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ich bin nicht böse <lb/>
+              So wenig dir als dir, und ihr auch habt <lb/>
+              Nicht Ursach', mir'S zu sein für mein Benehmen. <lb/>
+              («&gt;1</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Fort ist er! Ach, hätt' ich ihn nur gefragt —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>— wo ich Brod hernehme! So hat er <lb/>
+              UnS ausgestoßen! Freilich d u hast welches <lb/>
+              Bei deiner Schwester.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dahin ist's gekommen, <lb/>
+              Daß mir selbst Mangel drohet, SyruS?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Läßt <lb/>
+              Man uns nur leben, so ist Hoffnung —</p>
+          </sp><pb n="94"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Welche?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Daß wir — brav hungern werden.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Spaßest du <lb/>
+              In so 'nem ernsten Falle? Und kommst mir nicht <lb/>
+              Mit Rath zu Hülfe?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wohl, ich bin jetzt d'ran, <lb/>
+              Und war es schon, so lang dein Vater sprach; <lb/>
+              Und in so weit i ch's sehen kann —</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Was?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Wird er <lb/>
+              Nicht lang mehr auf sich warten lassen.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Nun?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>So ist'S! Du bist ihr Sohn nicht, glaub' ich.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wie? <lb/>
+              Bist du gescheidt?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Ich sage, was mir einfällt, <lb/>
+              Urtheile du! — Als du ihr Einz'ger warst, <lb/>
+              Nichts Anderes, das näher war, sie freute, <lb/>
+               <pb n="95"/>
+              Da sahen sie dir nach, da gaben sie; <lb/>
+              Jetzt, da die Tochter aufgefunden, fand <lb/>
+              Man auch den Vorwand aus, dich zu verstoßen.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Nicht unwahrscheinlich.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Glaubst du, dieser Fehler <lb/>
+              Hab' ihn so aufgebracht?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ich meine nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Bedenke jetzt noch: alle Mütter Pflegen <lb/>
+              Bei Fehlern ihren Söhnen durchzuhelfen, <lb/>
+              Bei väterlicher Härte sie in Schutz <lb/>
+              Zu nehmen: das ist nicht der Fall.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Hast Recht! <lb/>
+              Was soll ich denn nun machen, Syrus?</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Frage <lb/>
+              Sie wegen des Verdachtes, bring' es vor. <lb/>
+              Ist'S grundlos , wirst du Beide schnell zu Mitleid <lb/>
+              Bewegen, oder hörst, woher du stammst.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Dein Rath ist gut; das will ich. <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Syrus.</speaker>
+            <p>Der Gedanke <lb/>
+              Kam mir recht passend. Denn je hoffnungsloser <lb/>
+              Der junge Mensch sich zeigt, um desto leichter <lb/>
+               <pb n="96"/>
+              Wird er mit seinem Vater Frieden schließen <lb/>
+              Aus günstige Bedingungen. Wer weiß auch, <lb/>
+              Ob er nicht eine Frau nimmt. Doch für Syrus — <lb/>
+              Gibt's keine Gnade. — Was ist das? — Der Alte <lb/>
+              Kommt'raus! Da flieh'ich! Nach dem Vorgesall'nen <lb/>
+              Ist's sonderbar, daß er mich nicht sofort <lb/>
+              Hat greifen lassen. — Zu dem Menedemus <lb/>
+              Geh' ich, der soll ein gutes Wort für mich <lb/>
+              Einlegen. Unserm Alten trau' ich nicht. <lb/>
+              («b)</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Sostrata. Chremes.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wahrhaftig, Mensch, nimmst du dich nicht in Acht, <lb/>
+              So bringst du Unglück über deinen Sohn! <lb/>
+              Und das gerade wundert mich, wie doch <lb/>
+              So was Einfältiges dir in den Kopf <lb/>
+              Hat kommen können, lieber Mann.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Das muß <lb/>
+              Doch Weib und immer Weib sein! Hab' ich je <lb/>
+              In meinem Leben was gewollt, daß du <lb/>
+              Nicht Widerpart gehalten, Sostrata? <lb/>
+              Doch frag' ich nun: wo liegt mein Fehler? oder: <lb/>
+              Was du für Grund hast — weißt du nicht, warum <lb/>
+              Du jetzt so dreist dich widersetzest, Thörin.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich wüßt' es nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ja, ja, du sollst es wissen! <lb/>
+              Fang' nur das alte Lied nicht wieder an!</p>
+          </sp><pb n="97"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>O du bist ungerecht, wenn du verlangst, <lb/>
+              Ich solle schweigen in so wicht'ger Sache!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Rein, das verlang'ich nicht. Sprich nur! Ich werde <lb/>
+              Es doch thun.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Doch?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Unfehlbar.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Siehst du nicht, <lb/>
+              Was du für großes Unheil damit stiftest? <lb/>
+              Er meint, er sei nicht unser Sohn.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei, wirklich?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>So kommt's gewiß!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Gesteh's nur!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Soll mich Gott! <lb/>
+              Das möge unsern Feinden widerfahren! <lb/>
+              Ich sollte eingesteh'n, er sei mein Sohn nicht, <lb/>
+              Da er's doch ist?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie? Ist dir bang, du möchtest, <lb/>
+              Auch wenn du wolltest, nicht beweisen können, <lb/>
+              Er sei dein Sohn? <note type="footnote"> Der selbst:-einiger. </note> <note type="footnote"> 7 </note></p>
+          </sp><pb n="98"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Weil unsre Tochter sich <lb/>
+              Gefunden?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nicht doch! sondern, was weit mehr <lb/>
+              Zum Glauben nöthigt, weil er deinem Wesen <lb/>
+              In Allem ähnelt, wirst du leicht beweisen, <lb/>
+              Daß er dein Sohn ist: denn er ist so ganz <lb/>
+              Dein Ebenbild. Kein Fehler stellt sich ja <lb/>
+              An ihm heraus, den du nicht selber hast. <lb/>
+              Und einen Sohn, wie der ist, brächte wohl <lb/>
+              Kein Weib zur Welt, als du. — Doch sieh, da kommt er! <lb/>
+              Wie ernsthaft! Wer ihn steht, meint Wunder was.</p>
+          </sp>
+          <ab>
+            <title type="sub">Vierte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Clitipho. Sostrata. Chremes</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Wenn's jemals eine Zeit gab, Mutter, wo <lb/>
+              Ich dein Vergnügen war, mit deinem Willen <lb/>
+              Dein Sohn hieß, so beschwör' ich dich, gedenke <lb/>
+              Daran, und schenke Mitleid einem nun <lb/>
+              Verlassenen. Mein Wunsch und meine Bitte <lb/>
+              Geht dahin: laß mich meine Aeltern wissen!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Um's Himmelswillen, lieber Sohn, verbanne <lb/>
+              Doch den Gedanken, daß du fremd uns sei'st!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ich bin'S!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>O weh mir! Das hast du gewollt? <lb/>
+              O daß du mich und ihn doch überlebtest, <lb/>
+               <pb n="99"/>
+              So sicher, als du mir und ihm entstammst! <lb/>
+              Und, liebst du mich, so laß ein solches Wort <lb/>
+              Mich nie in Zukunft wieder von dir hören!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Und, scheust du mich, laß nie ein solch Betragen <lb/>
+              Mich wieder von dir sehen!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>WaS für eins?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Du willst eS wissen? Gut! Ein Faselhans, <lb/>
+              Ein Tagedieb, ein Ränkeschmied, ein Schlemmer, <lb/>
+              Ein Hurenjäger und Verschwender bist du. <lb/>
+              Glaub' mir'S, und daß du unser bist, glaub'S auch!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>So spricht ein Vater nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes</speaker>
+            <p>Und wärest du <lb/>
+              AuS meinem Haupt geboren, wie Mnerva <lb/>
+              Der Sage nach aus Juppiters, so würd' ich <lb/>
+              Doch darum, Clitipho, durch deine Laster <lb/>
+              Nicht meine Ehre untergraben lassen.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Das wolle Gott nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Gott? Was der — ich weiß es nicht. <lb/>
+              Ich aber will mit Fleiß thun, was ich kann. <lb/>
+              Du suchest, was du hast, die Aeltern; was <lb/>
+              Dir abgeht, suchst du nicht: wie du dem Vater <lb/>
+              Gehorsam leistest, und zu Rathe haltest <note type="footnote"> Ps-</note> <lb/>
+               <pb n="100"/>
+              Was er mit saurer Müh' erworben. Hast <lb/>
+              Du nicht durch Trug mir vor die Augen die — <lb/>
+              Ich schäme mich in Gegenwart von der <lb/>
+              Das garst'ge Wort zu nennen; aber du <lb/>
+              Hast dich der Handlung nicht geschämt.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho (für sich).</speaker>
+            <p>Wie bin ich <lb/>
+              Mir jetzt so ganz verhaßt! Wie schäm' ich mich! <lb/>
+              Und wie es anzufangen ist, um ihn <lb/>
+              Mir wieder zu versöhnen, weiß ich nicht.</p>
+          </sp>
+          <ab>
+            <title type="sub">Fünfte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Menedemus. Chremes. Clitipho. Sostrata.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Nein wahrlich! Chremes quält den jungen Menschen <lb/>
+              Auch gar zu arg und mehr als menschlich ist. <lb/>
+              Ich muß nur geh'n und Frieden Wen. — Sieh, <lb/>
+              Da sind sie Beide recht!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei, Menedemus, <lb/>
+              Warum wird meine Tochter nicht geholt? <lb/>
+              Was machst du die bestimmte Mitgift nicht <lb/>
+              Rechtskräftig?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Lieber Mann, ich bitte dich, <lb/>
+              Thu's nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Verzeih' mir, Vater, bitte!</p>
+          </sp><pb n="101"/>
+          
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>ChremeS, <lb/>
+              Nimm? nicht so streng! Laß dich erbitten!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wie? <lb/>
+              Ich soll mein Hab' und Gut mit meinem Willen <lb/>
+              Der Bacchis schenken? Nimmermehr!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Das leiden <lb/>
+              Wir selber nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Willst du mein Leben retten, <lb/>
+              Verzeihe, Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Mach', mein Chremes!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Mach', <lb/>
+              Bestehe nicht so hart d'raus, ChremeS! Bitte.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Je nun, ich sehe, wie ich angefangen, <lb/>
+              Darf ich'S nicht weiter führen.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Dein Benehmen <lb/>
+              Ist deiner würdig.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Unter der Bedingung <lb/>
+              Soll es geschehen, wenn er thut, was ich <lb/>
+              Für billig achte.</p>
+          </sp><pb n="102"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Vater, Alles thu' ich; <lb/>
+              Befiehl!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Heirathen sollst du.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho</speaker>
+            <p>Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Wende <lb/>
+              Nichts ein!</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Ich nehm' es über mich, er thut'S.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Er sagt noch nichts.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>O weh!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wie, Clitipho? <lb/>
+              Du bist bedenklich?</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Nein, die Wahl steht frei.</p>
+          </sp>
+          <sp>
+            <speaker>Menedemus.</speaker>
+            <p>Er thut'S schon.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>S o was ist nur Anfangs schwer, <lb/>
+              Und wenn man'S noch nicht kennt; ist man damit <lb/>
+              Bekannt geworden, leicht.</p>
+          </sp><pb n="103"/>
+          
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ich thu' eS, Vater.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Mein lieber Sohn, ein allerliebstes Mädchen <lb/>
+              Schlag' ich dir vor, die dir gewiß gefällt: <lb/>
+              Die Tochter unseres Phanocrates.</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Die mit dem Fuchshaar, mit den Katzenaugen, <lb/>
+              Den Sprenzeln im Gesicht, der Habichtsnase? <lb/>
+              Unmöglich, Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Ei, wie wählerisch! <lb/>
+              Man sollte glauben, er versteh' sich d'raus!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>'ne Andre denn!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Ei nun, wenn doch einmal <lb/>
+              Gefreit sein muß, hab' ich so ziemlich eine, <lb/>
+              Die mir gefällt.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Brav so, mein Sohn!</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Die Tochter <lb/>
+              Dort des ArchonideS.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata</speaker>
+            <p>Vortrefflich!</p>
+          </sp><pb n="104"/>
+          
+          <sp>
+            <speaker>Clitipho</speaker>
+            <p>Vater, <lb/>
+              Noch EinS!</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Und was?</p>
+          </sp>
+          <sp>
+            <speaker>Clitipho.</speaker>
+            <p>Verzeih' dem Syrus doch, <lb/>
+              Was er für mich that.</p>
+          </sp>
+          <sp>
+            <speaker>Chremes.</speaker>
+            <p>Gut! — Lebt wohl und klatscht!</p>
+            <p>Drin! von ». Hoffmann in Stuttgart.</p>
+          </sp>
+        </div><pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
