@@ -514,12 +514,13 @@
             <pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="5">
           <head>
             <title type="main">Fünftes Buch</title>
           </head>
-          <p>Jm nchsten Sommer lief der einjährige Waffenstillstand <lb/>
-            1. ab, und es war wieder Krieg bis zu den Pythischen <lb/>
+<div type="textpart" subtype="chapter" n="1">
+          <p>Im nächsten Sommer lief der einjährige Waffenstillstand <lb/>
+             ab, und es war wieder Krieg bis zu den Pythischen <lb/>
             Spielen. Noch während des Waffenstillstandes hatten die <lb/>
             Athener die Bewohner von Delos zur Auswanderung ge­ <lb/>
             zwungen. Sie glaubten nämlich, einer alten Schuld wegen wären <lb/>
@@ -1593,7 +1594,7 @@
             ständen für das beste hielten, ein Bündnis mit den Lake­ <lb/>
             dämoniern zu schließen, um für alle Fälle Frieden zu be­ <lb/>
             halten.</p>
-          <p>11. Nach ihrer Ankunft dort verhandelten die Gesandten mit <lb/>
+          <p>41. Nach ihrer Ankunft dort verhandelten die Gesandten mit <lb/>
             den Lakedämoniern über die Bedingungen, unter denen das <lb/>
             Bündnis geschlossen werden sollte. Zuerst verlangten die Argeier, <lb/>
             über die Landschaft Kynosuria mit den Städten Thyrea und . <lb/>
@@ -1619,7 +1620,7 @@
             er in Kraft träte, sollten sie sich wieder nach Argos begeben, <lb/>
             um ihn der Volksversammlung vorzulegen, und, wenn diese <lb/>
             zugestimmt, sich zu den Hyakinthien zur Eidesleistung einfinden.</p>
-          <p>12. Darauf reisten die Gesandten wieder ab. Während die <lb/>
+          <p>42. Darauf reisten die Gesandten wieder ab. Während die <lb/>
             Argeier hierüber verhandelten, fanden die Gesandten der Lake­ <lb/>
             dämonier, Andromedes, Phaidimos und AntimenidaS, welche <lb/>
             Panakton und die Kriegsgefangenen von den Böotiern über­ <lb/>
@@ -1880,7 +1881,7 @@
             würden sie nicht nur auf ihren Anteil an dem Gelde ver­ <lb/>
             zichten, sondern auch das, was dem Gotte davon gebühre, <lb/>
             selbst für sie bezahlen.</p>
-          <p>SV. Als die Lakedämonier das ablehnten, schlugen sie weiter <lb/>
+          <p>50. Als die Lakedämonier das ablehnten, schlugen sie weiter <lb/>
             vor, wenn sie das nicht wollten, möchten sie Lepreon immerhin <lb/>
             behalten, dann aber, falls sie doch am Feste teilzunehmen <lb/>
             wünschten, sich in Gegenwart der Griechen am Altar des <lb/>
@@ -2993,12 +2994,14 @@
             besetzten eS bald nachher mit fünfhundert Kolonisten.</p><pb n="68"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+</div>
+        <div type="textpart" subtype="book" n="6">
           <head>
             <title type="main">Sechstes Buch</title>
           </head>
-          <p>Jn demselben Winter wollten die Athener von neuem, <lb/>
-            1. diesmal mit größeren Kräften als unter Laches und <lb/>
+<div type="textpart" subtype="chapter" n="1">
+          <p>In demselben Winter wollten die Athener von neuem, <lb/>
+            diesmal mit größeren Kräften als unter Laches und <lb/>
             Enrymedon, einen Zug nach Sizilien unternehmen, um es wo­ <lb/>
             möglich ihrer Herrschaft zu unterwerfen. Von der Größe der <lb/>
             Insel und der Menge ihrer griechischen und nichtgriechischen <lb/>
@@ -3363,7 +3366,8 @@
             einem schädlichen Beschlusse leistest; es ist die Aufgabe des Vor­ <lb/>
             sitzenden, das Wohl des Vaterlandes möglichst zu fördern oder <lb/>
             es doch, soviel an ihm liegt, vor Schaden zu bewahren." <lb/>
-            15. So sprach Nikias. Von den Rednern, welche nach ihm <lb/>
+            </p>
+<p>15. So sprach Nikias. Von den Rednern, welche nach ihm <lb/>
              <pb n="78"/>
             auftraten, waren die meisten für den Krieg nnd gegen eine <lb/>
             neue Abstimmung, einige freilich auch entgegengesetzter Meinung. <lb/>
@@ -4344,7 +4348,7 @@
             die syrakusische Reiterei gegen sie vorging und einige ver­ <lb/>
             sprengte Leichtbewaffnete niederhieb, zogen sie wieder ab nach <lb/>
             Katana.</p>
-          <p>63. Hier trafen sie die Salaminia, die von Athen gekommen <lb/>
+          <p>53. Hier trafen sie die Salaminia, die von Athen gekommen <lb/>
             war mit dem Auftrage, Alkibiades abzuberufen, um sich wegen <lb/>
             der dort gegen ihn erhobenen Beschuldigungen zu verant­ <lb/>
             worten, und mit ihm eine Anzahl seiner Leute, welche auch <lb/>
@@ -4431,7 +4435,7 @@
             nicht zu helfen weiß, weil er dabei nicht hergekommen. Da <lb/>
             aber Hipparchos durch sein trauriges Ende so berühmt wurde, <lb/>
             glaubte man später, er sei damals auch Tyrann gewesen.</p>
-          <p>56 Also, um auf Harmodios zurückzukommen, Hippias fügte <lb/>
+          <p>56. Also, um auf Harmodios zurückzukommen, Hippias fügte <lb/>
             diesem, weil er ihm nicht zu Willen gewesen war, den ihm <lb/>
             zugedachten Schimpf zu. Man wies nämlich seine Schwester, <lb/>
             eine Jungfrau, nachdem man sie erst aufgefordert, bei einem <lb/>
@@ -4509,7 +4513,7 @@
             schon hochbetagt, den Zug der Perser nach Marathon mit­ <lb/>
             machte.</p><pb n="109"/>
             
-          <p>so. Weil das athenische Volk hieran dachte und sich alles, <lb/>
+          <p>60. Weil das athenische Volk hieran dachte und sich alles, <lb/>
             was es davon gehört, ins Gedächtnis rief, war es damals so <lb/>
             hart und argwöhnisch gegen die, welche wegen Verspottung <lb/>
             der Mysterien beschuldigt wurden, und glaubte nicht anders, <lb/>
@@ -4544,7 +4548,7 @@
             davon Betroffenen nicht mit Unrecht verurteilt waren; immer­ <lb/>
             hin war es für die übrige Bevölkerung unter den damaligen <lb/>
             Umständen eine Wohltat.</p>
-          <p>64. Der Hauptschuldige in den Augen der Athener aber war <lb/>
+          <p>61. Der Hauptschuldige in den Augen der Athener aber war <lb/>
              <pb n="110"/>
             Alkibiades, dessen Feinde, wie sie ihn schon vor seiner Abfahrt <lb/>
             angegriffen hatten, beständig gegen ihn hetzten. Seitdem das <lb/>
@@ -5811,14 +5815,16 @@
              das Gebiet von Phlius ein, verheerten einen Teil des Landes, <lb/>
             töteten auch einige Einwohner und gingen dann wieder nach<lb/>
              Hause.</p>
-        </div><pb n="-"/>
+        </div><pb n="145"/>
         
-        <div type="textpart" subtype="chapter">
+</div>
+        <div type="textpart" subtype="book" n="7">
           <head>
             <title type="main">Siebentes Buch</title>
           </head>
+<div type="textpart" subtype="chapter" n="1">
           <p>Gylippos und Pythen fuhren, nachdem sie ihre Schiffe <lb/>
-            1. ausgebessert, von Tarent nach Lokroi-Egizephyrioi und <lb/>
+            ausgebessert, von Tarent nach Lokroi-Egizephyrioi und <lb/>
             erhielten hier die bestimmte Nachricht, daß Syrakus noch nicht <lb/>
             gänzlich eingeschlossen sei, sondern daß man über Epipolai <lb/>
             immer noch mit einem Heere in die Stadt gelangen könne. <lb/>
@@ -6040,14 +6046,14 @@
             Er aber war jetzt schon mehr darauf bedacht, sich im Lager <lb/>
             gegen feindliche Angriffe zu behaupten als selbst angriffsweise <lb/>
             vorzugehen.</p>
-          <p>S. Gegen Ende dieses Sommers unternahm auch der athenische <lb/>
+          <p>9. Gegen Ende dieses Sommers unternahm auch der athenische <lb/>
             Feldherr Euetion mit Perdikkas und zahlreichen Thrakern <lb/>
             einen Zug gegen AmphipoliS. Er konnte die Stadt zwar <lb/>
             nicht nehmen, fuhr aber mit seinen Trieren auf dem Strymon <lb/>
             um sie herum und schloß sie von der Stromseite ein, wobei <lb/>
             er Himereion zu seinem Stützpunkte machte. Damit endete <lb/>
             der Sommer.</p>
-          <p>40. Im folgenden Winter kamen Nikias' Abgesandte in Athen <lb/>
+          <p>10. Im folgenden Winter kamen Nikias' Abgesandte in Athen <lb/>
             an, wobei sie ihre mündlichen Aufträge ausrichteten, weitere <lb/>
             Fragen beantworteten und sein Schreiben übergaben. Nun <lb/>
             trat der Staatsschreiber auf die Rednerbühne und las es den <lb/>
@@ -6096,8 +6102,8 @@
             ihrer Flotte gefaßt sein müssen. Offenbar haben sie es darauf <lb/>
             auch abgesehen; sie haben es ihrerseits in der Hand, uns <lb/>
             jederzeit anzugreifen, auch eher Gelegenheit, ihre Schiffe zu <lb/>
-            ' trocknen, weil sie niemand damit aufzupassen brauchen.</p>
-          <p>is. „Wir aber würden dazu selbst bei großer Überzahl an <lb/>
+             trocknen, weil sie niemand damit aufzupassen brauchen.</p>
+          <p>13. „Wir aber würden dazu selbst bei großer Überzahl an <lb/>
             Schiffen nicht imstande sein, auch weuu wir nicht wie jetzt <lb/>
             alle unsere Schiffe zur Bewachung verwenden müßten. Denn <lb/>
             wenn wir unsere Wachsamkeit auch nur etwas einshcränken, <lb/>
@@ -6168,7 +6174,7 @@
             nicht so schnell kommen, so werden sie doch., wenn ihr nicht <lb/>
             aufpaßt, wie das erste Mal unversehens oder früher hier sein <lb/>
             als ihr."</p>
-          <p>is. So also lautete das Schreiben. Nachdem es vorgelesen <lb/>
+          <p>16. So also lautete das Schreiben. Nachdem es vorgelesen <lb/>
             war, nahmen die Athener Nikias den Oberbefehl zwar nicht ab, <lb/>
             stellten ihm aber bis zur Ankunft neu gewählter Feldherren zwei . <lb/>
             dortige Anführer, Menandros und Euthydemos, darin zur Seite, <lb/>
@@ -6200,7 +6206,7 @@
             athenische Geschwader bei Naupaktos einen Schlag zu führen, <lb/>
             damit die Athener dort sich vor ihren Trieren in acht nähmen <lb/>
             und die Abfahrt ihrer Lastschiffe nicht verhinderten.</p>
-          <p>is. Nun aber rüsteten sich auch die Lakedämonier zum Einfall <lb/>
+          <p>18. Nun aber rüsteten sich auch die Lakedämonier zum Einfall <lb/>
             nach Attika, wozu sie sich vorher schon entschlossen hatten und <lb/>
             jetzt auch von den Syrakusern und Korinthern gedrängt wurden, <lb/>
             da sie erfahren, daß die Athener Verstärkungen nach Sizilien <lb/>
@@ -6515,7 +6521,7 @@
             Denn ihre Ausgaben waren gegen früher sehr gestiegen und <lb/>
             um so größer geworden, je mehr der Krieg an Umfang zu­ <lb/>
             genommen hatte und ihre Einnahmen zurückgegangen waren.</p>
-          <p>2S. Sie schickten also die Thraker, welche für Demotshenes <lb/>
+          <p>29. Sie schickten also die Thraker, welche für Demotshenes <lb/>
             zu spät gekommen waren, um bei der augenblicklichen Knapp­ <lb/>
              <pb n="164"/>
             heit ihrer Geldmittel Kosten zu sparen, sogleich wieder nach <lb/>
@@ -6607,7 +6613,7 @@
             mit ihm gewählt worden war. Demosthenes aber blieb in <lb/>
             Akarnanien, um dort im Lande Speerschützen und Schleuderer <lb/>
             aufzubieten.</p>
-          <p>AS. Als die damals nach der Einnahme des Plemmyrions an die <lb/>
+          <p>32. Als die damals nach der Einnahme des Plemmyrions an die <lb/>
             anderen Städte geschickten Gesandten der Syrakuser ihren Zweck <lb/>
             bei ihnen erreicht und Truppen zusammengebracht hatten, wollten <lb/>
             sie sich damit nach Syrakus aufmachen. Nikias aber, der davon <lb/>
@@ -6623,7 +6629,7 @@
             sehens und erschlugen gegen achthundert, auch die Gesandten <lb/>
             alle bis auf einen, den Korinther, der dann mit den fünf­ <lb/>
             zehnhundert glücklich Entkommenen nach Syrakus gelangte.</p>
-          <p>83. In diesen Tagen kamen auch fünfhundert Hopliten, drei­ <lb/>
+          <p>33. In diesen Tagen kamen auch fünfhundert Hopliten, drei­ <lb/>
             hundert Speerschützett und dreihundert Bogenschützen, welche die <lb/>
             Kamariner den Syrakusern zu Hilfe geschickt, bei ihnen an. <lb/>
             Auch Gela schickte fünf Schiffe mit vierhundert Speerschützen <lb/>
@@ -6700,7 +6706,7 @@
             Siegeszeichen, etwa zwanzig Stadien von Erineos, wo die <lb/>
             Korinther vor Anker gelegen hatten. So verlief die See­ <lb/>
             schlacht.</p>
-          <p>36. Demosthenes und Eurymedon aber ließen, als die Thurier <lb/>
+          <p>35. Demosthenes und Eurymedon aber ließen, als die Thurier <lb/>
             ihnen siebenhundert Hopliten und dreihundert Speerschützen <lb/>
              <pb n="169"/>
             gestellt, die Schiffe längs der Küste ins Krotonische fahren, <lb/>
@@ -7229,7 +7235,7 @@
             die Athener aber, weil die Thyrsener das feindliche Fußvolk <lb/>
             in den Sumpf getrieben und sie selbst dann auch das übrige <lb/>
             Heer geschlagen hatten.</p>
-          <p>5Z. Nach diesem glänzenden Siege, den die Syrakuser, die <lb/>
+          <p>55. Nach diesem glänzenden Siege, den die Syrakuser, die <lb/>
             sich anfangs vor der mit Demotshenes angekommenen neuen <lb/>
             Flotte gefürchtet, nun auch zur See erfochten hatten, wurden <lb/>
             die Athener völlig mutlos. So groß der Schmerz über den <lb/>
@@ -7244,7 +7250,7 @@
             denkliche ihrer Lage empfunden, so war das jetzt, nachdem sie, <lb/>
             was sie nimmer geglaubt, auch mit der Flotte geschlagen waren, <lb/>
             noch weit mehr der Fall.</p>
-          <p>S6. Die Syrakuser kreuzten auch gleich ganz dreist mit ihren <lb/>
+          <p>56. Die Syrakuser kreuzten auch gleich ganz dreist mit ihren <lb/>
             Schiffen im Hafen und beabsichtigten, dessen Einfahrt zu sperren, <lb/>
             damit die Athener nicht etwa heimlich mit ihrer Flotte ent­ <lb/>
             kämen. Denn es war ihnen schon nicht mehr bloß um ihre <lb/>
@@ -7598,7 +7604,7 @@
              glücklichen Lage, unter Umständen zu schlagen, wo eine Nieder­<lb/>
              lage so wenig ausmachen würde, ein Sieg aber die größten<lb/>
              Vorteile verspricht."</p>
-          <p>As. Nachdem die syrakusischeu Feldherren und Gylippos auch<lb/>
+          <p>69. Nachdem die syrakusischeu Feldherren und Gylippos auch<lb/>
              ihrerseits die Ihrigen also ermutigt hatten und sahen, daß die<lb/>
              Athener sich einschifften, bemannten auch sie unverzüglich ihre<lb/>
              Schiffe. In diesem Augenblick aber, wo die Flotte schon im<lb/>
@@ -7693,7 +7699,7 @@
             Athenern, die, wie sie ja sehr wohl wüßten, um jeden Preis <lb/>
             zu entfliehen suchten, nun gar selbst die Flucht ergreifen <lb/>
             wollten.</p>
-          <p>74. Während die Schlacht unentschieden hin und her schwankte, <lb/>
+          <p>71. Während die Schlacht unentschieden hin und her schwankte, <lb/>
             verfolgte das Landheer beiderseits deren Verlauf in ängstlicher <lb/>
             Spannung. Die Einheimischen wetteten, die Sache würde sich <lb/>
             für sie immer noch günstiger gestalten, die Athener und ihre <lb/>
@@ -8129,7 +8135,7 @@
             Wasser wurde sogleich ungenießbar; trotzdem wurde es, mit <lb/>
             Schlamm und Blut vermischt, wie es war, immer noch von <lb/>
             vielen getrunken, und einer machte es dem anderen streitig.</p>
-          <p>8S. Endlich, als im Flusse die Toten schon massenhaft über­ <lb/>
+          <p>85. Endlich, als im Flusse die Toten schon massenhaft über­ <lb/>
             einanderlagen, und die Leute teils im Flusse, teils, soweit sie <lb/>
             etwa entkommen, von der Reiterei zusammengehauen wurden, <lb/>
             ergab sich Nikias an Gylippos, dem er sich lieber anvertrauen <lb/>
@@ -8218,12 +8224,14 @@
             über die Ereignisse in Sizilien.</p>
         </div><pb n="210"/>
         
-        <div type="textpart" subtype="chapter">
+</div>
+        <div type="textpart" subtype="book" n="8">
           <head>
             <title type="main">Achtes Buch</title>
           </head>
+<div type="textpart" subtype="chapter" n="1">
           <p>Als die Nachricht nach Athen kam, wollte man dort auch <lb/>
-            1. den angesehensten Kriegern, die selbst nur mit genauer <lb/>
+            den angesehensten Kriegern, die selbst nur mit genauer <lb/>
             Not davongekommen waren und zuverlässige Nachrichten vom <lb/>
             Kriegsshcauplätze mitbrachten, lange nicht glauben, daß die <lb/>
             ganze Unternehmung so völlig gescheitert sei. Nachdem man <lb/>
@@ -8423,7 +8431,7 @@
             von ihrer Flotte so gut wie nichts mehr blicken ließ. Und <lb/>
             wie sie beschlossen hatten, so brachten sie auch gleich ein­ <lb/>
             undzwanzig Schiffe hinüber.</p>
-          <p>s. Aber so eilig man es auch mit der Abfahrt hatte, erklärten <lb/>
+          <p>9. Aber so eilig man es auch mit der Abfahrt hatte, erklärten <lb/>
             doch die Korinther, sie könnten nicht mit, ehe die isthmischen <lb/>
             Spiele, die damals grade stattfanden, vorüber wären. Agis <lb/>
             wollte ihnen auch nicht ansinnen, gegen den isthmischen Frieden <lb/>
@@ -8443,7 +8451,7 @@
              <pb n="216"/>
             Peloponnesier aber bei deren langem Zögern nicht mehr <lb/>
             rechneten.</p>
-          <p>&lt;0. Unterdessen wurden die ifthmischen Spiele gefeiert, an <lb/>
+          <p>10. Unterdessen wurden die ifthmischen Spiele gefeiert, an <lb/>
             denen auch die Athener, die man dazu eingeladen hatte, sich <lb/>
             durch Festgesandte beteiligten und dabei Gelegenheit fanden, <lb/>
             sich von den Umtrieben der Chier vollends zu überzeugen. <lb/>
@@ -8539,7 +8547,7 @@
             auf der ihre Stadt lag, im Notfall zurückziehen zu können. <lb/>
             Überall in den abgefallenen Orten war man geschäftig, die <lb/>
             Festungswerke instand zu setzen und zum Kriege zu rüsten.</p>
-          <p>is. Die Nachricht von den Ereignissen in Chios kam alsbald <lb/>
+          <p>15. Die Nachricht von den Ereignissen in Chios kam alsbald <lb/>
             nach Athen, und die Athener glaubten sich bereits aufs Äußerste <lb/>
             gefaßt machen zu müssen, da auch die übrigen Bundesgenossen <lb/>
             sich nach dem Abfall dieser wichtigsten Stadt schwerlich länger <lb/>
@@ -8564,7 +8572,7 @@
             sier weiter einzuschließen. So waren sie in voller Tätigkeit <lb/>
             und setzten alles dran, um in Chios mit den nötigen Streit­ <lb/>
             kräften aufzutreten.</p>
-          <p>is. Inzwischen kam Strombichides mit den acht Schiffen in <lb/>
+          <p>16. Inzwischen kam Strombichides mit den acht Schiffen in <lb/>
             Samos an. Von hier fuhr er, durch ein samisches Schiff ver­ <lb/>
             stärkt, nach Teos, wo er die Einwohner zur Ruhe ermähnte. <lb/>
             Aber auch Chalkideus war mit dreiundzwanzig Schiffen von <lb/>
@@ -8626,7 +8634,7 @@
             jeder, der von den Lakedämoniern und deren Bundesgenossen <lb/>
             abfällt, vom Könige als Feind behandelt werden."</p><pb n="221"/>
             
-          <p>IV. So das Bündnis. Nach dem bemannten die Chier noch <lb/>
+          <p>19. So das Bündnis. Nach dem bemannten die Chier noch <lb/>
             zehn andere Schiffe und fuhren damit nach Anaia, einmal <lb/>
             um sich über den Stand der Dinge in Milet zu vergewissern, <lb/>
             zugleich aber auch um die dortigen Städte zum Abfall zu <lb/>
@@ -8894,7 +8902,7 @@
             Söldnern des Amorgos bis Erythrai den Landweg einschlagen, <lb/>
             Milet selbst aber stellten sie uuter^Philippos' Befehl. Damit <lb/>
             endete der Sommer.</p>
-          <p>2S. Im folgenden Winter kam Tissaphernes, nachdem er Jasos <lb/>
+          <p>29. Im folgenden Winter kam Tissaphernes, nachdem er Jasos <lb/>
             befestigt und eine Besatzung hineingelegt hatte, nach Milet <lb/>
             und ließ, wie er das in Lakedämon versprochen, der gesamten <lb/>
             Schiffsmannschaft den Monatssold im Betrage einer attischen <lb/>
@@ -8903,7 +8911,7 @@
             nur drei Obolen geben und erst, wenn der es genehmigt, die <lb/>
             volle Drachme zahlen lassen. Da jedoch Hermokrates, der <lb/>
             syrakusische Feldherr, dagegen Widerspruch erhob, während <lb/>
-            . Therimenes in betreff des Soldes ohne weiteres nachgegeben <lb/>
+             Therimenes in betreff des Soldes ohne weiteres nachgegeben <lb/>
             hatte, da er nicht selbst Befehlshaber der Flotte war, sondern <lb/>
             die Fahrt nur mitmachte, weil er Astyochos die Schiffe zuge­ <lb/>
             führt, so wurden dennoch auf je fünf Schiffe mehr als drei <lb/>
@@ -8911,7 +8919,7 @@
             Schiffe monatlich drei Talente, und für die überzähligen, so­ <lb/>
             weit sie nicht in fünf aufgingen, wurde nach demselben Ver­ <lb/>
             hältnis gezahlt.</p>
-          <p>3V. In demselben Winter waren bei den Athenern in Samos <lb/>
+          <p>30. In demselben Winter waren bei den Athenern in Samos <lb/>
             weitere fünfunddreißig Schiffe unter Charminos, Strombichides <lb/>
             und Euktemon von Haus angekommen. Nachdem sie auch die <lb/>
             Schiffe von Chios und alle übrigen an sich gezogen hatten, <lb/>
@@ -9090,7 +9098,7 @@
             Schiffen eine Zeitlang gegen die feindliche Flotte in Milet, <lb/>
             da diese indes nicht herauskam, gingen sie nach Samos zurück, <lb/>
             ohne dort etwas Weiteres zu unternehmen.</p>
-          <p>3V. Aus dem Peloponnes brachen in demselben Winter zur <lb/>
+          <p>39. Aus dem Peloponnes brachen in demselben Winter zur <lb/>
             Zeit der Sonnenwende die siebenundzwanzig Schiffe auf, welche <lb/>
             die Lakedämonier infolge der durch Kalligeitos aus Megara <lb/>
             und Timagoras aus Kyzikos geführten Verhandlungen für <lb/>
@@ -9540,7 +9548,7 @@
             die Demokratie ins Zeug zu legen. Nachdem er alles so weit <lb/>
             vorbereitet hatte, daß es jeden Augenblick losgehen konnte, <lb/>
             machte er sich zu Schiff zu Tissaphernes auf.</p>
-          <p>65. Leon und Diomedon waren inzwischen bei der athenischen <lb/>
+          <p>55. Leon und Diomedon waren inzwischen bei der athenischen <lb/>
             Flotte angekommen und unternahmen noch in demselben Winter <lb/>
             eine Fahrt nach Rhodos, wo sie die auf den Strand gezogenen <lb/>
             Schiffe der Peloponnesier vorfanden und, nachdem sie gelandet, <lb/>
@@ -9672,7 +9680,7 @@
             Schlacht Chios nicht mehr würden entsetzen können. Damit <lb/>
             endete dieser Winter und das zwanzigste Jahr des Krieges, <lb/>
             den Thukydides beschrieben hat.</p>
-          <p>S1. Im folgenden Sommer, gleich bei Eintritt des Frühlings, <lb/>
+          <p>61. Im folgenden Sommer, gleich bei Eintritt des Frühlings, <lb/>
             wurde der Spartiate Derkylidas mit einer Handvoll Leuten zu <lb/>
             Lande nach dem Hellespont gesandt, um Abydos, eine Kolonie <lb/>
             von Milet, zum Abfall zu bringen. Die Chier aber sahen sich, <lb/>
@@ -9957,7 +9965,7 @@
             fanden, und auf seine Anheimgabe dann auch Gesandte zu <lb/>
             Friedensverhandlungen nach Lakedämon, weil sie dem Kriege <lb/>
             ein Ende zu machen wünschten.</p>
-          <p>7S. Auch nach Samos schickten sie zehn Männer, um das <lb/>
+          <p>72. Auch nach Samos schickten sie zehn Männer, um das <lb/>
              <pb n="257"/>
             Heer zu beruhigen und darüber aufzuklären, daß es bei der <lb/>
             Einführung des oligarchischen Regiments durchaus nicht auf <lb/>
@@ -10173,7 +10181,7 @@
             das erfuhren, schickten sie auch eine Anzahl Schiffe und Truppen <lb/>
             nach dem Hellespont, und es kam bei Byzanz mit acht Schiffen <lb/>
             gegen acht zu einer kleinen Seeschlacht.</p>
-          <p>St. Die Männer aber, welche damals in Samos an der <lb/>
+          <p>81. Die Männer aber, welche damals in Samos an der <lb/>
             Spitze standen, insbesondere Thrasybulos, waren auch unter <lb/>
             den veränderten Verhältnissen nach wie vor der Ansicht, daß <lb/>
             man Alkibiades zurückrufen müsse, und es gelang ihnen endlich <lb/>
@@ -10675,7 +10683,8 @@
             ein Siegeszeichen. Bald nahcher brachten sie ganz Euboia zum <lb/>
             Abfall bis auf Oreos, das die Athener selbst in Besitz genommen <lb/>
             hatten, und ordneten die Verhältnisse der Insel in ihrem Sinne. <lb/>
-            W. Als die Nachricht von den Ereignissen in Euboia nach <lb/>
+            </p>
+<p>96. Als die Nachricht von den Ereignissen in Euboia nach <lb/>
             Athen kam, entstand dort eine Bestürzung wie nie zuvor. <lb/>
             Weder das Unglück in Sizilien, so groß es damals erschien, <lb/>
             noch sonst ein Ereignis hatte die Stadt jemals so in Schrecken <lb/>
@@ -10727,7 +10736,7 @@
             Ferner beschlossen sie, Alkibiades und mit ihm einige andere <lb/>
             zurückzurufen, und schickten an ihn und das Heer in Samos <lb/>
             die Aufforderung, sich ihrer anzunehmen.</p>
-          <p>S8. Als die Sache diese Wendung nahm, verzogen sich Pei­ <lb/>
+          <p>98. Als die Sache diese Wendung nahm, verzogen sich Pei­ <lb/>
             sandros, Alexikles und die übrigen Häupter der Oligarchie <lb/>
             sogleich in aller Stille nach Dekeleia. Nur Aristarchos, der <lb/>
             damals grade auch Feldherr war, machte sich mit einer Hand­ <lb/>
@@ -10773,7 +10782,7 @@
             oder sechs Tage liegen blieb, und von wo er dann nach Chios <lb/>
             gelangte.</p><pb n="279"/>
             
-          <p>400. Auf die Nachricht, daß er von Milet aufgebrochen, ging <lb/>
+          <p>100. Auf die Nachricht, daß er von Milet aufgebrochen, ging <lb/>
             auch Thrasylos sogleich mit fünfundfunfzig Schiffen von Samos <lb/>
             in See, um ihm und seiner Flotte den Weg nach dem Cher­ <lb/>
             sones zu verlegen. Als er hörte, daß er in Chios sei, dachte <lb/>
@@ -10807,7 +10816,7 @@
             daß sich dort im ganzen siebenundsechzig Schiffe befanden, mit <lb/>
             deren Mannschaft man nun unter Anwendung von Sturmzeug <lb/>
             und anderer Mittel Eresos womöglich zu erobern versuchte.</p>
-          <p>tot. Unterdessen hatte die peloponnesische Flotte unter Min­ <lb/>
+          <p>101. Unterdessen hatte die peloponnesische Flotte unter Min­ <lb/>
             daros in Chios zwei Tage Lebensmittel eingenommen, auch <lb/>
              <pb n="280"/>
             jeder Mann an Bord von den Chiern drei chiische Vierzigste! <lb/>
@@ -10976,7 +10985,7 @@
             befürchteten sie, er könnte auch ihnen einen solchen Streich <lb/>
             spielen, und da er sie überhaupt unerträglich bedrückte, ver­ <lb/>
             trieben sie seine Besatzung aus der Burg.</p>
-          <p>10S. Als Tissaphernes nach den Erfahrungen in Milet und <lb/>
+          <p>109. Als Tissaphernes nach den Erfahrungen in Milet und <lb/>
             Knidos, wo man seine Besatzuug ebenfalls vertrieben hatte, <lb/>
             nun auch noch die Nachricht von diesem neuesten Vorgehen der <lb/>
             Peloponnesier erhielt, glaubte er, es jetzt völlig mit ihnen ver­ <lb/>
@@ -10993,9 +11002,10 @@
             Mit Ablauf des auf diesen Sommer folgenden Winters wird <lb/>
             das einundzwanzigste Jahr zu Ende gehen.)</p>
           <p>Ende.</p>
-        </div><pb n="-"/>
+        </div>
+</div><pb n="285"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">Verzeichnis der Orts- und Eigennamen Die größeren Zahlen verweisen auf das Buch, die kleineren auf das Kapitel.</title>
           </head>

@@ -529,12 +529,13 @@
             Brafldas' mißglückte? Handstreich gegen Potidäa (13b).</p><pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="1">
           <head>
             <title type="main">Erstes Buch</title>
           </head>
-          <p>(^hukydides aus Athen hat den Krieg beschrieben, welchen <lb/>
-            l. die Peloponnesier und die Athener miteinander geführt <lb/>
+ <div type="textpart" subtype="chapter" n="1">
+         <p>Thukydides aus Athen hat den Krieg beschrieben, welchen <lb/>
+            die Peloponnesier und die Athener miteinander geführt <lb/>
             haben. Er hat damit gleich bei Ausbruch des Krieges angefangen, <lb/>
             indem er voraussah, daß er groß und denkwürdiger werden würde <lb/>
             als alle früheren Kriege, da beide Teile schwer gerüstet hinein­ <lb/>
@@ -644,7 +645,7 @@
              <pb n="4"/>
             immer noch übliche Waffentragen ist ein Rest des alten Räuber­ <lb/>
             wesens.</p>
-          <p>s. Damals, wo die Wohnsitze unbefestigt und die Straßen <lb/>
+          <p>6. Damals, wo die Wohnsitze unbefestigt und die Straßen <lb/>
             unsicher waren, war es in Griechenland ganz allgemein, Waffen <lb/>
             zu tragen; auch im gewöhnlichen Leben ging man, wie die <lb/>
             Barbaren, immer bewaffnet. Und eben daraus, daß das in <lb/>
@@ -1703,7 +1704,7 @@
             vermuteten nämlich, die Schiffe, die sie in der Ferne gesehen, <lb/>
             könnten von Athen kommen und ihrer wohl gar noch mehr sein, <lb/>
             als bereits in Sicht waren, und deshalb zogen sie sich zurück.</p>
-          <p>61. Die Kerkyräer aber, welche die Schiffe nicht gesehen <lb/>
+          <p>51. Die Kerkyräer aber, welche die Schiffe nicht gesehen <lb/>
             hatten, da diese in der Richtung, aus der sie kamen, noch außer­ <lb/>
             halb ihres Gesichtskreises waren, begriffen nicht, weshalb die <lb/>
             Korinther rückwärts ruderten, bis dann auch sie ihrer ansichtig <lb/>
@@ -1754,7 +1755,7 @@
              <pb n="34"/>
             griff auf Kerkyra aber oder eine seiner Besitzungen werden <lb/>
             wir nach Kräften zu verhindern wissen."</p>
-          <p>64. Nach dieser Antwort bereiteten sich die Korinther zur <lb/>
+          <p>54. Nach dieser Antwort bereiteten sich die Korinther zur <lb/>
             Rückreise und errichteten bei Sybota auf dem Festlande ein <lb/>
             Siegeszeichen. Die Kerkyräer aber bargen ihre Leichen und <lb/>
             Schiffstrümmer, womit die Strömung und der Wind, der sich <lb/>
@@ -4019,14 +4020,17 @@
             Man reiste noch ohne Heroldsgeleit hin und her, wiewohl man <lb/>
             sich gegenseitig schon nicht mehr traute. Denn nach dem, waS <lb/>
             vorgekommen, war der Bruch erfolgt und der Krieg in Sicht.</p>
-        </div><pb n="-"/>
+        </div>
+</div>
+<pb n="96"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="2">
           <head>
             <title type="main">Zweites Buch</title>
           </head>
+<div type="textpart" subtype="chapter" n="1">
           <p>Hier beginnt nun der wirkliche Krieg zwischen den Athenern <lb/>
-            1. und den Peloponnesiern und ihren beiderseitigen <lb/>
+             und den Peloponnesiern und ihren beiderseitigen <lb/>
             Bundesgenossen, in dem sie ohne Heroldsgeleit nicht mehr mit­ <lb/>
             einander verkehrten und sich beständig in Waffen gegenüber- <lb/>
             standen. Was sich darin im einzelnen ereignet hat, wird hier Jahr <lb/>
@@ -4228,7 +4232,7 @@
             war die Erbitterung gegen die Athener; die einen wollten <lb/>
             ihre Herrschaft abschütteln, die andern fürchteten, unter ihre <lb/>
             Fuchtel zu geraten.</p>
-          <p>8. Mit solchen Rüstungen und Gesinnungen ging man in den <lb/>
+          <p>9. Mit solchen Rüstungen und Gesinnungen ging man in den <lb/>
             Krieg. Bei Ausbruch des Krieges hatten beide Mächte folgende <lb/>
             Bundesgenossen: Auf seiten der Lakedämonier waren sämtliche <lb/>
             Peloponnesier innerhalb des Isthmus, mit Ausnahme der Argeier <lb/>
@@ -4904,7 +4908,7 @@
             zeugnisse aller Länder hier zu Markte, die wir so gut als <lb/>
             unser Eigentum ansehen können wie die Erzeugnisse unseres <lb/>
             eigenen Landes.</p>
-          <p>3V. „Auch in Beziehung auf das Kriegswesen befolgen wir <lb/>
+          <p>39. „Auch in Beziehung auf das Kriegswesen befolgen wir <lb/>
             insofern andere Grundsätze als unsere Gegner, als wir niemand <lb/>
             den Aufenthalt hier in der Stadt verwehren. Es kommt nie <lb/>
             vor, daß jemand ausgewiesen oder daran gehindert wird, sich <lb/>
@@ -5353,7 +5357,7 @@
             gräbnisse überzeugen konnten. Übrigens waren sie bei diesem <lb/>
             Einfall am längsten, nämlich etwa vierzig Tage, in Attika ge­ <lb/>
             blieben und hatten das ganze Land verheert.</p>
-          <p>Eis. Noch in demselben Sommer übernahmen Hagnon, NikiaS' <lb/>
+          <p>58. Noch in demselben Sommer übernahmen Hagnon, NikiaS' <lb/>
              <pb n="132"/>
             Sohn, und Theopompos, Kleinias' Sohn, Perikles' Mitfeld­ <lb/>
             herren, den Oberbefehl über dessen Heer und Flotte und fuhren <lb/>
@@ -6759,13 +6763,15 @@
             Mann ausgewechselt wurden. Damit endete der Winter und <lb/>
             das dritte Jahr des Krieges, den Thukydides beschrieben hat. <pb n="170"/>
             </p>
+</div>
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="3">
           <head>
             <title type="main">Drittes Buch</title>
           </head>
+<div type="textpart" subtype="chapter" n="1">
           <p>Im folgenden Sommer, als das Korn zur Reife stand, fielen <lb/>
-            1. die Peloponnesier unter dem lakedämonischen König <lb/>
+             die Peloponnesier unter dem lakedämonischen König <lb/>
             Archidamos, Zeuxidamos' Sohn, wieder nach Attika ein, wo sie ein <lb/>
             Lager bezogen und das platte Land verheerten. Die athenischen <lb/>
             Reiter aber machten auch diesmal wieder gelegentlich Ausfälle <lb/>
@@ -7961,7 +7967,7 @@
             lande fielen in die Hände der Athener und standen von nun <lb/>
             an unter athenischer Herrschaft. So endete der Abfall von <lb/>
             Lesbos.</p>
-          <p>.51. In demselben Sommer nach der Unterwerfung von Lesbos <lb/>
+          <p>51. In demselben Sommer nach der Unterwerfung von Lesbos <lb/>
             unternahmen die Athener unter Nikias, Nikeratos' Sohn, einen <lb/>
             Zug nach der Insel Minoa, Megara gegenüber, wo die Me­ <lb/>
             garer einen Turm erbaut hatten und eine Besatzung unter- <lb/>
@@ -9530,14 +9536,17 @@
             in Sizilien dreimal ein Ausbruch stattgefunden haben. Das <lb/>
             waren die Ereignisse dieses Winters, und damit endete das <lb/>
             sechste Jahr des Krieges, den Thukydides beschrieben hat.</p>
-        </div><pb n="-"/>
+        </div>
+</div>
+<pb n="245"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="4">
           <head>
             <title type="main">VIERTES BUCH</title>
           </head>
+<div type="textpart" subtype="chapter" n="1">
           <p>Im folgenden Sommer, zur Zeit, als das Getreide in <lb/>
-            1. Ähren schoß, fuhren die Syrakuser mit zehn Schiffen <lb/>
+            Ähren schoß, fuhren die Syrakuser mit zehn Schiffen <lb/>
             und einer gleichen Anzahl lokrischer Schiffe nach Messene in <lb/>
             Sizilien, wohin man sie von dort gerufen hatte, und setzten sich <lb/>
             in Besitz der Stadt, die damit von den Athenern abfiel. Die <lb/>
@@ -10082,7 +10091,7 @@
             zwei großen Meeren, dem Tyrrhenischen und dem Sizilischen, <lb/>
             dort eindringenden Wassermassen verursachte Strömung mit <lb/>
             Recht für gefährlich galt.</p>
-          <p>26. In diesem Sunde wurden nun die Syrakuser und ihre <lb/>
+          <p>25. In diesem Sunde wurden nun die Syrakuser und ihre <lb/>
             Bundesgenossen mit etwas über dreißig Schiffen spät abends <lb/>
             wegen eines SchiffeS, das hindurchfahren wollte, mit sechzehn <lb/>
             athenischen und acht rhegischen Schiffen in eine Schlacht ver­ <lb/>
@@ -10698,14 +10707,14 @@
             aber fuhren mit ihren Schiffen weiter nach Sizilien, wohin <lb/>
             sie ja von vornherein bestimmt waren, um sich dort an den <lb/>
             Kämpfen ihrer Bundesgenossen zu beteiligen.</p>
-          <p>48. Die Athener in Naupaktos unternahmen gegen Ende <lb/>
+          <p>49. Die Athener in Naupaktos unternahmen gegen Ende <lb/>
             dieses Sommers mit den Akarnaniern einen Zug gegen die <lb/>
             korinthische Stadt Anaktorion am Ausgange des Amprakischen <lb/>
             Meerbusens und bemächtigten sich ihrer durch Verrat. Die <lb/>
             Akarnanier aber besetzten, nachdem sie die Korinther ausgewiesen, <lb/>
             den Ort nun selbst mit Ansiedlern aus allen ihren Städten. <lb/>
             Damit endete der Sommer.</p>
-          <p>49. Im folgenden Winter erwischte Aristeides, einer der Be­ <lb/>
+          <p>50. Im folgenden Winter erwischte Aristeides, einer der Be­ <lb/>
             fehlshaber der athenischen Schiffe, welche ausgesandt waren, <lb/>
             um Steuern bei den Bundesgenossen zu erheben, in Eion am <lb/>
             Strymon den Perser Artaphernes auf der Reise vom Könige <lb/>
@@ -11294,7 +11303,7 @@
             den Sieg einer kleinen Minderheit aus den Parteikämpfen <lb/>
             hervorgegangenen Zustande ist es dann in der Tat lange Zeit <lb/>
             geblieben.</p>
-          <p>76. In demselben Sommer wollten die Mytilener die von <lb/>
+          <p>75. In demselben Sommer wollten die Mytilener die von <lb/>
             ihnen geplante Befestigung von Antandros ins Werk setzen. <lb/>
             Damals befanden sich Demodokos und Aristeides als Befehls­ <lb/>
             haber der von Athen zur Eintreibung der Steuern ausgesandten <lb/>
@@ -12048,9 +12057,10 @@
             es sowohl den Einheimischen wie den Athenern freistehen solle, <lb/>
             unter voller Rechtsgleichheit im ungestörten Besitz ihreS Eigen­ <lb/>
             tums in der Stadt zu bleiben oder binnen fünf Tagen von <lb/>
-            dort abzuziehen und ihre Habseligkeiten mitzunehmen.</p><pb n="313"/>
+            dort abzuziehen und ihre Habseligkeiten mitzunehmen.<pb n="313"/>
             
-          <p>stolz. Infolge, dieser Ankündigung schlug die Stimmung der <lb/>
+          </p>
+<p>106. Infolge, dieser Ankündigung schlug die Stimmung der <lb/>
             Menge um, zumal die Einwohnerschaft nur zum kleinsten Teil <lb/>
             aus Athenern und in der Hauptsache aus einem bunten Völker­ <lb/>
             gemisch bestand. Zudem wohnten in der Stadt zahlreiche An­ <lb/>
@@ -12201,7 +12211,7 @@
             Teile der Stadt, um sie von dort völlig in seiner Gewalt zu <lb/>
             haben, während die übrige Masse sich nach allen Richtungen <lb/>
             durch die Stadt verbreitete.</p>
-          <p>us. Infolge dieser Überrumpelung geriet die Mehrzahl der <lb/>
+          <p>113. Infolge dieser Überrumpelung geriet die Mehrzahl der <lb/>
             Einwohner, welche um die Sache nicht wußte, gänzlich außer <lb/>
             Fassung. Die Eingeweihten aber und alle, denen sie nach <lb/>
             Sinne war, schlugen sich gleich auf die Seite der eingedrungenen <lb/>
@@ -12307,7 +12317,7 @@
             gesehen und es immer noch mit ebenbürtigen Gegnern zu tun <lb/>
             gehabt. So wurde denn zwischen ihnen und den Bundes­ <lb/>
             genossen folgender Waffenstillstand geschlossen:</p>
-          <p>118 „Anlangend den Tempel und das Orakel deS pythischen <lb/>
+          <p>118. „Anlangend den Tempel und das Orakel deS pythischen <lb/>
              <pb n="320"/>
             Apollon schlagen wir vor, jedem freizustellen, dort wie von <lb/>
             Alters her ungehindert zu verkehren. Die Lakedämonier und <lb/>
@@ -12754,7 +12764,7 @@
             ab. Die Priesterin Chrysis hatte eine brennende Lampe zu <lb/>
             nahe an die Kränze gestellt und war darüber eingeschlafen, <lb/>
             so daß das Feuer unbemerkt ausbrach und alles ein Raub der <lb/>
-             <pb n="331"/>
+             <pb n="332"/>
             Flammen wurde. Chrysis entfloh aus Furcht vor den Argaiern <lb/>
             noch in derselben Nacht nach Phlius. In Argos aber wählte <lb/>
             man dem Herkommen gemäß eine neue Priesterin mit Namen <lb/>
@@ -12795,7 +12805,7 @@
         <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
-        
+        </div>
       </div>
     </body>
   </text>
