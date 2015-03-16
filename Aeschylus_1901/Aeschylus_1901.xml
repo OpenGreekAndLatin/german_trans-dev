@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Griechische Tragoedien</title>
+        <title>Griechische Tragoedien, Zweiter Band, Orestie</title>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -101,7 +101,8 @@
           <p>I. Aischylos, Agamemnon 1</p>
           <p>II. Aischylos, Das Opfer am Grabe (Choephoren) 119</p>
           <p>III. Aischylos, Die Versöhnung (Eumeniden) 207</p>
-        </div><pb n="-"/>
+        </div>
+        <pb n="-"/>
         <pb n="-"/>
         
         <div type="textpart" subtype="chapter">
@@ -109,7 +110,8 @@
             <title type="main">I. AISCHYLOS. 
               AGAMEMNON.</title>
           </head>
-                  </div><pb n="-"/>
+                  </div>
+        <pb n="-"/>
         <pb n="-"/>
         
         <div type="textpart" subtype="chapter">
@@ -117,7 +119,7 @@
             <title type="main">Vorwort.</title>
           </head>
           <p>Die drei Tragödien der Orestie können jede für sich <lb/>
-            bestellen, und es ist ihrer Würdigung ^utrSglieb, wenn <lb/>
+            bestellen, und es ist ihrer Würdigung zuträglich, wenn <lb/>
             jede zunächst als Ganzes betrachtet wird. so lasse ich <lb/>
             sie denn auch einzeln erscheinen und habe jeder ihre <lb/>
             eigene Einleitung vorausgeschickt. Aber der Dichter bat <lb/>
@@ -258,7 +260,7 @@
             Das (?rieekentum Lurekdar6t8 hat ebensowenig existiert <lb/>
             wie das der kla88iei8ti8ekeu Ästhetik, gegen das er vor <lb/>
             fünfzig Jahren mit Recht polemisiert baden mag.</p>
-          <p>^e8tenä, 28. August 1899.</p><pb n="8"/>
+          <p>Westend, 28. August 1899.</p><pb n="8"/>
             <pb n="9"/>
             
         </div>
@@ -1632,14 +1634,16 @@
              I 249), auf die ich zufällig stolse. Es war mir doch eins <lb/>
             freudige Überrasekung, &lt;!ass gerade Worte von ihm ohne <lb/>
             weiteres in meinen Satz packten. </note></p>
-        </div><pb n="48"/>
+        </div>
+        <pb n="48"/>
         <pb n="49"/>
         
         <div type="textpart" subtype="chapter">
           <head>
-            <title type="main">AISCHYLOS AGAMEMNON.</title>
+            <title type="main">AISCHYLOS. AGAMEMNON.</title>
           </head>
-          <p><note type="footnote"> Griech, Tragödien. </note> <note type="footnote"> 4 </note></p><pb n="50"/>
+          
+          <pb n="50"/>
             
           <ab>
             <title type="sub">PERSONEN.</title>
@@ -4359,7 +4363,7 @@
         </div>
         <div type="textpart" subtype="chapter">
           <head>
-            <title type="main">II. AISCHYLOSDAS OPFER AM GRABE.(CHOEPHOREN.)</title>
+            <title type="main">II. AISCHYLOS. DAS OPFER AM GRABE. (CHOEPHOREN.)</title>
           </head><pb n="120"/>
           <pb n="121"/>
           
@@ -5546,7 +5550,8 @@
             scheint, die eden spezifisch hellenisch ist — schaut euch <lb/>
             um in der dramatischen Litteratur aller Völker, ob ihr <lb/>
             jkre8x1eieden findet.</p>
-        </div><pb n="155"/>
+        </div>
+        <pb n="155"/>
         
         <div type="textpart" subtype="chapter">
           <head>
@@ -7634,7 +7639,8 @@
             insebritten. Danach ist ^.gam. 1227, ?ers. 327 dank-zog- <lb/>
             zu belassen, bier 664, wie ^.brens wollte, 7' «^«^05 zu <lb/>
             schreiben.</p>
-        </div><pb n="206"/>
+        </div>
+        <pb n="206"/>
         <pb n="207"/>
         
         <div type="textpart" subtype="chapter">
@@ -9157,12 +9163,13 @@
             dann werden wir mit den frommen Kreisen uns getröstsn <lb/>
             Gott führt das ^Veltenregimeut gewaltsam: <lb/>
             doch Gott ist gütig.</p>
-        </div><pb n="252"/>
+        </div>
+        <pb n="252"/>
         <pb n="253"/>
         
         <div type="textpart" subtype="chapter">
           <head>
-            <title type="main">AISCHYLOS DIE VERSÖHNUNG(EUMENIDEN)</title>
+            <title type="main">AISCHYLOS. DIE VERSÖHNUNG (EUMENIDEN)</title>
           </head><pb n="254"/>
           
           <sp>
@@ -11445,7 +11452,8 @@
             des freien Würgers bat ^tbena dem Ebener verlieben: <lb/>
             es lebt auch in seiner Dichtung, und nicht zum mindesten <lb/>
             beruht hierauf ihre ewige Lebenskraft.</p>
-        </div><pb n="-"/>
+        </div>
+        <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
