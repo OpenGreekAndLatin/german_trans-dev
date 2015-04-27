@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophokles Antigone</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Peter Sprenger</persName>
+          <resp>Student Assistant (University of Halle)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">sophocles_1906.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2015</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="de">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="de">Prof. Dr. R. Kunert</name>
+                </persName>
+              </editor> 
+              <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1307">Sophokles</author>  
+              <title>Antigone</title>
+              <imprint>
+                <publisher>Hopf'sche Verlagsbuchdruckerei</publisher>
+                <pubPlace>Spandau</pubPlace>
+                <date>1906</date>
+              </imprint>
+            </monogr>
+            <ref
+              target="http://hdl.handle.net/2027/njp.32101067652766"
+              >HathiTrust</ref>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition">
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        
+        <div type="textpart" subtype="chapter">
+          <p>Entstanden ist diese Übersetzung, als es sich im Jahre <lb/>
+            1903 für mied darum handelte, zur Feier des tun^ig^ ädrigen öe­ <lb/>
+            stebens unsers (Z^mnasiums das Drama mit meinen Primanern ant­ <lb/>
+            zuführen. Wenn ich dieselbe jetzt drucken lasse, so geschieht es <lb/>
+            in der Kotl'nung, dass dadurch auch noch andere Generationen <lb/>
+            unserer Schüler Nutzen und Anregung gewinnen könnten.</p>
+          <p>Der Zugrunde liegende I'ext ist der Dindork'sobe in der <lb/>
+            6. Auslage von Kleider. Aus der Übersetzung ist leicht ersiebt­ <lb/>
+            lieb, wo und wie ich von demselben abweicbe. Besondere Lebwierig­ <lb/>
+            keiten machten die (üborlieder. Nach verschiedenen ^.uMbrungen, <lb/>
+            denen ich beiwohnte, bin ich fest überzeugt, dass der Eindruck des <lb/>
+            Ganzen ungleich höher ist, wenn die wieder nicht reeitiert, sondern <lb/>
+            gesungen werden, zumal nach Felix ^lendelssobns wundervoller <lb/>
+            Komposition. Da. diese nach dem Donner'seben Text gearbeitet ist, <lb/>
+            so musste ich Zweien Herren dienen und meinen Text so gestalten, <lb/>
+            dass er unserer unter Nendelssobns Noten gesetzt werden kann. <lb/>
+            Dabei habe ich, was von Donner brauchbar schien, stellen lassen.</p>
+          <sp>
+            <speaker>R K.</speaker>
+            <p>Lxandau, Neujahr 1906. <note type="footnote"> 1* </note></p>
+          </sp>
+          <pb n="-"/>
+          
+          <pb n="5"/>
+          <p>der üüiinv bildet der Ivöliigspalast von ^kedon; es ist früher <lb/>
+            Noi-^lZn. Antigono befindet sich, unruhig wartend, auf der Bühne. Ismene kommt <lb/>
+            aus der rec^t» vom Zuschauer keKncilicken Tür. ^nti^one tritt ihr aufgeregt <lb/>
+            entgegen.</p>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Ismene, mein geliebtes Zeliwesterlier?, <lb/>
+              du weisst, wie Zeus des Vaters schweres Leid <lb/>
+              auch uns noch unverkürzt hat fühlen lassen; <lb/>
+              ^iedt's doch kein Her^eleiä und kein Verhängnis, <lb/>
+               kein Unheil, keine Schmach, die du und ich <lb n="5"/>
+              in unserm Leben nicht erduldet hätten. <lb/>
+              Und was liess jetzt erst wieder, wie ich höre, <lb/>
+              verkünden in der ganzen Stadt der König? <lb/>
+              Hast äu's gehört? &gt;Veisst du, dass unsern Mieden <lb/>
+               von seiden unsrer Feinde Unheil droht? <lb n="10"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Zu mir drang keine Kunde mehr, o Schwester, <lb/>
+              nicht froh, nicht schmerzlich, seit dem Unglückstag, <lb/>
+              der unsrer beiden krüder uns beraubte, <lb/>
+              als sie einander töteten im Kampf. <lb/>
+               Und da nun abzog das ^rgiverdeer <lb n="15"/>
+              in der ver^an^nen Nacht, weiss ich nichts weiter, <lb/>
+              was mich betrüben oder freuen könnte.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>led wusst' es wohl, ärum riet ich dich heraus <lb/>
+              vor's Tor, um dir allein es zu verkünden.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Was ist? Ich merke, wie erregt du bist. <lb n="20"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Hat doch der König einem unsrer Brüder <lb/>
+              die Aradesrud' gewährt, dem andern nicht: <lb/>
+              l^teokle«, wie's für ^Vaekre sich gebührt, <lb/>
+              hat er in's Grab gelegt mit allen Ehren; <lb/>
+               <pb n="6"/>
+              ?olvneikes aber, der als Gegner fiel, <lb n="25"/>
+              den soll, so liess den Bürgern er verkünden, <lb/>
+              niemand bestatten, niemand auch beklagen, <lb/>
+              nein, unbestattet soll er, unbeweint <lb/>
+              Raubvögeln dienen zum erwünschten k'rass. <lb/>
+              Das liess der brave kreon, wie man sagt, <lb n="30"/>
+              verkünden dir und mir, Mwobl, auch mir. <lb/>
+              Auch werd' er hier erscheinen, um es denen, <lb/>
+              die's noch nicht rissen, deutlich kund zu tun. <lb/>
+              Und grossen Wert leg' er der Sache bei, <lb/>
+              denn wer Zuwider handle dem Gebot, <lb n="35"/>
+              dem sei der Tod durch steinigung gewiss. <lb/>
+              so stellt's damit, und nun sollst du beweisen, <lb/>
+              ob deines edlen Stamms du würdig bist.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Du Unglückselige, wenn das so ist, <lb/>
+              Was kann ich hindernd oder fördernd tun? <lb n="40"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>sprich, ob du mittun und mir hellen willst.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Was bast du vor? Wobei soll ich dir helfen?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Du sollst mit mir Zusammen ihn bestatten.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Bestatten willst du ihn trotz des Verbots?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Für mich und auch für dieb, wenn du nicht willst. <lb n="45"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Verwegne, trotz des Königs Naebtgebot?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Darf er von dem, was mir gehört, mich trennen?</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Ach liebe Schwester, denke doch daran, <lb/>
+              wie so unselig unser Vater starb! <lb/>
+              Als seiner Freveltat er inne ward, <lb n="50"/>
+              bat er geblendet sieb mit eigner Hand. <lb/>
+              Und sie, die seine Mutter war und Gattin, <lb/>
+              nahm schmachvoll sieb das lieben mit dem streng. <lb/>
+              Zuletzt dann haben unsre beiden Brüder <lb/>
+               <pb n="7"/>
+              an einem Tage ihren lod gefunden, <lb n="55"/>
+              als sie einander töteten im Kampf. <lb/>
+              Nun, da wir beide nur noch übrig sind, <lb/>
+              bedenke, welch ein Tod uns droht, wenn wir <lb/>
+              voll Trotz des Herrschers ^laelitxedot verletzen. <lb/>
+              Bedenke auch, dass wir nur Weiber sind, <lb n="60"/>
+              sehon von Natur den Nännern nicht gewachsen, <lb/>
+              und dass ein Herrscher über uns gedeut, <lb/>
+              dem wir in 8elilimmrem noch gehorchen müssen. <lb/>
+              Drum will die Unterirdischen ich bitten <lb/>
+              mir zu ver/.eilin, wenn ich der Not gehorche <lb n="65"/>
+              und dem, der zu befehlen hat, mied füge. <lb/>
+              Unmögliches zu tun sucht nur ein Tor.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Du sollst es auch nicht tun; selbst wenn du wolltest, <lb/>
+              mir wäre deine Hilfe nicht mehr recht. <lb/>
+              venlc', was du willst, doch ich werd' ihn destatten, <lb n="70"/>
+              und hab' ich es getan, dann sterd' ich gern. <lb/>
+              Ja, lied ist mir's, zu rulm bei meinen Lieben. <lb/>
+              hab' ich die fromme Freveltat vollbracht. <lb/>
+              Währt länger doch die Zeit, wo denen drunten <lb/>
+               ich zu Metallen suchen muss, als euch, <lb n="75"/>
+              denn dort rud' ich für immer. Du jedoch <lb/>
+              magst, wenn du willst, fortfahren zu verachten, <lb/>
+              was bei den Göttern hoch in Ehren steht.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Verachte ich es denn? Ich din doch nur <lb/>
+              nicht stark genug, dem Ltastsverdot zu trotzen. <lb n="80"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Bleib nur clei diesem Vor-wand. Ich jedoch <lb/>
+              will gedn, den liebsten Bruder zu destatten.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>0 weh, ich Arme, mir wird angst um dich. <lb/>
+              I»ass wenigstens dein Werk von niemand selin <lb/>
+              und teil' es niemand mit, so tu' auch ich. <lb n="85"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Verbünd' es laut, denn hassen müsst' ich dich, <lb/>
+              wenn äu's verseliweigst und nicht der Welt er^älilst.</p>
+          </sp><pb n="8"/>
+          
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Wie deftig' bist du, wo mied Grausen packt.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>led weiss wohl, wessen Huld ich suchen muss.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Dass ad, unmöglich ist, was du begehrst <lb n="90"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Nur wenn die Kraft mir ausgeht, ged' ich nach.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Versuche nicht erst, was unmöglich ist.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Ich muss dich hassen, wenn du solches sprichst, <lb/>
+              und auch der Tote wird mit Recht dich hassen. <lb/>
+              Drum lass mied nur in meinem Unverstand <lb n="95"/>
+              das Wagestück destedn. ^Vie's dann auch kommt, <lb/>
+              ein ehrenvoller Tod bleibt mir gewiss.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>So tu denn, was du musst; ist's auch nicht klug, <lb/>
+              die Liebe deiner Mieden bleibt dir doch.</p>
+            <p>Die letzten Worte spricht Ismene, &gt;väkievä ^uti^ons nach links die Leone verlast. <lb/>
+              Ismene geht traurig durch die reckte Tür ad. Gleich darauf zieht der <lb/>
+              von rechts ein.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Strahl des Heiles, schönstes Licht, <lb n="100"/>
+              wie's der siedentorigen Stadt <lb/>
+              schöner nimmer zuvor erschien, <lb/>
+              du kamst endlich, des goldnen Tags <lb/>
+              Auge, herrlich herauf, <lb/>
+              über Dirkes heilige bluten steigend; <lb n="105"/>
+              hast den Feind mit dem weissen Schild, <lb/>
+              der aus ^rgos uns streitbar genadt, <lb/>
+              flüchtigen Busses in eilendem Lauf <lb/>
+              deimwärts wieder getrieben.</p>
+            <p>Ihn küdrt' I^ol^neikes in unsere Flur, <lb n="110"/>
+              in hitzigem Streit mit dem Bruder entdrannt. <lb/>
+              Mit sedrillem Geschrei wie ein Adler daher <lb/>
+               <pb n="9"/>
+              flog er in das Land, die Ledvvingen gespannt <lb/>
+              vveissglänxenä wie Schnee, in der Rüstungen Pracht <lb/>
+              mit ross/edvveikumtlatterten Heimen. <lb n="115"/>
+              </p>
+            <p>Üder unseren Dächern fast <lb/>
+              droht er der siedentorigen Stadt <lb/>
+              mit dlutgierigen Loseren schon: <lb/>
+              und flod, eile mit unserem Blut <lb/>
+              er den gierigen Schlund sich gefüllt <lb n="120"/>
+              Und ehe der Türme binnen <lb/>
+              noch die lodernde Fackel erreicht. <lb/>
+              Also tobte dinter ihm der <lb/>
+              wütender Kampf, ihn Mgt' in die Flucht <lb/>
+              der verkolgenäe Drache. <lb n="125"/>
+              </p>
+            <p>Gar sehr dasst Zeus des prahlenden Nunäs <lb/>
+              hochfahrendes Wort, und als er sie sah <lb/>
+              wie die Flut brausend sich natur, <lb/>
+              schimmernd in goldener Rüstung und voll trotzigen Muts, <lb/>
+              zerschmetterte er mit geschwungenem Strahl <lb n="130"/>
+              den, der an der blauer-binnen Sieg-jubelnd emporstieg.</p>
+            <p>Abwärts geschleudert stürmt' er zur Erde nieder, <lb/>
+              er, der in trunkenem Nut mit seiner Dackel <lb/>
+              wie wilätosenäer Sturm nach uns sednod in wilder Legier. <lb/>
+              Doch er kam nicht an's Ziel; <lb n="135"/>
+              andre traf dann ihr Verhängnis durch ^.res, den gewaltigen, <lb/>
+              unseren Helfer.</p>
+            <p>Sieben Führer auf sieden Tore verteilt, <lb/>
+              focht Mann gegen Mann, doch liessen sie bald <lb/>
+              die ederue Wehr dem Zeus als Tribut. <lb n="140"/>
+              Nur das Lrüäerpaar aus äemseldigen Stamm, <lb/>
+              die, von Hass entflammt, einander im Kampf <lb/>
+              mit dem feinälieden Speer bedrohten, <lb/>
+              sie fanden auch beide des Todes Verhängnis.'</p>
+            <p>Also erschien die vielgepriesene Nike, <lb n="145"/>
+              unserer streitbaren Stadt entgegen^aued^enä; <lb/>
+              darum lasst nach dem Kampf nun rudn jeglichen Streit. <lb/>
+               <pb n="10"/>
+              I^asst in nächtlichem lan? <lb/>
+              fröhlich umher uns xiedn den Göttern, doch Zuerst, zu <lb/>
+              dir, o kaeedos, <lb/>
+              Iliedes Beschützer. <lb n="150"/>
+              </p>
+            <p>Xreon erscheint, von zwei Dienern begleitet, in der mittleren Tür. Während <lb/>
+              der Okortütirer singt, schreitet er langsam und würde-voll bis in die Mitte «ler <lb/>
+              Bühne, die Diener stellen sich rechts und links von der Tür auf.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Doch dort erscheint des Nenoikeus Sohn, <lb/>
+              Xreon der jetzt waltende König, <lb/>
+              erfreut, dass das döse Geschick die Götter gewandt. <lb/>
+              ^Veled' kluge Tat er wohl eitrig erwägt, <lb/>
+              dass jetzt er der vvürägen 6 reise Rat <lb n="155"/>
+              dierder beschied zum Ver8ammIanA8Z)1at^, <lb/>
+              durch Heroläsruk sie entdietenä?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ihr Männer, lange hat unsre Stadt <lb/>
+              des Unheils 8tlirmen widerstehen müssen, <lb/>
+              doch nun, Zeus sei's geäankt, ist alles gut. <lb n="160"/>
+              Euch ader habe ich hierher beschieden, <lb/>
+              weil ihr dem I-aios die Treue hieltet <lb/>
+              und auch dem Oedipus und seinen Söhnen <lb/>
+              unwandelbar ergeben euch erwieset. <lb/>
+              Da diese beiden nun ein herb Geschick <lb n="165"/>
+              an jenem Tage hat äadin^eraM, <lb/>
+              wo sie einander töteten im Kampf, <lb/>
+              so ward mir nach dem Erbrecht unsres Stamms <lb/>
+              die Herrschaft Redens und der Thron zu teil. <lb/>
+              Nun kann man eines Mannes Herz und Sinn <lb n="170"/>
+              unmöglich doch von Grund aus eder kennen, <lb/>
+              als bis er sich in Amt und Recht bewährt. <lb/>
+              Und wer, wie ich, ein ganzes Volk regiert <lb/>
+              und dann in keiner Furcht den Mund versedliesst, <lb/>
+              nicht seines Volkes Wohl zum I-eit^tern nimmt <lb n="175"/>
+              für all sein Tun, der äünkt erbärmlich mied, <lb/>
+              und noch erbärmlichen wer einen Freund <lb/>
+              tür höher achtet als das Vaterland. <lb/>
+              Zeus, der ^Uwissenäe, bezeuge mir's: . - <lb/>
+               <pb n="11"/>
+              ich werde niemals schweigen, wenn ich je <lb n="180"/>
+              ein Unheil nahen sehe meinem Land,^ <lb/>
+              niemals werd' ich den Feind des Vaterlands <lb/>
+              zu meinen freunden willen, denn ich weiss, <lb/>
+              das Vaterland ist's, welches uns erhält, <lb/>
+              des Landes Heil ist unser aller Heil. <lb n="185"/>
+              Nach diesem Grundsatz leite ich den staat,^ <lb/>
+              und demgemäss tat ich der Bürgerschaft <lb/>
+              jetzt meinen Willen kund betreffs der Söhne <lb/>
+              des Oedipus. Lteolvle^, der im Kampf <lb/>
+              für seine Vaterstadt das lieben liess, <lb n="190"/>
+              soll man im Grabe auch mit allem Prunk <lb/>
+              wie er getallnen Helden Zukommt, einen. <lb/>
+              ?ol^neilv6S aber. seinen Bruder, der <lb/>
+              verräteriseb sein Vaterland verliess <lb/>
+              und dann ?urüekkam, um es zu verderben, <lb n="195"/>
+              um in der Bürger Blut die Hand zu tauchen, ^ <lb/>
+              um sie zu deuten unter's 8k!avenjoeb, <lb/>
+              der soll, so lautet mein Befehl, dafür ^ <lb/>
+              verlustig gebn der Ehre der Bestattung, <lb/>
+              und seinen Leichnam soll man unbeweint <lb n="200"/>
+              zum ekelhaften ?rass den Hunden geben. <lb/>
+              Das ist mein Wille; nimmermebr werd' ich <lb/>
+              den Schändlichen gleich wie den Braven ehren. <lb/>
+              Nur wer als freund des Vaterlands sieb zeigt, <lb/>
+              soll ledend und im Tod in Ehren stelin. <lb n="205"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Das also, Lreon, des Nenoikeus Sohn, <lb/>
+              bast über freund und Feind des Landes du <lb/>
+              beschlossen. Nun, es ist dein Recht, sowohl <lb/>
+              was diesen angebt wie uns, die wir leben.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Dann belket, dass geschieht, was ich befahl. <lb n="210"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Die Last leg' du nur einem lungern auf.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Man hält, wie ich befahl, beim l^eiebnam &gt;Vaebe.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Was willst du also ausserdeni von uns? ' - .i</p>
+          </sp><pb n="12"/>
+          
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Helft, mit verhindern, dass mir jemand trotzt.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Wer ist so töricht, dass er werden möchte? <lb n="215"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Das wäre sieder des Empörers Lohn: <lb/>
+              indes, wie manchen Mann verführt das Geld!</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Derselbe tritt von links auf und ist &gt;vk!u-onä des letzten Gesprächs langsam um! <lb/>
+              mit allen Zeichen der Vn»MieIiI«&gt;it näher gekommen.</p>
+            <p>Ach Herr, dass ich ganz ausser Atem wäre <lb/>
+              und dass ich sehr geeilt, kann ich nicht sagen. <lb/>
+              Denn oft stand ich in banger Sorge still <lb n="220"/>
+              und wandte mich, um wieder umzukehren. <lb/>
+              weil ich bald so, bald so bei mir gedacht: <lb/>
+              Du Tor, was willst du? Wirst da doch bestraft! <lb/>
+              DnKlüeklieder, was stehst du? Wenn dies Kreon <lb/>
+              von einem andren dort, wird er nicht Zürnen? <lb n="225"/>
+              In solchen Sorgen kam ich langsam vorwärts, <lb/>
+              und lang ist mir der kurze Weg geworden. <lb/>
+              Doch endlich fasst' ich mir den Mit zu kommen, <lb/>
+              und wenn's auch schlimm ist, will ied's dennoch sagen, <lb/>
+              denn das ist meine feste Zuversicht, <lb n="230"/>
+              was mir passieren soll, passiert mir doch.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was ist's denn, was dir solche Sorge macht?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Zuvor moelit' ich noch von mir selber sprechen: <lb/>
+              led war es nicht und weiss nicht, wer es war. <lb/>
+              Drum wär' es unrecht, wolltest du mied strafen. <lb n="235"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Zur Sache denn, und rede nicht derum. <lb/>
+              vass du was Neues bringst, ist offendar.</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Das schlimme sagt man immer noch zur Zeit.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wirst du nun endlich reden und dann ^edn?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>led red' ja sehon. Eshat vorhin den Leichnam <lb n="240"/>
+               <pb n="13"/>
+              jemand bedeckt mit troekner Erde und. <lb/>
+              wie sied's gebührt, die Spenden dargedraedt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was sagst du? Welcher Mensch hat das gewagt?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Ich weiss nicht. Weder einer Hacke Lied <lb/>
+              noch eines Spatens Stich war dort zu sedn. <lb n="245"/>
+              Auch keine Wagenspur war in dem Boden, <lb/>
+              an nichts erkennbar, wer die Tat getan. <lb/>
+              Als uns derdeirief, der die Wache hatte, <lb/>
+              da wollt' es allen unbegreiflich scheinen. <lb/>
+              Der Leichnam war Verdeckt, doch nicht begraben, <lb n="250"/>
+              dünn war die ^rdsediedt, welche auf ihm lag, <lb/>
+              als ob man nur die Form erfüllen wollte. <lb/>
+              Von Hunden oder anderem (-letier, <lb/>
+              die etwa gar umliergeserrt den Toten, <lb/>
+              hat keiner vo^i uns eine Spur entdeckt. <lb n="255"/>
+              Nun ging ein arges schelten bei uns los, <lb/>
+              ein Wächter gab dem andern geduld, zuletzt <lb/>
+              gad's auch noch Schläge, wo kein Richter war, <lb/>
+              den Streit zu schlichten. nieder sah im andern <lb/>
+              den Täter, doch war keiner überführt, <lb n="260"/>
+              und jeder stritt beharrlich, es zu sein. <lb/>
+              Der wollte daraufhin ein glühend Eisen <lb/>
+              anfassen, der dured's Feuer gelm und der <lb/>
+              erbot sich bei den Göttern zu beschwören, <lb/>
+              dass er unschuldig sei, den Täter auch <lb n="265"/>
+              nicht kenne, noch den, der es angestiftet, <lb/>
+              Als sellliesslied gar nichts zu ermitteln war, <lb/>
+              sprach einer etwas, das uns unsre Kopie <lb/>
+              zu Boden senken liess; zu widersprechen <lb/>
+              vermochten wir ihm nicht, und wenn wir taten, <lb n="270"/>
+              wie er gesagt, so ging's gewiss uns schlecht. <lb/>
+              Er sagte nämlich, dass wir dir, o Herr, <lb/>
+              die Tat auf alle melden müssten. <lb/>
+              Das sah auch jeder ein. Mir l^nglüeksmenselien <lb/>
+              hat dann das Los dies schöne Amt bestimmt. <lb n="275"/>
+              So din ich hier, wenn auch nur wider willen, <lb/>
+               <pb n="14"/>
+              auch weiss ich, dass du mied nur unsern siehst, <lb/>
+              kein Mensch hat einen Dn^lüeksboten gern.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>0 Herr, sehon längst erfüllt mich der Gedanke: <lb/>
+              ein Wink der Gottheit ist's, was hier geschah. <lb n="280"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du schweig, damit mied nicht dein Word erzürnt <lb/>
+              und du als Tor erscheinst, so alt du bist. <lb/>
+              Denn unerträglich ist es, wenn du meinst, <lb/>
+              die Gotter trügen Sorge um den Toten. <lb/>
+              Sie sollen ihn wohl noch als Heiligen <lb n="285"/>
+              mit Ehren über-häufen, der da kam, <lb/>
+              die Fackel in ihr Heiligtum zu schleudern, <lb/>
+              zu plündern, zu verwüsten ihre Flur, <lb/>
+              der ihre Rechte dreist mit Müssen trat? <lb/>
+              Lädst du sehon jemals mit der Götter Willen <lb n="290"/>
+              den Bösewicht geehrt? Nein, nimmermedr. <lb/>
+              Indes ich weiss, dass kürzer dieser Stadt <lb/>
+              sehon längst im stillen wider mied gemurrt, <lb/>
+              heimlich den Kopf geschüttelt, und den Nacken <lb/>
+              nur unsern mir gebeugt, wie ied's gewünscht. <lb n="295"/>
+              Das sind die Leute, die mit schnödem Geld <lb/>
+              sich andere erkauft für diese Tat. <lb/>
+              Nichts Ilndeilvolleres ßiebt's auf der Welt <lb/>
+              als dieses Geld. Denn Staaten brinKt's zu Fall, <lb/>
+              vertreibt den braven Mann von Haus und Hof, <lb n="300"/>
+              betörend und verblendend Herz und Sinn, <lb/>
+              und macht den Guten auch zum Bösewicht, <lb/>
+              weil Habgier ihn an Schlechtigkeit gewöhnt <lb/>
+              und ihm die Scheu nimmt vor der Freveltat. <lb/>
+              Doch wer für Geld die Hand hierzu Aeliedn, <lb n="305"/>
+              der soll auch bü-sen für sein ruedlos Tun.</p>
+          </sp>
+          <sp>
+            <speaker>(Zum Wächter:)</speaker>
+            <p>So wahr noch Zeus bei mir in Indien steht, <lb/>
+              merk' es dir wohl, ich sedwore dir es zu: <lb/>
+              Bringt ihr nicht den heraus, der ihn bestattet, <lb/>
+              und führt ihn hierher vor mein Angesicht, <lb n="310"/>
+              dann reicht der Tod allein für euch nicht aus, <lb/>
+              lebendig werdet ihr an's Kreuz gehängt, <lb/>
+               <pb n="15"/>
+              bis euren Frevel ihr gestanden habt. <lb/>
+              Ich will euch lehren, wo in Wirklichkeit <lb/>
+              Gewinn zu suchen ist, damit ihr nicht <lb n="315"/>
+              bei jedem Amt euch zu bereichern strebt.</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Darf ich noch reä^n? Oder muss ich Aebn?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Merkst äu's nicht? Dein Geschwätz wirdmir zur Last.</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Kränkt es dein Ohr nur oder auch dein Her??</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was kümmert's dich, wo mir der Unmut sitzt? <lb n="320"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Der Täter kränkt dein Herz, ich nur dein Ohr.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Fürwahr, ein Schwätzer bist du von Natur.</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Doch nimmermehr hab' ich die 'I'at getan.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du hast Verrat geübt um schnödes Geld.</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Ach, es ist schlimm, dass, wer befehlen darf, <lb n="325"/>
+              aus falscher Ansieht Falsches okt befiehlt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>8par' deinen Witz. Bringtihr den Täter nicht <lb/>
+              zur stelle, so sollt bald ^evvabr ihr werden, <lb/>
+              dass Habgier Unheil dringt anstatt Gewinn. <lb/>
+              (Xrova in den t'aluiit.)</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Ja, wenn man ihn nur fände! Doch der Himmel <lb n="330"/>
+              weiss, ob dies je geschieht. Indessen mich <lb/>
+              sollst du so bald hier nicht mehr wieder sebn, <lb/>
+              denn dass ich beil davon gekommen bin, <lb/>
+              dafür sebulä' ich den Göttern grossen Dank. <lb/>
+              (Der Wächter geht A?i.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Manches Gewaltige xiedt's, doch nichts ist gewaltiger als <lb n="335"/>
+              der Mensch. <lb/>
+              Denn selbst über die ünsteren Meere fährt er im &gt;Vinterstnrm, <lb/>
+               <pb n="16"/>
+              durchschneidet sicher die Brandung, <lb/>
+              die rings um ihn sich bäumt. <lb/>
+              Er deutet aus die Mutter »äe, <lb/>
+              die nie ermüäenäe. allezeit spendende, <lb n="340"/>
+              lässt mit dem Pflug sie bestellen von Jahr zu Jahr, <lb/>
+              mit der Rosse Kraft sie furchen.</p>
+            <p>Auch der bekehrten Vögel Schwarm wie das üüeliti^e Wild <lb/>
+              im Wald <lb/>
+              und im Meer die flinken Fische, er fängt sie im Netz, <lb/>
+              sie listig rings umstellend, ein, <lb n="345"/>
+              der vielde^abte Mensch. <lb/>
+              Er bändigt auch mit List das stärkste <lb/>
+              der^eäuredstreikenäe Tier der Wilänis, <lb/>
+              auch dem mädnixen Itoss umsedirrt mit dem ^oelie er den Hals <lb/>
+              und dem unermüdlichen Lerxstisr. <lb n="350"/>
+              </p>
+            <p>Und die Sprache, den Flug der Gedanken, das Staaten­ <lb/>
+              verwaltende Recht <lb/>
+              ersann er sich, weiss, wie dem Winter, <lb/>
+              dem tödlichen Frost, wie dem ReAensturm, <lb/>
+              dem eisigen, man entgeht. <lb/>
+              Oberall weiss er Rat, ratlos trifft ihn nichts, was kommen max. <lb n="355"/>
+              Einzig dem Tod <lb/>
+              Kann er niemals enttliedn, <lb/>
+              weiss er manch döse Krankheit auch zu heilen. <lb/>
+              lu Erfindung, in listiger Kunst weit über Verdotken gewandt, <lb/>
+              neigt bald er zum Argen, zum lauten bald. <lb n="360"/>
+              Achtet er hoch der Heimat Gesetz, <lb/>
+              der Götter doelideili^ Recht, <lb/>
+              ehrt ihn die Stadt; ader ein Fluch ist der für die Stadt, <lb/>
+              der frevelnd Unrecht übt. <lb/>
+              Möge nie au unsern Ilerd gelangen <lb n="365"/>
+              noch in unsern Bund solch ein Böser. <lb/>
+              (1)or ^äckter tritt mit, ^.ntixcme iwt.) <lb/>
+              Was seli' ich? Erscheint von den Göttern gesandt <lb/>
+              ein Wunder? Nein, nein, ich weiss es gewiss, <lb/>
+              dass die Jungfrau dort ^.nti^one ist. <lb/>
+              Weh, Oeäipus Kind, <lb n="370"/>
+               <pb n="17"/>
+              unselig unseligem Vater entstammt, <lb/>
+              was ahnt mir? Bringen sie dich hierher, <lb/>
+              Weil du den Befehlen des Königs getrotzt <lb/>
+              und sie dich bei dem ^agstüek ergriffen?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Hier ist sie, die das döse Werk vollbracht, <lb n="375"/>
+              ich trat sie bei der Tat. Wo ist der König? <lb/>
+              (Xrscm erscheint in der l'ür.)</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Dort kommt er aus dem Haus zur rechten Zeit.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was gidt's? Wozu komm' ich zu rechter Zeit?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Ach Herr, die Menschen sollen nichts verschwören. <lb/>
+              Was später eintritt, straft den Vorsatz Lügen. <lb n="380"/>
+              Zwar ging ich fort auf Zimmer wiederseden, <lb/>
+              weil du durch deine Drohung mied erschreckt, <lb/>
+              doch nun din ich trotzdem sehon wieder da <lb/>
+              und dringe dieses Mädchen, die wir trafen <lb/>
+              den Leichnam schmückend. Da ward nicht gelost, <lb n="385"/>
+              denn mir allein kommt dieser Fang zu statten. <lb/>
+              Und nun, o Herr, behalte du sie hier <lb/>
+              und überführe sie und sprich dein Urteil. <lb/>
+              Doch mir steht zu nach beeilt und Billigkeit <lb/>
+              von jedem Vorwurf frei davon zu gedn. <lb n="390"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wo kommt ihr der? Wobei ward sie betrogen?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Sie selbst begrub den Mann, nun weisst du alles.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ist das auch wahr?Und weisst du, was du sprichst?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>Ich habe sie den Mann begraben sedn, ' <lb/>
+              dem du's versagst; ist das nicht klar und deutlich? <lb n="395"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wie saht ihr das? Wie traft ihr sie dabei?</p>
+          </sp>
+          <sp>
+            <speaker>Wächter.</speaker>
+            <p>So war die Sache: Als zurück wir kamen, <lb/>
+              durch deinen Zorn geängstigt und erschreckt, <note type="footnote"> 2 </note> <lb/>
+               <pb n="18"/>
+              da texten von dem Leichnam wir den Staub, <lb/>
+              der auf ihm lag, so dass mm völlig frei <lb n="400"/>
+              der daldverwe8ts Leib zu Tage lag, <lb/>
+              dann sassen wir auf einem Hügel nieder <lb/>
+              recht au88«r Wind, dass uns der Dunst, nicht träfe, <lb/>
+              und seder hielt den andern wach mit schelten, <lb/>
+              wenn einer lässig schien in seinem Dienst. <lb n="405"/>
+              Und so verstriell die Zeit, bis dass die Sonne <lb/>
+              im Mittag stand und sengend ihre strahlen <lb/>
+              dernieäer8anäte. Da erhebt sich plötzlich <lb/>
+              mit Ungestüm ein starker Wirbelwind, <lb/>
+              erfüllt die Ebene, zerzaust dieBäume <lb n="410"/>
+              und virdelt himmelhoch das Laud empor. <lb/>
+              (Zescdlossnen ^.ux'8 ertrugen wir den Sturm, <lb/>
+              und als sich endlich seine Wut gelegt, <lb/>
+              erschien dies Mädchen. Ledrillen ^ammerlaut <lb/>
+              liess sie vernehmen, wie ein Vogel klagt, <lb n="415"/>
+              wenn bei der Keimkedr er gewahrt, dass man <lb/>
+              die zarte Brut ihm aus dem ^est geraubt. <lb/>
+              klagte auch das Mädchen, als den Leichnam <lb/>
+              von Erde frei sie sah, und böse Flüche <lb/>
+              rief auf das Haupt des Täters sie herab, <lb n="420"/>
+              bedeckte schnell mit Staub den Toten wieder, <lb/>
+              und aus dem sedönxetriednen Henlcelkrux <lb/>
+              goss dreimal sie die Spenden ihm herab. <lb/>
+              Und &gt;vir, dies sehend, eilten schnell herbei, <lb/>
+              umringten sie, die ruhig stehen blieb, <lb n="425"/>
+              und legten ihr zur Lastwas jetzt geschehen <lb/>
+              und auch, was früher. Sie gab alles zu <lb/>
+              zu me.'ner Freude und zu meinem Schmerz, <lb/>
+              denn selbst dem Unheil zu entxedn, dringt Freude, <lb/>
+              doch andre, die man liebt, ins Unglück stürzen, <lb n="430"/>
+              ist schmerzlich; ader alles das ist mir <lb/>
+              nicht so viel wert als meine eigne Rettung.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und du, die du zur-Erde senkst das Haupt, <lb/>
+              gestehst du oder leugnest du die Tat?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>led tat's, ich Aed' es zu und leugne nichts. <lb n="435"/>
+              </p>
+          </sp><pb n="19"/>
+          
+          <sp>
+            <speaker>Kreon (zum Wächter).</speaker>
+            <p>Du magst NUN Aebn, wohin es dir beliebt, <lb/>
+              von dieser schweren Schuld bist du befreit. <lb/>
+              (^Väoliter ad.) <lb/>
+              Du aber xieb mir Kur? und gut Bescheid: <lb/>
+              ward das Verbot, das ich erliess, dir kund?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>6ewis8, es ward mir kund wie Mermanv. <lb n="440"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und wagtest dennoch es zu übertreten?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Weil doch nicht Zeus es war, der es verbot, <lb/>
+              noch vike, die im Hades drunten thront, <lb/>
+              sie gaben solch Verbot den Menschen nicht. <lb/>
+              Auch hielt ich dein Verbot für nicht so stark, <lb n="445"/>
+              dass es der Götter ungeschriebene <lb/>
+              und ewige Gebote überträfe. <lb/>
+              Riebt gestern nur und beute gelten die, <lb/>
+              in alle Ewigkeit bestehen sie <lb/>
+              zu Recht, und niemand weiss, wob er sie kamen. <lb n="450"/>
+              Sie zu verletzen nur aus Nensebenkurebt, <lb/>
+              der Götter Strafgericht mir zu verdienen, <lb/>
+              das bin ich nicht gewillt. Und dass auch ich <lb/>
+              einst sterben muss, das hab' ich wohl gewu88t, <lb/>
+              wenn's auch besonders dein Gebot mir nicht <lb n="455"/>
+              verkündet hätte; sterb' ich vorher noch, <lb/>
+              so ist mir dies gerade ein Gewinn. <lb/>
+              Denn wer nur Leid und Kummer bat wie ich, <lb/>
+              wird jederzeit den lod willkommen beissen, <lb/>
+              und wenn mein l'un Zu töricht nennst — mich dünkt, <lb n="460"/>
+              dann bat ein Tor der Torheit mich geriebn.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Des Vaters trotxge Art zeigt auch die Tochter, <lb/>
+              der Rot zu weichen bat sie nicht gelernt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wer allöuboeb im Trotz sein Haupt erhebt, <lb/>
+              kommt auch Zuerst zu Fall; der bärtste Stahl, <lb n="465"/>
+              im Feuer äurebgeglübt, bricht und Zerspringt. <lb/>
+              Ein kleiner Zügel Zwingt den Ungestüm <note type="footnote"> 2* </note> <lb/>
+               <pb n="20"/>
+              des wilden Rosses. Dem am wenlösten <lb/>
+              stellt Hochmut zu, der andern dienstbar ist.. <lb/>
+              Die hiat betätigt ihren Frevelmut, <lb n="470"/>
+              als das Gesetz sie brach, «las ich erliess. <lb/>
+              Am ärgsten aber ist es, dass sie sich <lb/>
+              des Ilv^edorsams rühmt und mich verhöhnt. <lb/>
+              Wahrlich, nicht ich, sie wäre hier der Mann, <lb/>
+              dlied' ungeahndet solch ein Ildermnt. <lb n="475"/>
+              Ist sie auch meiner Schwester Kind, mag sie <lb/>
+              mir näher stelzen als mein ganzes Haus, <lb/>
+              sie soll der schlimmsten Strate nicht entgedn, <lb/>
+              sie selbst und ihre Schwester, denn auch die <lb/>
+              wird an der Freveltat beteiligt sein. <lb n="480"/>
+              &lt;^u den Dienern:) <lb/>
+              Ruft sie herbei, ich sah im Hanse sie <lb/>
+              noch eden erst wie sinnlos sich gebärden. <lb/>
+              so pflegt sich bald der seliuldde^vusste Sinn <lb/>
+              nach heimlichem Verbrechen zu verraten. <lb/>
+               Erbärmlich ader ist's, wenn einer Tat <lb n="485"/>
+              man überführt ist, sie beschönigen</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Verlangst du griissre Sühne als mein Leben?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nein, dies genügt mir, wenn du es verlierst.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Nun denn, was zögerst du? Wie deine Art <lb/>
+              mir nicht gefüllt und nie gefallen wird, <lb n="490"/>
+              so ist auch meine Art dir stets zuwider, <lb/>
+              Und doch kann nichts mir ^r0ssren Ruhm erleiden, <lb/>
+              als dass den Bruder ich ins Grad gelegt. <lb/>
+              Auch diese stimmten darin gern mir bei, <lb/>
+              verselilösse ihnen nicht die Furcht den Mund. <lb n="495"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du denkst allein so in der ganzen Stadt.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Die auch, die Furcht nur nötigt, sie zu schweigen.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Schämst du dich nicht, dass du es anders machst?</p>
+          </sp><pb n="21"/>
+          
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>8'ist keine Schmach, den eignen Zruder ehren.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und war ^teokles denn nicht auch dein Bruder? <lb n="500"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Von einem Vater und von einer Mutter.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und seinem Feinde tust du Ehre au?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Das gibt der lote wahrlich dir nicht zu.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du ehrst den Brevier doch grad' so wie ihn.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Er war mein Linder und kein keiler Knecht. <lb n="505"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Der hat wein Land bedroht, der dat's beschützt.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Das macht im Tode keinen Unterschied.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Soll man dem Lösen wie dem lauten lohnen?^</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Wer weiss denn, ob auch drunten solches gilt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Der Feind wird auch im Tode nicht mein freund. <lb n="510"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Nicht um zu hassen, um zu lieben schuf mied Gott.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Dort unten liebe, wenn du lieben musst, <lb/>
+              solang' ich lebe, soll kein Weib regieren. <lb/>
+              (Ismvnv wird von den Dienern Xroollii ksiein^vsükl't.)</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Seht dort, Ismene erscheint in der Tür, <lb/>
+              sie weint, von 8or^' um die Schwester erfüllt;<lb n="515"/>
+               die dunkele Wolke des Drains hat ihr <lb/>
+              das Antlitz entstellt<lb/>
+               und benetzt ihr die lieblichen Wangen.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du Schlange, die im Hause heimlich sich <lb/>
+              an mied geschmiegt, mied aussog-, ohne dass <lb n="520"/>
+               <pb n="22"/>
+              ich ahnte, dass zwei Greuel ich erzog, <lb/>
+              die meinen Thron zum sanken dringen möchten, <lb/>
+              wodlan, so sprich, bist du au der Bestattung <lb/>
+              beteiligt, oder weisst du nichts davon?</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Ich dad's getan, wenn's meine Semester tat, <lb n="525"/>
+              ich trage meinen Anteil an der Schuld.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Nein, nein, daswäre unrecht, du hast nicht <lb/>
+              gewollt, und ich hab' dich nicht zugezogen.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>In einem Unglück schäme ich mied nicht, <lb/>
+              mied zur Gefährtin deines I^eiäs zu machen. <lb n="530"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Die Götter drunten wissen, wer's getan; <lb/>
+              wer nur mit Worten liebt, den mag ich nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Verstoss' mied nicht, o Schwester, lass mit dir <lb/>
+              den Tod mied leiden und den Bruder ehren.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Das sollst du nicht, an einer ist's genug, <lb n="535"/>
+              was du nicht tatest, kannst du auch nicht dussen.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Was soll das Leben wir, wenn du nicht bist?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Frag' Lreon, denn du hältst ja doch ihm.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Wie magst du mied nur so unnötig quälen.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Du tust mir leid, auch wenn ich dich verhöhne <lb n="540"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Was könnt' ich denn nur jetzt für dich noch tun?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>vsnk' nur an dich, ich wünsche, dass du lebst.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>So soll mein Weg sichtrennen von dem deinen?</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Ied hab' den Tod gewählt und du das Leben.</p>
+          </sp><pb n="23"/>
+          
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Hab' ich dir meine, Gründe nicht gesagt? <lb n="545"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Die haben dir beliebt und mir die meinen.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Und doch, uns beide trifft die gleiche Schuld.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>I.ass ad, du lebst, und meine Seele weilt <lb/>
+              sehon längst im Hades dort bei unsren Lieben.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Von Finnen sind die Mädchen, eins war's <lb n="550"/>
+              sehon immer, und die andre ward es jetzt.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>0 Herr, in seligerem Unglück bleibt wohl kaum <lb/>
+              das Denken rein und klar, das geht verloren.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wie dir, als du mit Bösen Boses übtest.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Was soll wir noch das Leben ohne sie? <lb n="555"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Sprich nicht von dieser, denn sie ist nicht mehr.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Willst du die Braut des eignen Sohnes töten?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Der findet leicht wohl eins andre Braut.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Doch stellt wohl keine seinem Herzen näher.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nie Feb' ich meinem Sohn ein schlechtes Weib. <lb n="560"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>Du armer Sohn. wie schmäht dein Vater dich.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Hör' endlich auf mit deinem LrautKeseliwätx.</p>
+          </sp>
+          <sp>
+            <speaker>Ismene.</speaker>
+            <p>So willst du sie von deinem Solne trennen?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Der Tod wird diese Trennung sehon voll^islin.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Leselilossne Sache scheint ihr Tod sein. <lb n="565"/>
+              </p>
+          </sp><pb n="24"/>
+          
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Mr dich und mich. Doch nun kein Aufschub mehr, <lb/>
+              ('/u den Dionoin) <lb/>
+              führt sie hinein und hütet; sie mir gut, <lb/>
+              lasst sie nicht aus den Augen, denn so mancher, <lb/>
+              so dreist er sich gebärdet, denkt an Flucht, <lb/>
+              wenn er dem lod iivs Auge sehen soll. <lb n="570"/>
+              ^nti^one und Ismene werden von denDienern in ken 1^1 ^8t, geführt; Xivon <lb/>
+              schaut ihnen nach und bleibt dann, in Nachdenken versunken, auf der Bühne stehen.</p>
+          </sp>
+          <sp>
+            <speaker>Chor</speaker>
+            <p>Ach, selig ist, wessen Geschick vom Leid verschont blieb. <lb/>
+              Doch wes' Haus die Götter erseliütterten, <lb/>
+              nie verlässt der ^luel^ ihn, von Geschlecht zu Geschlecht <lb/>
+              sich wäl?enä; <lb/>
+              wie wenn das aufgeregte Meer, <lb/>
+              das der Xorästurm tosend trifft, <lb n="575"/>
+              mächtig aus äunkelsler Liefe hinauf, hinab sich wälzt, <lb/>
+              vom Grunde her den schwarzen Schlamm aufwühlt <lb/>
+              und wild im heulenden Orkan <lb/>
+              am ilut^epeitsedten Ufer brandet <lb/>
+              Zeit alters in I^adäako-^ Haus sah ich nur Kammer <lb n="580"/>
+              fort und fort auf Jammer sich wieder häufen, <lb/>
+              nicht befreit ein neues Geschlecht das Geschlecht, <lb/>
+              es schlug sie ein Gott <lb/>
+              und gibt sie nimmer frei. <lb/>
+              Auch das letzte Reis aus dem eäelen Stamm, <lb n="585"/>
+              das Heil uns versprach für Oedipus' Haus, auch dies <lb/>
+              schneidet der loäes^otter dlut^efällite sichel ad <lb/>
+              durch Linnestorlieit und durch Herzens-harte.</p>
+            <p>Niemand kann deiner Macht, o Zeus, <lb/>
+              frevelnd trotzen unter den Menschen; <lb n="590"/>
+              der Schlaf auch zwingt dich nicht, der doch alles Zwinger, <lb/>
+              auch nicht die endlos langen Jahre, <lb/>
+              für alle leiten thronst, o Herr, du <lb/>
+              in dem klaren Licht auf deines Olynipos Hoelidur^. <lb/>
+              Doch für Menschenkinder gilt dies Gesetz <lb n="595"/>
+              jetzt und einst und alle Zeit: - <lb/>
+              auch nicht der (grösste auf Erden bleibt <lb/>
+              gänzlich befreit vom Unheil. <lb/>
+               <pb n="25"/>
+              Ach, die trügerische Hoffnung dringt <lb/>
+              okt wohl maneh einem Menschen Segen, <lb n="600"/>
+              doch vielen auch leichtfertigen Wunsehs ^nttäuselmng; <lb/>
+              leise und heimlich naht sie, - - <lb/>
+              bis du den l^nss dir versengt in heisser I^olie. <lb/>
+              Weise ärum, so dünkt mich, war jenes Denkers Ausspruch: <lb/>
+              es erscheine Böses gut oft dem,^ . <lb n="605"/>
+              dessen Verstand ein Gott blendete.... <lb/>
+              ihm zum Unheil. Mr noch kurze Zeit <lb/>
+              bleibt er befreit vom Unheil. <lb/>
+              (?aimon betrittluistixcii Lokritte« von rechts her Ittümo.) <lb/>
+              Lieb, l^aimon erscheint, aus deinem Geschlecht <lb/>
+              (.ZU Ivi'öon ^evvenäst) ., <lb/>
+              noch der einzige 8pross; <lb n="610"/>
+              wohl über das Los der ^.ntigone, der .'. <lb/>
+              Verlobten, ist er betrübt und kommt ... <lb/>
+              den Verlust der Braut zu beklagen.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Bald soll darüber jeder Zweifel schwinden. <lb/>
+              Nein 8ohn, du kommst doch nicht im Zorn, weil du <lb n="615"/>
+              das Urteil über deine Braut vernommen? <lb/>
+              Nicht wahr, was ich hezehliesse, ist dir recht?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon..</speaker>
+            <p>Dein hin ich, Vater, dein erfahrner Sinn <lb/>
+              weist mir die Wege, die ich gehen soll, <lb/>
+              und keine Braut vermag ich mehr zu schätzen <lb n="620"/>
+              als dich, wenn du mit weisem Rat mich führst. '.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>So ist es recht gedacht von dir, mein Sohn, <lb/>
+              des Vaters Wille geht in allem vor. <lb/>
+              Gehorsam wollen wir die Söhne lehren, <lb/>
+              die wir in unsrem Lause uns erziehn, &gt; <lb n="625"/>
+              damit, gleieliwie der Vater, sie den Feinden <lb/>
+              mit Feindschaft lohnen und die ^reunäe ehren. <lb/>
+              Doch undotmäss'ge Kinder sieh erziehn, <lb/>
+              was heisst das anders, als dem Feindzum Spott <lb/>
+              sieh klagen nur im Hause gross zu xielm? <lb n="630"/>
+              IiÄSS nie durch Linneslust dir diese Meinung" <lb/>
+               <pb n="26"/>
+              Zerstören und bedenke wohl, mein Sohn: <lb/>
+              ein arges Weib ein arger Ldedund. <lb/>
+              Die tiefsten Wunden schlägt ein falscher Freund. <lb/>
+               Verachte sie, die k^alLede, lass sie gelin, <lb n="635"/>
+              dort unten mag ein anderer sie freie. <lb/>
+              Auf vKnem Ungehorsam hab' ich sie<lb/>
+               ertappt., sie ganz allein von allen Bürgern, <lb/>
+              und soll man mied nicht einen Lügner lieissen, <lb/>
+              so muss sie sterben, klag sie immerhin <lb n="640"/>
+              zu Zeus, dem Lekütser unsers Ztammes, lledn. <lb/>
+              Denn wenn vom eignen Blut ich solches dulde, <lb/>
+              was soll dann erst vom fremden mir gesedelm? <lb/>
+              Nur der, der Ordnung liält im eignen Haus, <lb/>
+              vermag dasselbe auch im Staat zu leisten. <lb n="645"/>
+              Doch wer Gesetze über-tritt und wer <lb/>
+              Vorschriften machen will dem, der regiert, <lb/>
+              wird nimmer meines Beifalls sich erfreuen. <lb/>
+              Wer an der spitze stellt, dem soll man folgen<lb/>
+              im Kleinen, im Gerechten und auch sonst. <lb n="650"/>
+              Und wer so denkt, dem^kann man auch vertreten, <lb/>
+              dass er im Lpeerkampt nicht vom Platze weicht <lb/>
+              und sich bewährt als treuer Xampfgenoss. <lb/>
+              Der Ilngeboi'sam ist das-grösste Iledel, <lb/>
+              in staat und Haus lülirt er zum Untergang, <lb n="655"/>
+              er reisst die Streiter hin zu keiner Flucht, <lb/>
+              indes Gehorsam sie zum Liege führt. <lb/>
+              Mr wollen Hüter des Gesetzes sein <lb/>
+              und es nicht deuten lassen durch ein Weib. <lb/>
+              Wenn's sein muss, wollen wir durch Männer fallen, <lb n="660"/>
+              doch niemand soll uns VVeiberkneedte schelten.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer. .</speaker>
+            <p>Wenn nicht das Alter meine Einsicht trübt, <lb/>
+              so scheint mir sehr verständig, was du sprachst.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Der Götter Huld, o Vater, schenkt den Menschen <lb/>
+              das höchste aller Hüter, die Vernunft. <lb n="665"/>
+              Dass unreell wäre, was du hier erklärtest <lb/>
+              das kann ich nicht behaupten, will's auch nicht. <lb/>
+               <pb n="27"/>
+              Indes auch andre haben doch Verstand. <lb/>
+              leb hab' vor dir voraus, dass alles, was <lb/>
+              an dir man aussetzt. mir zu Ohren kommt. <lb n="670"/>
+              Den Mann lies Volkes schreckt äein strenger lili&gt;.k, <lb/>
+              dass er misskäll'xe Reden dir verbirgt, <lb/>
+              ich höre im geheimen mancherlei, <lb/>
+              so auch vom Mitleid, das die ganze Stadt <lb/>
+              mit diesem Mädchen hegt, die, rein wie keine, <lb n="675"/>
+              für ihre edle Tat den lod soll leiäen. <lb/>
+              Weil sie den eignen Bruder, der im Kampf <lb/>
+              gefallen war, den Hunden nicht zum ?rass <lb/>
+              und nicht den ^ier'Ken Vögeln überliess, <lb/>
+              ist sie darum nicht höchster Ehren wert? <lb n="680"/>
+              So raunt man im geheimen in der Stadt. <lb/>
+              Und ich nun weiss kein berrlieberes Gut, <lb/>
+              als wenn man, Vater, dieb in Nbren hält. <lb/>
+              Was könnte wohl die Kinder mehr beglücken <lb/>
+              als ihres Vaters Glück und Ruhm? Und was <lb n="685"/>
+              den Vater mehr als seiner Kinder Glück? <lb/>
+              Drum balte nicht so starr die Ansicht lest, <lb/>
+              dass, was du denkst, allein das Reckte sei: <lb/>
+              Wer stets allein das Rechte glaubt zu rissen, <lb/>
+              zu reden, zu empfinden, bat sieb okt <lb n="690"/>
+              getäuscht, wenn man die Sacke recht besiebt, <lb/>
+              Auch einem weisen Manne ziemt's zu lernen, <lb/>
+              der Bogen bliebt, den man zu straff gespannt. <lb/>
+              6eb an den Strom, vom RexenAuss xesebwellt: <lb/>
+              der Raum, der willig weicht dem Drang' der Wogen, <lb n="695"/>
+              bleibt unversehrt; der sieb entAe^enstemmt, <lb/>
+              wird bald mitsamt den Wurzeln weggerafft. <lb/>
+              Und wer im Schilf im rechten Augenblick <lb/>
+              das lau des Segels nicht gleich willig löst, <lb/>
+              der siebt sein Fahrzeug bald kieloben treiben. <lb n="700"/>
+              Gib nach und ändre deinen Karten Zinn. <lb/>
+              Darf ich als «lünArer bier ein Urteil wagen, <lb/>
+              so ist es dies: das beste ist gewiss <lb/>
+              stets in der Weisheit Vollbesitz zu sein; <lb/>
+              ist dies jedoch nicht allezeit der Fall, <lb n="705"/>
+              so soll man auch nicht versebmäbn. <pb n="28"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>0 Herr, war dieses Wort nach deinem Sinn, <lb/>
+              so folge ihm, wie er auch dir gern folgt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Soll ich als leiker und erfalirner Mann <lb/>
+              von diesem Jüngling mich belehren lassen? <lb n="710"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Nur wo es recht ist. Bin ich auch noch jung, <lb/>
+              hier gilt das Alter nicht, hier gilt die Sache.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nennst du das Unrecht eine gute Sache?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Wer Boses tat, den will auch ich nicht ehren.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ward sie denn nielit ertappt auf böser Tat? <lb n="715"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Das Volk von T'lieden ist der Meinung nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Des Volkes Meinung soll mein I'un bestimmen?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Nun wirst du hitzig wie ein junger Mann.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Regiert denn liier ein andrer noch als ich?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Ns gibt kein Reich, das einem nur gehört. <lb n="720"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ist nicht das Reich des Herrschers Eigentum?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Mit solcher Ansicht würdest du gar bald <lb/>
+              allein in einem leeren Land regieren.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Du streitest ja recht wacker für das Weib.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Wenn du das Weib bist! Für dich streite ich. <lb n="725"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Willst du mit deinem Vater rechten, Bube?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>kluss ich doch Lelin, dass du das Recht verletzest.</p>
+          </sp><pb n="29"/>
+          
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Verletz' ied's, wenn ich weine Herrschaft hüte?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Das. tust du schlecht, wenn du die Götter nennst.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ein sinndetörter Weiderkneedt bist du. <lb n="730"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Niv wirst du mied im Dienst des Schlechten finden.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Dein ganzes Sorgen geht doch nur um sie.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Um dich, um mied und um das Recht der Götter:</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Versuche nicht durch Worte mied zu kanten.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Willst du nur dich und nickt auch andre hören? <lb n="735"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>sie stirbt und nimmermedr wird sie dein Weib.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Und wenn sie stirbt, dann stirbt ein andrer mit.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Gedenkst du mied durch Drohungen zu schrecken?</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Was nützt das vroden gegen Unverstand.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Mit Tränen lernst du noch Vernunft, du Tor. <lb n="740"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Ich ehre dich, weil du mein Vater bist, <lb/>
+              sonst würä' ich Wahnwitz nennen, was du denkst.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ja wirklich? Nun. beim hohen Himmel dort, <lb/>
+              die sednmed, die du mir tust, sollst duher-eint. <lb/>
+              (^u den Dionern.) <lb/>
+              Bringt der das Scheusal, augenblicklich soll <lb n="745"/>
+              ihr Buhle es mit ansedn, wie sie stirbt.</p>
+          </sp>
+          <sp>
+            <speaker>Haimon.</speaker>
+            <p>Nein, nun und nimmermedr wird das xesedeltn. <lb/>
+              Nie wieder siehst du mied vor deinen Augen, <lb/>
+               <pb n="30"/>
+              max deinen Wahn mit ansedn. vvem's gefällt. <lb/>
+              (Haiwov vsrISsst in höchst-er Erregung die Bühne durch die rechte ?ür.)</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Der Aufruhr des Gemüts trieb ihn davon, <lb n="750"/>
+              besorgt din ich um ihn bei seiner Hast.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nur zu, max er erregt sein, wie er will, <lb/>
+              der beiden Mädchen Leben bleibt verwirkt.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>So sollen beide sie den lod erleiden?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nein, mir die, äie's getan, da dast du recht. <lb n="755"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Und welchen Tod hast du ihr zugedacht?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wo deines Menschen ^usstritt zu ihr dringt, <lb/>
+              lass ich sie bergen in ein k'elsenArad <lb/>
+              ledenä'^en beides, und,nur so viel Kreise <lb/>
+              soll man ihr reichen, dass der Götter Fluch <lb n="760"/>
+              die Stadt nicht vie für einen Frevel trifft. <lb/>
+              Dort max zum Hades sie um Rettung üedn, <lb/>
+              den sie allein von allen Göttern ehrt, <lb/>
+              dort geht ihr dann wohl die Erkenntnis auf, <lb/>
+              dass Tote ehren nicht die Mühe lohnt-. <lb n="765"/>
+              (Xreov geht in den Palast, um die nötigen Befehle zu oitoilov.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Eros, Unüberwindlicher, <lb/>
+              Eros, du kerziensde^vinxer, <lb/>
+              der auf den rosigen Wangen <lb/>
+              holder Uädedenknospen träumet, <lb/>
+              auf mildem Meer wohnst du so gut wie in des Sandmanns <lb n="770"/>
+              Hütte. <lb/>
+              Kein Unsterblicher kann deinem Pfeil entrinnen, <lb/>
+              kein Sterblicher auch, der Erde Sohn; wen du triffst, der <lb/>
+              rasen <lb/>
+              Au bösem Tun locktest du - <lb/>
+              manchen edlen Mann, ihm zum Verderben; <lb/>
+              auch zwischen Vater und Sohn hastdu <lb n="775"/>
+              diesen streit entzündet.. <lb/>
+               <pb n="31"/>
+              Im ^US' des Sohns leuchtete klar nach dem verlobten Mädchen, <lb/>
+              dem strengen Gebot des Vaters sum Trotz, die Sehnsucht, <lb/>
+              und wülilos gewinnt im Kampfe den Lies die Göttin der Liebe. <lb/>
+              (^ntixons tritt. von zwei Dienern begleitet, ans dem I^last.) <lb/>
+              Bald könnte auch mich, was mein Auge dort schaut, <lb n="780"/>
+              verleiten zum Trotz Fegen Herrschers Gebot. <lb/>
+              Nicht länger mehr halt' ich die Tränen Zurück, <lb/>
+              wenn ich ansedn soll, wie ^nti^one jetzt <lb/>
+              in das Grab, das allbettende, xetm muss.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Zdr sekt mied, Bürger meiner Vaterstadt, <lb n="785"/>
+              wie ich gerüstet bin zur letzten Reise. <lb/>
+              lebendig führt man mied zur dunklen (-ruft, <lb/>
+              zum letztenmal sekau' ich der Sonne Licht, <lb/>
+              und niemals, niemals wieder. Ach, mir ward <lb/>
+              kein Hoedseitstest zu teil, kein Lrautlied klingt <lb n="790"/>
+              auf diesem Weg, dem Tod bin ich vermählt.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Doch vicht ohne Ruhm, nein, mit Ehren bedeckt <lb/>
+              wirst zu den Wohnungen der Toten du xielm. <lb/>
+              Nicht zehrende Krankheit ratkte dich fort, <lb/>
+              nicht traf dieb des Lebwertseldags räebender Streich, <lb n="795"/>
+              aus freiem Rntsebluss willst du lebend allein <lb/>
+              von dem Licht zum l'ode dich scheiden.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Auch Xiobe, so kündet uns die Sage, <lb/>
+              des l'antalus, des ?brygerkönigs Tochter, <lb/>
+              starb jämmerlich auf wilder Lergesliöb'. <lb n="800"/>
+              Wie Lpbeu rankend wuchs um sie der Fels <lb/>
+              und hielt sie fest. Und ihre Tränen rinnen <lb/>
+              in ihrem 6ram, ihr Hals und Schultern netzend, <lb/>
+              gleich Rexenbäeben immerfort zu Tal.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Sie war eine Göttin, göttlichen Ltammes, <lb n="805"/>
+              wir aber sind Menschen, Menschen entsprosst, <lb/>
+              doch rühmlich gewiss für den sterblichen ist's, <lb/>
+              sein Los mit den Göttern zu teilen.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>&gt;Vel»', ihr verhöhnt mich. Warum, bei den Göttern, <lb/>
+               <pb n="32"/>
+              sie^u5 idr mir, ed' ich sterbe, soledes an - . <lb/>
+              Mein lleimatlanä, euch, Bürger dieser Stadt, <lb/>
+              dich, OirketineUe, und dich, lieilxer Hain, <lb/>
+              euchalle rute ich zu Zeugen an: <lb/>
+              Warum, nachwelchem Reckt muss ich allein, <lb/>
+              von meinen Mieden undeweint dahin <lb n="815"/>
+              zum k'elsen^rad wie nie ein andrer wallen? <lb/>
+              lehi IInFlüekseÜAe. noch leds ich, <lb/>
+              und doch din ich sehon tot, ich hab' am l^eden <lb/>
+              vicht mehr, und li^d' am Tod noch keinen Teil.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Bis au des Wagnisses Grenze Fingst <lb n="820"/>
+              du in deiner Kühnheit, armes Kind, <lb/>
+              verletztest vikes hohen Thron; <lb/>
+              du kämpfest, wie dein Vater kämpfte,</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Du rührst an eine Wunde, die mied schmerzt,- <lb/>
+              des Vaters alldekanntes Leid und auch <lb n="825"/>
+              des ganzen I^adäakiäendauses Elend; <lb/>
+              die üuedhelaäne Ehe meiner Mutter, <lb/>
+              ihr Sohn und Gatte, der mein Vater ward. <lb/>
+              ilinen soll ich nun für immer gehen, <lb/>
+              auch ich mit Fluch beladen, unvermädlt. <lb n="830"/>
+              Leidvoll ward mir nun auch des Bruders Ehrung, <lb/>
+              er sank im Tod dahin, mied reisst er nach.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Fromm handelt, wer die ^oten ehrt; <lb/>
+              doch dessen Macht, dem Macht gebührt, <lb/>
+              zu verachten, ziemt sich nimmermedr. <lb n="835"/>
+              So stürzt dich Leidenschaft in's Unheil.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>Kein Freund, kein Hatte, niemand weint mir nach <lb/>
+              Auf meinem letzten Weg, und doch soll ich <lb/>
+              nie wieder sedaun der Plänen Sonne Licht, <lb/>
+              und keine Träne liesst um mein Geschick. <lb n="840"/>
+              (VVÄkienll der letzten &gt;Vordo der ^ntiZ'yne ist Xrson ans dem <lb/>
+              »otrsteu.)</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wenn Xla^' und Kammern uns vom Tode liülke, <lb/>
+               <pb n="33"/>
+              So leicht dort' dann wohl keiner damit auf. <lb/>
+              den Oionsiii) <lb/>
+              Führt gleich sie fort und sedliesst, wie ich befahl, <lb/>
+              allein sie in das (FiadZewölde ein. <lb/>
+              Dort ärinnen mag sie sterben oder mag <lb n="845"/>
+              in diesem Hause ihre Hochzeit halten. <lb/>
+              Wir haben keine Schuld an diesem Weib, <lb/>
+              die menschliche Gemeinschaft sedliesst sie aus.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>0 Gruft, o kraut gemach, du Grabgewölbe, <lb/>
+              von nun an meine Wohnung, ja, ich komme <lb n="850"/>
+              zu dir und zu den Keinen. Reiche Zahl <lb/>
+              von ihnen birgt ja sehon die Unterwelt. <lb/>
+              Ich folg' als letzte nun, ein schlimmer Tod <lb/>
+              rafft in des Lebens Blüte mich dahin <lb/>
+              Und doch, an dieser Hoffnung halt' ich fest, <lb n="855"/>
+              ihr werdet gern mied wieäersedn, du, Vater, <lb/>
+              du, liebe Nutter, du, mein Lruäerder?. <lb/>
+              Als. ihr gestorben wart, hab ich euch ja <lb/>
+              mit eigner Hand geschmückt undeuch gespendet, <lb/>
+              und weil ich, ?ol^vneikes, deinen Leib <lb n="860"/>
+              bestattet, muss ich solchen Tod erleiden <lb/>
+              Doch wer Vernunft besitzt, deisst gut mein l'un. <lb/>
+              Xreon allein erscheint ein arger Frevel, <lb/>
+              ein schrecklich Wagnis, was ich für dich tat. <lb/>
+              Drum lässt er mied, des eignen Sohnes kraut, <lb n="865"/>
+              mit rauher Hand von dem Verlobten reissen, <lb/>
+              den Gatten und das Eheglück mir rauben, <lb/>
+              von meinen Freunden fern mied armes Weib <lb/>
+              lebendig führen in das dunkle Grab. <lb/>
+               Hab' ich das Recht der Götter denn verletzt ? <lb n="870"/>
+              Wie kann ich ärmste zu den Göttern noch <lb/>
+              aufblieken und wem kann ich bittend nadn, <lb/>
+              wenn ich durch Frömmigkeit mir Hass erwarb? <lb/>
+              Ist nach der Götter Willen das gerecht, <lb/>
+              so wirä mein Unglück mich zur Einsicht dringen; <lb n="875"/>
+              doch frevelt man an mir, dann treffe den, <lb/>
+              der sich an mir vergeht, ein gleichGeschick. <note type="footnote"> 3 </note> <pb n="34"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Noch dieselbe wildstürmende Leidenschaft i8t's, <lb/>
+              die das Mädchen erfüllt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und denen ich sie zu geleiten befahl, <lb n="880"/>
+              droht Strafe, wenn länger ihr Säumen noch währt.</p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>&gt;Veli' wir, immer näher sehon zeigt mir sein Wort <lb/>
+              den drohenden Tod.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>8etx' jede detrü^lielie Hoffnung hinten, <lb/>
+              mein Wille geschieht. <lb n="885"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Antigone.</speaker>
+            <p>0 Ilieden, du Stadt meines Vaters, und ihr, <lb/>
+              o Götter der Stadt, <lb/>
+              sie führen davon mied zum Tode. <lb/>
+              Idr seht es mit an, ihr Männer der Stadt, <lb/>
+              Gewalt muss ich leiden von diesem Mann, <lb n="890"/>
+              weil ich Heiliges heilig Spalten. <lb/>
+              ( Vnti^one wird von den Dienern durch die linke '1'ür iiiuÄUSget'ütirt.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor</speaker>
+            <p>Einst hat vanae auch müssen vertauschen <lb/>
+              goldne Helle des Tags mit jenem edernen Haus, <lb/>
+              musst im sichersten Verliess ^leieliwie in einem Grad wohnen. <lb/>
+              Und doch war sie, o Kind, edelen 8tammes <lb n="895"/>
+              und trug auch hegend im Leliols goldene Saat, Rebell des <lb/>
+              Zeus. <lb/>
+              Doch furchtbar ist die Allmacht lies Aeselüekes. <lb/>
+              Nicht Reichtum und nicht Xamptesmut, nicht dauern, nicht <lb/>
+              das schnelle Schiff, <lb/>
+              das wo^umrausodte, kann ihr widerstelm.</p>
+            <p>vr^as xorni^er Sohn, Fürst der Monen, <lb n="900"/>
+              der Dionysos einst bitter gekränkt durch sein 8el»mädn, <lb/>
+              ward vom . (Zotte in ielsstarrende Xluften ein^e^wän^t. <lb/>
+              So wird liäuÜS ^uniedt eiteler Dünkel <lb/>
+              und.all^u stürmischer Sinn. Er hat ^edüsst, <lb/>
+              dass an dem Gott er sich versündiKte, <lb n="905"/>
+               <pb n="35"/>
+              als er die ^ottde^eisterten Nänaäsn stört' beim ^aekelsedein, <lb/>
+              verdölint' beim ^lötenspiel die lausen.</p>
+            <p>Dort au den äunkelen Felsen des doppelten Meeres din <lb/>
+              liegt des Los^oros Strand und das tdrakisede Lalm^ässsos, <lb/>
+              wo ^.res, der Stadt schützender Gott, <lb n="910"/>
+              an ?1iineus Söhnen schaute die grause Wunde, <lb/>
+              die ihres Vaters Gattin ihnen rueklos schlug. <lb/>
+              Der Augen lichte Sterne stiess sie den Gnaden aus, <lb/>
+              doch nicht mit dem Schwert, mit dlut^er Hand <lb/>
+              und mit ihres ^Vedeseliitkes scharfen Spitzen. <lb n="915"/>
+              </p>
+            <p>Und es verzehrten ja ihrem Leid die Ärmsten sich, <lb/>
+              über ihr Elend weinend. Zum Unglück <lb/>
+              gebar sie ihre Butter, <lb/>
+              die doch ans dem uralten Geschlecht des Lreedtlieus ent­ <lb/>
+              sprossen <lb/>
+              und bei den väterlichen Sturmwinden aut&gt;vueds <lb n="920"/>
+              in kernen Grotten, auf Bergesdölui, <lb/>
+              ein Oötterlcinä, die winäsednelle Loreaäe. <lb/>
+              Doch auch sie ereilte, o Kind, des ewigen Schicksals .4.11- <lb/>
+              macht. <lb/>
+              (Dvr blinde Lelivr 1Vu'08lA&gt;! von seinem Knaben <lb/>
+              durch die rechte l'ili.)</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Zu Zweien kommen wir, ihr Männer lliedens, <lb/>
+              und einer sieht für zwei. Das ist das Los <lb n="925"/>
+              des Blinden, dass der Führung er bedarf.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was führt dich zu uns. Greis ^eiresias?</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Wenn du dem Seder glaubst, sollst du es hören.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Bis jetzt din stets ich deinem Rat gefolgt.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Darum hast du den Staat auch gut regiert. <lb n="930"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ich muss Festedn, du hast mir stets ßMüt?t. <note type="footnote"> 3* </note> <pb n="36"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Nun ader stehst du auf des Nsssers Schneide.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wie das? Mit Schrecken höre ich dein Wort.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Du wir8t's verstelln, wenn meine Kunst es deutet:. <lb/>
+              Zur Vogelschau sass ich au meinem Platz, <lb n="935"/>
+              wo der Versammlun^ort der Vögel ist. <lb/>
+              va^plötxliell hörte ich ein wüst Geschrei, <lb/>
+              Der Flügel Sausen konnt,' ich deutlich merken, <lb/>
+              auch wie sie mit den Krallen sich zerfleischten <lb/>
+              So prüfte ich erschreckt den 0pkerl)r&lt;tnä <lb n="940"/>
+              auf den Altären rings. Doch keine klamme <lb/>
+              schlug lodernd äraus empor, nein, in die Asche <lb/>
+              tlo83 widerlich der 8elienkelstüeke Fett <lb/>
+              und qualmte und ^ersprit^te, auch die Galle <lb/>
+              hob hoch sich in die Höhe und zerbarst, <lb n="945"/>
+              und aus der ^ettsekielit fiel das Opt'erüei^ek. <lb/>
+              Dass für die Deutung so das Opfer ganz <lb/>
+              misslanA, hat mir mein Knabe kund getan, <lb/>
+              er ist mein Führer, wie ich andre führe. <lb/>
+              Und deine Schuld sind diese bösen Zeichen. <lb n="950"/>
+              Der Stadt Altäre und die lteilssen Herde <lb/>
+              sind voll vom ?rass der Vögel und der Hunde, <lb/>
+              geraubt vom Leichnam des Zekallnen Sohnes <lb/>
+              des Oeäipns. Kein Gott nimmt uns mehr an, <lb/>
+              nicht unsern Litt^esan^ noch unsre Opfer, <lb n="955"/>
+              kein Vogel gibt ein Flüekverdeissenä Zeichen, <lb/>
+              weil sie von Alenseliendlut gesättigt sind. <lb/>
+              Bedenke dies, mein Sohn. Wohl jeder Mensch <lb/>
+              geht einmal fehl, und dazu sind wir Menschen. <lb/>
+              Doch glücklich ist der Mann, der, wo er fehlt. <lb n="960"/>
+              den Fehler gut maelit und nicht trotzig bleibt; <lb/>
+              reedtliabrlseli sind nur unertalirne Menschen. <lb/>
+              Gib nach und schände nicht den Idolen noch, <lb/>
+              unmännlich ist's, den Toten nochmals töten. <lb/>
+              Mein Rat ist wohlgemeint, und heilsam ist's, <lb n="965"/>
+              von dein, äer's wohl meint, sich belehren lassen.</p>
+          </sp><pb n="37"/>
+          
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Wie Schützen zielt ihr alle auf mein Her?, <lb/>
+              und auch der Seder läßst nichts unversuebt. <lb/>
+              Verraten und verkauft bin ich durch euch. <lb/>
+              Denkt nur an den 6e^vinn, heimst für euch ein <lb n="970"/>
+              der Perser Schätze und der Inder Gold, <lb/>
+              bestattet aber wirdder Tote nicht. <lb/>
+              Und raubten ihu die Adler auch des' Zeus <lb/>
+              und trügen ihn empor zum Thron des Gottes, <lb/>
+              auch dieser Greuel sollt' mich nicht bestimmen <lb n="975"/>
+              ihn bestatten, denn ich weiss gar wohl, <lb/>
+              kein Mensch vermag die Götter zu bedecken. <lb/>
+              Auch wer viel bei Menschen gilt, o Greis, <lb/>
+              kommt Mb zu Fall, wenn er um schnödes Geld <lb/>
+              mit glattem Munde schlechten Rat erteilt. <lb n="980"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>^Velr mir! <lb/>
+              Bedenkt wohl mancher Mensch und sagt er sich —</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Was denn? Was soll das allgemeine Reden? <lb/>
+              leiresias. <lb/>
+              dass die Vernunft das höchste ist der Güter?</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Und Unvernunft das höchste aller Übel. <lb n="985"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Von diesem Dbel bist du ganz erfüllt.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Des Lebers Lebmäbvvort mag ich nicht erwidern.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Du schmähtest, als du mich der Luge ?ielist.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Die Gier nach Geld beherrscht den Stand der Leber.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Und schändliche Gewinnsucht die Tyrannen. <lb n="990"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Als kluger Seher bist du ränkevoll.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Ruf' nicht, was still im sausen ruht, mir wach.</p>
+          </sp><pb n="38"/>
+          
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Sprich dreist es aus, nur suche nicht Gewinn.</p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>Für dich sueb' ich Gewinn. wenn ich dieb warne.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ich stelle mied gewiss nicht zum Verkauf. <lb n="995"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Teiresias.</speaker>
+            <p>So höre denn. Kaum wenige Male noch <lb/>
+              legt Helios zurück die Himmelsbsbn, <lb/>
+              bis dass von deinen eignen Blutsverwandten <lb/>
+              du einen Toten wirst zum Opfer geben <lb/>
+              dafür, dass eine, die im siebte lebte, <lb n="1000"/>
+              lebend^en Leibs iu's Grab du eingeschlossen <lb/>
+              und einem, der der Unterwelt gehörte, <lb/>
+              die Arabesrube rueblos bast versagt. <lb/>
+              Gewalt übst du an ibm, an dem nicht du <lb/>
+              und nicht die Himmlischen ein Recht mehr hatten. <lb n="1005"/>
+              Verderbendrobend fahnden drum auf dieb <lb/>
+              die Kaebefurien ans der Unterwelt, <lb/>
+              dass du in deinem eignen Strick dich tankst <lb/>
+              Sieh zu, ob ich auch jetzt bestochen bin. <lb/>
+              Mr kurze Zeit noch, und der ^Veberuk <lb n="1010"/>
+              von Mann und Weib erfüllt dein ganzes Haus, <lb/>
+              und Aufruhr und Empörung droht im Land, <lb/>
+              weil überall umher die Hund' und Vögel <lb/>
+              die I^eiebenteile Zerren und den Hauch <lb/>
+              der Pest verbreiten durch die ganze Stadt. <lb n="1015"/>
+              So 2ielt' ich wie ein Schütze auf dein Her?, <lb/>
+              weil du mied reistest; sicher trifft mein 8ebuss, <lb/>
+              und seine Wunde wirst du bald verspüren. <lb/>
+              (Zum Xnaden:) <lb/>
+              Doch nun geleite mied nach Laus, mein 80b n. <lb/>
+              An jüngeren mag seinen Zorn er kühlen. <lb n="1020"/>
+              Er wird es lernen seine Zunge zügeln <lb/>
+              und redlicher zu denken als bisher. <lb/>
+              ^I)er Seher verlü88t an der Hand'seines Kunden die ülNine.)</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>0 Herr, gar unheilvoll klang mir sein vrolm, <lb/>
+              und nie, solanx' ich mich als alter Mann <lb/>
+               <pb n="39"/>
+              besinnen kann, bat falsch er prophezeit. <lb n="1025"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Das weiss ich auch, und Angst beschleicht mein Her?. <lb/>
+              Schlimm ist's sich beuten, aber schlimmer noch <lb/>
+              dureb Widerstand mit Schuld sieb zu beladen.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Drum lisisst es bier, o Herr, sieb gut beraten.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>8s.» an, was soll ich tun? leb folge dir. <lb n="1030"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>So lass die Jungfrau aus dem Grab befrein <lb/>
+              und lass dem loten die Bestattung rüsten.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Das rätst du mir und meinst, ich soll mich fügen?</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>So schnell als du vermagst, o Herr, Bedenke, <lb/>
+              der Götter kaebeboten schreiten schnell. <lb n="1035"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>&gt;Veb' mir, schwer ist es sieb zu überwinden, <lb/>
+              doch hilft kein Sträuben, wo die Not gebeut.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>So tu es selbst und sebielc' nicht andre aus.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Das will ich auch sofort, Auf, auf, ihr Leute, <lb/>
+              ihr dort und die dort drin, die Axt zur Hand <lb n="1040"/>
+              eilt zu dem Platze, den ihr alle'kennt. <lb/>
+              Auch ich, da also sieb mein Sinn gewandt, <lb/>
+              will xebn, die zu befrein, die ich verstrickte <lb/>
+              Ns dünkt mich selbst, dass es das beste sei, <lb/>
+              allzeit was Recht und 8itte ist zu wahren. <lb n="1045"/>
+              «Ivivvn vorlil8!?t mit seinen Lp^vitern eilig die linke Tür die küdn&lt;^.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Gepriesener Gott, du Stolz der Xadmostoebter, <lb/>
+              der dem weithin donnernden Zeus entspross, <lb/>
+              du Hort des schönen Gans Ikaria, <lb/>
+              der lLleusis geräumigen Strand <lb/>
+              beschützt, wo auch vemeter wohnt, <lb n="1050"/>
+              in blieben weilst du, <lb/>
+              der Laeebantinnen Stadt, <lb/>
+               <pb n="40"/>
+              au deines l8menos (^kwä88etn, <lb/>
+              wo Vi-ae1ien2ädne Xadmo8 einst gesät.</p>
+            <p>Von dem zwiefachen Lerge8ljaux&gt;t ^rüsst dich der Fackeln <lb n="1055"/>
+              Leuchten, <lb/>
+              wo kor^kisede Nymphen froh <lb/>
+              im ReiKentAN? sich dreiin, dich ^rü8st Xastaiias KiibeiMel!, <lb/>
+              dich preist die vvsiseke Ler^esiiöd', <lb/>
+              epizeuumrankt, dich preist trandenseiiwer <lb/>
+              der grüne Strand, <lb n="1060"/>
+              und unsterblicher wieder Weise <lb/>
+              dort man fröhlich erschallen, <lb/>
+              so oft du Redens Plätze besuchst</p>
+            <p>Du hast unsre Stadt <lb/>
+              stets vor allen Städten geehrt <lb n="1065"/>
+              samt deiner Mutter, die der Blitz hiat verneint. <lb/>
+              Und nun, da so gewaltig <lb/>
+              schweres Leid die gesamte Stadt deüei, <lb/>
+              komm rettend über des ?arnassos Höiin daher <lb/>
+              oder durch des I^uripos Brandung. <lb n="1070"/>
+              Dem der steine Chor <lb/>
+              feurig glänzend willig gehorcht,^ <lb/>
+              weiter nächtlich frohen 3an^8, ^eusentsprossner Jüngling, <lb/>
+              komm zu uns, Gebietender, <lb/>
+              komm mit deiner öaeedanten Schar, komm, komm, <lb n="1075"/>
+              die, dich umseiiwärmend die Nacht iiindureii <lb/>
+              im ReiAentan?:, den Herrscher ^akeiio8 feiern. <lb/>
+              Hör uns Vakeiiv8, Lakeiw8 hör uns. <lb/>
+              (Nin Bote tritt hastigen Lelirittes von links Iwi aut.)</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>liir Bürger, die ihr lies ^.mxiuon Stadt <lb/>
+              und auch lies Xadmos hohe Burg bewohnt, <lb n="1080"/>
+              MAN darf das lieben keines Sterblichen, <lb/>
+              bevor es aus ist, rühmen oder tadeln. <lb/>
+              Das Kedieksai. hebt den Niedrigen empor, <lb/>
+              das Schicksal stürmt den Hoden tief hinab; <lb/>
+              niemand vermag zu sagen, was noch kommt. <lb n="1085"/>
+              Wie seinen doch Xreon jetzt beneidenswert, <lb/>
+               <pb n="41"/>
+              nachdem das Land von feinden war befreit <lb/>
+              und er allein die Herrschaft durfte führen, <lb/>
+              mit Stolz liindlieleend auf den edlen Sohn. <lb/>
+              Und nun ist alles aus. Denn wer die Freuden <lb n="1090"/>
+              des Lebens eingedüsst, der lebt nicht mehr, <lb/>
+              er wandelt unter ladenden als Toten <lb/>
+              Sei einer meinetwegen noch so reich, <lb/>
+              mag er ein König sein, ist er nicht froh, <lb/>
+              nicht einen Keller ged' ich ihm dafür, <lb n="1095"/>
+              wenn nur den Frohsinn ich behalten darf.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Was dringst du für ein Leid des Königsliauses?</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Tot sind sie, von den Redenden getötet.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Wer hat getötet? &gt;Ver^ist tot? 8a»' an.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Haimon ist tot, er liegt in seinem Blut. <lb n="1100"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Fiel durch den Vater er? Durch eigne Land?</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Durch eigne Hand, weil er dem Vater Zürnte.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>() Seher, schnell ward deine Drohung wahr.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Gebt euren Rat, was nun geschehen soll. <lb/>
+              (^U!) clike tritt aus der ^iu.)</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Dort naht lTur^dike, des Königs Gattin. <lb n="1105"/>
+              Vielleicht hat das bejammernswerte Weib <lb/>
+              vom Tode ihres Sohnes schon gehört.</p>
+          </sp>
+          <sp>
+            <speaker>Eurydike.</speaker>
+            <p>Ieli hörte das Gespräch, das ihr geführt, <lb/>
+              o Bürger, als zum Tor ich schreiten wollte, <lb/>
+              um mich der Pallas im Gebet zu nalin. <lb n="1110"/>
+              Als ich den Riegel aufseliloss an der Tür, <lb/>
+              da drang die 8elireelcenslcunde mir in's Ohr <lb/>
+              vom Elend meines Hauses. Doch wohlan, <lb/>
+               <pb n="42"/>
+              noch einmal lasst mied eure Kunde hören, <lb/>
+              ich bin geübt im Leid und kann es trafen. <lb n="1115"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Ich bin dabei gewesen, liebe Herrin, <lb/>
+              und nil! dir nicht verschweigen, ^vie's geschah. <lb/>
+              XVas soll ich schonend.äied zu täuschen suchen, <lb/>
+              wenn unwahr später sich erweisen muss, <lb/>
+              was ich gesagt? Wahrheit ist stets das beste, <lb n="1120"/>
+              Als Führer schritt voran ich deinem Gatten <lb/>
+              dahin, wo noch des Sohns des Oeäipus <lb/>
+              von Hunden arg xerrissner Leichnam lag. <lb/>
+              Nachdem die Götter wir der Unterwelt <lb/>
+              dort an^eiledt, uns lüräer nickt zu Zürnen, <lb n="1125"/>
+              im &gt;Veidebaä den Toten dann gewaschen, <lb/>
+              verbrannten wir, was von ihm übrig war, <lb/>
+              auf frisedxespaltnem Holz, doedra^enä dann <lb/>
+              errichteten aus heimatlicher Erde <lb/>
+              wir ihm den Orabesdüssel. Voller Eile <lb n="1130"/>
+              Ain^'s dann zum stein^etuAten 6rabZemaed <lb/>
+              der Jungfrau, die dem Hades ward vermählt. <lb/>
+              Und einer, der von fern aus dieser Gruft <lb/>
+              weithin ertönend Wederuf vernommen, <lb/>
+              lief schnell herbei, dem König dies zu melden. <lb n="1135"/>
+              Als dieser näher kam, vernahm auch er <lb/>
+              ver^vorrne Laute eines Xla^eruks, <lb/>
+              und angstvoll stiess sein Mund die Worte aus: <lb/>
+              „Ied ärmster, belebe Ahnung geht mir auf! <lb/>
+              Dies ist der schwerste Weg, den je ich ging. <lb n="1140"/>
+              Die Stimme meines Sohns vernahm ich dort. <lb/>
+              Idr Leute, eilt, dringt bis zur Gruft hindurch <lb/>
+              und schaut hinein, wo einen Spalt ihr findet, <lb/>
+              ob Laimon ruft und nicht ein Wahn mied täusedt." <lb/>
+              Wir taten, ^vie der Herrseder uns gebot, <lb n="1145"/>
+              und sadn entsetzt im Hintergrund der Höhle <lb/>
+              der Jungfrau Leib in einer Schlinge danken, <lb/>
+              die sie aus einem I^eintued sich gedreht. <lb/>
+              Dein Sohn hielt ihren Leichnam eng umschlungen, <lb/>
+              be^'ammernä den Verlust der lieben kraut <lb n="1150"/>
+              und seines Vaters döse Tat venvünsedenä. <lb/>
+               <pb n="43"/>
+              Als dieser ihn erblickte, stöbnt' er laut <lb/>
+              und ging hinein und riet ibm jammernd <lb/>
+              „Was gebt bier vor? Unglücklichen was tust du? <lb/>
+               Ach, welcher Wahn hält deinen Sinn gefangen? <lb n="1155"/>
+              Komm mit, wem Sohn, inständig bitt ich äieb." <lb/>
+              Doch der schaut ihn mit wilden Augen an, <lb/>
+              und ohne weiter noch ein Wort zu sagen, <lb/>
+              spie er vor seinem Vater aus und riss<lb/>
+               das Schwert ans seiner Scheide. Doch behend <lb n="1160"/>
+              wich der Zurück. Dann über sich empört, <lb/>
+              stiess sich der Dnglüekselge selbst das Schwert <lb/>
+              in seine Leite, und im Tode röchelnd <lb/>
+              umschlang mit mattem Arm er die Geliebte, <lb/>
+               und rot üoss über ihren Leib sein Blut. <lb n="1165"/>
+              Nun liegt er tot bei ihr, die Hochzeit bat <lb/>
+              der Arme nur in Hades Haus erreicht. <lb/>
+              Er zeigt uns wieder, dass auf dieser Welt <lb/>
+              die Unvernunft das grösste Übel ist. <lb/>
+              (^ur)&lt;Iiko, &gt;ve1&lt; he. aNm'Mieli zurückgewichen ist, geht in den /urUt^'.^</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Was äünket dich? Die Königin ging eben <lb n="1170"/>
+              davon und sprach kein Wort, nicht gut noch böse.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Erstaunt sah ich es selbst. Doch glaube ich, <lb/>
+              sie will den Kammer über ihren Sohn <lb/>
+              nicht jeden in der Stadt vernebmenslassen<lb/>
+               und ging wohl nur ins Haus, den Dienerinnen, <lb n="1175"/>
+              wie sieb's gebührt, die Klage aufzutragen.</p>
+          </sp>
+          <sp>
+            <speaker>Chorführer. .</speaker>
+            <p>Wer weiss! Ein allzu stummer Mund dünkt mich <lb/>
+              nicht minder schlimm als allzu laute Klage.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>So will ich s^bn, ob noch ein anäer Leid <lb/>
+               sie heimlich in des Herzens Angst verbirgt. <lb n="1180"/>
+              Ich geb' hinein ins klaus, denn du bast recht, <lb/>
+              beängstigend ist allzu grosses Schweigen. <lb/>
+              (Der Lote ^elit in den Palast. Kurz darauf erscheint- von links Xreon, die. lland<lb/>
+               aus die Leiche seine? Sohnes gelegt, welche von zwei Dienern auf einer ttukre <lb/>
+              getragen ^virä.)</p>
+          </sp><pb n="44"/>
+          
+          <sp>
+            <speaker>Chorführer.</speaker>
+            <p>Doch seilt nur, da kommt ja der König zurück! <lb/>
+              Nun bat er in Händen den klaren Beweis, <lb/>
+               ich sage es dreist, nicht was andre gefehlt, <lb n="1185"/>
+              nein des, das er selber verschulden</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Weh mir, mein ist die Lebuld, verblendet wie ich war, <lb/>
+              zu bart dringt den Tod. <lb/>
+              Lebt mied, der zum Mörder ward. <lb/>
+               Ich trieb in den Tod mein eigen Fleisch und Blut. <lb n="1190"/>
+              0 wed' über mied, unselig war mein Tun. <lb/>
+              Mein Sohn, noch so jung, wie bald kam dein Tod. <lb/>
+              ^Veb' mir, <lb/>
+              du starbst, gingst dahin <lb/>
+               durch mich, nicht durch dieb. weil ich verblendet war. <lb n="1195"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Zur Einsicht kommst du leider jetzt zu spät.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ich LMr's zu nieinem Leid; ach damals traf <lb/>
+              ein Dämon, der mich ganz umfing, wein Haupt. <lb/>
+              Es trieb sein Schlag mich in die wilde Bahn, <lb/>
+              dass meine Freude ich mit Müssen trat. <lb n="1200"/>
+              Ach, unheilvoll ist doch der Menschen Tun.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Ja, Herr, des Unheils bast du jetzt vollauf, <lb/>
+              das eine bier vor dir. und drin im Haus<lb/>
+               wirst du ein andres bald vor Augen sebn.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Xann's denn noch Ärgeres geben als das Arge? <lb n="1205"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Dein Weib ist tot, die Nutter deines Sohns, <lb/>
+              die ärmste gab sieb selbst vorhin den Tod.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>0 Schlund der Unterwelt, wirst du denn nimmer satt? <lb/>
+              Warum verschlingst du mich? <lb/>
+              Du I^vtzlüeksbote, du, <lb n="1210"/>
+              der du mir Kammer bringst, was kündet mir dein Mund? <lb/>
+              'Web' mir, du tötest mich verlernen Mann. <lb/>
+              Was sagst du, Lurseb, wie war's? Noch einmal sprieb's aus! <lb/>
+               <pb n="45"/>
+              Weh' mir, <lb/>
+              zum Tod meines Sohns <lb n="1215"/>
+              kommt der meines ^Veibs, die selbst sich entleibt? <lb/>
+              (Usw sieht- hinter der geöffneten Tür des die Leiche der ^U7) liitcs.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor</speaker>
+            <p>Schau selber bin, die Tat verbirgt sieb nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ja. ja. <lb/>
+              das Zweite Schrecknis selt' ich jetzt vor Augen. <lb/>
+              Was wartet meiner nun für Unheil noel»? <lb n="1220"/>
+              (Lr wirft sich an der Bahre ni^dvr.) <lb/>
+              Den einen Toten halt' ich bei der Hand <lb/>
+              und sehe mich dem Zweiten gegenüber. <lb/>
+              0 weli' mir, arme Mutter, armer Sohn.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Zum lod getroffen lag sie am Altar, <lb/>
+              und als ihr Auge brach, da schrie sie auf, <lb n="1225"/>
+              be^antmervd ihres ersten Sohnes Tod <lb/>
+              und diesen hier; zuletzt verschied sie dann, <lb/>
+              dich als den Mörder deines Sohns vertluebend.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Weh', weh',<lb/>
+              die Angst scheucht mich auf; warum kommst du nicht <lb n="1230"/>
+              und stösst mir das Zelt wert bier vorn in die Brust? <lb/>
+              leb elender Mensch, <lb/>
+              das Elend bat sich gehäuft auf mein Haupt.</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Die Tote gab dir schuld, du babest diesen <lb/>
+              und seinen Bruder in den Tod getrieben. <lb n="1235"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nun sag' mir noch, wie gab sie sich den Tod?</p>
+          </sp>
+          <sp>
+            <speaker>Bote.</speaker>
+            <p>Sie stiess sich selbst den Stahl in ihre Brust, <lb/>
+              als sie des Sohnes schlimmen Tod gehört.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Ach nie, nimmermebr kann jemand die Schuld <lb/>
+              wegnehmen voll mir tür das, was ich getan. <lb n="1240"/>
+              Ich war's, ich allein, Ach kommt, kommt und helft, <lb/>
+               <pb n="46"/>
+              bringt mied schnell, nur schnell, bringt mied fort von hier, <lb/>
+              bald ist's aus mit mir, bald din ich dahin.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Das beste wird es sein in deinem grossen Leid, <lb/>
+              wenn du dem schlimmen Anblick dich recht bald entziehst. <lb n="1245"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>() komm, o komm, <lb/>
+              erscheine mir zum l'rost, du letzter meiner Tage, <lb/>
+              der du das Ende dringst aller meiner Not. <lb/>
+              Ach komm, komm, o Tod, <lb/>
+              lass nie wieder mied das Tageslicht ersedaun. <lb n="1250"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Chor</speaker>
+            <p>Das lass der Zukunft, ader jetzt tut andres not, <lb/>
+              was künftig wird, den Göttern stelle äu's anheim.</p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>Nur das, was ich mir wünsche, sprach ich aus.</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Jetzt wünsche nichts mehr, denn was uns das Schicksal schickt, <lb/>
+              dem können Menschen hier auf Erden nicht evtüiedn. <lb n="1255"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Kreon.</speaker>
+            <p>So führt mied din&gt;ve»', den unselssen Mann, <lb/>
+              ich trieb dich, mein Sohn, ach leider, in den Tod <lb/>
+              und dich auch, mein Weib, ich armsel^er ^or. <lb/>
+              Nun hab' ich niemand mehr, der mied stützen kann, <lb/>
+              denn alles, was ich hielt, zerbrach in meiner Hand, <lb n="1260"/>
+              und hart ruht auf mir ein allzu schwer Geschick. <lb/>
+              (Xreon geht wankend, auf suine Diener gestützt, in den '/urüek.)</p>
+          </sp>
+          <sp>
+            <speaker>Chor.</speaker>
+            <p>Viel besser als all das äussere Glück <lb/>
+              ist verständiger Sinn. Nie soll sich der Mensch <lb/>
+              an den Göttern vergedn; <lb/>
+              denn den Hochmut ereilet die Strafe gewiss, <lb n="1265"/>
+              er düsst seine Schuld mit schwerer Pein <lb/>
+              und lernt noch im Alter sich beugen.</p>
+          </sp>
+        </div>
+        <pb n="-"/>
+        <pb n="-"/>
+      </div>
+    </body>
+  </text>
+</TEI>
