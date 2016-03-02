@@ -1,0 +1,2995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Terentius Lustspiele</title>
+        <editor>University of Leipzig</editor> 
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <principal>Monica Berti</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>Encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Peter Sprenger</persName>
+          <resp>Student Assistant (University of Halle)</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">terence_1855_1.xml</idno>
+        <availability>
+          <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+        </availability>
+        <date>2016</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl xml:lang="de">
+          <biblStruct>
+            <monogr>
+              <title>Die Schwiegermutter</title>
+              <editor>
+                <persName>
+                  <name xml:lang="de">Johannes Herbst</name>
+                </persName>
+              </editor>
+              <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1362">Publius Terentius</author> 
+              <imprint>
+                <publisher>Krais/Hoffmann</publisher>
+                <pubPlace>Stuttgart</pubPlace>
+                <date>1855-1866</date>
+              </imprint>
+             
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition"><pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Die Schwiegermutter.</title>
+          </head>
+          <p>Terms. Die Schwiegermutter.</p>
+          <p>t</p><pb n="-"/>
+            
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Personen.</title>
+          </head>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata, seine Frau.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Pamphilus, ihr Sohn.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Parmeno Sofia, Stiaven.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Myrrhina, seine Frau.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sarchis, Pholotis, Hetären.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Syra, eine Alte.</speaker>
+            <p/></sp><pb n="-"/>
+            
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Prolog zu der zweiten Aufführung.</title>
+          </head>
+          <p>Die Schwiegermutter heißt das Stück. Als man <lb/>
+            Es neu aufführte, traf's ein Mißgeschick <lb/>
+            Ganz neuer Art: man konnt' es weder ganz <lb/>
+            Zu Ende spielen, noch auch würdigen, <lb/>
+            So lief, von Schaulust wie bethört, das Volk <lb/>
+            Seiltänzern zu. Nun ist's so gut wie neu; <lb/>
+            Und der Verfasser wollte darum nicht <lb/>
+            ES noch einmal der Bühne übergeben, <lb/>
+            Um nochmals Geld daraus zu zieh'n: — ihr kennt <lb/>
+            Die andern Stücke, lernt denn dieses kennen! <note type="footnote"> Ist </note></p><pb n="-"/>
+            
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Prolog zu der dritten Aufführung.</title>
+          </head>
+          <p>Als Redner komm' ich im Prologgewand. <lb/>
+            Laßt mich Fürredner werden und als alter <lb/>
+            Dasselbe gelten, wie als jüng'rer Mann, <lb/>
+            Wo manches Stück, als neu verschmäht, durch mich <lb/>
+            Alt wurde, daß mit dem Poeten nicht <lb/>
+            Die Schrift zugleich erlosch. In denen, die <lb/>
+            Ich von CäciliuS als neu einlernte, <lb/>
+            Fiel ich theils durch, theils hielt ich mich mit Mühe. <lb/>
+            Doch weil ich wußte, daß das Bühnenglück <lb/>
+            Vom Zufall abhängt, unterzog ich mich <lb/>
+            Aufs Ungewisse hin gewisser Arbeit. <lb/>
+            Dieselben Stücke spielt' ich fort — um andre <lb/>
+            Noch neue von ihm einzuüben — eifrig, <lb/>
+            Damit auch er bei seinem Eifer bliebe. <lb/>
+            Das half: man schaute sie und sie gefielen, <lb/>
+            Nachdem man sie erkannt. So sichere ich <lb/>
+            Dem Dichter seine Stelle, den die Bosheit <lb/>
+            Der Widersacher schon fast weggedrängt <lb/>
+            Von seiner Arbeit und der Musenkunst. <lb/>
+             <pb n="5"/>
+            Hätt' ich sein Dichten dazumal verworfen <lb/>
+            Und ihn geflissentlich zurückgeschreckt, <lb/>
+            -Daß er unthätig lieber blieb als thätig: <lb/>
+            Leicht war's ihn abzuschrecken andre Stücke <lb/>
+            Zu schreiben. — Hört anjetzo, mir zu Liebe, <lb/>
+            Um was ich bitte, mit Geneigtheit an! <lb/>
+            Die Schwiegermutter bring' ich abermals, <lb/>
+            Die ruhig aufzuführen mir bisher <lb/>
+            Nicht glückte: so betraf sie Mißgeschick. <lb/>
+            Dieß Mißgeschick wird eure Kennerschaft <lb/>
+            Beseitigen, wenn diese unserm Fleiß <lb/>
+            Als Helferin zur Seite tritt. Als ich <lb/>
+            Zum ersten Mal sie spielte, haben mich <lb/>
+            Faustkämpferruhm, (Seiltänzer wurden auch <lb/>
+            Erwartet,) Andrang des Erfolges, Lärm <lb/>
+            Und Weiberschrei'n genöthigt, vor der Zeit <lb/>
+            Die Bühne zu verlassen. An der alten <lb/>
+            Gewohnheit hielt ich fest im neuen Stück: <lb/>
+            Ich machte den Versuch und bracht' eS wieder. <lb/>
+            Im ersten Act gefiel ich. Da erschallt <lb/>
+            Inzwischen das Gerücht, daß Fechter kämpfen. <lb/>
+            FlugS läuft das Volk zusammen; Alles tobt, <lb/>
+            Schrei't, zankt sich um den Platz; ich konnt' inzwischen <lb/>
+            Den meinen nicht behaupten. — Heute nun <lb/>
+            Ist keine Störung, Fried' und Stille herrscht. <lb/>
+            Zum Spielen ist mir Zeit gegeben, euch <lb/>
+            Gelegenheit, das Bühnenspiel zu ehren. <lb/>
+            Laßt nicht durch euch die edle Musenkunst <lb/>
+            An Wenige verfallen; macht, daß euer <lb/>
+            Anseh'n das meine fördr' und unterstütze! <lb/>
+             <pb n="6"/>
+            So wahr ich nie habgierig meiner Kunst <lb/>
+            Den Preis gestellt, und das mir stets die höchste <lb/>
+            Belohnung schien, so viel wie möglich euerm <lb/>
+            Ergötzen mich zu weih'n: laßt mich erlangen, <lb/>
+            Daß, der in meinen Schutz sein Geisteswerk, <lb/>
+            Und sich in eure Obhut, hat gegeben, <lb/>
+            Von Neidern neidisch nicht verspottet werde. <lb/>
+            Mir zu gefallen laßt ihn euch gefallen, <lb/>
+            Und hört in Ruhe zu, daß der Poet <lb/>
+            Gern andre Stücke noch versass' und mir <lb/>
+            Es Nutzen schaffe, neue fernerhin <lb/>
+            Mit meinem Geld erkaufte einzuüben.</p><pb n="7"/>
+            
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Erster Ä c t.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Philotis. Syra.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ja, Syra, äußerst selten findet man <lb/>
+              Liebhaber ihren Freundinnen getreu. <lb/>
+              Selbst Pamphilus, wie oft schwor er der Bacchis, <lb/>
+              Wie hoch und theuer, so daß Jedermann <lb/>
+              Leicht trauen konnte, nie, so lang sie lebe, <lb/>
+              Werd' er 'ne Frau sich nehmen! Und — er that's!</p>
+          </sp>
+          <sp>
+            <speaker>Syra</speaker>
+            <p>Nun eben d'rum erinnr' und mahn' ich dich <lb/>
+              Recht dringend, hab' mit Niemand Mitleid! Nein, <lb/>
+              Beraube, zause, rupfe, wen du kriegst!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ich sollte keinen vorz^eh'n?</p>
+          </sp>
+          <sp>
+            <speaker>Syra.</speaker>
+            <p>Keinen! Denn <lb/>
+              Kein einziger, das merke, kommt zu dir, <lb/>
+              Der nicht im Sinne hätte, seine Lust <lb/>
+               <pb n="8"/>
+              Durch Schmeichelei'«, so wohlfeil wie nur möglich, <lb/>
+              An dir zu sättigen. Und Solchen, bitt' ich. <lb/>
+              Willst du nicht wieder in den Rücken fallen?</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Doch wahrlich unrecht ist's, sie allesammt <lb/>
+              Gleich zu behandeln!</p>
+          </sp>
+          <sp>
+            <speaker>Syra.</speaker>
+            <p>Unrecht meinst du wäre, <lb/>
+              An seinen Feinden sich zu rächen, oder <lb/>
+              Sie ebenso zu fangen, wie sie dich? <lb/>
+              Ich Arme! Daß ich nicht so jung und schön <lb/>
+              Wie du bin, oder du nicht denkst wie ich!</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Parmeno. Philotis Syra.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>(leise in'S Hans seines Herrn hinein sprechend). <lb/>
+              Wenn mich der Alte sucht, so sag', ich wäre <lb/>
+              Zum Hafen eben hin, um nachzuseh'n, <lb/>
+              Ob Pamphilus zurück ist. Hörst du, Scirtus? <lb/>
+              Wenn er mich sucht, dann sag' es; thut er's nicht, <lb/>
+              So sagst du's nicht, daß für ein andermal <lb/>
+              Mir diese Ausflucht vorbehalten bleibt. — <lb/>
+              Doch ist das nicht Philotium? Woher <lb/>
+              Kommt die? — Philotis, sei vielmals willkommen!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Willkommen, Parmeno!</p>
+          </sp>
+          <sp>
+            <speaker>Syra</speaker>
+            <p>Bei meiner Treu! <lb/>
+              Willkommen, Parmeno!</p>
+          </sp><pb n="9"/>
+          
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Und du deßgleichen, <lb/>
+              Wahrhaftig, Syra! — Sage mir, Philotis, <lb/>
+              Wo hast du dich so lang vergnügt?</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Vergnügt <lb/>
+              Im Mind'sten nicht! Mit einem Offizier, <lb/>
+              'nem ausgemachten Grobian, bin ich <lb/>
+              Mit nach Corinth gezogen und Hab's dort <lb/>
+              Zwei volle Jahre bei ihm ausgehalten.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Da magst du freilich oft, Philotium, <lb/>
+              Dich nach Athen zurückgesehnt und deinen <lb/>
+              Entschluß bereuet haben.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>O es läßt <lb/>
+              Sich gar nicht sagen, wie ich mir gewünscht <lb/>
+              Hieher und vom Soldaten los zu kommen <lb/>
+              Und euch zu seh'n, um völlig ungenirt <lb/>
+              In alter Weise hier mit euch zu schmausen! <lb/>
+              Denn dorten durfte man nach Vorschrift nur <lb/>
+              Was ihm beliebte sprechen.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ja, bequem <lb/>
+              Hat der Soldat wohl deiner Zunge nicht <lb/>
+              Ein Ziel gesetzt!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis</speaker>
+            <p>Was aber ist denn das, <lb/>
+              Was Bacchis d'rin mir eben hat erzählt? <lb/>
+              Hätt' ich doch nie geglaubt, daß er, so lange <lb/>
+               <pb n="10"/>
+              Die lebt, eS über sich gewinnen könnte, <lb/>
+              'ne Frau zu haben!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Haben, sagst du?</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Nun, <lb/>
+              Hat er sie nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Er hat sie; doch ich fürchte. <lb/>
+              Die Eh' ist nicht von Dauer.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Wollt's der Himmel, <lb/>
+              Wenn's für die Bacchis gut ist! — Aber sage, <lb/>
+              Wie soll ich mir das denken, Parmeno?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Das auszuplaudern ist nicht nöthig. Forsche <lb/>
+              Nicht weiter nach!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Doch wohl aus dem Grund nur, <lb/>
+              Daß es nicht ruchbar wird? So wahr mich Gott! <lb/>
+              Nicht darum frag' ich dich, um s auszuplaudern, <lb/>
+              Nein, um mich in der Stille d'ran zu freu'n.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Und sprächst du noch so artig, meinen Rücken <lb/>
+              Kann ich doch deinem Wort nicht anvertrau'n.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ach geh'doch, Parmeno! Als ob du nicht <lb/>
+              Weit lieber mir's erzählen möchtest, als <lb/>
+              Ich wissen, was ich frage!</p>
+          </sp><pb n="11"/>
+          
+          <sp>
+            <speaker>Parmeno (bei Seite).</speaker>
+            <p>Sie hat Recht. <lb/>
+              Und das ist meine Schwachheit! — Wenn du mir <lb/>
+              Dein Wort gibst, daß du schweigen willst, so sag' ich's.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Du bist der Alte wieder! — Hier mein Wort! <lb/>
+              Sprich!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Höre denn!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Da bin ich!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>In die Bacchis <lb/>
+              War damals Pamphilus ganz wie vernarrt. <lb/>
+              Da bittet ibn sein Vater, eine Frau <lb/>
+              Zu nehmen, und, wie alle Väter pflegen, <lb/>
+              Sagt ihm dabei: er sei bei Jahren, habe <lb/>
+              Den Einen bloß, und wünsche für sein Alter <lb/>
+              Sich eine Stütze. — Jener sträubt sich erst; <lb/>
+              Doch als der Vater schärfer in ihn drang, <lb/>
+              Fieng er zu schwanken an, ob er der Pflicht <lb/>
+              Mehr folgen solle, oder seiner Liebe. <lb/>
+              Durch ew'ge Quälerei behält der Alte <lb/>
+              Am Ende seinen Willen; er verlobt <lb/>
+              Ihm hier die Tochter unsers nächsten Nachbars. <lb/>
+              Noch schien's dem Pamphilus nicht eben drückend, <lb/>
+              Erst bei der Hochzeit selbst, wie er schon Alles <lb/>
+              Bereit und kein Entkommen vor sich sah, <lb/>
+              Da nahm er's so zu Herzen, daß selbst Bacchis, <lb/>
+              Wenn sie dabei gewesen, glaub' ich, Mitleid <lb/>
+              Mit ihm empfunden hätte. Wenn er irgend <lb/>
+              Gelegenheit wo fand, mit mir allein <lb/>
+               <pb n="12"/>
+              Ein Wort zu sprechen, sagt'er: „Parmeno, <lb/>
+              Ach, was hab' ich gethan? In welchen Abgrund <lb/>
+              Des Elends mich gestürzt? Das kann ich nicht <lb/>
+              Ertragen, Parmeno! O weh mir Armen!"</p>
+          </sp>
+          <sp>
+            <speaker>Philotis</speaker>
+            <p>O möchten dich doch alle Götter, Laches, <lb/>
+              Mit deiner Quälerei zu Grunde richten!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Um kurz zu sein: er führt sie heim als Gattin. <lb/>
+              In jener ersten Nacht rührt er das Mädchen <lb/>
+              Nicht an, und auch nicht in der folgenden.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ei was! Ein junger Mensch, von Trunk erhitzt, <lb/>
+              Der sollte einem Mädchen beigelegen <lb/>
+              Und ihrer sich enthalten haben? Das <lb/>
+              Klingt unwahrscheinlich! Nein, das glaub' ich nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Dir mag's so scheinen, denn zu dir kommt Keiner, <lb/>
+              Wenn er nicht dein begehrt. Er hatte sie <lb/>
+              Aus Zwang genommen.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Nun, wie gieng es weiter!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ja, ein paar Tage d'rauf zieht Pamphilus <lb/>
+              Mich ganz allein bei Seite und erzählt, <lb/>
+              Das Mädchen sei von ihm noch unberührt. <lb/>
+              Er hätte, eh' er sie in's HauS genommen, <lb/>
+              Gehofft, er werde die Verheirathung <lb/>
+              Ertragen können. „Aber, die ich fest <lb/>
+              Entschlossen bin nicht länger zu behalten, <lb/>
+               <pb n="13"/>
+              Mißbrauchen, Parmeno, daß ich sie nicht <lb/>
+              So unversehrt entlasse, wie ich sie <lb/>
+              Bekommen habe, das ist weder mir <lb/>
+              Anständig, noch dem Mädchen selbst ersprießlich."</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ein reiner und ehrliebender Charakter, <lb/>
+              Der Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>„ Davon zu reden, brächte <lb/>
+              Mir Nachtheil, glaub' ich; sie dem Vater aber <lb/>
+              Zurückzugeben, welcher man was Schlechtes <lb/>
+              Nicht vorzuwerfen hat, wär' Uebermuth. <lb/>
+              Doch hoff ich, wenn sie merkt, daß sie mit mir <lb/>
+              Nicht leben kann, geht sie am Ende selbst."</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Und unterdeß — gieng er zur Bacchis?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Täglich! <lb/>
+              Wie s aber geht: nachdem sie ihn von sich <lb/>
+              Entfremdet sah, ward sie von Stund' an immer <lb/>
+              Nur spröder gegen ihn und rücksichtsloser.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Nicht zu verwundern!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ganz besonders aber <lb/>
+              Trug das bei, ihn ihr abzweigt zu machen: <lb/>
+              Als er sich selbst und sie und die im Hause <lb/>
+              Hinreichend kannte, Beider Sinnesart <lb/>
+              Nach ihrem Thun und Lassen würdigend: — <lb/>
+              Sie, wie'S der Edeln, Freigebprnen ziemt, <lb/>
+               <pb n="14"/>
+              Sittsam, bescheiden, trug jedwedes Unrecht <lb/>
+              Und Ungemach von ihrem Mann und deckte <lb/>
+              Die Kränkungen, die sie erfuhr, noch zu: — <lb/>
+              Da machte, theils von Mitleid für die Frau <lb/>
+              Gefesselt, theils von den Beleidigungen <lb/>
+              Der Andern überwältigt, sich sein Herz <lb/>
+              Allmählig von der Bacchis los, und trug <lb/>
+              Run seine Liebe auf die Gattin über, <lb/>
+              Bei der er gleiche Sinnesart getroffen. <lb/>
+              Inzwischen stirbt aus Jmbros ein Verwandter <lb/>
+              Von meinem Herrn, ein Greis, und diesem kam <lb/>
+              Nach dem Gesetz die Erbschaft zu. Dorthin <lb/>
+              Muß Pamphilus, so schwer dem Liebenden <lb/>
+              Die Reise wird. Er ließ hier bei der Mutter <lb/>
+              Die Gattin, den der Alte zog aufs Land; <lb/>
+              Nur selten kommt er in die Stadt herein.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Was gibt'S noch Ungewisses bei der Ehe?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Du sollst.es hören. Ein paar Tage lang <lb/>
+              Vertrugen sie sich Anfangs noch ganz gut. <lb/>
+              Inzwischen wirft sie wundersamen Haß <lb/>
+              Aus Sostrata, und doch gab's niemals Streit <lb/>
+              Noch Klage unter ihnen.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Was denn aber?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Kommt sie einmal heran, mit ihr zu plaudern, <lb/>
+              Gleich flieht sie ihren Blick, will sie nicht seh'n. <lb/>
+              Wie fie's nicht länger aushält, gibt sie vor, <lb/>
+               <pb n="15"/>
+              Die Mutter wolle sie nach Hause haben <lb/>
+              Zu einem Opferdienst. Sie geht. Wie sie <lb/>
+              Dort ein'ge Tage bleibt, schickt man nach ihr. <lb/>
+              Da wenden sie was vor, ich weiß nicht was. <lb/>
+              Man schickt zum zweiten Male: sie bleibt aus. <lb/>
+              Als man noch mehrmals hinschickt, gibt man vor, <lb/>
+              Sie wäre krank. Die Unsre geht sogleich <lb/>
+              Sie zu besuchen: Niemand läßt sie vor. <lb/>
+              Wie das mein alter Herr hört, kommt er gestern <lb/>
+              Darum expreß vom Land herein und geht <lb/>
+              Sofort zum Vater der Philumena. <lb/>
+              Was dort sie unter sich verhandelt, weiß ich <lb/>
+              Zur Zeit noch nicht; doch macht mir's wirklich Sorge, <lb/>
+              Wie's damit werden wird. — Nun weißt du Alles. <lb/>
+              Zch gehe meines Weges.</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Ich deßgleichen; <lb/>
+              Denn einem Fremden hab' ich zugesagt, <lb/>
+              Ihm aufzuwarten.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Glück zur Unternehmung!</p>
+          </sp>
+          <sp>
+            <speaker>Philotis.</speaker>
+            <p>Gehab' dich wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Auch du, Philotium!</p>
+          </sp><pb n="16"/>
+          
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Zweiter Art.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Lasses. Sostrala</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>O Himmel! Was ist das für Volk! Was das <lb/>
+              Für ein Komplott! Wie doch die Weiber alle <lb/>
+              In ihren Neigungen und Abneigungen <lb/>
+              So völlig gleich sind und man keine findet, <lb/>
+              Die von der Sinnesart der andern sich <lb/>
+              Nur irgend unterscheidet! So gerade <lb/>
+              Haßt jede Schwiegermutter ihre Schnur; <lb/>
+              Den Männern Widerpart zu halten, ist <lb/>
+              Gleichmäßig ihr Geschäft; an Eigensinn <lb/>
+              Steht keine nach. In Einer Schule, dünkt mich, <lb/>
+              Sind sie zur Bosheit sämmtlich angeleitet; <lb/>
+              Und Frau Präceptorin, wenn irgend eine, <lb/>
+              Ist die daran, das weiß ich für gewiß.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich Arme werde angeklagt und weiß nicht <lb/>
+              Warum!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du weißt'S nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata</speaker>
+            <p>Nein, so wahr mich Gott, <lb/>
+              Mein Laches, und so wahr ich meine Tage <lb/>
+              Mit dir zu leben wünsche!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Gott behüte!</p>
+          </sp><pb n="17"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Und daß du ohne Grund mich angeklagt, <lb/>
+              Wirst du noch inne werden, ganz gewiß!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Dich ohne Grund? Wie? Kann man Worte finden, <lb/>
+              Wie du mit deiner Aufführung verdienst? <lb/>
+              Mich, dich, das ganze Haus beschimpfst du, bringst <lb/>
+              In Trauer deinen Sohn, bewirkst, daß uns <lb/>
+              Aus Freunden Feinde die Verwandten werden, <lb/>
+              Sie, die ihn würdig achteten, ihr Kind <lb/>
+              Ihm zu vertrauen! Da kommst d u und störest <lb/>
+              Durch deinen Unverstand den Frieden!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du, sag' ich, Weib, die du mich ganz und gar <lb/>
+              Für einen Stein, für keinen Menschen hältst! <lb/>
+              Wie? Weil ich häufig auf dem Lande bin, <lb/>
+              Meint ihr etwa, ich wisse nicht, wie jeder <lb/>
+              Von euch hier lebt? Weit besser weiß ich das, <lb/>
+              Was hier getrieben wird, als das, was dort, <lb/>
+              Wo ich beständig bin. Warum? Weil so, <lb/>
+              Wie ihr daheim mir seid, ich außerhalb <lb/>
+              Im Mund der Leute 'rumgetragen werde. <lb/>
+              Schon längst hab' ich gehört, Philumena <lb/>
+              Hab' einen Widerwillen gegen dich: und das <lb/>
+              Nahm mich auch gar nicht Wunder; wunderbarer <lb/>
+              Wär's, hätte sie ihn nich t. Allein so arg <lb/>
+              Dacht' ich mir's nicht, daß sie das ganze Haus <lb/>
+              Mithaßte. Hätt' ich das gewußt, so blieb <lb/>
+              Sie lieber hier, d u wärst hinausgewandert. — <note type="footnote"> Terenz. Die Schwiegermutter. </note> <note type="footnote"> S </note> <lb/>
+               <pb n="18"/>
+              Doch sieh, wie unverdient du mir den Aerger <lb/>
+              Verursachst, Sostrata! Ich zog auf'S Land, <lb/>
+              Euch Platz zu machen und auf den Erwerb <lb/>
+              Bedacht zu sein, daß euren Müßiggang <lb/>
+              Und Aufwand mein Vermögen tragen könnte, <lb/>
+              Arbeitete mich ab, mehr als es recht <lb/>
+              Und für mein Alter passend ist — und du <lb/>
+              Sannst nicht, mir dafür Aergerniß zu sparen?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Durch meine Mitwirkung und meine Schuld <lb/>
+              Ist's wahrlich nicht gescheh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Dadurch gerade! <lb/>
+              Du warst allein hier, Sostrata, auf dich <lb/>
+              Fällt alle Schuld allein. Was hier war, hattest <lb/>
+              Du zu besorgen; jeder andern Sorge <lb/>
+              War't ihr durch mich entledigt. — Mit 'nem Mädchen <lb/>
+              Ein altes Weib in Feindschaft! Schäme dich! <lb/>
+              Sie, wird es heißen, sie ist Schuld daran.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Das sag' ich nicht, mein Laches.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Nun, bei Gott! <lb/>
+              Das freut mich, um des Sohnes willen. Denn <lb/>
+              Was dich betrifft, du kannst, das weiß ich wohl, <lb/>
+              Durch taktlos Handeln weiter nichts verlieren.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wie weißt du, lieber Mann, daß sie nicht darum <lb/>
+              Sich anstellt mich zu hassen, um sich mehr <lb/>
+              Bei ihrer Mutter aufzuhalten?</p>
+          </sp><pb n="19"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was? <lb/>
+              Ist's nicht Beweis genug, daß, als du sie <lb/>
+              Besuchen wolltest, gestern dich kein Mensch <lb/>
+              Hineinließ?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ei, sie wäre, sagten sie, <lb/>
+              "Gerade äußerst schwach; d'rum hat man mich <lb/>
+              Nicht vorgelassen.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Deine Aufführung <lb/>
+              Wird, denk' ich wohl, mehr ihre Krankheit sein, <lb/>
+              Als sonst was. Und mit Recht; denn unter euch <lb/>
+              Gibt's keine, die es nicht wünscht, daß ihr Sohn <lb/>
+              Heirathe, und die Frau, die euch gefällt, <lb/>
+              Wird ihm gegeben. Haben sie dann welche <lb/>
+              Auf euern Rath genommen, jagen sie <lb/>
+              Aus euern Rath dieselben wieder fort.</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Phidippus. Die Vorigen.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Phidippus (deim Herausgehen aus seinem Hause zu seiner Tochter)</speaker>
+            <p>Wiewohl ich weiß, Philumena, daß ich <lb/>
+              Nach meinem Recht dich zwingen kann zu thun . <lb/>
+              Was ich befehle, will ich dir es doch, <lb/>
+              Dem Vaterherzen folgend, hingeh'n lassen <lb/>
+              Und deiner Laune nicht entgegen sein.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Sieh da Phidippus! Eben recht! Von dem <lb/>
+              Werd' ich erfahren, wie es steht. — Phidippus, <note type="footnote"> S* </note> <lb/>
+               <pb n="20"/>
+              Zwar weiß ich, daß ich all' den Meinigen <lb/>
+              Sehr zu Gefallen lebe, doch nicht so, <lb/>
+              Daß meine Nachficht ihr Gemüth verderbe. <lb/>
+              Wenn du'S nun auch so machtest, wär' es besser <lb/>
+              Für uns sowohl wie euch. Ich sehe jetzt, <lb/>
+              Du stehest unter Weiberregiment.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ei was!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Ich suchte deiner Tochter wegen <lb/>
+              Dich gestern auf; doch ungewiß, wie ich <lb/>
+              Gekommen, gieng ich wieder. Nein, soll unsre <lb/>
+              Verschwäg'rung von Bestand sein, paßt fich's nicht, <lb/>
+              Erbitterung zu bergen. Haben wir <lb/>
+              Etwas verseh'n, so sag's! Wir wollen es <lb/>
+              Durch Widerlegen, durch Entschuldigen <lb/>
+              Bei euch in's Gleiche stellen: du magst selbst <lb/>
+              Darüber richten. Aber ist der Grund, <lb/>
+              Bei euch sie zu behalten, Unwohlsein, <lb/>
+              So thust du mir, Phidippus, Unrecht, mein' ich, <lb/>
+              Wenn du besorgst, es möcht' in meinem Hause <lb/>
+              Die rechte Pfleg' ihr abgeh'n. Doch, bei Gott! <lb/>
+              Das räum' ich nie ein, bist du gleich ihr Vater, <lb/>
+              Daß dir ihr Wohlsein theurer sei, als mir. <lb/>
+              Dieß schon dem Sohn zu Lieb', der, wie ich weiß, <lb/>
+              Nicht weniger sie hochhält, als sich selbst. <lb/>
+              Auch kann dir nicht entgeh'n, wie sehr ich glaube, <lb/>
+              Daß es ihm leid sein muß, wenn er's erfährt. <lb/>
+              D'rum liegt mir d'ran, sie kommt v or ihm zurück.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ich kenne, Laches, eure Sorgsamkeit <lb/>
+              Wie eure Güte, bin auch überzeugt, <lb/>
+              Daß Alles, was du sagst, die Wahrheit ist; <lb/>
+               <pb n="21"/>
+              5 <lb/>
+              Und ich verfich're dich, mir liegt daran. <lb/>
+              Daß sie zu euch zurückkommt, wenn ich'S irgend <lb/>
+              Bewirken kann.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was hindert dich daran? <lb/>
+              Sag', hat sie gegen ihren Mann was?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Nein, <lb/>
+              Im Mind'sten nichts! Denn als ich'S ernster nahm <lb/>
+              Und sie zur Rückkehr zwingen wollte, schwur <lb/>
+              Sie hoch und theu'r, unmöglich könne sie. <lb/>
+              So lange Pamphilus abwesend sei, <lb/>
+              Bei euch aushalten. — Andre Leute fehlen <lb/>
+              Wohl anderswie: i ch habe von Natur <lb/>
+              Ein sanftes Herz; ich kann dm Meinen nicht <lb/>
+              Entgegen sein.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Nun, Sostrata?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich Arme!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Und dabei bleibt'S?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Jetzt wenigstens, wie'S scheint. — <lb/>
+              Willst du noch sonst was? Denn Geschäfte halber <lb/>
+              Muß ich aufs Forum geh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Da geh' ich mit. <lb/>
+              (Beide ab.)</p>
+          </sp><pb n="22"/>
+          
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Fürwahr, wir Frauen sind unbill'ger Weise <lb/>
+              All' insgesammt den Männern gleich verhaßt, <lb/>
+              Um wen'ger willen, die uns alle schlimmer <lb/>
+              Behandlung werth erscheinen lassen. Denn, <lb/>
+              So wahr mich Gott! an dem, was mir mein Mann <lb/>
+              Jetzt vorwirft, bin ich außer Schuld; jedoch <lb/>
+              Nicht leicht ist meine Unschuld darzuthun. <lb/>
+              Man glaubt nun einmal, alle Schwiegermütter <lb/>
+              Sind ungerecht. Wahrhaftig, i ch bin's nicht! <lb/>
+              Denn niemals hab' ich anders sie behandelt, <lb/>
+              Als wäre sie mein leiblich Kind; und wie <lb/>
+              Mich das trifft, weiß ich nicht. Nun wünsch' ich aber <lb/>
+              Gar sehnlich meines Sohnes Wiederkunst.</p>
+          </sp>
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Dritter Art.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Pamphilus Parmeno Myrrhina (im Hause).</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Kein Mensch hat so viel Herbes durch die Liebe <lb/>
+              Wohl je wie ich erfahren! O ich Armer! <lb/>
+              Das Leben zu verlieren scheut' ich! Darum <lb/>
+              Trug ich so groß Verlangen heimzukommen? <lb/>
+              Um wie viel besser wär' es mir gewesen, <lb/>
+              Sonst irgendwo mein Leben hinzubringen, <lb/>
+               <pb n="23"/>
+              Als wieder herzukommen und zu hören, <lb/>
+              Daß hier die Sachen s o steh'n! Denn uns Allen, <lb/>
+              Trifft uns von irgendwo ein Unfall, ist <lb/>
+              Die ganze Zwischenzeit, bevor man Kunde <lb/>
+              Davon erhält, Gewinn.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Doch magst du so <lb/>
+              Viel schneller Mittel finden, wie du dich <lb/>
+              Aus der Bedrängniß losmachst. Wärst du nicht <lb/>
+              Zurückgekommen, würde diese Feindschaft <lb/>
+              Noch viel bedeutender geworden sein. <lb/>
+              Jetzt aber werden beide, Pamphilus, <lb/>
+              Sich scheu'n vor deiner Gegenwart; du wirst <lb/>
+              Die Sache untersuchen, ihre Feindschaft <lb/>
+              Beseitigen, sie wiederum versöhnen. <lb/>
+              Was dir so wichtig vorkommt, ist im Grunde <lb/>
+              Nur eine Kleinigkeit.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Warum mich trösten? <lb/>
+              Ist irgend in der Welt ein Mensch so elend <lb/>
+              Wie ich? Bevor ich diese Frau nahm, war <lb/>
+              Mein Herz durch Liebe anderswo gefesselt. <lb/>
+              Wie ich schon hierin, ohne daß ich's sage, <lb/>
+              Unglücklich war, begreift ein Jeder. Dennoch <lb/>
+              Wagt' ich es nie, das Mädchen auszuschlagen, <lb/>
+              Das mir mein Vater aufdrang. Kaum entzog ich <lb/>
+              Mich der Geliebten und entband das dort <lb/>
+              Gebund'ne Herz; und kaum noch hatt' ich es <lb/>
+              Hieher gewendet, siehe da was Neues, <lb/>
+              Das mich von der schon wieder abzieht! Da <lb/>
+              Werd' ich wohl finden, daß die Mutter, oder <lb/>
+              Die Gattin schuldig ist. Und findet fich's, <lb/>
+              Was bleibt mir noch, als Elend für die Folge? <lb/>
+              Denn von der Mutter Unrecht zu ertragen, <lb/>
+               <pb n="24"/>
+              Erheischt die Kindespflicht, und meiner Frau <lb/>
+              Hab' ich Verbindlichkeit: so trug sie mich <lb/>
+              In ihrer Sanftmuth einst und ließ sich nirgends <lb/>
+              Von meinen vielen Kränkungen was merken. <lb/>
+              Doch muß — ich weiß nicht was Bedeutendes <lb/>
+              Sich zugetragen haben, Parmeno, <lb/>
+              Woraus die gegenseitige Erbitterung <lb/>
+              Entstanden ist, die so lang anhält.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Oder <lb/>
+              Auch Unbedeutendes, geht man der Sache s <lb/>
+              Auf ihren wahren Grund. Nicht immer weist <lb/>
+              Der größte Zorn aufs größte Unrecht hin. <lb/>
+              Denn oft geschieht's, daß, wo ein Anderer <lb/>
+              Nicht einmal zürnt, darum der Zornige <lb/>
+              Uns bitterböse wird. In welchen Zorn <lb/>
+              Gerathen Knaben nicht um Kleinigkeiten? <lb/>
+              Warum? Weil ja der Geist, der sie regiert, <lb/>
+              Noch schwach ist. Ebenso sind jene Frauen, <lb/>
+              Gerad' wie Kinder, von geringem Urtheil. <lb/>
+              Leicht möglich, daß ein einzig Wort zu dieser <lb/>
+              Erbitterung Veranlassung gegeben.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Geh', Parmeno, und meld', ich sei gekommen!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno (horchend).</speaker>
+            <p>Holla! Was gibt es?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Still! Ich hör' ein Trippeln, <lb/>
+              Ein Laufen hin und her —</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Wohlan! Ich stelle <lb/>
+              Mich näher an die Thür. Hast du's gehört?</p>
+          </sp><pb n="25"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>So schwatze nicht! — Bei Gott! Ich höre schrei'«.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Du selber sprichst und mir verbietest du's?</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina (im Innern des Hauses).</speaker>
+            <p>Sei still doch, Töchterchen!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Das klang gerade <lb/>
+              Wie ihrer Mutter Stimme. Ich bin hin!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Wie das?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>O weh!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Weßhalb?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Gewiß verheimlichst <lb/>
+              Du mir ein großes Unglück, Parmeno.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Dein Weib Philumena sei unwohl, hieß es. <lb/>
+              Ob's etwa das ist?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wehe mir! Warum <lb/>
+              Hast du mir's nicht gesagt?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Weil ich nicht Alles <lb/>
+              Auf Einmal konnte.</p>
+          </sp><pb n="26"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Woran ist sie krank?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich weiß nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>Wie? Hat man denn keinen Arzt <lb/>
+              Herbeigeholt?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich weis es nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Was säum' ich <lb/>
+              Hineinzugeh'n, um, sei es was es sei, <lb/>
+              Baldmöglichst zu erfahren? — Ach, geliebte <lb/>
+              Philumena, wie werd' ich jetzt dich treffen? <lb/>
+              Denn hat's die mindeste Gefahr mit dir, <lb/>
+              So ist kein Zweifel, ich bin mitverloren. <lb/>
+              (Ab in PhidippuS' HauS.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich find' es nicht für nöthig, ihm zu folgen. <lb/>
+              Denn daß wir insgesammt den Leuten d'rin <lb/>
+              Verhaßt sind, merk' ich. Gestern wollte Keins <lb/>
+              Die Sostrata in's Haus einlassen. Sollte <lb/>
+              Die Krankheit heftiger geworden sein, <lb/>
+              Was ich, zumeist um meines Herren willen, <lb/>
+              Nicht wünsche, hieß' es gleich: der Sostrata <lb/>
+              Sklav' ist hineingegangen; der hat sicher <lb/>
+              WaS Böses angestellt, (auf ihren Kopf <lb/>
+              Schlag' alles Unglück ein!) daß sich die Krankheit <lb/>
+              Zum Schlimmen hat gewendet. Meine Herrin <lb/>
+              Käm' in Verdacht und ich in schweres Leid.</p>
+          </sp><pb n="27"/>
+          
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Sostrata. Parmeno</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich höre da schon lang' ich weiß nicht was <lb/>
+              Für ein Gelärme. Ach! ich fürchte sehr, <lb/>
+              Die Krankheit der Philumena wird schlimmer. <lb/>
+              Dich, Aesculap, und dich, Heilgöttin, bitt' ich, <lb/>
+              Verhütet das! — Jetzt will ich zu ihr geh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>He! Sostrata!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Was gibt's?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Man wird dir wieder <lb/>
+              Die Thür verschließen.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Sieh da Parmeno! <lb/>
+              Bist du hier? — Ach, was sang' ich an, ich Arme! <lb/>
+              Ich soll die Frau des Pamphilus nicht seh'n, <lb/>
+              Da sie doch krank hierneben liegt?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Nicht seh'n? <lb/>
+              Selbst schicken darfst du Niemand, sie zu seh'n. <lb/>
+              Denn welcher den liebt, der ihn haßt, der kommt <lb/>
+              Mir doppelt thöricht vor: er macht sich selber <lb/>
+              Vergebens Müh' und fällt dem Andern lästig. <lb/>
+              Dazu noch ist dein Sohn, gleich als er kam, <lb/>
+              Hineingegangen, um zu seh'n wie's geht.</p>
+          </sp><pb n="28"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Was? Pamphilus ist wieder da?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ja wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Dank sei den Göttern! Ha, mit diesem Wort <lb/>
+              Kommt Muth in mich und alle Sorge schwindet!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>AuS diesem Grund besonders wünsch' ich nicht, <lb/>
+              Daß du jetzt zu ihr gehst; denn wenn die Schmerzen <lb/>
+              Philumena's sich etwas legen, wird sie, <lb/>
+              Das weiß ich, ihm allein die ganze Sache <lb/>
+              Sofort erzählen, was sich zwischen euch <lb/>
+              Begeben, daß der Groll entstanden ist. — <lb/>
+              Doch sieh, da kommt er selbst! Wie traurig ist er!</p>
+          </sp>
+          <ab>
+            <title type="sub">Vierte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Pamphilus. Die Vorigen.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Mein Sohn!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>O meine Mutter, sei gegrüßt!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Mich freut's, daß du gesund zurückgekommen! <lb/>
+              Wie geht's Philumena?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ein wenig besser.</p>
+          </sp><pb n="29"/>
+          
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Der Himmel woll'S verleih'»! — Was weinst du aber? <lb/>
+              Warum bist du so traurig?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Nicht doch, Mutter!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Was gab'S für Lärmen? Sag', befiel der Schmerz <lb/>
+              Sie plötzlich?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ja!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Was ist's für eine Krankheit?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ein Fieber.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wohl das tägliche?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Sie sagen's. — <lb/>
+              O bitte, liebe Mutter, geh' hinein! <lb/>
+              Ich folge gleich.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata</speaker>
+            <p>Ganz wohl! <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Lauf du den Sklaven <lb/>
+              Entgegen, Pammo! Hilf ihnen tragen!</p>
+          </sp><pb n="30"/>
+          
+          <sp>
+            <speaker>Parmeno (für sich).</speaker>
+            <p>WaS? Wissen die nicht selbst den Weg?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wird's bald? <lb/>
+              (Parmeno ad.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Fünfte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Unmöglich ist mir's, einen passenden <lb/>
+              Anfang zu finden, um das unverhoffte <lb/>
+              Ereigniß zu erzählen, das ich d'rin " <lb/>
+              Zum Theil mit meinen Augen sah, zum Theil <lb/>
+              Mit meinen Ohren hörte. Wie vernichtet <lb/>
+              Macht ich mich d'rum heraus, so rasch ich konnte. <lb/>
+              Denn wie ich eben voller Angst hinein <lb/>
+              Gestürzt war, in der Meinung, meine Frau <lb/>
+              Leid' anders, als ich's fand — o weh! — da schrieen <lb/>
+              Gleich alle Mägde, da sie mich erblickten, <lb/>
+              Voll Freuden: „er ist da!" weil sie mich plötzlich <lb/>
+              Gesehen hatten. Aber ich bemerkte, <lb/>
+              Wie sich im Augenblick die Mienen Aller <lb/>
+              Veränderten, weil meine Ankunft sie <lb/>
+              So ungelegen überraschte. Eine <lb/>
+              Lief währenddeß schnell mit der Nachricht fort, <lb/>
+              Ich sei gekommen; ich, voll Ungeduld <lb/>
+              Philumena zu seh'n, folg' aus dem Fuße. <lb/>
+              Als ich hineintrat, merkt ich alsobald, <lb/>
+              Was ihre Krankheit war; denn weder ließ <lb/>
+              Die Zeit ihr Raum, sie zu verheimlichen, <lb/>
+              Noch konnte sie in andern Tönen klagen, <lb/>
+              Als die ihr Zustand eingab. Wie ich'« sah, <lb/>
+              ,,O Schmach und Schande!" rief ich, und sofort <lb/>
+              Stürzt'ich hinaus mit Thränen, tief erschüttert <lb/>
+               <pb n="31"/>
+              Bon dem so wüsten, unerhörten Gräuel. <lb/>
+              Die Mutter folgt mir nach. Als ich die Schwelle <lb/>
+              Betreten will, wirst weinend sich die Arme <lb/>
+              Auf ihre Knie. Ich fühlte Mitleid. — Wahrlich, <lb/>
+              So ist es, däucht' mir: je nachdem die Lage <lb/>
+              Der Ding' ist, sind wir stolz und demuthsvoll. — <lb/>
+              Mit diesen Worten redet sie mich an: <lb/>
+              „O bester Pamphilus, du stehst den Grund, <lb/>
+              Weßhalb sie von dir weggegangen ist: <lb/>
+              Sie ward als Jungfrau einst von einem Schurken <lb/>
+              Gemißbraucht, und ist jetzt zu uns gefloh'n, <lb/>
+              Vor dir und Andern ihre Niederkunft <lb/>
+              Geheim zu halten." — Ach, ich kann der Thränen <lb/>
+              Mich nicht erwehren, denk' ich ihrer Rede! — <lb/>
+              „Was, sprach sie, für ein gutes Glück es ist, <lb/>
+              Das dich uns heute zugeführt, bei diesem <lb/>
+              Beschwören wir dich Beide, wenn es recht <lb/>
+              Vor Gott und Menschen ist, daß ihren Unfall <lb/>
+              Du vor der Welt verbergest und verschweigst! <lb/>
+              Wenn du bei ihr je freundliche Gesinnung <lb/>
+              Für dich gefunden hast, mein Pamphilus, <lb/>
+              So bittet sie dich jetzt, du wollest ihr <lb/>
+              Die mühelose Gunst dafür gewähren. <lb/>
+              Im Uebrigen, ob du sie wieder nimmst, <lb/>
+              Damit verfahre, wie dir's paßt. Daß sie <lb/>
+              In Kindesnöthen und von dir nicht schwanger, <lb/>
+              Weißt du allein mit uns. Denn wie man sagt, <lb/>
+              Hat sie nach zweien Monden erst dein Lager <lb/>
+              Mit dir getheilt, und, seit sie zu dir kam, <lb/>
+              Geht's in den siebenten. Daß du es weißt, <lb/>
+              Zeigt Dein Benehmen. Jetzt, mein Pamphilus, <lb/>
+              Wünsch' ich besonders und bestrebe mich, <lb/>
+              Daß ihre Niederkunft, wenn irgend möglich, <lb/>
+              Vor ihrem Vater und vor Jedermann <lb/>
+              Verborgen bleibe. Geht das nicht, so sag' ich, <lb/>
+              Daß siezu früh geboren, und ich weiß, <lb/>
+               <pb n="32"/>
+              Kein Mensch denkt sich was Andres, als, wofür <lb/>
+              Der Anschein spricht, du seist des Kindes Vater. <lb/>
+              Nach der Geburt wird's ausgesetzt. So hast du <lb/>
+              Nicht den geringsten Nachtheil, und verdeckst <lb/>
+              Die Schmach, die man der Armen angethan." — <lb/>
+              Ich gab mein Wort, und, was ich zugesagt, <lb/>
+              Ich werd' es halten. Denn sie wieder nehmen, <lb/>
+              Das scheint mir mit der Ehre nicht verträglich. <lb/>
+              Ich thu's auch nicht, obschon mich Lieb' und Umgang <lb/>
+              Gar mächtig an sie fesseln. Weinen muß ich, <lb/>
+              Wenn ich mir denke, wie fortan mein Leben <lb/>
+              So traurig einsam sein wird. O Fortuna, <lb/>
+              Wie ist doch deine Gunst so wandelbar! <lb/>
+              Doch hat mich darin schon die früh're Liebe <lb/>
+              Geübt: sie gab ich aus aus Ueberlegung; <lb/>
+              Das Nämliche will ich bei der versuchen. — <lb/>
+              Sieh! Parmeno mit meinen Leuten! Der <lb/>
+              Braucht hier am wenigsten zu sein; denn ihm <lb/>
+              Allein vertraut' ich einstens, daß ich ihrer <lb/>
+              Im Anfang unsrer Ehe mich enthalten. <lb/>
+              Hört er ihr wiederholtes Schrei'n, so fürcht' ich, <lb/>
+              Er merkt die Niederkunft. Ich muß ihn wo <lb/>
+              Hinschicken, bis Philumena geboren.</p>
+          </sp>
+          <ab>
+            <title type="sub">Sechste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Parmeno. Sofia. Pamphilus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>So? War die Reise dir so unbequem?</p>
+          </sp>
+          <sp>
+            <speaker>Sofia.</speaker>
+            <p>Bei Gott! 's ist nicht zu sagen, Parmeno, <lb/>
+              Wie unbequem so eine Seefahrt ist!</p>
+          </sp><pb n="33"/>
+          
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ei was!</p>
+          </sp>
+          <sp>
+            <speaker>Sofia.</speaker>
+            <p>O Glücklicher! Du weißt es nicht, <lb/>
+              Von welchen Leiden du verschont geblieben, <lb/>
+              Daß du nie auf der See warst. Um die andre <lb/>
+              Misere nicht zu nennen: denke nur <lb/>
+              Dieß Eine: dreißig Tage, wenn nicht mehr, <lb/>
+              War ich zu Schiff, und in der ganzen Zeit <lb/>
+              Erwartet' ich den Tod: so wüthete <lb/>
+              Der Sturm in Einem fort.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Unangenehm!</p>
+          </sp>
+          <sp>
+            <speaker>Sofia.</speaker>
+            <p>Das will ich meinen! Kurz, sollt' ich die Reise <lb/>
+              Roch Einmal machen, lief ich wahrlich lieber <lb/>
+              Aus und davon.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Vor Zeiten, Sofia, <lb/>
+              Bewogen leichte Gründe dich, zu thun <lb/>
+              Was du jetzt drohst. — Doch siehe! Pamphilus <lb/>
+              Steht selber vor der Thüre! — Geht hinein! — <lb/>
+              Ich will ihn fragen, ob er was begehrt. — <lb/>
+              Herr, steh'st du noch da?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ich erwarte dich.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Was gibt'S?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>'s muß einer schnell zur Burg. <note type="footnote"> Terenz. Die Schwiegermutter. </note> <note type="footnote"> 3 </note> <pb n="34"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Wer aber?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Du!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Zur Burg? Was da?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Den Gastfreund <lb/>
+              Von Myconos, den CallidemideS, <lb/>
+              Such' aus, der mit mir hergeschifft.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno (für sich).</speaker>
+            <p>Verwünscht! <lb/>
+              Der that, scheint's, das Gelübde, käm' er je <lb/>
+              Mit heiler Haut zurück, mich todt zu Hetzen.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wird'S bald?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Was soll ich sagen? Soll ich ihn <lb/>
+              Bloß suchen?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Nein; was ich ihm zugesagt, <lb/>
+              Ihn heute noch zu treffen, gienge nicht. <lb/>
+              Er soll mich nicht vergebens dort erwarten. <lb/>
+              Flugs! flugs!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich kenne ja den Mann nicht.</p>
+          </sp><pb n="35"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Nun, <lb/>
+              Das sollst du gleich. Es ist ein großer, rother, <lb/>
+              Kraushaariger, dicker Mann, mit Katzenaugen <lb/>
+              Und Leichenanseh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno (für sich).</speaker>
+            <p>Daß ihn Gott verdamme! — <lb/>
+              Wie? Wenn er nun nicht hinkommt? Soll ich dort <lb/>
+              Bis auf den Abend bleiben?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Freilich! Lauf!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich kann es nicht, so bin ich matt. <lb/>
+              (»b)</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Fort ist er! — <lb/>
+              Was sang' ich Armer an? Ich weiß durchaus nicht, <lb/>
+              Wie ich's verhehlen soll, was Myrrhina <lb/>
+              Von mir gebeten — ihrer Tochter Kindbett. <lb/>
+              Sie jammert mich, die Frau! Ich werde thun <lb/>
+              Was geht, doch so, daß ich die Kindespflicht <lb/>
+              Nicht unbeachtet lasse; denn ich muß <lb/>
+              Der Mutter mehr, als meiner Liebe folgen. — <lb/>
+              Ei, stehe da! Phidippus und mein Vater! <lb/>
+              Sie kommen her. — Was werd' ich ihnen sagen?</p>
+          </sp>
+          <ab>
+            <title type="sub">Siebente Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Laches. Phidippus. Pamphilus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du sagtest ja vorhin, sie warte nur <lb/>
+              Aus meinen Sohn. <note type="footnote"> 3* </note> <pb n="36"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Der ist hier, wie s heißt. <lb/>
+              Sie komme denn!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Was ich bei meinem Vater <lb/>
+              Verwende, daß ich sie nicht wiedernehme, <lb/>
+              Ich weiß es nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Wen hört' ich eben sprechen?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Es bleibt dabei! Den Weg, den ich zu gehen <lb/>
+              Beschlossen habe, halt' ich ein.</p>
+          </sp>
+          <sp>
+            <speaker>Laches (zu Phidippus).</speaker>
+            <p>Da ist er, <lb/>
+              Von dem ich sprach!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Heil dir, mein Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Sohn, <lb/>
+              Auch dir!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Schön, daß du da bist, Pamphilus, <lb/>
+              Und was das Beste ist, gesund und wohl!</p>
+          </sp><pb n="37"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Dank!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Kommst du eben?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>Eben erst.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Sag' doch, ' <lb/>
+              Was hat der Vetter Phania hinterlassen?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ach Gott! Der Mann gieng dem Vergnügen nach <lb/>
+              So lang er lebte, und bei Solchen kann <lb/>
+              Ein Erbe sich nicht sonderlich erholen. <lb/>
+              S i ch aber hinterlassen sie den Ruhm: <lb/>
+              „Hat gut gelebt, so lang er lebte."</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Weiter <lb/>
+              Hast du nichts mitgebracht als diesen Spruch?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Sein Nachlaß, sei's nun wenig oder viel, <lb/>
+              Kommt uns zu Gute.</p>
+          </sp>
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Nein, im Gegentheil! <lb/>
+              Was gäb' ich d'rum, er lebte noch!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus</speaker>
+            <p>Das kann <lb/>
+              Man unbedenklich wünschen. Der steht nie <lb/>
+              Mehr auf, und was dir lieber ist, das weiß ich.</p>
+          </sp><pb n="38"/>
+          
+          <sp>
+            <speaker>Laches (zu Pamphilus).</speaker>
+            <p>Sie haben gestern die Philumena <lb/>
+              Jn's Aelternhaus geholt: der hat's befohlen — <lb/>
+              (leise zu Phidippus , ihn anstoßend.) <lb/>
+              So sag', daß du's befohlen!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus (leise).</speaker>
+            <p>Stoß doch nicht! — <lb/>
+              Ich Hab's befohlen.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Doch er wird sie jetzt <lb/>
+              Gleich wieder schicken.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus</speaker>
+            <p>Freilich wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ich weiß <lb/>
+              Den ganzen Vorfall. Gleich bei meiner Ankunft <lb/>
+              Hab' ich davon gehört.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Der Henker hole <lb/>
+              Das neid'sche Volk, das seine Freude hat <lb/>
+              An solchen Meldungen!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (zu Phidippus).</speaker>
+            <p>Ich weiß, ich habe <lb/>
+              Mich stets in Acht genommen, daß von euch <lb/>
+              Verdienterweise keine Schmach mich treffe. <lb/>
+              Und wollt' ich hier erwähnen, wie ich treu, <lb/>
+              Gefällig, freundlich gegen sie gewesen, <lb/>
+               <pb n="39"/>
+              Ich könnt's mit Grund der Wahrheit, wenn ich nicht <lb/>
+              Mehr wünschte, daß du'F von ihr selbst erführest. <lb/>
+              Denn s o wirst du auf meine Sinnesart <lb/>
+              Erst recht vertrau'n, wenn sie, die mir anjetzt <lb/>
+              Ungünstig ist, nur günstig von mir spricht. <lb/>
+              Und daß die Trennung nicht durch meine Schuld <lb/>
+              Gescheh'n ist, dafür nehm' ich Gott zum Zeugen. <lb/>
+              Doch da fie's unter ihrer Würde hält, <lb/>
+              Dem Willen meiner Mutter sich zu fügen <lb/>
+              Und ihre Launen mit Bescheidenheit <lb/>
+              Zu tragen, auch auf keine andre Weise <lb/>
+              Ein gut Vernehmen herzustellen ist, <lb/>
+              So muß, Phidippus, meine Mutter, oder <lb/>
+              Philumena sich von mir trennen. Nun <lb/>
+              Rath Kindespflicht, die Mutter vorzuzieh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Nicht ungern hab' ich, Pamphilus, was du <lb/>
+              Gesagt hast, angehört, da ich erkenne, <lb/>
+              Du setzest Alles deiner Mutter nach. <lb/>
+              Doch flehe, daß du nicht, von Zorn getrieben, <lb/>
+              Verkehrt darauf bestehest, Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>Von welchem Zorn getrieben sollt' ich jetzt <lb/>
+              Unbillig gegen sie mich zeigen, Vater? <lb/>
+              Die niemals, was ich ungern sah, gethan, <lb/>
+              Ost was ich gern sah, weiß ich. Ja, ich liebe, <lb/>
+              Ich lobe, ich vermisse sie von Herzen. <lb/>
+              - Denn daß sie sich höchst edel gegen mich <lb/>
+              Gezeigt, hab' ich erfahren, und ich wünsche, <lb/>
+              Daß sie mit einem Mann ihr übrig Leben <lb/>
+              Hinbringe, der sich mehr als ich vom Glücke <lb/>
+              Begünstigt sieht, da die Nothwendigkeit <lb/>
+              Sie mir entreißt.</p>
+          </sp><pb n="40"/>
+          
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Es liegt in deiner Hand, <lb/>
+              Das zu verhindern.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>' Bist du bei Verstand, <lb/>
+              So laß sie wieder kommen!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>Das ist nicht <lb/>
+              Mein Wille, Vater. Meiner Mutter Bestes <lb/>
+              Wird mir zur Richtschnur sein. <lb/>
+              (Ad.)</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Wo willst du hin? <lb/>
+              Bleib'! Bleibe, sag'ich dir! Wo willst du hin? —</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Was für ein Eigensinn!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Sagt' ich es nicht, <lb/>
+              Er werd' es übel nehmen? Darum bat ich, <lb/>
+              Daß du die Tochter wiederschicken möchtest.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Nein, für so gar gefühllos hätt' ich ihn <lb/>
+              Nicht angeseh'n! — Der meint wohl, ich soll ihm <lb/>
+              Noch gar zu Füßen fallen! — Will er sie <lb/>
+              Zurücke nehmen, gut! Wo nicht, so zahl' er <lb/>
+              Die Mitgift wieder aus und trolle sich!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Ei sieh doch! D u auch fährst unmäßig auf.</p>
+          </sp><pb n="41"/>
+          
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Als ein recht trotz'ger Bursche bist du uns <lb/>
+              Zurückgekommen, Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Sein Zorn <lb/>
+              Wird schwinden, zürnt er auch nicht ohne Grund.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Weil euch ein Bischen Geld anheimgefallen, <lb/>
+              Schwillt euch der Kamm —</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du haderst auch mit mir?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Er überlege fich's und heute noch <lb/>
+              Geb' er Bescheid mir, ob er will, ob nicht, <lb/>
+              Damit,.wenn er nicht, sie ein Andrer nehme! <lb/>
+              (»b.)</p>
+          </sp>
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Phidippus! Komm'doch her! Zwei Worte nur! — <lb/>
+              Fort ist er! — Meinethalben! Mögen sie <lb/>
+              Am End' es selber abthun, wie's beliebt, <lb/>
+              Da er so wenig wie mein Sohn mir folgt! <lb/>
+              Mein Wort gilt nichts bei ihnen. — Meiner Frau <lb/>
+              Trag' ich den Zank in's Haus. Die ist ja doch <lb/>
+              An Allem schuld, und über sie will ich <lb/>
+              Die ganze Fülle meines Aergers gießen.</p>
+          </sp><pb n="42"/>
+          
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">Vierter Art.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Myrrhina. Phidippus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Weh mir^- Was soll ich thun? wohin mich wenden? <lb/>
+              Was meinem Mann zur Antwort geben? Denn <lb/>
+              Er hörte, wie mir scheint, den Jungen schrei'n; <lb/>
+              So plötzlich eilt' er schweigend hin zur Tochter. <lb/>
+              Erfährt er ihre Niederkunft — bei Gott! <lb/>
+              Ich weiß nicht, was ich sagen soll, warum <lb/>
+              Ich sie verheimlicht. — Horch! die Thür geht auf! <lb/>
+              Ich glaub', er kommt zu mir! Ich bin des Todes!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Wie meine Frau mich sah zur Tochter geh'n, <lb/>
+              Hat sie sich fortgemacht. — Aha, da ist sie! — <lb/>
+              Nun, Myrrhina! — Heda, ich meine dich!</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Mich, lieber Mann?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Dein Mann ich? Hältst du mich <lb/>
+              Für deinen Mann, für einen Menschen nur? <lb/>
+              Denn hätt' ich je als Eins von beiden dir <lb/>
+              Gegolten, Weib, du würdest mich nicht so <lb/>
+              Durch deine Aufführung verspottet haben.</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Durch welche?</p>
+          </sp><pb n="43"/>
+          
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>O du fragst? — Die Tochter hat <lb/>
+              Ein Kind! — Du schweigst? — Bon wem?</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Wie? Darf ein Vater <lb/>
+              So fragen? — Ach! Von wem denn sonst, ich bitte, <lb/>
+              Als ihrem Ehemann?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ich glaub's; auch soll <lb/>
+              Ein Vater Andres nicht vermuthen. Aber <lb/>
+              Mich wundert sehr, warum du uns das Kindbett <lb/>
+              Der Tochter so verheimlicht hast, zumal <lb/>
+              Sie ganz gehörig und zu rechter Zeit <lb/>
+              Geboren hat. Daß du so eigensinnig <lb/>
+              Sein kannst, das Kind, durch welches unsre Freundschaft <lb/>
+              In Zukunft offenbar noch fester würde, <lb/>
+              Viel lieber todt zu wünschen, als mit ihm <lb/>
+              Sie gegen deinen Wunsch vermählt zu seh'n! <lb/>
+              Ich meint' auch, Jene wären schuld, und du bist's!</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Wie elend fühl' ich mich!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>O wüßt' ich das! <lb/>
+              Doch jetzt entsinn' ich mich, wie du voreinst, <lb/>
+              Als wir zum Schwiegersohn ihn nahmen, dich <lb/>
+              Darüber äußertest. Du könnest nicht <lb/>
+              Zugeben, sagtest du, daß deine Tochter <lb/>
+              Frau sei von einem, der an eine Metze <lb/>
+              Sein Herz gehängt, der auswärts übernachte.</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina (für sich).</speaker>
+            <p>Vermuth' er lieber jeden andern Grund, <lb/>
+              Wenn nur den rechten nicht!</p>
+          </sp><pb n="44"/>
+          
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Um seine Liebschaft <lb/>
+              Wußt' ich weit früher, Myrrhina, als du, <lb/>
+              Allein ich habe das der Jugend nie <lb/>
+              Als Fehler angerechnet; denn es ist <lb/>
+              Uns Allen angeboren, und die Zeit <lb/>
+              Kommt bald, wo er auch sich haßt. — Doch, wie du <lb/>
+              Dich einst gezeigt, so hast du bis zur Stunde <lb/>
+              Zu sein nicht aufgehört: du suchtest immer <lb/>
+              Die Tochter von ihm abzuzieh'n und das, <lb/>
+              Was i ch gethan, zu hintertreiben. Jetzt <lb/>
+              Zeigt die Geschichte klar, in welcher Art <lb/>
+              Du's gern gewollt hast.</p>
+          </sp>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Für so eigensinnig <lb/>
+              Magst du mich halten, daß ich gegen die, <lb/>
+              Der ich doch Mutter bin, also verführe, <lb/>
+              Wenn diese Ehe uns von Vortheil wäre?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Kannst du vorausseh'n, oder du entscheiden, <lb/>
+              Was rathsam für uns ist? Dir hat vielleicht <lb/>
+              Jemand gesagt, er hab' ihn bei der Freundin <lb/>
+              Ein- oder ausgeh'n seh'n: was ist's dann weiter, <lb/>
+              Wenn's selten und mit Maß geschah? Ist es <lb/>
+              Nicht menschlicher, unwissend sich zu stellen, <lb/>
+              Als Mühe sich zu geben, nachzuforschen <lb/>
+              Dem, was uns ihm verhaßt macht? Könnt' er sich <lb/>
+              Losreißen so mit Einem Mal von der, <lb/>
+              Mit der er Jahrelang gelebt hat, würd' ich <lb/>
+              Ihn nicht für einen Menschen, noch für einen <lb/>
+              Recht treuen Gatten meiner Tochter halten.</p>
+          </sp><pb n="45"/>
+          
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Laß ab, ich bitte, von dem jungen Menschen <lb/>
+              Und dem, was ich verschuldet haben soll! <lb/>
+              Geh', sprich allein mit ihm, frag', ob die Frau <lb/>
+              Er wolle oder nicht! Falls er sie will, <lb/>
+              So gib sie; will er aber nicht, so hab' ich <lb/>
+              Gut für die Meinige gesorgt.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Wenn er <lb/>
+              Sie selbst nicht will und, Myrrhina, du merktest, <lb/>
+              Der Fehler lag an ihm, war i ch der Mann, <lb/>
+              Dem's zugekommen wäre, Recht zu schaffen. <lb/>
+              D'rum bin ich äußerst böse, daß du es <lb/>
+              Zu thun gewagt hast ohne mein Geheiß. <lb/>
+              Das sag' ich dir, du lässest mir das Kind <lb/>
+              Nicht aus dem Hause tragen! — Doch ich Thor, <lb/>
+              Der ich von ihr Gehorsam fordere! <lb/>
+              Ich will hinein, den Sklaven zu befehlen, <lb/>
+              Daß sie es nirgend wohin tragen lassen. <lb/>
+              (Ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Myrrhina.</speaker>
+            <p>Unglücklicher lebt wohl kein Weib als ich! <lb/>
+              Denn wie er's nehmen wird, wenn er den wahren <lb/>
+              Verlauf erfährt, fürwahr das seh' ich kommen, <lb/>
+              Da er das Leichtere so zornig nahm. <lb/>
+              Auch seh' ich keinen Weg, auf andere <lb/>
+              Gedanken ihn zu bringen. Dieses Eine <lb/>
+              Hat noch gefehlt zu meinen vielen Leiden: <lb/>
+              Wenn er uns zwingt, den Knaben zu erzieh'n, <lb/>
+              Deß Vater wir nicht wissen! Denn als sie <lb/>
+               <pb n="46"/>
+              Gemißbraucht wurde, ließ sich die Gestalt <lb/>
+              Im Dunkel nicht erkennen, und sie hat <lb/>
+              Ihm auch nicht das Geringste abgenommen, <lb/>
+              Woran man später ihn erkennen konnte. <lb/>
+              Er selber riß dem Mädchen einen Ring, <lb/>
+              Den sie am Finger trug, beim Weggeh'n ab. <lb/>
+              Auch fürcht' ich, Pamphilus kann länger nicht <lb/>
+              Auf unsre Bitte schweigen, wenn er hört, <lb/>
+              Wir zieh'n ein fremdes Kind statt seines aus. <lb/>
+              (Ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Sostrata. Pamphilus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>ES ist mir nicht verborgen , lieber Sohn, <lb/>
+              Daß du mich in Verdacht hast, deine Gattin <lb/>
+              Sei meiner Launen wegen fortgegangen, <lb/>
+              Wenn du mir's auch mit allem Fleiß verhehlst. - <lb/>
+              Allein so mögen mich die Götter lieben <lb/>
+              Und so mich Freud' an dir erleben lassen, <lb/>
+              Als ich mit Wissen nie verschuldet habe, <lb/>
+              Daß sie mit Recht Haß aus mich werfen konnte! <lb/>
+              Wie du mich, was ich wußte, selber liebst, <lb/>
+              Das hast du schön bekräftigt; denn dein Vater <lb/>
+              Hat mir so eben d'rin erzählt, wie du <lb/>
+              Mich höher hältst als deine Liebe. Jetzt <lb/>
+              Will ich zum Dank mich dir erkenntlich zeigen, <lb/>
+              Damit du sehest, daß ich Kindesliebe <lb/>
+              Zu lohnen weiß. Mein Pamphilus, so, glaub' ich, <lb/>
+              Ist's euch und meinem Rufe vortheilhaft: <lb/>
+              Ich will, und das steht fest, mit deinem Vater <lb/>
+              Aufs Land geh'n, daß nicht meine Gegenwart, <lb/>
+              Noch sonst ein andrer Grund, Philumena <lb/>
+              Berhind're heimzukehren.</p>
+          </sp><pb n="47"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Bitte dich, <lb/>
+              Welch' ein Entschluß! Von ihrem Unverstand <lb/>
+              Bewogen, wolltest du aufs Land zieh'n, dort <lb/>
+              Zu wohnen? Nein, das thust du nicht! Auch werd'ich <lb/>
+              Nicht dulden, Mutter, daß mir ein Verläumder <lb/>
+              Nachsage, nur mein Eigensinn, nicht deine <lb/>
+              Nachgiebigkeit bewirk' es. Die Verwandten, <lb/>
+              Die Freundinnen, die Feste solltest du <lb/>
+              Aufgeben meinethalb? Das geht nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wahrlich, <lb/>
+              Mir macht das kein Vergnügen mehr. So lange <lb/>
+              Die Jahre mir's gestatteten, hab' ich's <lb/>
+              Genossen zur Genüge, und bin nun <lb/>
+              Des Treibens überdrüssig. Das ist jetzt <lb/>
+              Mein Hauptanliegen, daß ich keinem Menschen <lb/>
+              Zu lange lebe, keiner meinen Tod <lb/>
+              Erwarte. Hier, ich seh's, bin ich verhaßt <lb/>
+              Ohn' eig'ne Schuld, 's ist Zeit, den Platz zu räumen. - <lb/>
+              So schneid' ich Allen, wie mir scheint, am besten <lb/>
+              Jedweden Vorwand ab: ich mache mich <lb/>
+              Frei vom Verdacht und füge mich in Jene. <lb/>
+              O laß mich meiden, was man insgemein <lb/>
+              Uns Frauen nachsagt!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wie in allem Andern <lb/>
+              War' ich so glücklich, ohne dieses Eine, <lb/>
+              Bei einer solchen Mutter, solchen Gattin!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ich bitte dich, mein Pamphilus! Du solltest <lb/>
+              Dich etwas Unbequemes, was es sei, <lb/>
+               <pb n="48"/>
+              Zu tragen nicht entschließen? Ist das Andre <lb/>
+              So wie du's wünschest und wie ich es selbst <lb/>
+              Ansehe, dann erweise mir die Liebe, <lb/>
+              Mein Sohn, und nimm sie wieder!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Weh mir Armen!</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Und weh auch mir! Denn diese Sache macht <lb/>
+              Mir selbst nicht minder Schmerz als dir, mein Sohn.</p>
+          </sp>
+          <ab>
+            <title type="sub">Vierte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Laches. Die Vorigen.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was du mit dem gesprochen, hab' ich, Frau, <lb/>
+              Hier in der Nähe stehend angehört. <lb/>
+              Das heißt vernünftig, wenn, wo's nöthig ist, <lb/>
+              Man seinen Willen beugen kann, und jetzt <lb/>
+              Freiwillig thut, was man wohl später muß.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Gott segn' es!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Gehe d'rum aufs Land! Ich werde <lb/>
+              Dort dich, du mich ertragen.</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Ja, das hoff' ich!</p>
+          </sp><pb n="49"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Geh' d'rum hinein und leg' zurecht, was du <lb/>
+              Willst mitgenommen haben! Hörst du wohl?</p>
+          </sp>
+          <sp>
+            <speaker>Sostrata.</speaker>
+            <p>Wie du befiehlst, so soll? geschehen. <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Vater!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was, Pamphilus?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Die Mutter soll hier fort? <lb/>
+              Nicht doch!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Warum nicht?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Weil ich in Betreff <lb/>
+              Der Frau noch ungewiß bin, was ich thue.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Wie? Was denn anders, als sie wieder holen?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Das wünscht' ich, und kaum halt' ich mich; allein <lb/>
+              Ich weiche nicht von meinen: Plan: was frommt, <lb/>
+              Das führ' ich aus. <lb/>
+              (laut, mit Ironie) <lb/>
+              Ich meine wohl, sie werden <note type="footnote"> Terenz. Die Schwiegermutter. </note> <note type="footnote"> 4 </note> <lb/>
+               <pb n="50"/>
+              Einträchtiger zusammen sein, wenn ich <lb/>
+              Sie wieder hole.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Kannst das gar nicht wissen! <lb/>
+              Jedoch dich kümmert nicht, was Jene thun, <lb/>
+              Wenn die erst aus dem Haus ist. Dieses Alter <lb/>
+              Ist jungen Leuten lästig; billig d'rum, <lb/>
+              Man räumt das Feld. Am Ende heißt's von uns, <lb/>
+              Wie man ein Märchen anfängt, Pamphilus: <lb/>
+              „Ein alter Mann und eine alte Frau". —- <lb/>
+              Doch siehe da Phidippus! Geh'n wir näher!</p>
+          </sp>
+          <ab>
+            <title type="sub">Fünfte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Phidippus. Laches. Pamphilus.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Phidippus (im Herausgehen zu seiner Tochter im Hause).</speaker>
+            <p>Und auch auf dich, Philumena, bin ich böse, <lb/>
+              Und das in vollem Ernste; denn bei Gott, <lb/>
+              's ist schlecht von dir! Doch du kannst mit dem Rath <lb/>
+              Der Mutter dich entschuldigen, die mit nichts.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du kommst mir g'rade recht erwünscht, Phidippus!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Was ist's?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Was soll ich ihnen nur erwidern? <lb/>
+              Wie halt' ich's nur geheim?</p>
+          </sp><pb n="51"/>
+          
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Sag' deiner Tochter, <lb/>
+              Es wolle Sostrata aufs Land hinaus; <lb/>
+              Sie möge sich nicht scheu'n zurückzukommen.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ach! Deine Frau hat keine Schuld dabei; <lb/>
+              Von Myrrhina, der meinigen, gieng's aus —</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>-Das Blättchen wendet sich!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Die stört uns, Laches.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Muß ich sie nur nicht wieder nehmen, mögen <lb/>
+              Sie.immerhin, soviel sie wollen, stören!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus</speaker>
+            <p>Ich, Pamphilus, wünsch' allerdings, daß unsre <lb/>
+              Verschwägerung wo möglich fortbestehe; <lb/>
+              Doch, bist du andrer Meinung, nimm das Kind!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>Er weiß, daß sie geboren hat! O weh!</p>
+          </sp>
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Das Kind! Welch'Kind?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ein Enkelchen ist da! <lb/>
+              Denn meine Tochter, wie sie von euch gieng, <note type="footnote"> III </note> <lb/>
+               <pb n="52"/>
+              War schwanger, und ich wußte, daß fie's war, <lb/>
+              Bis diesen Tag nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du bringst gute Botschaft, <lb/>
+              So wahr mich Gott liebt! und mich freut des KindeS <lb/>
+              Geburt und daß sie wohl ist. — Aber sage, <lb/>
+              Was für ein Weib hast du zur Frau! Auf welche <lb/>
+              Gesinnung läßt das schließen! Uns so lange <lb/>
+              Das zu verheimlichen! Kaum find' ich Worte, <lb/>
+              Um auszusprechen, wie verkehrt mir dieß <lb/>
+              Benehmen vorkommt.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Mir gefällt's so wenig <lb/>
+              Wie dir.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>War ich vorhin auch unentschlossen — <lb/>
+              Jetzt nicht mehr, da ein fremdes Kind ihr folgt.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Nun, Pamphilus, gibt's kein Bedenken weiter!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>O weh!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Oft wünschten wir den Tag zu seh'n, <lb/>
+              Wo 'n Kleines da wär', das dich Vater tiefe. <lb/>
+              Das ist gescheh'n; den Göttern sei gedankt!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>'S ist aus mit mir!</p>
+          </sp><pb n="53"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Hol' deine Frau zurück <lb/>
+              Und widerstrebe mir nicht weiter!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Vater, <lb/>
+              Wenn sie sich Kinder von mir wünschte, oder <lb/>
+              Als Frau mit mir zu leben, weiß ich sicher, <lb/>
+              Sie würd' aus dem, was, wie ich sehe, sie <lb/>
+              Verhehlt hat, kein Geheimniß machen. Jetzt, <lb/>
+              Da ich ihr Herz mir abgeneigt erkenne: — <lb/>
+              Und daß wir uns in Zukunft mit einander <lb/>
+              Vertragen werden, glaub' ich nicht — warum <lb/>
+              Sie wieder nehmen?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was die Mutter rieth, <lb/>
+              Das that die junge Frau: ist das ein Wunder? <lb/>
+              Meinst du, es ließe sich ein Frauenzimmer <lb/>
+              Ausfindig machen, das nicht Fehler hätte? ^ <lb/>
+              Etwa, weil sich — die Männer nicht vergeh'n?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>' Seht nunmehr selbst zu, Pamphilus und Laches, <lb/>
+              Wie's räthlicher für eu'r Jnt'resse sei, <lb/>
+              Sie auszugeben oder heimzuführen. <lb/>
+              Was meine Frau thun mag, steht nicht bei mir; <lb/>
+              In keinem Falle mach' i ch Schwierigkeit. — <lb/>
+              Doch was wird aus dem Kinde?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Lächerlich! <lb/>
+              Was auch gescheh'n mag, diesem gib, versteht sich, <lb/>
+              Was sein ist: wir erziehn's als unseres.</p>
+          </sp><pb n="54"/>
+          
+          <sp>
+            <speaker>Pamphilus (halblaut).</speaker>
+            <p>Woraus der eig'ne Vater sich nichts macht, <lb/>
+              Soll i ch erzieh'n?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was sagst du, Pamphilus? <lb/>
+              He! nicht erziehen sollen wir's? vielmehr <lb/>
+              Preis geben, bitt' ich? Welcher Unsinn das! <lb/>
+              Nein, nein, ich kann unmöglich länger schweigen! <lb/>
+              Du zwingst mich, Dinge, die ich gern verdeckte, <lb/>
+              In dessen Gegenwart zu sagen. Meinst du, <lb/>
+              Ich wisse nicht um deine Thränen, nicht <lb/>
+              Was dich in solche Unruh' setzt? Zuerst <lb/>
+              Wie du zum Vorwand nahmst, daß du die Gattin <lb/>
+              Der Mutter wegen-nicht behalten könnest, <lb/>
+              Erbot sich diese aus dem Haus zu geh'n; <lb/>
+              Jetzt, wo du den auch dir entrissen siehst, <lb/>
+              Hast du sogleich, weil hinter deinem Rücken <lb/>
+              Das Kind zur Welt gekommen, einen andern. <lb/>
+              Du irrst dich, wenn du meinst, ich kenne dein <lb/>
+              Begehren nicht. Du solltest endlich doch <lb/>
+              In Ueberlegung zieh'n, welch' langen Raum <lb/>
+              Ich deiner Buhlerei gestattete, <lb/>
+              Wie ich den Aufwand, den du für sie machtest, <lb/>
+              Gelassen trug! Ich hab' dir vorgestellt <lb/>
+              Und dich gebeten, eine Frau zu nehmen, <lb/>
+              Gesagt, es sei nun Zeit. Auf mein Betreiben <lb/>
+              Nahmst du sie. Damals hast du mir zu Liebe <lb/>
+              Gethan, wie sich gebührt; jetzt hast du wieder <lb/>
+              Dein Herz an jene Buhlerin gehängt, <lb/>
+              Und ihr zu Liebe thust du der gar unrecht. <lb/>
+              Denn in dein altes Leben seh' ich dich <lb/>
+              Zurückgeworfen.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Mich?</p>
+          </sp><pb n="55"/>
+          
+          <sp>
+            <speaker>Laches</speaker>
+            <p>Ja, eben dich! <lb/>
+              Und unrecht thust du, daß du falsche Gründe <lb/>
+              Zur Zwietracht ausfinnst, um mit ihr zu leben, <lb/>
+              Wann diese Zeugin du beseitigt hast. <lb/>
+              Und deine "Frau hat's wohl gemerkt! Was hatte <lb/>
+              Sie sonst für Grund, um von dir wegzuzieh'n?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Der spricht wie ein Prophet! So ist's!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ich Will'S <lb/>
+              Beschwören, daß nichts Wahres d ran ist.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Ah! <lb/>
+              Hol' deine Frau zurück; wenn nicht, so sprich, <lb/>
+              Warum's nicht angeht!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Jetzt ist keine Zeit.</p>
+          </sp>
+          <sp>
+            <speaker>Laches</speaker>
+            <p>So nimm das Kind! Das hat doch nichts verschuldet.- <lb/>
+              Mit seiner Mutter will ich später seh'n.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (für sich).</speaker>
+            <p>In aller Weise bin ich übel d'ran, <lb/>
+              Und weiß nicht, was ich thun soll: so gewaltig <lb/>
+              Werd' ich von meinem Vater jetzt gedrängt. <lb/>
+              Ich gehe, da mein Bleiben wenig nützt. <lb/>
+              Den Jungen, denk' ich, werden sie ja nicht <lb/>
+               <pb n="56"/>
+              Aufnehmen ohne mein Geheiß, zumal <lb/>
+              In dem Fall mir die Schwiegermutter hilft. <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du machst dich fort? Antwortest nichts Bestimmtes? — <lb/>
+              Glaubst du, er sei bei Sinnen? — Mag er sein! — <lb/>
+              Das Kind gib mir, Phidippus! Ich erzieh's.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ganz wohl! — Kein Wunder ist's, wenn meine Frau <lb/>
+              Das übel nahm. Die Weiber sind empfindlich; <lb/>
+              Sie nehmen so etwas nicht leicht. Daher <lb/>
+              Schreibt sich der Zwist! Sie hat's mir selbst erzählt. <lb/>
+              So lang er da war, möcht' ich dir s nicht sagen. <lb/>
+              Auch glaubt' ich erst nicht d'ran, nun aber liegt <lb/>
+              Es klar am Tag; denn unverkennbar hat <lb/>
+              Er vor der Ehe gänzlich Abneigung.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was soll ich aber thun, Phidippus? Was <lb/>
+              Gibst du für Rath mir?</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Was du thun sollst? Nun, <lb/>
+              Die Dirne, mein' ich, müssen wir zuerst <lb/>
+              Angehen, müssen gütlich mit ihr sprechen, <lb/>
+              Ihr schärfer in's Gewissen reden, endlich <lb/>
+              Ihr droh'n, wenn sie sich ferner noch mit ihm <lb/>
+              Einlassen sollte.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Gut, das will ich thun. — <lb/>
+              He, Junge! Laus' zu unsrer Nachbarin, <lb/>
+              Der Bacchis! Ruf sie her in meinem Namen! — <lb/>
+               <pb n="57"/>
+              Und dich ersuch' ich, mir auch fernerhin <lb/>
+              In dieser Sache beizustehen.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.,</speaker>
+            <p>Ah! <lb/>
+              Ich hab' eS früher schon gesagt-und sag'S <lb/>
+              Jetzt wieder, Laches, wie mein Wunsch eS ist, <lb/>
+              Daß dieß Familienbündniß fortbestehe, <lb/>
+              Wenn's irgend sein kann, und ich hoff, es kann. — <lb/>
+              Soll ich dabei sein, wenn du mit ihr sprichst?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Nein, geh' nur! Schaff' dem Kleinen eine Amme! <lb/>
+              (Phidippus ab.)</p>
+          </sp>
+          <ab>
+            <title type="sub">Sechste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Barchis (mit zwei Mägden). Laches.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Barchis (für sich hinsprechend).</speaker>
+            <p>Das ist nicht ohne, daß mich Laches jetzt <lb/>
+              Zu sprechen wünscht; und täusch' ich mich nicht sehr, <lb/>
+              So merk' ich, was er will.</p>
+          </sp>
+          <sp>
+            <speaker>Laches (für sich).</speaker>
+            <p>Ich muß mich wahren, <lb/>
+              Daß ich in meinem Zorn nicht weniger <lb/>
+              Von ihr erlange, als ich könnte, oder <lb/>
+              Nicht etwas thue, was mir ungethan <lb/>
+              Dann lieber wäre. Nun denn hin zu ihr! — <lb/>
+              Zum Gruß dir, Bacchis!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Dir deßgleichen, Laches!</p>
+          </sp><pb n="58"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Ich glaube wahrlich, du verwunderst dich <lb/>
+              Ein wenig, Bacchis, was der Grund sei, daß <lb/>
+              Ich dich durch meinen Burschen rufen ließ.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Wahrhaftig, auch besorgt bin ich sogar, <lb/>
+              Wenn ich bedenke, wer ich bin, es möchte <lb/>
+              Mir meines Standes Name Eintrag thun; <lb/>
+              Denn mein Betragen schütz' ich leicht.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Wenn du <lb/>
+              Die Wahrheit sagst, so hast du nichts von mir <lb/>
+              Zu fürchten, Mädchen; denn ich bin so alt, <lb/>
+              Daß man bei einer Uebereilung mir <lb/>
+              Nicht wohl verzeih'n kann; um so mehr nehm' ich <lb/>
+              Vor Unbesonnenheiten mich in Acht. <lb/>
+              Denn thust du, oder wirst du thun, was sich <lb/>
+              Für brave Mädchen ziemt, so wär' es schlecht, <lb/>
+              Wenn ich aus Unart ohne dein Verschulden <lb/>
+              Dir was zu leid thun wollte.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Meiner Treu! <lb/>
+              Ich weiß dir großen Dank dafür. Denn wer <lb/>
+              Nach angethanem Unrecht sich entschuldigt, <lb/>
+              Der nützt mir wenig. — Aber sag', was gibt'S?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du nimmst Besuche an von Pamphilus —</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>O!</p>
+          </sp><pb n="59"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Laß mich sprechen! — Eh' er diese Frau <lb/>
+              Heirathete, ertrug ich eure Liebe — <lb/>
+              Wart', bis ich ausgeredet, was ich will! — <lb/>
+              Jetzt hat er eine Gattin: suche dir <lb/>
+              D'rum einen andern Freund, so lang' es noch <lb/>
+              Zeit zur Berathung ist. Denn weder er <lb/>
+              Wird ewig diese Neigung, noch auch du, <lb/>
+              Wahrhaftig, diese Jugendblüthe haben.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Wer sagt das?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Seine Schwiegermutter.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Ich-?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Ja, du! und holte ihre Tochter weg, und wollte <lb/>
+              Den neugebornen Knaben heimlich tödten.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Wüßt' ich, um euch von meiner Ehrlichkeit <lb/>
+              Zu überzeugen, etwas Heilig'res <lb/>
+              Als einen Eid, ich würd's betheuern, Laches, <lb/>
+              Daß ich, seitdem er eine Gattin hat, <lb/>
+              Den Pamphilus von mir entfernt gehalten.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Bist artig! Aber weißt du, was mir noch <lb/>
+              Viel lieber wäre?</p>
+          </sp><pb n="60"/>
+          
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Was denn, sprich!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Du giengest <lb/>
+              D'rin zu den Frauen und erbötest dich <lb/>
+              Zu eben diesem Eid. Befriedige <lb/>
+              Ihr Herz, und dich mach' vom Verdachte frei!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Ich will es thun, was wahrlich keine Andre <lb/>
+              Von meinem Stande thäte, daß sie sich <lb/>
+              In solchem Fall vor Neuvermählten zeigte. <lb/>
+              Allein ich will nicht, daß dein Sohn in falschem <lb/>
+              Verdachte stehe, oder euch, wo er's <lb/>
+              Am mind'sten sollte, unverdienter Weise <lb/>
+              Leichtfert'ger scheine. Denn er hat's um mich <lb/>
+              Verdient, daß ich ihm diene, wie ich kann.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Schon hat mich deine Rede dir befreundet. <lb/>
+              Denn jene Frauen meinten's nicht allein; <lb/>
+              Ich hab' auch d'ran geglaubt. Jetzt da ich dich <lb/>
+              Weit anders, als wir All' erwarteten, <lb/>
+              Gefunden habe, bleibe ferner so! <lb/>
+              Genieße unsre Freundschaft nach Belieben! <lb/>
+              Wenn du dich freilich — doch ich will mich halten, <lb/>
+              Daß du nichts Schlimmes von mir hörst! Nur Eins <lb/>
+              Will ich dir anempfehlen: mache lieber <lb/>
+              Die Probe, was ich bin und kann als Freund, <lb/>
+              Denn was als Feind.</p>
+          </sp><pb n="61"/>
+          
+          <ab>
+            <title type="sub">Siebente Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Phidippus (mit einer Amme). Die Vorigen.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Phidippus (zur Amme).</speaker>
+            <p>Ich werde dir bei mir <lb/>
+              Nichts abgeh'n lassen, nein, was nöthig ist, <lb/>
+              Bekommst du reichlich; aber, hast du selbst <lb/>
+              Dich satt gegessen und getrunken, mache <lb/>
+              Dann auch das Kind satt. <lb/>
+              (Amme ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Unser Schwiegervater <lb/>
+              Kommt, seh' ich, mit der Amme für das Kind! — <lb/>
+              Phidippus, Bacchis schwöret hoch und theuer —</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Ist's die?</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Die ist'S!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Personen der Art haben <lb/>
+              So wenig vor den Göttern Furcht, als sich <lb/>
+              Die Götter um sie kümmern, wie ich glaube.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Hier nimm die Mägde! Bring' sie meinetwegen <lb/>
+              Durch jede Art von Folter zum Geständnis! <lb/>
+              Um was es hier gilt, ist: dem Pamphilus <lb/>
+              Muß ich die Rückkehr seiner Frau bewirken. <lb/>
+              Hab' ich das ausgewirkt, so schäm' ich mich <lb/>
+               <pb n="62"/>
+              Des RufeS nicht, allein gethan zu haben, <lb/>
+              Was andre Buhlerinnen sonst vermeiden.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Phidippus, der Verdacht aus unsre Weiber <lb/>
+              Hat sich als falsch erwiesen; laß uns jetzt <lb/>
+              Mit der die Probe machen! Denn erfährt <lb/>
+              Die deine, daß sie der Beschuldigung <lb/>
+              Grundlos geglaubt, so läßt sie ihren Zorn; <lb/>
+              Und zürnt mein Sohn aus dem Grund, weil sie heimlich <lb/>
+              Geboren hat, so ist das unbedeutend. <lb/>
+              Der Zorn wird bald vorübergeh'n. Wahrhaftig, <lb/>
+              Die Sach' ist nicht so schlimm, daß eine Trennung <lb/>
+              Vonnöthen wäre!</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Wohl, das wünsch' ich sehr!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Frag' sie nur aus: da ist sie! Sie wird selbst <lb/>
+              Dir volle G'nüge thun.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus</speaker>
+            <p>Was sagst du m i r's? <lb/>
+              Hast du vorhin nicht selbst gehört, wie ich <lb/>
+              Darüber denke, Laches? Stellt nur Zelle <lb/>
+              Zufrieden!</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Bacchis, halte ja, ich bitte, <lb/>
+              Was du versprochen hast!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Deßwegen also <lb/>
+              Soll ich hineingeh'n?</p>
+          </sp><pb n="63"/>
+          
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Geh' und stelle sie <lb/>
+              Zufrieden, daß sie glauben!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Gut, ich thu' es, <lb/>
+              Wiewohl ich weiß, ich bin nicht gern geseh'n. <lb/>
+              Denn eine Ehfrau, die von ihrem Mann <lb/>
+              Geschieden lebt, ist feind der Buhlerin.</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Die aber werden freundlich sein, wenn sie <lb/>
+              Den Grund, weßhalb du kommst, erfahren.</p>
+          </sp>
+          <sp>
+            <speaker>Phidippus.</speaker>
+            <p>Die werden, das verfprech' ich, freundlich sein, <lb/>
+              Wenn fie's vernommen; denn sie machest du <lb/>
+              Vom Irrthum, dich von dem Verdachte frei.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis (für sich).</speaker>
+            <p>Wie schäm' ich mich vor der Philumena! <lb/>
+              (zu den Mägden) <lb/>
+              Ihr Beide folgt mir! <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Laches.</speaker>
+            <p>Was wünscht' ich mir lieber, <lb/>
+              Als was dem Mädchen, seh' ich, jetzt begegnet: <lb/>
+              Dank ohne Müh' verdienen und mir nützen! <lb/>
+              Denn ist's an dem, daß sie von Pamphilus <lb/>
+              Sich wirklich losgesagt, so ist sie sicher, <lb/>
+              Daß ihr ein guter Ruf, Gewinn und Ehre <lb/>
+              Daraus erwächst. Ihm zeigt sie sich erkenntlich <lb/>
+              Und macht sich uns durch diesen Dienst zu Freunden.</p>
+          </sp><pb n="64"/>
+          
+        </div>
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">/ ünfter Ä c t.</title>
+          </head>
+          <ab>
+            <title type="sub">Erste Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Parmeno. Barchis.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Bei meiner Treu! Mein Herr muß meinen Dienst <lb/>
+              Gering anschlagen, daß er mich um nichts <lb/>
+              Dort auf die Burg geschickt, wo ich umsonst <lb/>
+              Den ganzen Tag versessen und den Gastfreund <lb/>
+              Aus Myeonos, den Callidemides, <lb/>
+              Erwartet habe. Wie ein Narr saß ich, <lb/>
+              Und wer da kam, den fragt' ich: Junger Mann, <lb/>
+              O bitte, sprich, bist du aus Myconos? — <lb/>
+              Nein! — Ist dein Name Callidemides? — <lb/>
+              Nein! — Hast du hier 'nen Gastfreund Pamphilus? — <lb/>
+              Nein, sagten Alle. Und ich glaub', es gibt <lb/>
+              Gar keinen so. — Am Ende schämt' ich mich <lb/>
+              Wahrhaftig und gieng weg. — Doch seh' ich da <lb/>
+              Nicht Bacchis von dem Schwiegervater kommen? <lb/>
+              Was hat denn die hier?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Parmeno, du bist <lb/>
+              Mir recht erwünscht. Laus' schnell zum Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Was da?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Ich ließ' ihn bitten herzukommen.</p>
+          </sp><pb n="65"/>
+          
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Zu dir?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Nein, zur Philumena.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno</speaker>
+            <p>Was gibt's?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Was dich nichts angeht, darnach laß das Fragen!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Nichts weiter sag' ich?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Doch: daß Myrrhina <lb/>
+              Den Ring, den er mir selber einst geschenkt, <lb/>
+              Für ihrer Tochter ihren anerkannt.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Verstanden. Ist das Alles?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Ja! Er wird <lb/>
+              Gleich da sein, wenn er das von dir gehört. — <lb/>
+              Du säumst?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ich keineswegs. Das war mir heute <lb/>
+              Noch nicht verstattet: so hab' ich mit Rennen <lb/>
+              Und Laufen diesen ganzen Tag verbracht. M.) <note type="footnote"> Terenz. Die Schwiegermutter. </note> <note type="footnote"> ü </note> <pb n="66"/>
+              </p>
+          </sp>
+          <ab>
+            <title type="sub">Zweite Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Welch' eine große Freude hab' ich heut' <lb/>
+              Durch meinen Gang dem Pamphilus bereitet! <lb/>
+              Wie manchen Vortheil ihm gebracht! Wie mancher <lb/>
+              Besorgniß ihn enthoben! Einen Sohn <lb/>
+              Stell' ich ihm wieder zu, der durch der Weiber <lb/>
+              Und sein Verhalten fast verloren war; <lb/>
+              Die Gattin, die er aufgegeben hatte, <lb/>
+              Geb' ich zurück; von dem Verdacht, in dem er <lb/>
+              Bei seinem Vater und Phidippus stand, <lb/>
+              Befreit' ich ihn. Und das herauszufinden, <lb/>
+              Dazu gab dieser Ring Veranlassung. <lb/>
+              Denn ich entsinne mich, vor ungefähr <lb/>
+              Zehn Monden kam er athemlos bei Nacht <lb/>
+              Zu mir in's Haus gelaufen, unbegleitet, <lb/>
+              Von Wein berauscht, mit diesem Ring da. Ich <lb/>
+              Erschrack sogleich. Mein Pamphilus, sagt' ich, <lb/>
+              Warum so aufgeregt? Woher der Ring? <lb/>
+              O bitte, sag's! — Er that, als hört' cr's nicht. — <lb/>
+              Wie ich das sah, argwöhnt' ich Gott weiß was, <lb/>
+              Und setzt' ihm nur noch mehr zu. Da gesteht <lb/>
+              Der Mensch, er hab' an einer Unbekannten <lb/>
+              Sich auf der Straße mit Gewalt vergangen, <lb/>
+              Und, als sie sich zur Wehr gesetzt, den Ring <lb/>
+              Ihr abgezogen. Den erkannte eben <lb/>
+              Die Myrrhina an meinem Finger wieder. <lb/>
+              Sie fragt, von wem er sei; ich sag' ihr Alles. <lb/>
+              So kam'S heraus, daß an Philumena <lb/>
+              Er sich vergangen und die Frucht davon <lb/>
+              Das Kind sei. — Daß durch mich ihm so viel Wonne <lb/>
+              Zu Theil geworden, freut mich, wenn auch andre <lb/>
+              Hetären so nicht denken. Denn eS ist <lb/>
+               <pb n="67"/>
+              Zu unserm Vortheil nicht, daß einer unsrer <lb/>
+              Liebhaber an der Ehe Freude hat. <lb/>
+              Doch wahrlich niemals werd' ich um Gewinnst <lb/>
+              Mit Niederträchtigkeiten mich befassen. <lb/>
+              So lang'S gestattet war, genoß ich seine <lb/>
+              Freigebigkeit, Gefälligkeit und Güte. <lb/>
+              Die Heirath kam mir unbequem, gesteh' ich; <lb/>
+              Allein ich glaube so gethan zu haben, <lb/>
+              Daß ich die Sache nicht verschuldete. <lb/>
+              Wer uns so manchen Vortheil hat gebracht, <lb/>
+              Von dem muß man den Nachtheil auch ertragen.</p>
+          </sp>
+          <ab>
+            <title type="sub">Dritte Scene.</title>
+          </ab>
+          <sp>
+            <speaker>Pamphilus. Parmeno. Barchis.</speaker>
+            <p/></sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Sieh ja, mein Parmeno, daß deine Nachricht <lb/>
+              Auch sicher und gewiß ist, daß du nicht <lb/>
+              Auf kurze Zeit in einen Freudenrausch <lb/>
+              Mich stürzest!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ja, sie ist'S!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Gewiß?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Gewiß!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ich bin ein Gott, wenn's wahr ist! <note type="footnote"> 5* </note> <pb n="68"/>
+              </p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Wirst'S erfahren. <lb/>
+              (will fort.)</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>So bleib' doch, Lieber! Ach ich fürcht', ich glaube <lb/>
+              Was Andres, als du meldest!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Gut, ich bleibe!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus</speaker>
+            <p>Nicht wahr, du hast gesagt, daß Myrrhina <lb/>
+              Entdeckt, die Bacchis habe ihren Ring?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ja wohl!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Den ich ihr einst geschenkt? Und das <lb/>
+              Läßt sie durch dich mir melden? — Ist eS so?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ganz richtig!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wer ist seliger, wer reicher <lb/>
+              An Liebesglück als ich? — Was soll ich dir <lb/>
+              Für diese Nachricht schenken? Was nur? Was? <lb/>
+              Ich weiß es nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>I ch aber weiß es.</p>
+          </sp><pb n="69"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Was?</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Ei nichts! Denn was du Gutes an der Nachricht, <lb/>
+              Was an mir selber findest, weiß ich nicht.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ich sollte dich, der du mich aus dem OrcuS <lb/>
+              An's Licht herausgeführt hast, unbelohnt <lb/>
+              Von mir entlassen? Ach, du hältst mich auch <lb/>
+              Für gar zu undankbar! — Doch halt! <lb/>
+              Da seh' ich Bacchis vor der Thüre! Sie <lb/>
+              Erwartet mich gewiß. D'rum hin zu ihr!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Sei mir willkommen, Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>O Bacchis! <lb/>
+              O meine Bacchis, meine Retterin!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Das hat sich gut gefügt und macht mir Freude.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Dein Thun ist mir Beweis dafür, und noch <lb/>
+              Bist du wie sonst das liebenswürd'ge Wesen, <lb/>
+              So daß, wo du auch hinkommst, dein Begegnen, <lb/>
+              Erscheinen und Gespräch Vergnügen schafft.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Und du, wahrhaftig, bist noch ganz der Alte, <lb/>
+              So daß in aller Welt kein Mensch sich besser <lb/>
+              Aus Schmeicheleien versteht wie du.</p>
+          </sp><pb n="70"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Ha ha! <lb/>
+              Du mir das?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Deine Gattin, Pamphilus, <lb/>
+              Ist deiner Liebe werth. Noch hatt' ich sie, <lb/>
+              So viel ich weiß, bis heute nicht geseh'n. <lb/>
+              Sie schien gar sein gebildet.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Sprich im Ernst!</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>So wahr mich Gott liebt, Pamphilus!</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Sag', hast du <lb/>
+              Dem Vater was gesagt?</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Nichts.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Auch die kleinste <lb/>
+              Andeutung ist nicht angewandt. Es darf <lb/>
+              Nicht wie im Schauspiel geh'n, wo Jeder Alles <lb/>
+              Erfährt. Hier weiß es, wer's erfahren mußte; <lb/>
+              Wer's nicht zu wissen braucht, wird's nicht erfahren, <lb/>
+              Noch wissen.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>O, ich will dir sagen, wie <lb/>
+              Du glauben darfst, nur um so leichter lasse <lb/>
+               <pb n="71"/>
+              Die Sache sich vertuschen: Myrrhina <lb/>
+              Hat ihrem Mann gesagt, sie habe meinem <lb/>
+              Eid Glauben beigemessen, und du sei st <lb/>
+              Deßhalb in ihren Augen ganz entschuldigt.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Wohl! Und ich hoffe. Alles geht nach Wunsch.</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Herr, darf ich von dir wissen, was ich heute <lb/>
+              Dir Gutes angethan und was ihr Beide <lb/>
+              Da mit einander habt?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Das darfst du nicht!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Doch hab' ich meine Muthmaßung! <lb/>
+              (lür flch) Ich hätte <lb/>
+              Den aus dem Orcus an das Licht... wie das?</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Du weißt nicht, Parmeno, was du mir heute <lb/>
+              Für einen Dienst erzeigt und aus wie großer <lb/>
+              Noth mich herausgerissen!</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>O ich weiß! <lb/>
+              Und Hab's nicht ohne Vorbedacht gethan.</p>
+          </sp>
+          <sp>
+            <speaker>Pamphilus (lächeind).</speaker>
+            <p>Das weiß ich wohl.</p>
+          </sp>
+          <sp>
+            <speaker>Barchis.</speaker>
+            <p>Als könnte Parmeno <lb/>
+              Was übersehen, was von Nutzen ist!</p>
+          </sp><pb n="72"/>
+          
+          <sp>
+            <speaker>Pamphilus.</speaker>
+            <p>Komm', Parmeno, geh' mit hinein! <lb/>
+              (Ab.)</p>
+          </sp>
+          <sp>
+            <speaker>Parmeno.</speaker>
+            <p>Das will ich. — <lb/>
+              (an die Zuschauer) <lb/>
+              Nun, heute hab' ich, ohne d'rum zu wissen, <lb/>
+              Des Guten mehr gethan, als wissentlich <lb/>
+              Jemals in meinem ganzen Leben. — Klatscht! <note type="footnote"> Druck von E. Hoffmann in Stuttgart.</note> </p>
+          </sp>
+        </div><pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
