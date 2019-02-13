@@ -48,7 +48,7 @@
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0062">Lucian</author>  
               <title>Anacharsis oder von der Gymnastik</title>
-              <title>Zcaro menippus oder die Luftreise</title>
+              <title>Icaromenippus oder die Luftreise</title>
               <title>Der doppelt Angeklagte</title>
               <title>Der Parasit, oder Beweis, daß Schmarotzen eine Kunst sey</title>
               <title>Ueber das Trauern um die Verstorbenen</title>
@@ -1093,7 +1093,7 @@
         </div>
         <div type="textpart" subtype="chapter">
           <head>
-            <title type="main">Zcaro menippus oder die Luftreise.</title>
+            <title type="main">Icaromenippus oder die Luftreise.</title>
           </head>
           <ab>
             <title type="sub">Menippus und sein Freund.</title>
